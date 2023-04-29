@@ -112,12 +112,12 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MF_U_patches" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lists\MF\MF_U_patches.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
@@ -510,5 +510,559 @@
   </data>
   <data name="clipNums" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Misc\clipNums.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formConn_lockHatchesItems6" xml:space="preserve">
+    <value>Hatch 6</value>
+  </data>
+  <data name="formConn_lockHatchesItems7" xml:space="preserve">
+    <value>Hatch 7</value>
+  </data>
+  <data name="formConn_StringAfter" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="formConn_StringBefore" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="formConn_StringDoor" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="formConn_StringRoom" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="formAdd_LimitErrorAnimatedGFX" xml:space="preserve">
+    <value>Animated graphics</value>
+  </data>
+  <data name="formAdd_LimitErrorAnimatedPalette" xml:space="preserve">
+    <value>Animated palette</value>
+  </data>
+  <data name="formAdd_LimitErrorAnimatedTileset" xml:space="preserve">
+    <value>Animated tileset</value>
+  </data>
+  <data name="formAdd_LimitErrorRoom" xml:space="preserve">
+    <value> room</value>
+  </data>
+  <data name="formAdd_LimitErrorSpriteset" xml:space="preserve">
+    <value>Spriteset</value>
+  </data>
+  <data name="formAdd_LimitErrorText" xml:space="preserve">
+    <value>limit reached. No more can be added.</value>
+  </data>
+  <data name="formAdd_LimitErrorTileset" xml:space="preserve">
+    <value>Tileset</value>
+  </data>
+  <data name="formDemo_FilterText" xml:space="preserve">
+    <value>MAGE demo (*.mgd)|*.mgd</value>
+  </data>
+  <data name="form_BitmapFilterText" xml:space="preserve">
+    <value>Bitmaps (*.png, *.bmp, *.gif, *.jpeg, *.jpg, *.tif, *.tiff)|*.png;*.bmp;*.gif;*.jpeg;*.jpg;*.tif;*.tiff</value>
+  </data>
+  <data name="formGFX_GFXFilterText" xml:space="preserve">
+    <value>GFX files (*.gfx)|*.gfx|All files (*.*)|*.*</value>
+  </data>
+  <data name="formGFX_NoGFXErrorText" xml:space="preserve">
+    <value>There are no compressed graphics at the given offset.</value>
+  </data>
+  <data name="formGFX_NoGFXErrorTitle" xml:space="preserve">
+    <value>Compressed graphics error</value>
+  </data>
+  <data name="formGFX_OffsetNotValidErrorText" xml:space="preserve">
+    <value>The offset entered was not valid.
+
+</value>
+    <comment>The offset entered was not valid.\n\n</comment>
+  </data>
+  <data name="formGFX_RepointGFXText" xml:space="preserve">
+    <value>Graphics were repointed to</value>
+  </data>
+  <data name="formGFX_RepointGFXTitle" xml:space="preserve">
+    <value>Repointed Graphics</value>
+  </data>
+  <data name="formMap_areaItemsExtra" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="formMap_MessageBox" xml:space="preserve">
+    <value>Minimap data was corrupt.
+
+Would you like to try replacing it with blank data?</value>
+  </data>
+  <data name="formMap_StatusLabel_tile" xml:space="preserve">
+    <value>Tile:</value>
+  </data>
+  <data name="formMap_typeItems0" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="formMap_typeItems1" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="formMap_typeItems2" xml:space="preserve">
+    <value>Heated</value>
+  </data>
+  <data name="formMap_typeItems3" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="formMap_typeItems4" xml:space="preserve">
+    <value>Heated (hidden)</value>
+  </data>
+  <data name="formPalette_TLPFilterText" xml:space="preserve">
+    <value>Tile Layer Pro palette (*.tpl)|*.tpl</value>
+  </data>
+  <data name="formPalette_YYCHRFilterText" xml:space="preserve">
+    <value>YY-CHR palette (*.pal)|*.pal</value>
+  </data>
+  <data name="formSpriteset_NoEnoughRows" xml:space="preserve">
+    <value>There are not enough graphics rows for the sprite in slot {0}. It may not appear correctly in-game.</value>
+  </data>
+  <data name="formSpriteset_SpriteOverlap" xml:space="preserve">
+    <value>The graphics of the sprite in slot {0} overlap the graphics of the sprite in slot {1}. One of them may not appear correctly in-game.</value>
+  </data>
+  <data name="form_WarningMessageBoxTitle" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="formSprite_label_totalProbHigh" xml:space="preserve">
+    <value> (too high)</value>
+  </data>
+  <data name="formSprite_label_totalProbLow" xml:space="preserve">
+    <value> (too low)</value>
+  </data>
+  <data name="formText_BracketNotClose" xml:space="preserve">
+    <value>Text could not be parsed.
+Make sure brackets are closed.</value>
+  </data>
+  <data name="formText_BracketNotValid" xml:space="preserve">
+    <value>Text could not be parsed.
+The contents of the brackets at character {0} are not valid.</value>
+  </data>
+  <data name="formText_CharNotRecognize" xml:space="preserve">
+    <value>Text could not be parsed.
+Character {0} was not recognized.</value>
+  </data>
+  <data name="formText_CharNotValid" xml:space="preserve">
+    <value>Text could not be parsed.
+The value starting at character {0} is not valid.</value>
+  </data>
+  <data name="formText_InvalidNewLine" xml:space="preserve">
+    <value>Text could not be parsed.
+Invalid newline at character {0}.</value>
+  </data>
+  <data name="formText_ParsingErrorTitle" xml:space="preserve">
+    <value>Parsing Error</value>
+  </data>
+  <data name="formTileTable_RepointMessage" xml:space="preserve">
+    <value>Tile table was repointed to</value>
+  </data>
+  <data name="formTileTable_RepointTitle" xml:space="preserve">
+    <value>Repointed Tile Table</value>
+  </data>
+  <data name="form_AllFilterText" xml:space="preserve">
+    <value>All files (*.*)|*.*</value>
+  </data>
+  <data name="form_ErrorMessageBoxTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="form_OneValueNotValidErrorText" xml:space="preserve">
+    <value>One of the values entered was not valid.
+
+</value>
+    <comment>One of the values entered was not valid.\n\n</comment>
+  </data>
+  <data name="form_PNGFilterText" xml:space="preserve">
+    <value>PNG files (*.png)|*.png</value>
+  </data>
+  <data name="form_ValueNotValidErrorText" xml:space="preserve">
+    <value>The value entered was not valid.
+
+</value>
+    <comment>The value entered was not valid.\n\n</comment>
+  </data>
+  <data name="statusLabel_changesText" xml:space="preserve">
+    <value>Changes saved</value>
+  </data>
+  <data name="formImportEnding_InvalidSizeText" xml:space="preserve">
+    <value>Invalid dimensions. Image must be 240 x 416</value>
+  </data>
+  <data name="formImportEnding_statusLabel" xml:space="preserve">
+    <value>Image opened (awaiting conversion)</value>
+  </data>
+  <data name="formImportEnding_statusLabel1" xml:space="preserve">
+    <value>Converting...</value>
+  </data>
+  <data name="formImportEnding_statusLabel2" xml:space="preserve">
+    <value>Image converted (unsaved)</value>
+  </data>
+  <data name="formImportEnding_statusLabel3" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="formImportEnding_statusLabel4" xml:space="preserve">
+    <value>Image saved</value>
+  </data>
+  <data name="formImportLZ77BG_InvalidSizeText" xml:space="preserve">
+    <value>Invalid dimensions. Image must be 256 x 256, 512 x 256, or 256 x 512.</value>
+  </data>
+  <data name="formImportRELBG_InvalidSizeText" xml:space="preserve">
+    <value>Invalid dimensions. Image must have a width of 256 and a height divisible by 16.</value>
+  </data>
+  <data name="formImportRLEBG_InvalidPixelFormatText" xml:space="preserve">
+    <value>Invalid pixel format. Image must be 32bpp.</value>
+  </data>
+  <data name="formImportRoom_DataCorruptText" xml:space="preserve">
+    <value>Room could not be imported. Data may be corrupt.
+
+</value>
+    <comment>Room could not be imported. Data may be corrupt.\n\n</comment>
+  </data>
+  <data name="formImportRoom_RoomNotExistText" xml:space="preserve">
+    <value>Original room does not exist.</value>
+  </data>
+  <data name="formImportRoom_WrongFileText" xml:space="preserve">
+    <value>Wrong file type. File is not a MAGE room.</value>
+  </data>
+  <data name="formImportTileset_DataCorruptText" xml:space="preserve">
+    <value>Tileset could not be imported. Data may be corrupt.
+
+</value>
+  </data>
+  <data name="formImportTileset_TilesetNotExistText" xml:space="preserve">
+    <value>Original tileset does not exist.</value>
+    <comment>Tileset could not be imported. Data may be corrupt.\n\n</comment>
+  </data>
+  <data name="formImportTileset_WrongFileText" xml:space="preserve">
+    <value>Wrong file type. File is not a MAGE tileset.</value>
+  </data>
+  <data name="formPortBG_CheckboxItemClip" xml:space="preserve">
+    <value>Clipdata</value>
+  </data>
+  <data name="formPortBG_LZ77Filter" xml:space="preserve">
+    <value>LZ77 compressed backgrounds (*.lzbg)|*.lzbg|</value>
+  </data>
+  <data name="formPortBG_RLEFilter" xml:space="preserve">
+    <value>RLE compressed backgrounds (*.rlebg)|*.rlebg|</value>
+  </data>
+  <data name="formPortBG_TitleExport" xml:space="preserve">
+    <value>Export Background</value>
+  </data>
+  <data name="formPortBG_TitleImport" xml:space="preserve">
+    <value>Import Background</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterChozo" xml:space="preserve">
+    <value>Chozo statue</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterData" xml:space="preserve">
+    <value>Data room</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterItem" xml:space="preserve">
+    <value>Item room</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterMap" xml:space="preserve">
+    <value>Map room</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterNav" xml:space="preserve">
+    <value>Navigation room</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterObtain" xml:space="preserve">
+    <value>Obtained tank</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterRe" xml:space="preserve">
+    <value>Recharge room</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterSave" xml:space="preserve">
+    <value>Save room</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterUn" xml:space="preserve">
+    <value>Unobtained tank</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxItem0" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideBlue" xml:space="preserve">
+    <value>Blue hatch</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideConn" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideGreen" xml:space="preserve">
+    <value>Green hatch</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideMissile" xml:space="preserve">
+    <value>Missile hatch</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideNormal" xml:space="preserve">
+    <value>Normal hatch</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSidePower" xml:space="preserve">
+    <value>Power bomb hatch</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideRed" xml:space="preserve">
+    <value>Red hatch</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideSuper" xml:space="preserve">
+    <value>Super missile hatch</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideWall" xml:space="preserve">
+    <value>Wall</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideYellow" xml:space="preserve">
+    <value>Yellow hatch</value>
+  </data>
+  <data name="form_TilesetFilterText" xml:space="preserve">
+    <value>MAGE tileset (*.mgt)|*.mgt</value>
+  </data>
+  <data name="Action_AddText" xml:space="preserve">
+    <value>Add </value>
+  </data>
+  <data name="Action_DoorText" xml:space="preserve">
+    <value>door</value>
+  </data>
+  <data name="Action_EditBlocksText" xml:space="preserve">
+    <value>Edit blocks</value>
+  </data>
+  <data name="Action_EditText" xml:space="preserve">
+    <value>Edit </value>
+  </data>
+  <data name="Action_MoveText" xml:space="preserve">
+    <value>Move </value>
+  </data>
+  <data name="Action_RemoveText" xml:space="preserve">
+    <value>Remove </value>
+  </data>
+  <data name="Action_ScrollText" xml:space="preserve">
+    <value>scroll</value>
+  </data>
+  <data name="Action_SpriteText" xml:space="preserve">
+    <value>sprite</value>
+  </data>
+  <data name="CorruptDataExceprion_BG0Text" xml:space="preserve">
+    <value>BG0 data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_BG1Text" xml:space="preserve">
+    <value>BG1 data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_BG2Text" xml:space="preserve">
+    <value>BG2 data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_BG3Text" xml:space="preserve">
+    <value>BG3 data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_ClipText" xml:space="preserve">
+    <value>Clipdata was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_LZ77Text" xml:space="preserve">
+    <value>LZ77 graphics were corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_MinimapText" xml:space="preserve">
+    <value>Minimap data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_RLEText" xml:space="preserve">
+    <value>RLE graphics were corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_ScrollText" xml:space="preserve">
+    <value>Room scrolls data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_Sprite0Text" xml:space="preserve">
+    <value>Room sprites (default) data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_Sprite1Text" xml:space="preserve">
+    <value>Room sprites (first) data was corrupt.</value>
+  </data>
+  <data name="CorruptDataExceprion_Sprite2Text" xml:space="preserve">
+    <value>Room sprites (second) data was corrupt.</value>
+  </data>
+  <data name="Data_Demo_ExceptionText" xml:space="preserve">
+    <value>Demo must be from the same game.</value>
+  </data>
+  <data name="formEditDoor_AddOneConnMessage" xml:space="preserve">
+    <value>
+
+Would you like to add one now?</value>
+    <comment>\n\nWould you like to add one now?</comment>
+  </data>
+  <data name="formEditDoor_AreaEventText" xml:space="preserve">
+    <value>A door cannot be an area connection and an event connection. Only the area connection will apply.</value>
+  </data>
+  <data name="formEditDoor_AreaNotExistText" xml:space="preserve">
+    <value>An area connection could not be found for this door.</value>
+  </data>
+  <data name="formEditDoor_CannotAutoConnText" xml:space="preserve">
+    <value>
+
+Door could not be automatically connected.</value>
+    <comment>\n\nDoor could not be automatically connected.</comment>
+  </data>
+  <data name="formEditDoor_ConnNotExistText" xml:space="preserve">
+    <value>The connected door does not exist.</value>
+  </data>
+  <data name="formEditDoor_EventNotExistText" xml:space="preserve">
+    <value>An event based connection could not be found for this door.</value>
+  </data>
+  <data name="formEditDoor_HatchTypeClose" xml:space="preserve">
+    <value>Closed hatch</value>
+  </data>
+  <data name="formEditDoor_HatchTypeLcok" xml:space="preserve">
+    <value>Hatch (can lock)</value>
+  </data>
+  <data name="formEditDoor_HatchTypeRemove" xml:space="preserve">
+    <value>Remove mother ship</value>
+  </data>
+  <data name="formEditDoor_HatchTypeSet" xml:space="preserve">
+    <value>Set mother ship</value>
+  </data>
+  <data name="formEditDoor_LocationNotExistText" xml:space="preserve">
+    <value>A location name could not be found for this room.</value>
+  </data>
+  <data name="formEditDoor_WidthHeightError" xml:space="preserve">
+    <value>Width and height must be greater than 0.</value>
+  </data>
+  <data name="formMain_BlockInfoText" xml:space="preserve">
+    <value>Block: </value>
+  </data>
+  <data name="formMain_DocNotExistText" xml:space="preserve">
+    <value>Documentation file could not be found.</value>
+  </data>
+  <data name="formMain_DoorInfoCurentText" xml:space="preserve">
+    <value>Current door: </value>
+  </data>
+  <data name="formMain_DoorInfoDestDText" xml:space="preserve">
+    <value>Destination door: </value>
+  </data>
+  <data name="formMain_DoorInfoDestRText" xml:space="preserve">
+    <value>Destination room: </value>
+  </data>
+  <data name="formMain_DoorInfoHatchText" xml:space="preserve">
+    <value>Hatch number: </value>
+  </data>
+  <data name="formMain_EnemyInfoIDText" xml:space="preserve">
+    <value>Sprite ID: </value>
+  </data>
+  <data name="formMain_EnemyInfoPropText" xml:space="preserve">
+    <value>Property: </value>
+  </data>
+  <data name="formMain_EnemyInfoSlotText" xml:space="preserve">
+    <value>Slot: </value>
+  </data>
+  <data name="formMain_GBAFilterText" xml:space="preserve">
+    <value>GBA ROM files (*.gba)|*.gba</value>
+  </data>
+  <data name="formMain_LoadFailText" xml:space="preserve">
+    <value>Error loading file.
+
+</value>
+  </data>
+  <data name="formMain_LoadRoomFailText" xml:space="preserve">
+    <value>Room could not be loaded.</value>
+  </data>
+  <data name="formMain_LoadRoomFixBG" xml:space="preserve">
+    <value>Would you like to try disabling this background?</value>
+  </data>
+  <data name="formMain_LoadRoomFixDefault" xml:space="preserve">
+    <value>Would you like to try replacing it with blank data?</value>
+  </data>
+  <data name="formMain_OperationFailText" xml:space="preserve">
+    <value>Operation could not be completed.
+
+</value>
+    <comment>Operation could not be completed.\n\n</comment>
+  </data>
+  <data name="formMain_ProjSaveText" xml:space="preserve">
+    <value>Project saved to</value>
+  </data>
+  <data name="formMain_ProjSaveText1" xml:space="preserve">
+    <value>
+
+Do not modify or erase this file. It is necessary for tracking added data.</value>
+    <comment>\n\nDo not modify or erase this file. It is necessary for tracking added data.</comment>
+  </data>
+  <data name="formMain_ProjSaveTitle" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="formMain_RedoToolTipText" xml:space="preserve">
+    <value>Redo </value>
+  </data>
+  <data name="formMain_RoomFilterText" xml:space="preserve">
+    <value>MAGE room (*.mgr)|*.mgr|All files (*.*)|*.*</value>
+  </data>
+  <data name="formMain_SpritesetItem" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="formMain_SpritesetItem1" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="formMain_SpritesetItem2" xml:space="preserve">
+    <value>Second</value>
+  </data>
+  <data name="formMain_UndoToolTipText" xml:space="preserve">
+    <value>Undo </value>
+  </data>
+  <data name="formMain_UnsaveChangeText" xml:space="preserve">
+    <value>Do you want to save changes to the ROM?</value>
+  </data>
+  <data name="formMain_UnsaveChangeTitle" xml:space="preserve">
+    <value>Unsaved Changes</value>
+  </data>
+  <data name="ROM_CheckROM_NotValidText" xml:space="preserve">
+    <value>File is not a valid ROM.</value>
+  </data>
+  <data name="ROM_CheckROM_TooLargeText" xml:space="preserve">
+    <value>ROM is larger than 32 MB.</value>
+  </data>
+  <data name="RoomBG_BlockToStringText" xml:space="preserve">
+    <value>Clip: </value>
+  </data>
+  <data name="Room_Room_LargeExceptionText" xml:space="preserve">
+    <value>Room is too large. Width times height must be less than 0x1800.</value>
+  </data>
+  <data name="Room_Room_ZeroExceptionText" xml:space="preserve">
+    <value>Width and height must be greater than 0.</value>
+  </data>
+  <data name="Utility_PortImage_InvalidDimText" xml:space="preserve">
+    <value>Invalid dimensions.</value>
+  </data>
+  <data name="Utility_PortImage_InvalidPixelText" xml:space="preserve">
+    <value>Invalid pixel format.</value>
+  </data>
+  <data name="Utility_PortImage_NoSpaceText" xml:space="preserve">
+    <value>No more space remaining for new graphics.</value>
+  </data>
+  <data name="Utility_PortImage_TooMangyColorText" xml:space="preserve">
+    <value>Tile {0} has more than 15 colors</value>
+  </data>
+  <data name="Utility_PortImage_TooMangyPalText" xml:space="preserve">
+    <value>Image has too many palettes</value>
+  </data>
+  <data name="Utility_PortImage_TooMangyTileText" xml:space="preserve">
+    <value>Image has too many unique tiles.</value>
+  </data>
+  <data name="Utility_Status_statusLabelDiscardText" xml:space="preserve">
+    <value>Changes discarded</value>
+  </data>
+  <data name="Utility_Status_statusLabelNoChangeText" xml:space="preserve">
+    <value>No changes to save</value>
+  </data>
+  <data name="Utility_Status_statusLabelSaveText" xml:space="preserve">
+    <value>Changes saved</value>
+  </data>
+  <data name="Utility_Status_statusLabelUnsaveText" xml:space="preserve">
+    <value>Unsaved changes</value>
+  </data>
+  <data name="Utility_Test_EmuFilterText" xml:space="preserve">
+    <value>GBA emulator (*.exe)|*.exe|All files (*.*)|*.*</value>
+  </data>
+  <data name="Utility_Test_EmuPathNotSetText" xml:space="preserve">
+    <value>GBA emulator path has not been set. Would you like to set it now?</value>
+  </data>
+  <data name="Utility_Test_EmuPathNotValidText" xml:space="preserve">
+    <value>Could not find GBA emulator at path:
+
+{0}
+
+Would you like to update it now?</value>
+    <comment>Could not find GBA emulator at path:\n\n{0}\n\nWould you like to update it now?</comment>
+  </data>
+  <data name="Utility_Test_LaunchFailExceptionText" xml:space="preserve">
+    <value>Test ROM could not be launched.
+
+</value>
+    <comment>Test ROM could not be launched.\n\n</comment>
+  </data>
+  <data name="formMain_DocFileText" xml:space="preserve">
+    <value>doc.html</value>
   </data>
 </root>

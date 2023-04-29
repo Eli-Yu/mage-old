@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_AddText" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Action_DoorText" xml:space="preserve">
+    <value>门</value>
+  </data>
+  <data name="Action_EditBlocksText" xml:space="preserve">
+    <value>编辑砖块</value>
+  </data>
+  <data name="Action_EditText" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Action_MoveText" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="Action_RemoveText" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Action_ScrollText" xml:space="preserve">
+    <value>滚动</value>
+  </data>
+  <data name="Action_SpriteText" xml:space="preserve">
+    <value>精灵</value>
+  </data>
+  <data name="CorruptDataExceprion_BG0Text" xml:space="preserve">
+    <value>BG0 数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_BG1Text" xml:space="preserve">
+    <value>BG1 数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_BG2Text" xml:space="preserve">
+    <value>BG2 数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_BG3Text" xml:space="preserve">
+    <value>BG3 数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_ClipText" xml:space="preserve">
+    <value>砖块属性数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_LZ77Text" xml:space="preserve">
+    <value>LZ77 图形已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_MinimapText" xml:space="preserve">
+    <value>地图数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_RLEText" xml:space="preserve">
+    <value>RLE 图形已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_ScrollText" xml:space="preserve">
+    <value>房间滚动数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_Sprite0Text" xml:space="preserve">
+    <value>房间精灵集（默认）数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_Sprite1Text" xml:space="preserve">
+    <value>房间精灵集（第一）数据已损坏。</value>
+  </data>
+  <data name="CorruptDataExceprion_Sprite2Text" xml:space="preserve">
+    <value>房间精灵集（第二）数据已损坏。</value>
+  </data>
+  <data name="Data_Demo_ExceptionText" xml:space="preserve">
+    <value>演示必须来自同一游戏。</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="endings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\endings.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="formAdd_LimitErrorAnimatedGFX" xml:space="preserve">
+    <value>动画图形</value>
+  </data>
+  <data name="formAdd_LimitErrorAnimatedPalette" xml:space="preserve">
+    <value>动画调色板</value>
+  </data>
+  <data name="formAdd_LimitErrorAnimatedTileset" xml:space="preserve">
+    <value>动画贴图集</value>
+  </data>
+  <data name="formAdd_LimitErrorRoom" xml:space="preserve">
+    <value>房间</value>
+  </data>
+  <data name="formAdd_LimitErrorSpriteset" xml:space="preserve">
+    <value>精灵集</value>
+  </data>
+  <data name="formAdd_LimitErrorText" xml:space="preserve">
+    <value>数量已达上限，不能再添加了。</value>
+  </data>
+  <data name="formAdd_LimitErrorTileset" xml:space="preserve">
+    <value>贴图集</value>
+  </data>
+  <data name="formConn_lockHatchesItems6" xml:space="preserve">
+    <value>舱门 6</value>
+  </data>
+  <data name="formConn_lockHatchesItems7" xml:space="preserve">
+    <value>舱门 7</value>
+  </data>
+  <data name="formConn_StringAfter" xml:space="preserve">
+    <value>之后</value>
+  </data>
+  <data name="formConn_StringBefore" xml:space="preserve">
+    <value>之前</value>
+  </data>
+  <data name="formConn_StringDoor" xml:space="preserve">
+    <value>门</value>
+  </data>
+  <data name="formConn_StringRoom" xml:space="preserve">
+    <value>房间</value>
+  </data>
+  <data name="formDemo_FilterText" xml:space="preserve">
+    <value>MAGE 演示 (*.mgd)|*.mgd</value>
+  </data>
+  <data name="formEditDoor_AddOneConnMessage" xml:space="preserve">
+    <value>
+
+你想下现在添加一个吗？</value>
+    <comment>\n\nWould you like to add one now?</comment>
+  </data>
+  <data name="formEditDoor_AreaEventText" xml:space="preserve">
+    <value>一个门不能同时作为区域连接和事件连接， 只有区域连接会生效。</value>
+  </data>
+  <data name="formEditDoor_AreaNotExistText" xml:space="preserve">
+    <value>找不到此门的区域连接。</value>
+  </data>
+  <data name="formEditDoor_CannotAutoConnText" xml:space="preserve">
+    <value>
+
+门无法自动连接。</value>
+    <comment>\n\nDoor could not be automatically connected.</comment>
+  </data>
+  <data name="formEditDoor_ConnNotExistText" xml:space="preserve">
+    <value>连接的门不存在。</value>
+  </data>
+  <data name="formEditDoor_EventNotExistText" xml:space="preserve">
+    <value>找不到此门的基于事件的连接。</value>
+  </data>
+  <data name="formEditDoor_HatchTypeClose" xml:space="preserve">
+    <value>闭合的舱门</value>
+  </data>
+  <data name="formEditDoor_HatchTypeLcok" xml:space="preserve">
+    <value>舱门（能锁定）</value>
+  </data>
+  <data name="formEditDoor_HatchTypeRemove" xml:space="preserve">
+    <value>移除母舰舱门</value>
+  </data>
+  <data name="formEditDoor_HatchTypeSet" xml:space="preserve">
+    <value>设置母舰舱门</value>
+  </data>
+  <data name="formEditDoor_LocationNotExistText" xml:space="preserve">
+    <value>找不到此房间的位置名称。</value>
+  </data>
+  <data name="formEditDoor_WidthHeightError" xml:space="preserve">
+    <value>宽度和高度必须大于 0。</value>
+  </data>
+  <data name="formGFX_GFXFilterText" xml:space="preserve">
+    <value>GFX 文件 (*.gfx)|*.gfx|All files (*.*)|*.*</value>
+  </data>
+  <data name="formGFX_NoGFXErrorText" xml:space="preserve">
+    <value>给定偏移量位置没有压缩图形。</value>
+  </data>
+  <data name="formGFX_NoGFXErrorTitle" xml:space="preserve">
+    <value>压缩图形错误</value>
+  </data>
+  <data name="formGFX_OffsetNotValidErrorText" xml:space="preserve">
+    <value>输入的偏移量无效。
+
+</value>
+  </data>
+  <data name="formGFX_RepointGFXText" xml:space="preserve">
+    <value>图形已被重定向到 </value>
+  </data>
+  <data name="formGFX_RepointGFXTitle" xml:space="preserve">
+    <value>图形重定向</value>
+  </data>
+  <data name="formImportEnding_InvalidSizeText" xml:space="preserve">
+    <value>尺寸无效，图片必须为 240 x 416。</value>
+  </data>
+  <data name="formImportEnding_statusLabel" xml:space="preserve">
+    <value>图片已打开（等待转换）</value>
+  </data>
+  <data name="formImportEnding_statusLabel1" xml:space="preserve">
+    <value>转换中……</value>
+  </data>
+  <data name="formImportEnding_statusLabel2" xml:space="preserve">
+    <value>图片已转换（未保存）</value>
+  </data>
+  <data name="formImportEnding_statusLabel3" xml:space="preserve">
+    <value>保存中……</value>
+  </data>
+  <data name="formImportEnding_statusLabel4" xml:space="preserve">
+    <value>图片已保存</value>
+  </data>
+  <data name="formImportLZ77BG_InvalidSizeText" xml:space="preserve">
+    <value>尺寸无效，图片必须为 256 x 256、512 x 256、256 x 512。</value>
+  </data>
+  <data name="formImportRELBG_InvalidSizeText" xml:space="preserve">
+    <value>尺寸无效，图片的宽度必须为 256 且高度必须能被 16 整除。</value>
+  </data>
+  <data name="formImportRLEBG_InvalidPixelFormatText" xml:space="preserve">
+    <value>像素格式无效，图片必须为 32bpp。</value>
+  </data>
+  <data name="formImportRoom_DataCorruptText" xml:space="preserve">
+    <value>无法导入房间，数据可能已损坏。
+
+</value>
+  </data>
+  <data name="formImportRoom_RoomNotExistText" xml:space="preserve">
+    <value>原始房间不存在。</value>
+  </data>
+  <data name="formImportRoom_WrongFileText" xml:space="preserve">
+    <value>错误的文件类型，文件不是一个 MAGE 房间。</value>
+  </data>
+  <data name="formImportTileset_DataCorruptText" xml:space="preserve">
+    <value>无法导入贴图集，数据可能已经损坏。
+
+</value>
+  </data>
+  <data name="formImportTileset_TilesetNotExistText" xml:space="preserve">
+    <value>原始贴图集不存在。</value>
+  </data>
+  <data name="formImportTileset_WrongFileText" xml:space="preserve">
+    <value>错误的文件类型，文件不是一个 MAGE 贴图集。</value>
+  </data>
+  <data name="formMain_BlockInfoText" xml:space="preserve">
+    <value>贴图块：</value>
+  </data>
+  <data name="formMain_DocFileText" xml:space="preserve">
+    <value>zh-CN\文档.html</value>
+  </data>
+  <data name="formMain_DocNotExistText" xml:space="preserve">
+    <value>找不到文档文件。</value>
+  </data>
+  <data name="formMain_DoorInfoCurentText" xml:space="preserve">
+    <value>当前门： </value>
+  </data>
+  <data name="formMain_DoorInfoDestDText" xml:space="preserve">
+    <value>目标门：</value>
+  </data>
+  <data name="formMain_DoorInfoDestRText" xml:space="preserve">
+    <value>目标房间：</value>
+  </data>
+  <data name="formMain_DoorInfoHatchText" xml:space="preserve">
+    <value>舱门号：</value>
+  </data>
+  <data name="formMain_EnemyInfoIDText" xml:space="preserve">
+    <value>精灵 ID： </value>
+  </data>
+  <data name="formMain_EnemyInfoPropText" xml:space="preserve">
+    <value>属性：</value>
+  </data>
+  <data name="formMain_EnemyInfoSlotText" xml:space="preserve">
+    <value>槽位：</value>
+  </data>
+  <data name="formMain_GBAFilterText" xml:space="preserve">
+    <value>GBA ROM 文件 (*.gba)|*.gba</value>
+  </data>
+  <data name="formMain_LoadFailText" xml:space="preserve">
+    <value>载入文件时出错。
+
+</value>
+  </data>
+  <data name="formMain_LoadRoomFailText" xml:space="preserve">
+    <value>无法载入房间。</value>
+  </data>
+  <data name="formMain_LoadRoomFixBG" xml:space="preserve">
+    <value>是否尝试禁用此背景？</value>
+  </data>
+  <data name="formMain_LoadRoomFixDefault" xml:space="preserve">
+    <value>是否尝试用空白数据替换？</value>
+  </data>
+  <data name="formMain_OperationFailText" xml:space="preserve">
+    <value>操作无法完成。
+
+</value>
+    <comment>Operation could not be completed.\n\n</comment>
+  </data>
+  <data name="formMain_ProjSaveText" xml:space="preserve">
+    <value>项目文件已保存到</value>
+  </data>
+  <data name="formMain_ProjSaveText1" xml:space="preserve">
+    <value>
+
+请勿修改或删除此文件，它对于跟踪添加的数据是必不可少的。</value>
+    <comment>\n\nDo not modify or erase this file. It is necessary for tracking added data.</comment>
+  </data>
+  <data name="formMain_ProjSaveTitle" xml:space="preserve">
+    <value>新项目</value>
+  </data>
+  <data name="formMain_RedoToolTipText" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="formMain_RoomFilterText" xml:space="preserve">
+    <value>MAGE 房间 (*.mgr)|*.mgr|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="formMain_SpritesetItem" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="formMain_SpritesetItem1" xml:space="preserve">
+    <value>第一</value>
+  </data>
+  <data name="formMain_SpritesetItem2" xml:space="preserve">
+    <value>第二</value>
+  </data>
+  <data name="formMain_UndoToolTipText" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="formMain_UnsaveChangeText" xml:space="preserve">
+    <value>是否将所做的修改保存到ROM ？</value>
+  </data>
+  <data name="formMain_UnsaveChangeTitle" xml:space="preserve">
+    <value>修改未保存</value>
+  </data>
+  <data name="formMap_areaItemsExtra" xml:space="preserve">
+    <value>额外</value>
+  </data>
+  <data name="formMap_MessageBox" xml:space="preserve">
+    <value>地图数据已损坏，是否尝试用空白数据替换它？</value>
+  </data>
+  <data name="formMap_StatusLabel_tile" xml:space="preserve">
+    <value>地图块：</value>
+  </data>
+  <data name="formMap_typeItems0" xml:space="preserve">
+    <value>初始</value>
+  </data>
+  <data name="formMap_typeItems1" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="formMap_typeItems2" xml:space="preserve">
+    <value>高温</value>
+  </data>
+  <data name="formMap_typeItems3" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="formMap_typeItems4" xml:space="preserve">
+    <value>高温（隐藏）</value>
+  </data>
+  <data name="formPalette_TLPFilterText" xml:space="preserve">
+    <value>Tile Layer Pro 调色板 (*.tpl)|*.tpl</value>
+  </data>
+  <data name="formPalette_YYCHRFilterText" xml:space="preserve">
+    <value>YY-CHR 调色板 (*.pal)|*.pal</value>
+  </data>
+  <data name="formPortBG_CheckboxItemClip" xml:space="preserve">
+    <value>砖块属性</value>
+  </data>
+  <data name="formPortBG_LZ77Filter" xml:space="preserve">
+    <value>LZ77 压缩背景 (*.lzbg)|*.lzbg|</value>
+  </data>
+  <data name="formPortBG_RLEFilter" xml:space="preserve">
+    <value>RLE 压缩背景 (*.rlebg)|*.rlebg|</value>
+  </data>
+  <data name="formPortBG_TitleExport" xml:space="preserve">
+    <value>导出背景</value>
+  </data>
+  <data name="formPortBG_TitleImport" xml:space="preserve">
+    <value>导入背景</value>
+  </data>
+  <data name="formSpriteset_NoEnoughRows" xml:space="preserve">
+    <value>槽位 {0} 中的精灵所需图形行数不够，它可能无法在游戏中正确显示。</value>
+  </data>
+  <data name="formSpriteset_SpriteOverlap" xml:space="preserve">
+    <value>槽位 {0} 中的精灵的图形与槽位 {1} 中的精灵的图形重叠，其中一个可能无法在游戏中正确显示。</value>
+  </data>
+  <data name="formSprite_label_totalProbHigh" xml:space="preserve">
+    <value>（太高）</value>
+  </data>
+  <data name="formSprite_label_totalProbLow" xml:space="preserve">
+    <value>（太低）</value>
+  </data>
+  <data name="formText_BracketNotClose" xml:space="preserve">
+    <value>文本无法解析。
+确保方括号均已闭合。</value>
+  </data>
+  <data name="formText_BracketNotValid" xml:space="preserve">
+    <value>文本无法解析。
+字符 {0} 处方括号中的内容无效。</value>
+  </data>
+  <data name="formText_CharNotRecognize" xml:space="preserve">
+    <value>文本无法解析。
+字符 {0} 无法识别。</value>
+  </data>
+  <data name="formText_CharNotValid" xml:space="preserve">
+    <value>文本无法解析。
+从字符 {0} 开始的值无效。</value>
+  </data>
+  <data name="formText_InvalidNewLine" xml:space="preserve">
+    <value>文本无法解析。
+字符 {0} 处的换行符无效。</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterChozo" xml:space="preserve">
+    <value>鸟人像</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterData" xml:space="preserve">
+    <value>数据室</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterItem" xml:space="preserve">
+    <value>能力室</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterMap" xml:space="preserve">
+    <value>地图室</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterNav" xml:space="preserve">
+    <value>指挥室</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterObtain" xml:space="preserve">
+    <value>物品已获得</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterRe" xml:space="preserve">
+    <value>补给室</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterSave" xml:space="preserve">
+    <value>记录室</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxCenterUn" xml:space="preserve">
+    <value>物品未获得</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxItem0" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideBlue" xml:space="preserve">
+    <value>蓝门</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideConn" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideGreen" xml:space="preserve">
+    <value>绿门</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideMissile" xml:space="preserve">
+    <value>导弹舱门</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideNormal" xml:space="preserve">
+    <value>普通舱门</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSidePower" xml:space="preserve">
+    <value>重磅炸弹舱门</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideRed" xml:space="preserve">
+    <value>红门</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideSuper" xml:space="preserve">
+    <value>超级导弹舱门</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideWall" xml:space="preserve">
+    <value>墙</value>
+  </data>
+  <data name="formTileBuilder_ComboBoxSideYellow" xml:space="preserve">
+    <value>黄门</value>
+  </data>
+  <data name="formTileTable_RepointMessage" xml:space="preserve">
+    <value>贴图块表已被重定向到 </value>
+  </data>
+  <data name="formTileTable_RepointTitle" xml:space="preserve">
+    <value>贴图块表重定向</value>
+  </data>
+  <data name="form_AllFilterText" xml:space="preserve">
+    <value>所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="form_BitmapFilterText" xml:space="preserve">
+    <value>位图 (*.png, *.bmp, *.gif, *.jpeg, *.jpg, *.tif, *.tiff)|*.png;*.bmp;*.gif;*.jpeg;*.jpg;*.tif;*.tiff</value>
+  </data>
+  <data name="form_ErrorMessageBoxTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="form_OneValueNotValidErrorText" xml:space="preserve">
+    <value>存在无效的输入值。
+
+</value>
+  </data>
+  <data name="form_TilesetFilterText" xml:space="preserve">
+    <value>MAGE 贴图集 (*.mgt)|*.mgt</value>
+  </data>
+  <data name="form_ValueNotValidErrorText" xml:space="preserve">
+    <value>输入的值无效。
+
+</value>
+  </data>
+  <data name="form_WarningMessageBoxTitle" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="MF_clipdata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\MF\MF_clipdata.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MF_constants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\MF\MF_constants.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MF_U_demoRAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\MF\MF_U_demoRAM.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MF_U_patches" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\MF\MF_U_patches.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MF_U_physics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\MF\MF_U_physics.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MF_U_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\MF\MF_U_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ROM_CheckROM_NotValidText" xml:space="preserve">
+    <value>文件不是有效的 ROM。</value>
+  </data>
+  <data name="ROM_CheckROM_TooLargeText" xml:space="preserve">
+    <value>ROM 大于 32 MB。</value>
+  </data>
+  <data name="RoomBG_BlockToStringText" xml:space="preserve">
+    <value>砖属性：</value>
+  </data>
+  <data name="Room_Room_LargeExceptionText" xml:space="preserve">
+    <value>房间太大，房间面积必须小于 0x1800。</value>
+  </data>
+  <data name="Room_Room_ZeroExceptionText" xml:space="preserve">
+    <value>房间的宽和高必须大于 0。</value>
+  </data>
+  <data name="statusLabel_changesText" xml:space="preserve">
+    <value>修改已保存</value>
+  </data>
+  <data name="textLists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\textLists.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Utility_PortImage_InvalidDimText" xml:space="preserve">
+    <value>尺寸无效。</value>
+  </data>
+  <data name="Utility_PortImage_InvalidPixelText" xml:space="preserve">
+    <value>像素格式无效。</value>
+  </data>
+  <data name="Utility_PortImage_NoSpaceText" xml:space="preserve">
+    <value>没有更多空间提供给新图形。</value>
+  </data>
+  <data name="Utility_PortImage_TooMangyColorText" xml:space="preserve">
+    <value>图块 {0} 颜色超过15种</value>
+  </data>
+  <data name="Utility_PortImage_TooMangyPalText" xml:space="preserve">
+    <value>图像有太多的调色板。</value>
+  </data>
+  <data name="Utility_PortImage_TooMangyTileText" xml:space="preserve">
+    <value>图像有太多独特的图块。</value>
+  </data>
+  <data name="Utility_Status_statusLabelDiscardText" xml:space="preserve">
+    <value>修改已丢弃</value>
+  </data>
+  <data name="Utility_Status_statusLabelNoChangeText" xml:space="preserve">
+    <value>无修改需要保存</value>
+  </data>
+  <data name="Utility_Status_statusLabelSaveText" xml:space="preserve">
+    <value>修改已保存</value>
+  </data>
+  <data name="Utility_Status_statusLabelUnsaveText" xml:space="preserve">
+    <value>修改未保存</value>
+  </data>
+  <data name="Utility_Test_EmuFilterText" xml:space="preserve">
+    <value>GBA 模拟器 (*.exe)|*.exe|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="Utility_Test_EmuPathNotSetText" xml:space="preserve">
+    <value>尚未设置 GBA 模拟器路径，是否现在设置？</value>
+  </data>
+  <data name="Utility_Test_EmuPathNotValidText" xml:space="preserve">
+    <value>无法在下方的路径中找到 GBA 模拟器：
+
+{0}
+
+是否现在更新路径？</value>
+    <comment>Could not find GBA emulator at path:\n\n{0}\n\nWould you like to update it now?</comment>
+  </data>
+  <data name="Utility_Test_LaunchFailExceptionText" xml:space="preserve">
+    <value>无法启动测试 ROM。
+
+</value>
+    <comment>Test ROM could not be launched.\n\n</comment>
+  </data>
+  <data name="ZM_clipdata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_clipdata.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_constants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_constants.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_U_demoRAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_U_demoRAM.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_U_patches" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_U_patches.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_U_physics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_U_physics.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_U_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_U_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="form_PNGFilterText" xml:space="preserve">
+    <value>PNG 文件 (*.png)|*.png</value>
+  </data>
+  <data name="formText_ParsingErrorTitle" xml:space="preserve">
+    <value>解析错误</value>
+  </data>
+</root>

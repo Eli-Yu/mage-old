@@ -1261,6 +1261,15 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Character error, {0}&apos;s char is null or empty. 的本地化字符串。
+        /// </summary>
+        internal static string formText_CharIsNullOrEmpty {
+            get {
+                return ResourceManager.GetString("formText_CharIsNullOrEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Text could not be parsed.
         ///Character {0} was not recognized. 的本地化字符串。
         /// </summary>
@@ -1281,6 +1290,61 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Character width is not valid, it wiil be set as default value. 的本地化字符串。
+        /// </summary>
+        internal static string formText_ChaWidthNotValid {
+            get {
+                return ResourceManager.GetString("formText_ChaWidthNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 One of the code is not valid. Code must be a hexadecimal number. 的本地化字符串。
+        /// </summary>
+        internal static string formText_CodeNotValid {
+            get {
+                return ResourceManager.GetString("formText_CodeNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Character error, &apos;{0}&apos; is not vaild char. 的本地化字符串。
+        /// </summary>
+        internal static string formText_CustomCharNotVaild {
+            get {
+                return ResourceManager.GetString("formText_CustomCharNotVaild", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Custom file error 的本地化字符串。
+        /// </summary>
+        internal static string formText_CustomFileErrorTitle {
+            get {
+                return ResourceManager.GetString("formText_CustomFileErrorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Custom file not found, will use default char table. 的本地化字符串。
+        /// </summary>
+        internal static string formText_CustomFileNotFound {
+            get {
+                return ResourceManager.GetString("formText_CustomFileNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 File is not vaild. Please check that each line of the file consists of code and characters separated by table.
+        ///You can refer to the default file (MF_chars.txt, ZM_chars.txt). 的本地化字符串。
+        /// </summary>
+        internal static string formText_FileNotVaild {
+            get {
+                return ResourceManager.GetString("formText_FileNotVaild", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Text could not be parsed.
         ///Invalid newline at character {0}. 的本地化字符串。
         /// </summary>
@@ -1291,11 +1355,47 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 MF control characters are incomplete, miss: {0}. 的本地化字符串。
+        /// </summary>
+        internal static string formText_MissMFCtrlChar {
+            get {
+                return ResourceManager.GetString("formText_MissMFCtrlChar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Shared control characters are incomplete, miss: {0}. 的本地化字符串。
+        /// </summary>
+        internal static string formText_MissShareCtrlChar {
+            get {
+                return ResourceManager.GetString("formText_MissShareCtrlChar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ZM control characters are incomplete, miss: {0}. 的本地化字符串。
+        /// </summary>
+        internal static string formText_MissZMCtrlChar {
+            get {
+                return ResourceManager.GetString("formText_MissZMCtrlChar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Parsing Error 的本地化字符串。
         /// </summary>
         internal static string formText_ParsingErrorTitle {
             get {
                 return ResourceManager.GetString("formText_ParsingErrorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Text files (*.txt)|*.txt 的本地化字符串。
+        /// </summary>
+        internal static string formText_TxtFilterText {
+            get {
+                return ResourceManager.GetString("formText_TxtFilterText", resourceCulture);
             }
         }
         

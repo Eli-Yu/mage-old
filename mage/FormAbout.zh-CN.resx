@@ -137,10 +137,10 @@
     <value>240, 65</value>
   </data>
   <data name="label_version.Text" xml:space="preserve">
-    <value>版本 1.4.1
+    <value>版本 1.4.2
 2023-01-22
 
-由 biospark 创造</value>
+由 biospark 创造 V1.4.0，梦•花开修改</value>
   </data>
   <data name="label_bugs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 100</value>

@@ -1065,4 +1065,38 @@ Would you like to update it now?</value>
   <data name="formMain_DocFileText" xml:space="preserve">
     <value>doc.html</value>
   </data>
+  <data name="formText_CustomFileErrorTitle" xml:space="preserve">
+    <value>Custom file error</value>
+  </data>
+  <data name="formText_ChaWidthNotValid" xml:space="preserve">
+    <value>Character width is not valid, it wiil be set as default value.</value>
+  </data>
+  <data name="formText_TxtFilterText" xml:space="preserve">
+    <value>Text files (*.txt)|*.txt</value>
+  </data>
+  <data name="formText_FileNotVaild" xml:space="preserve">
+    <value>File is not vaild. Please check that each line of the file consists of code and characters separated by table.
+You can refer to the default file (MF_chars.txt, ZM_chars.txt).</value>
+  </data>
+  <data name="formText_MissShareCtrlChar" xml:space="preserve">
+    <value>Shared control characters are incomplete, miss: {0}.</value>
+  </data>
+  <data name="formText_MissMFCtrlChar" xml:space="preserve">
+    <value>MF control characters are incomplete, miss: {0}.</value>
+  </data>
+  <data name="formText_MissZMCtrlChar" xml:space="preserve">
+    <value>ZM control characters are incomplete, miss: {0}.</value>
+  </data>
+  <data name="formText_CustomCharNotVaild" xml:space="preserve">
+    <value>Character error, '{0}' is not vaild char.</value>
+  </data>
+  <data name="formText_CharIsNullOrEmpty" xml:space="preserve">
+    <value>Character error, {0}'s char is null or empty.</value>
+  </data>
+  <data name="formText_CodeNotValid" xml:space="preserve">
+    <value>One of the code is not valid. Code must be a hexadecimal number.</value>
+  </data>
+  <data name="formText_CustomFileNotFound" xml:space="preserve">
+    <value>Custom file not found, will use default char table.</value>
+  </data>
 </root>

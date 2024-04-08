@@ -291,19 +291,46 @@
     <value>预览</value>
   </data>
   <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 146</value>
+    <value>12, 202</value>
   </data>
   <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>623, 188</value>
+    <value>623, 174</value>
   </data>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 335</value>
+  <data name="textBox_file.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 19</value>
+  </data>
+  <data name="textBox_file.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="button_selectFile.Text" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="numericUpDown_charWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 19</value>
+  </data>
+  <data name="label_charWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 23</value>
+  </data>
+  <data name="label_charWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="label_charWidth.Text" xml:space="preserve">
+    <value>字符宽度：</value>
+  </data>
+  <data name="checkBox_customChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 19</value>
+  </data>
+  <data name="checkBox_customChar.Text" xml:space="preserve">
+    <value>使用自定义码表</value>
+  </data>
+  <data name="groupBox_Custom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 140</value>
+  </data>
+  <data name="groupBox_Custom.Text" xml:space="preserve">
+    <value>自定义</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>647, 357</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>

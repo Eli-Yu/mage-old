@@ -54,12 +54,20 @@
             this.textBox = new System.Windows.Forms.TextBox();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.statusLabel_changes = new System.Windows.Forms.ToolStripStatusLabel();
+            this.groupBox_Custom = new System.Windows.Forms.GroupBox();
+            this.textBox_file = new System.Windows.Forms.TextBox();
+            this.button_selectFile = new System.Windows.Forms.Button();
+            this.numericUpDown_charWidth = new System.Windows.Forms.NumericUpDown();
+            this.label_charWidth = new System.Windows.Forms.Label();
+            this.checkBox_customChar = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_text)).BeginInit();
             this.panel_gfx.SuspendLayout();
             this.groupBox_options.SuspendLayout();
             this.groupBox_preview.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_palette)).BeginInit();
             this.statusStrip.SuspendLayout();
+            this.groupBox_Custom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_charWidth)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox_language
@@ -245,10 +253,69 @@
             resources.ApplyResources(this.statusLabel_changes, "statusLabel_changes");
             this.statusLabel_changes.Name = "statusLabel_changes";
             // 
+            // groupBox_Custom
+            // 
+            resources.ApplyResources(this.groupBox_Custom, "groupBox_Custom");
+            this.groupBox_Custom.Controls.Add(this.textBox_file);
+            this.groupBox_Custom.Controls.Add(this.button_selectFile);
+            this.groupBox_Custom.Controls.Add(this.numericUpDown_charWidth);
+            this.groupBox_Custom.Controls.Add(this.label_charWidth);
+            this.groupBox_Custom.Controls.Add(this.checkBox_customChar);
+            this.groupBox_Custom.Name = "groupBox_Custom";
+            this.groupBox_Custom.TabStop = false;
+            // 
+            // textBox_file
+            // 
+            resources.ApplyResources(this.textBox_file, "textBox_file");
+            this.textBox_file.Name = "textBox_file";
+            this.textBox_file.ReadOnly = true;
+            // 
+            // button_selectFile
+            // 
+            resources.ApplyResources(this.button_selectFile, "button_selectFile");
+            this.button_selectFile.Name = "button_selectFile";
+            this.button_selectFile.UseVisualStyleBackColor = true;
+            this.button_selectFile.Click += new System.EventHandler(this.button_selectFile_Click);
+            // 
+            // numericUpDown_charWidth
+            // 
+            resources.ApplyResources(this.numericUpDown_charWidth, "numericUpDown_charWidth");
+            this.numericUpDown_charWidth.Hexadecimal = true;
+            this.numericUpDown_charWidth.Maximum = new decimal(new int[] {
+            32,
+            0,
+            0,
+            0});
+            this.numericUpDown_charWidth.Minimum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDown_charWidth.Name = "numericUpDown_charWidth";
+            this.numericUpDown_charWidth.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDown_charWidth.ValueChanged += new System.EventHandler(this.numericUpDown_charWidth_ValueChanged);
+            // 
+            // label_charWidth
+            // 
+            resources.ApplyResources(this.label_charWidth, "label_charWidth");
+            this.label_charWidth.Name = "label_charWidth";
+            // 
+            // checkBox_customChar
+            // 
+            resources.ApplyResources(this.checkBox_customChar, "checkBox_customChar");
+            this.checkBox_customChar.Name = "checkBox_customChar";
+            this.checkBox_customChar.UseVisualStyleBackColor = true;
+            this.checkBox_customChar.CheckedChanged += new System.EventHandler(this.checkBox_customChar_CheckedChanged);
+            // 
             // FormText
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupBox_Custom);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.groupBox_preview);
             this.Controls.Add(this.groupBox_options);
@@ -262,6 +329,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_palette)).EndInit();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
+            this.groupBox_Custom.ResumeLayout(false);
+            this.groupBox_Custom.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_charWidth)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,5 +364,11 @@
         private System.Windows.Forms.Button button_editGfx;
         private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.ToolStripStatusLabel statusLabel_changes;
+        private System.Windows.Forms.GroupBox groupBox_Custom;
+        private System.Windows.Forms.Label label_charWidth;
+        private System.Windows.Forms.CheckBox checkBox_customChar;
+        private System.Windows.Forms.TextBox textBox_file;
+        private System.Windows.Forms.Button button_selectFile;
+        private System.Windows.Forms.NumericUpDown numericUpDown_charWidth;
     }
 }

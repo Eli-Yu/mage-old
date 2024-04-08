@@ -28,7 +28,7 @@ namespace mage
             Application.Run(form);
         }
 
-        public static string Version { get { return "1.4.0"; } }
+        public static string Version { get { return "1.4.2"; } }
         public static string ShortVersion { get { return "1.4"; } }
 
     }

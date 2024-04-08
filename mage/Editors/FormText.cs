@@ -1,7 +1,11 @@
-﻿using System;
+﻿using mage.Properties;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Globalization;
+using System.IO;
+using System.Security.AccessControl;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -32,10 +36,17 @@ namespace mage
         private Status status;
         private bool loading;
 
+        // custom related
+        private string charFilePath;
+        private byte charWidth;
+
         // constructor
         public FormText(FormMain main)
         {
             InitializeComponent();
+
+            //set numericUpDown_charWidth.Hexadecimal according to value of Hex.ToHex (ture -> hex, false -> decimal）
+            numericUpDown_charWidth.Hexadecimal = Hex.ToHex;
 
             this.main = main;
             this.romStream = ROM.Stream;
@@ -58,17 +69,39 @@ namespace mage
             chars = new Dictionary<ushort, string>();
             codes = new Dictionary<string, ushort>();
 
-            string[] charList = Version.CharacterList;
-            foreach (string s in charList)
-            {
-                string[] items = s.Split('\t');
-                ushort val = Convert.ToUInt16(items[0], 16);
+            //string[] charList = Version.CharacterList;
+            //foreach (string s in charList)
+            //{
+            //    string[] items = s.Split('\t');
+            //    ushort val = Convert.ToUInt16(items[0], 16);
 
-                chars.Add(val, items[1]);
-                if (!codes.ContainsKey(items[1]))
+            //    chars.Add(val, items[1]);
+            //    if (!codes.ContainsKey(items[1]))
+            //    {
+            //        codes.Add(items[1], val);
+            //    }
+            //}
+
+            if(string.IsNullOrEmpty(Version.CharFilePath) || !CheckCustomFile(Version.CharFilePath))
+            {//use default char table
+                SetCharTable(Version.CharacterList);
+            }
+            else
+            {
+                //use custom, initialize custom groupbox part
+                checkBox_customChar.Checked = true;
+                charWidth = Version.CharWidth;
+                //check charWidth
+                if (charWidth < 0 || charWidth > numericUpDown_charWidth.Maximum || charWidth < numericUpDown_charWidth.Minimum)
                 {
-                    codes.Add(items[1], val);
+                    MessageBox.Show(Resources.formText_ChaWidthNotValid,
+                                Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                else numericUpDown_charWidth.Value = charWidth;
+                textBox_file.Text = charFilePath = Version.CharFilePath;
+
+                //use custom char table
+                SetCharTable(System.IO.File.ReadAllLines(charFilePath));
             }
 
             // initialize text options
@@ -109,6 +142,23 @@ namespace mage
             
             comboBox_language.SelectedIndex = 2;
             comboBox_text.SelectedIndex = 0;
+        }
+
+        private void SetCharTable(string[] charList)
+        {
+            chars.Clear();
+            codes.Clear();
+            foreach (string s in charList)
+            {
+                string[] items = s.Split('\t');
+                ushort val = Convert.ToUInt16(items[0], 16);
+
+                chars.Add(val, items[1]);
+                if (!codes.ContainsKey(items[1]))
+                {
+                    codes.Add(items[1], val);
+                }
+            }
         }
 
         private void GetText()
@@ -209,7 +259,9 @@ namespace mage
                     }
                     else
                     {
-                        cw = 10;
+                        //cw = 10;
+                        //if use custom char table is checked, use custom char width
+                        cw = checkBox_customChar.Checked ? (int)numericUpDown_charWidth.Value : 10;
                     }
 
                     int w = (int)Math.Ceiling(cw / 8.0);
@@ -459,6 +511,9 @@ namespace mage
 
             DrawText();
             status.Save();
+
+            //process custom
+            CustomInfo();
         }
 
         private void button_close_Click(object sender, EventArgs e)
@@ -466,6 +521,186 @@ namespace mage
             Close();
         }
 
+        private void checkBox_customChar_CheckedChanged(object sender, EventArgs e)
+        {
+            enableCustom(checkBox_customChar.Checked);
+        }
 
+        private void enableCustom(bool val)
+        {
+            numericUpDown_charWidth.Enabled = val;
+            button_selectFile.Enabled = val;
+            textBox_file.Enabled = val;
+        }
+
+        private void button_selectFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFile = new OpenFileDialog();
+            openFile.Filter = Resources.formText_TxtFilterText;
+            if (openFile.ShowDialog() == DialogResult.OK)
+            {
+                if (CheckCustomFile(openFile.FileName))
+                {
+                    //display custom file name
+                    textBox_file.Text = openFile.FileName;
+                    SetCharTable(System.IO.File.ReadAllLines(openFile.FileName));
+                    status.ChangeMade();
+                }
+            }
+        }
+
+        private bool CheckCustomFile(string filename)
+        {
+            try
+            {
+                //get file contents
+                string[] fileContentsList = System.IO.File.ReadAllLines(filename);
+                string fileContents = System.IO.File.ReadAllText(filename);
+
+                //check file
+                bool isValid = true;
+                string[] shareCtrlChar = { "[DEL]", "[L_box_left]", "[L_box_right]", "[R_box_left]", "[R_box_right]", "[X_1]", "[X_2]", "[X_3]", "[X_4]",
+                        "[X_5]", "[X_6]", "[box_top_left]", "[box_top_middle]", "[box_top_right]", "[Up_button_left]", "[Up_button_right]", "[Down_button_left]",
+                        "[Down_button_right]", "[Left_button_left]", "[Left_button_right]", "[Right_button_left]", "[Right_button_right]", "[A_button_left]",
+                        "[A_button_right]", "[B_button_left]", "[B_button_right]", "[L_button_left]", "[L_button_right]", "[R_button_left]", "[R_button_right]",
+                        "[sup_er]", "[sup_re]", "[sup_e]", "[box_bottom_left]", "[box_bottom_middle]", "[box_bottom_right]", "[SHY]", "[DEL]", "[/COLOR]", "[YES]",
+                        "[NO]" };
+                string[] mfCtrlChar = { "[SAMUS_FACE]", "[SA-X_FACE]", "[TARGET]", "[ADAM]", "[SAMUS]", "[FEDERATION]", "[POPUP_OPEN]", "[POPUP_CLOSE]",
+                        "[OBJECTIVE]", "[ARROW]" };
+                string[] zmCtrlChar = { "[Select_button_1]", "[Select_button_2]", "[Select_button_3]", "[Select_button_4]" };
+
+
+                //check the format of each line
+                for (int i = 0; i < fileContentsList.Length && isValid; i++)
+                {
+                    if (!fileContentsList[i].Contains("\t"))
+                    {
+                        isValid = false;
+                        MessageBox.Show(Resources.formText_FileNotVaild,
+                            Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return isValid;
+                    }
+                }
+
+                //check control characters
+                foreach (string ctrl in shareCtrlChar)
+                {
+                    if (!fileContents.Contains(ctrl))
+                    {
+                        isValid = false;
+                        MessageBox.Show(string.Format(Resources.formText_MissShareCtrlChar, ctrl),
+                            Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return isValid;
+                    }
+                }
+                if (Version.IsMF)
+                {
+                    foreach (string ctrl in mfCtrlChar)
+                    {
+                        if (!fileContents.Contains(ctrl))
+                        {
+                            isValid = false;
+                            MessageBox.Show(string.Format(Resources.formText_MissMFCtrlChar, ctrl),
+                                Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return isValid;
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (string ctrl in zmCtrlChar)
+                    {
+                        if (!fileContents.Contains(ctrl))
+                        {
+                            isValid = false;
+                            MessageBox.Show(string.Format(Resources.formText_MissZMCtrlChar, ctrl),
+                                Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return isValid;
+                        }
+                    }
+                }
+
+                if (isValid)
+                {
+                    foreach (string line in fileContentsList)
+                    {
+                        //pair[0] -> code, pair[1] -> char
+                        string[] pair = line.Split('\t');
+                        //check code part: is hex string convert to ushort, else FormatException
+                        ushort code = ushort.Parse(pair[0], NumberStyles.HexNumber, CultureInfo.CurrentCulture);
+                        if (!string.IsNullOrEmpty(pair[1]))
+                        {
+                            //check char
+                            if (pair[1].Length > 1 && (pair[1][0] != '[' || pair[1][pair[1].Length - 1] != ']'))
+                            {
+                                isValid = false;
+                                MessageBox.Show(string.Format(Resources.formText_CustomCharNotVaild, pair[1]),
+                                    Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                return isValid;
+                            }
+                            
+                        }
+                        else
+                        {
+                            isValid = false;
+                            MessageBox.Show(string.Format(Resources.formText_CharIsNullOrEmpty, pair[0]),
+                                Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return isValid;
+                        }
+                    }
+                }
+
+                return isValid;
+
+            }
+            catch (FormatException)
+            {
+                //MessageBox.Show("Text could not be parsed.\r\nThe value starting at character " 
+                //    + Hex.ToString(i) + " is not valid.", "Parsing Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.formText_CodeNotValid,
+                    Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (DirectoryNotFoundException)
+            {
+                MessageBox.Show(Resources.formText_CustomFileNotFound,
+                    Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (FileNotFoundException)
+            {
+                MessageBox.Show(Resources.formText_CustomFileNotFound,
+                    Resources.formText_CustomFileErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return false;
+        }
+
+        private void CustomInfo()
+        {
+            if(checkBox_customChar.Checked)
+            {
+                charFilePath = this.textBox_file.Text;
+                charWidth = (byte)this.numericUpDown_charWidth.Value;
+            }
+            else
+            {
+                charFilePath = null;
+                Version.CharFilePath = null;
+            }
+
+
+            if (!string.IsNullOrEmpty(charFilePath))
+            {   //write custom info to project
+                Version.CharFilePath = charFilePath;
+                //Version.CharWidth = Convert.ToString(charWidth,16).ToUpper();
+                Version.CharWidth = charWidth;
+            }
+        }
+
+        private void numericUpDown_charWidth_ValueChanged(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(charFilePath))
+            {
+                status.ChangeMade();
+            }
+        }
     }
 }

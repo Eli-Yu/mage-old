@@ -111,6 +111,15 @@ namespace mage
             sw.WriteLine("NumOfAnimPalettes=" + Convert.ToString(NumOfAnimPalettes, 16).ToUpper());
             sw.WriteLine("NumOfSpritesets=" + Convert.ToString(NumOfSpritesets, 16).ToUpper());
 
+            // custom data
+            if(CharFilePath != null)
+            {
+                sw.WriteLine();
+                sw.WriteLine("[Custom]");
+                sw.WriteLine("CharFilePath=" + CharFilePath);
+                sw.WriteLine("CharWidth=" + Convert.ToString(CharWidth, 16).ToUpper());
+            }
+
             sw.Close();
             project = ProjectState.Exists;
             return newProject;
@@ -130,6 +139,10 @@ namespace mage
         public static byte NumOfMinimaps { get; private set; }
         public static byte NumOfDemos { get; private set; }
         public static int MetroidOffset { get; private set; }
+
+        // custom related
+        public static string CharFilePath { get; set; }
+        public static byte CharWidth { get; set; }
 
         public static string[] Clipdata
         {
@@ -423,6 +436,10 @@ namespace mage
                 if (items.Length < 2) { continue; }
                 Parse(items[0], items[1]);
             }
+
+            //initialize CharFilePath and CharWidth
+            CharFilePath = null;
+            CharWidth = 0;
 
             sr.Close();
 

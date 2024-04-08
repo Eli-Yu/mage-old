@@ -707,4 +707,38 @@
   <data name="formText_ParsingErrorTitle" xml:space="preserve">
     <value>解析错误</value>
   </data>
+  <data name="formText_CustomFileErrorTitle" xml:space="preserve">
+    <value>自定义文件错误</value>
+  </data>
+  <data name="formText_ChaWidthNotValid" xml:space="preserve">
+    <value>字符宽度无效，使用默认值替代。</value>
+  </data>
+  <data name="formText_TxtFilterText" xml:space="preserve">
+    <value>文本文件 (*.txt)|*.txt</value>
+  </data>
+  <data name="formText_FileNotVaild" xml:space="preserve">
+    <value>文件无效。自定义码表的每一行都由编码和字符组成，并且使用 Tab字符（可用键盘Tab键输入）分隔，请确保文件符合要求。
+可以参考默认文件（MF_chars.txt、ZM_chars.txt）修正。</value>
+  </data>
+  <data name="formText_MissShareCtrlChar" xml:space="preserve">
+    <value>共用控制字符不全，缺失：{0}。</value>
+  </data>
+  <data name="formText_MissMFCtrlChar" xml:space="preserve">
+    <value>融合控制字符不全，缺失：{0}。</value>
+  </data>
+  <data name="formText_MissZMCtrlChar" xml:space="preserve">
+    <value>零点控制字符不全，缺失：{0}。</value>
+  </data>
+  <data name="formText_CustomCharNotVaild" xml:space="preserve">
+    <value>字符错误，字符 {0} 无效。</value>
+  </data>
+  <data name="formText_CharIsNullOrEmpty" xml:space="preserve">
+    <value>字符错误，编码 {0} 对应的字符为空。</value>
+  </data>
+  <data name="formText_CodeNotValid" xml:space="preserve">
+    <value>存在无效编码值，编码值必须为十六进制。</value>
+  </data>
+  <data name="formText_CustomFileNotFound" xml:space="preserve">
+    <value>找不到自定义码表文件，将使用默认码表。</value>
+  </data>
 </root>

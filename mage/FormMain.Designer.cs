@@ -1161,10 +1161,10 @@
             // groupBox_location
             // 
             resources.ApplyResources(this.groupBox_location, "groupBox_location");
-            this.groupBox_location.Controls.Add(this.label_room);
-            this.groupBox_location.Controls.Add(this.label_area);
             this.groupBox_location.Controls.Add(this.comboBox_room);
             this.groupBox_location.Controls.Add(this.comboBox_area);
+            this.groupBox_location.Controls.Add(this.label_area);
+            this.groupBox_location.Controls.Add(this.label_room);
             this.groupBox_location.Name = "groupBox_location";
             this.groupBox_location.TabStop = false;
             // 

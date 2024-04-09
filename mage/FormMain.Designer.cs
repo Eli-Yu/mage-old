@@ -161,10 +161,10 @@
             this.menuItem_viewHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_about = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox_location = new System.Windows.Forms.GroupBox();
-            this.label_room = new System.Windows.Forms.Label();
-            this.label_area = new System.Windows.Forms.Label();
             this.comboBox_room = new System.Windows.Forms.ComboBox();
             this.comboBox_area = new System.Windows.Forms.ComboBox();
+            this.label_area = new System.Windows.Forms.Label();
+            this.label_room = new System.Windows.Forms.Label();
             this.groupBox_tileset = new System.Windows.Forms.GroupBox();
             this.comboBox_clipdata = new System.Windows.Forms.ComboBox();
             this.label_clipdata = new System.Windows.Forms.Label();
@@ -1168,16 +1168,6 @@
             this.groupBox_location.Name = "groupBox_location";
             this.groupBox_location.TabStop = false;
             // 
-            // label_room
-            // 
-            resources.ApplyResources(this.label_room, "label_room");
-            this.label_room.Name = "label_room";
-            // 
-            // label_area
-            // 
-            resources.ApplyResources(this.label_area, "label_area");
-            this.label_area.Name = "label_area";
-            // 
             // comboBox_room
             // 
             resources.ApplyResources(this.comboBox_room, "comboBox_room");
@@ -1195,6 +1185,16 @@
             this.comboBox_area.Name = "comboBox_area";
             this.comboBox_area.SelectedIndexChanged += new System.EventHandler(this.comboBox_area_SelectedIndexChanged);
             this.comboBox_area.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox_KeyPress);
+            // 
+            // label_area
+            // 
+            resources.ApplyResources(this.label_area, "label_area");
+            this.label_area.Name = "label_area";
+            // 
+            // label_room
+            // 
+            resources.ApplyResources(this.label_room, "label_room");
+            this.label_room.Name = "label_room";
             // 
             // groupBox_tileset
             // 
@@ -1252,6 +1252,7 @@
             this.roomView.ContextMenuStrip = this.contextMenu;
             this.roomView.Name = "roomView";
             this.roomView.TabStop = false;
+            this.roomView.DoubleClick += new System.EventHandler(this.roomView_DoubleClick);
             this.roomView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.roomView_MouseDown);
             this.roomView.MouseLeave += new System.EventHandler(this.roomView_MouseLeave);
             this.roomView.MouseMove += new System.Windows.Forms.MouseEventHandler(this.roomView_MouseMove);

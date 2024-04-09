@@ -2330,6 +2330,15 @@ namespace mage
             ResetRoomTip(false);
         }
 
+        //double click to edit in object mode
+        private void roomView_DoubleClick(object sender, EventArgs e)
+        {
+            if (EditBGs) return;
+            SelectObjects();
+            if (selEnemy != -1) contextItem_editSprite_Click(new object(), new EventArgs());
+            else if (selDoor != -1) contextItem_editDoor_Click(new object(), new EventArgs());
+            else if (selScroll != -1) contextItem_editScroll_Click(new object(), new EventArgs());
+        }
         #endregion
 
 
@@ -2446,6 +2455,6 @@ namespace mage
 
         #endregion
 
-
+        
     }
 }

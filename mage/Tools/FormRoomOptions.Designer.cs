@@ -40,11 +40,14 @@
             this.checkBox_bg2 = new System.Windows.Forms.CheckBox();
             this.checkBox_clip = new System.Windows.Forms.CheckBox();
             this.groupBox_resize = new System.Windows.Forms.GroupBox();
+            this.textBox_screenY = new System.Windows.Forms.TextBox();
+            this.textBox_screenX = new System.Windows.Forms.TextBox();
             this.label_blocks = new System.Windows.Forms.Label();
-            this.label_screenY = new System.Windows.Forms.Label();
-            this.label_screenX = new System.Windows.Forms.Label();
             this.label_screens = new System.Windows.Forms.Label();
             this.groupBox_clear = new System.Windows.Forms.GroupBox();
+            this.checkBox_scrolls = new System.Windows.Forms.CheckBox();
+            this.checkBox_doors = new System.Windows.Forms.CheckBox();
+            this.checkBox_sprites = new System.Windows.Forms.CheckBox();
             this.button_close = new System.Windows.Forms.Button();
             this.groupBox_resize.SuspendLayout();
             this.groupBox_clear.SuspendLayout();
@@ -113,9 +116,9 @@
             // groupBox_resize
             // 
             resources.ApplyResources(this.groupBox_resize, "groupBox_resize");
+            this.groupBox_resize.Controls.Add(this.textBox_screenY);
+            this.groupBox_resize.Controls.Add(this.textBox_screenX);
             this.groupBox_resize.Controls.Add(this.label_blocks);
-            this.groupBox_resize.Controls.Add(this.label_screenY);
-            this.groupBox_resize.Controls.Add(this.label_screenX);
             this.groupBox_resize.Controls.Add(this.label_screens);
             this.groupBox_resize.Controls.Add(this.label_width);
             this.groupBox_resize.Controls.Add(this.textBox_width);
@@ -125,20 +128,22 @@
             this.groupBox_resize.Name = "groupBox_resize";
             this.groupBox_resize.TabStop = false;
             // 
+            // textBox_screenY
+            // 
+            resources.ApplyResources(this.textBox_screenY, "textBox_screenY");
+            this.textBox_screenY.Name = "textBox_screenY";
+            this.textBox_screenY.TextChanged += new System.EventHandler(this.textBox_screenY_TextChanged);
+            // 
+            // textBox_screenX
+            // 
+            resources.ApplyResources(this.textBox_screenX, "textBox_screenX");
+            this.textBox_screenX.Name = "textBox_screenX";
+            this.textBox_screenX.TextChanged += new System.EventHandler(this.textBox_screenX_TextChanged);
+            // 
             // label_blocks
             // 
             resources.ApplyResources(this.label_blocks, "label_blocks");
             this.label_blocks.Name = "label_blocks";
-            // 
-            // label_screenY
-            // 
-            resources.ApplyResources(this.label_screenY, "label_screenY");
-            this.label_screenY.Name = "label_screenY";
-            // 
-            // label_screenX
-            // 
-            resources.ApplyResources(this.label_screenX, "label_screenX");
-            this.label_screenX.Name = "label_screenX";
             // 
             // label_screens
             // 
@@ -148,6 +153,9 @@
             // groupBox_clear
             // 
             resources.ApplyResources(this.groupBox_clear, "groupBox_clear");
+            this.groupBox_clear.Controls.Add(this.checkBox_scrolls);
+            this.groupBox_clear.Controls.Add(this.checkBox_doors);
+            this.groupBox_clear.Controls.Add(this.checkBox_sprites);
             this.groupBox_clear.Controls.Add(this.checkBox_bg0);
             this.groupBox_clear.Controls.Add(this.checkBox_bg1);
             this.groupBox_clear.Controls.Add(this.button_clearBG);
@@ -155,6 +163,24 @@
             this.groupBox_clear.Controls.Add(this.checkBox_clip);
             this.groupBox_clear.Name = "groupBox_clear";
             this.groupBox_clear.TabStop = false;
+            // 
+            // checkBox_scrolls
+            // 
+            resources.ApplyResources(this.checkBox_scrolls, "checkBox_scrolls");
+            this.checkBox_scrolls.Name = "checkBox_scrolls";
+            this.checkBox_scrolls.UseVisualStyleBackColor = true;
+            // 
+            // checkBox_doors
+            // 
+            resources.ApplyResources(this.checkBox_doors, "checkBox_doors");
+            this.checkBox_doors.Name = "checkBox_doors";
+            this.checkBox_doors.UseVisualStyleBackColor = true;
+            // 
+            // checkBox_sprites
+            // 
+            resources.ApplyResources(this.checkBox_sprites, "checkBox_sprites");
+            this.checkBox_sprites.Name = "checkBox_sprites";
+            this.checkBox_sprites.UseVisualStyleBackColor = true;
             // 
             // button_close
             // 
@@ -198,8 +224,11 @@
         private System.Windows.Forms.GroupBox groupBox_clear;
         private System.Windows.Forms.Button button_close;
         private System.Windows.Forms.Label label_blocks;
-        private System.Windows.Forms.Label label_screenY;
-        private System.Windows.Forms.Label label_screenX;
         private System.Windows.Forms.Label label_screens;
+        private System.Windows.Forms.TextBox textBox_screenY;
+        private System.Windows.Forms.TextBox textBox_screenX;
+        private System.Windows.Forms.CheckBox checkBox_scrolls;
+        private System.Windows.Forms.CheckBox checkBox_doors;
+        private System.Windows.Forms.CheckBox checkBox_sprites;
     }
 }

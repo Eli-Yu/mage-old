@@ -124,8 +124,15 @@
   <data name="label_height.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 56</value>
   </data>
-  <data name="label_screenX.Text" xml:space="preserve">
-    <value>0</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox_doors.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button_clearBG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="textBox_screenX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 29</value>
   </data>
   <data name="checkBox_clip.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 16</value>
@@ -136,27 +143,32 @@
   <data name="&gt;&gt;checkBox_clip.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="&gt;&gt;checkBox_doors.Parent" xml:space="preserve">
+    <value>groupBox_clear</value>
+  </data>
   <data name="groupBox_clear.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label_screenX.Parent" xml:space="preserve">
-    <value>groupBox_resize</value>
+  <data name="checkBox_scrolls.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="checkBox_clip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="checkBox_doors.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;groupBox_resize.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_screenY.Parent" xml:space="preserve">
+    <value>groupBox_resize</value>
   </data>
   <data name="&gt;&gt;button_resize.Parent" xml:space="preserve">
     <value>groupBox_resize</value>
   </data>
   <data name="checkBox_bg1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="label_screenX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 12</value>
   </data>
   <data name="checkBox_clip.Text" xml:space="preserve">
     <value>Clipdata</value>
@@ -170,8 +182,8 @@
   <data name="button_resize.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
   </data>
-  <data name="&gt;&gt;label_screenY.Name" xml:space="preserve">
-    <value>label_screenY</value>
+  <data name="checkBox_doors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
   </data>
   <data name="&gt;&gt;textBox_width.Parent" xml:space="preserve">
     <value>groupBox_resize</value>
@@ -179,8 +191,14 @@
   <data name="groupBox_clear.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 11</value>
   </data>
+  <data name="&gt;&gt;checkBox_sprites.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 12</value>
+  </data>
+  <data name="checkBox_sprites.Text" xml:space="preserve">
+    <value>Sprites</value>
   </data>
   <data name="&gt;&gt;label_height.Name" xml:space="preserve">
     <value>label_height</value>
@@ -188,14 +206,17 @@
   <data name="checkBox_bg0.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label_screenX.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="button_close.Text" xml:space="preserve">
     <value>Close</value>
   </data>
   <data name="&gt;&gt;checkBox_bg0.Name" xml:space="preserve">
     <value>checkBox_bg0</value>
+  </data>
+  <data name="&gt;&gt;textBox_screenX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_sprites.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 39</value>
   </data>
   <data name="&gt;&gt;groupBox_clear.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -215,8 +236,8 @@
   <data name="checkBox_bg0.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 18</value>
   </data>
-  <data name="button_clearBG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
+  <data name="&gt;&gt;checkBox_bg1.Name" xml:space="preserve">
+    <value>checkBox_bg1</value>
   </data>
   <data name="&gt;&gt;button_resize.Name" xml:space="preserve">
     <value>button_resize</value>
@@ -227,20 +248,29 @@
   <data name="&gt;&gt;button_clearBG.Parent" xml:space="preserve">
     <value>groupBox_clear</value>
   </data>
-  <data name="&gt;&gt;label_screenY.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="checkBox_bg0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
   </data>
-  <data name="label_height.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 12</value>
+  <data name="button_clearBG.Text" xml:space="preserve">
+    <value>Clear</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormRoomOptions</value>
   </data>
+  <data name="&gt;&gt;checkBox_sprites.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox_screenY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 21</value>
+  </data>
   <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
   </data>
-  <data name="checkBox_bg0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 16</value>
+  <data name="&gt;&gt;checkBox_sprites.Parent" xml:space="preserve">
+    <value>groupBox_clear</value>
+  </data>
+  <data name="&gt;&gt;textBox_screenY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBox_bg2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -272,32 +302,35 @@
   <data name="label_blocks.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 13</value>
   </data>
-  <data name="label_screenY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 56</value>
+  <data name="&gt;&gt;textBox_screenX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBox_bg0.Text" xml:space="preserve">
     <value>BG 0</value>
   </data>
-  <data name="label_screenX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 32</value>
+  <data name="&gt;&gt;textBox_width.Name" xml:space="preserve">
+    <value>textBox_width</value>
   </data>
   <data name="&gt;&gt;label_blocks.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;groupBox_clear.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>264, 153</value>
+    <value>313, 153</value>
   </data>
-  <data name="groupBox_resize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 11</value>
+  <data name="&gt;&gt;textBox_screenX.Parent" xml:space="preserve">
+    <value>groupBox_resize</value>
   </data>
   <data name="&gt;&gt;groupBox_clear.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="checkBox_bg0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="checkBox_scrolls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
   </data>
   <data name="label_width.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 32</value>
@@ -311,26 +344,20 @@
   <data name="label_blocks.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label_screenX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="button_close.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;label_height.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label_screenY.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Room Options</value>
   </data>
-  <data name="&gt;&gt;label_screenY.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="textBox_screenX.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;checkBox_bg0.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_sprites.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="button_clearBG.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 102</value>
@@ -338,11 +365,8 @@
   <data name="&gt;&gt;groupBox_resize.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label_screenY.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label_height.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="checkBox_bg1.Text" xml:space="preserve">
+    <value>BG 1</value>
   </data>
   <data name="checkBox_clip.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -350,8 +374,8 @@
   <data name="groupBox_resize.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="textBox_height.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 54</value>
+  <data name="&gt;&gt;textBox_screenY.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="textBox_height.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -369,19 +393,22 @@
     <value>1</value>
   </data>
   <data name="&gt;&gt;checkBox_bg1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;checkBox_clip.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="label_height.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label_blocks.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox_bg1.Name" xml:space="preserve">
-    <value>checkBox_bg1</value>
+  <data name="&gt;&gt;label_height.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="checkBox_bg2.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 60</value>
@@ -392,11 +419,179 @@
   <data name="checkBox_bg2.Text" xml:space="preserve">
     <value>BG 2</value>
   </data>
+  <data name="checkBox_scrolls.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;checkBox_bg1.Parent" xml:space="preserve">
     <value>groupBox_clear</value>
   </data>
   <data name="groupBox_resize.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 104</value>
+  </data>
+  <data name="checkBox_bg1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 39</value>
+  </data>
+  <data name="&gt;&gt;groupBox_clear.Name" xml:space="preserve">
+    <value>groupBox_clear</value>
+  </data>
+  <data name="label_screens.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 119</value>
+  </data>
+  <data name="groupBox_resize.Text" xml:space="preserve">
+    <value>Resize Room</value>
+  </data>
+  <data name="textBox_width.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 21</value>
+  </data>
+  <data name="label_width.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="checkBox_doors.Text" xml:space="preserve">
+    <value>Doors</value>
+  </data>
+  <data name="&gt;&gt;textBox_screenY.Name" xml:space="preserve">
+    <value>textBox_screenY</value>
+  </data>
+  <data name="button_resize.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_width.Parent" xml:space="preserve">
+    <value>groupBox_resize</value>
+  </data>
+  <data name="&gt;&gt;label_screens.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_blocks.Name" xml:space="preserve">
+    <value>label_blocks</value>
+  </data>
+  <data name="checkBox_scrolls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 60</value>
+  </data>
+  <data name="&gt;&gt;label_height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_scrolls.Text" xml:space="preserve">
+    <value>Scrolls</value>
+  </data>
+  <data name="checkBox_sprites.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="&gt;&gt;label_screens.Parent" xml:space="preserve">
+    <value>groupBox_resize</value>
+  </data>
+  <data name="checkBox_doors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 18</value>
+  </data>
+  <data name="&gt;&gt;button_clearBG.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label_width.Name" xml:space="preserve">
+    <value>label_width</value>
+  </data>
+  <data name="&gt;&gt;label_blocks.Parent" xml:space="preserve">
+    <value>groupBox_resize</value>
+  </data>
+  <data name="label_height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="label_width.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_resize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 78</value>
+  </data>
+  <data name="checkBox_bg2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="checkBox_bg1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox_resize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox_screenY.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="textBox_width.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_bg2.Parent" xml:space="preserve">
+    <value>groupBox_clear</value>
+  </data>
+  <data name="&gt;&gt;checkBox_sprites.Name" xml:space="preserve">
+    <value>checkBox_sprites</value>
+  </data>
+  <data name="&gt;&gt;button_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox_bg2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;checkBox_clip.Parent" xml:space="preserve">
+    <value>groupBox_clear</value>
+  </data>
+  <data name="label_height.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_doors.Name" xml:space="preserve">
+    <value>checkBox_doors</value>
+  </data>
+  <data name="&gt;&gt;button_resize.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_blocks.Text" xml:space="preserve">
+    <value>Blocks</value>
+  </data>
+  <data name="&gt;&gt;checkBox_bg0.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button_clearBG.Name" xml:space="preserve">
+    <value>button_clearBG</value>
+  </data>
+  <data name="&gt;&gt;textBox_screenX.Name" xml:space="preserve">
+    <value>textBox_screenX</value>
+  </data>
+  <data name="groupBox_resize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 12</value>
+  </data>
+  <data name="button_clearBG.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label_screens.Name" xml:space="preserve">
+    <value>label_screens</value>
+  </data>
+  <data name="&gt;&gt;checkBox_doors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_screenX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 21</value>
+  </data>
+  <data name="&gt;&gt;checkBox_doors.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_resize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_blocks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 54</value>
+  </data>
+  <data name="&gt;&gt;checkBox_scrolls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_width.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_clip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 81</value>
+  </data>
+  <data name="label_width.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -472,164 +667,38 @@
         AAP//wAP//8ADw==
 </value>
   </data>
-  <data name="&gt;&gt;groupBox_clear.Name" xml:space="preserve">
-    <value>groupBox_clear</value>
-  </data>
-  <data name="label_screens.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 121</value>
-  </data>
-  <data name="label_screenY.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textBox_width.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 21</value>
-  </data>
-  <data name="label_width.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 12</value>
-  </data>
-  <data name="&gt;&gt;label_screenY.Parent" xml:space="preserve">
-    <value>groupBox_resize</value>
-  </data>
-  <data name="button_resize.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label_width.Parent" xml:space="preserve">
-    <value>groupBox_resize</value>
-  </data>
-  <data name="&gt;&gt;label_screens.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_blocks.Name" xml:space="preserve">
-    <value>label_blocks</value>
-  </data>
-  <data name="checkBox_bg1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 39</value>
-  </data>
-  <data name="&gt;&gt;label_screenX.Name" xml:space="preserve">
-    <value>label_screenX</value>
-  </data>
-  <data name="checkBox_bg1.Text" xml:space="preserve">
-    <value>BG 1</value>
-  </data>
-  <data name="label_screens.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label_blocks.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label_width.Name" xml:space="preserve">
-    <value>label_width</value>
-  </data>
-  <data name="&gt;&gt;label_blocks.Parent" xml:space="preserve">
-    <value>groupBox_resize</value>
-  </data>
-  <data name="groupBox_resize.Text" xml:space="preserve">
-    <value>Resize Room</value>
-  </data>
-  <data name="label_width.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button_resize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 78</value>
-  </data>
-  <data name="checkBox_bg2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 16</value>
-  </data>
-  <data name="checkBox_bg1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupBox_resize.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="groupBox_clear.Text" xml:space="preserve">
-    <value>Clear BG</value>
-  </data>
-  <data name="textBox_width.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkBox_bg2.Parent" xml:space="preserve">
-    <value>groupBox_clear</value>
-  </data>
-  <data name="&gt;&gt;button_clearBG.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label_screenX.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_close.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox_bg2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;checkBox_clip.Parent" xml:space="preserve">
-    <value>groupBox_clear</value>
-  </data>
-  <data name="label_height.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_resize.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label_blocks.Text" xml:space="preserve">
-    <value>Blocks</value>
-  </data>
-  <data name="&gt;&gt;checkBox_bg0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_clearBG.Name" xml:space="preserve">
-    <value>button_clearBG</value>
-  </data>
-  <data name="&gt;&gt;textBox_width.Name" xml:space="preserve">
-    <value>textBox_width</value>
-  </data>
-  <data name="button_clearBG.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label_screens.Name" xml:space="preserve">
-    <value>label_screens</value>
-  </data>
-  <data name="&gt;&gt;label_blocks.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_resize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label_screenY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 12</value>
-  </data>
-  <data name="&gt;&gt;label_width.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="checkBox_clip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 81</value>
-  </data>
-  <data name="&gt;&gt;label_screenX.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label_width.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="label_screens.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
   </data>
-  <data name="&gt;&gt;label_screens.Parent" xml:space="preserve">
-    <value>groupBox_resize</value>
+  <data name="&gt;&gt;checkBox_scrolls.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label_screens.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 13</value>
   </data>
+  <data name="checkBox_sprites.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox_clear.Text" xml:space="preserve">
+    <value>Clear BG</value>
+  </data>
+  <data name="textBox_screenY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 54</value>
+  </data>
   <data name="label_width.Text" xml:space="preserve">
     <value>Width:</value>
+  </data>
+  <data name="label_screens.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="label_blocks.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
   </data>
   <data name="textBox_height.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 21</value>
+  </data>
+  <data name="&gt;&gt;checkBox_scrolls.Name" xml:space="preserve">
+    <value>checkBox_scrolls</value>
   </data>
   <data name="&gt;&gt;textBox_height.Name" xml:space="preserve">
     <value>textBox_height</value>
@@ -640,11 +709,11 @@
   <data name="&gt;&gt;checkBox_bg1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button_clearBG.Text" xml:space="preserve">
-    <value>Clear</value>
+  <data name="&gt;&gt;checkBox_scrolls.Parent" xml:space="preserve">
+    <value>groupBox_clear</value>
   </data>
   <data name="groupBox_clear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 129</value>
+    <value>136, 129</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

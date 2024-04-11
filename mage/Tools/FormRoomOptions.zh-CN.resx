@@ -193,6 +193,18 @@
   <data name="checkBox_clip.Text" xml:space="preserve">
     <value>砖块属性</value>
   </data>
+  <data name="textBox_screenY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 60</value>
+  </data>
+  <data name="textBox_screenY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="textBox_screenX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 32</value>
+  </data>
+  <data name="textBox_screenX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
   <data name="label_blocks.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt, style=Underline</value>
   </data>
@@ -204,18 +216,6 @@
   </data>
   <data name="label_blocks.Text" xml:space="preserve">
     <value>块</value>
-  </data>
-  <data name="label_screenY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 61</value>
-  </data>
-  <data name="label_screenY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
-  </data>
-  <data name="label_screenX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 35</value>
-  </data>
-  <data name="label_screenX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
   </data>
   <data name="label_screens.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt, style=Underline</value>
@@ -230,7 +230,7 @@
     <value>屏幕</value>
   </data>
   <data name="groupBox_resize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 12</value>
+    <value>149, 12</value>
   </data>
   <data name="groupBox_resize.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 113</value>
@@ -242,13 +242,40 @@
     <value>12, 12</value>
   </data>
   <data name="groupBox_clear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 140</value>
+    <value>131, 140</value>
   </data>
   <data name="groupBox_clear.Text" xml:space="preserve">
     <value>清除背景</value>
   </data>
+  <data name="checkBox_scrolls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 65</value>
+  </data>
+  <data name="checkBox_scrolls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="checkBox_scrolls.Text" xml:space="preserve">
+    <value>滚动</value>
+  </data>
+  <data name="checkBox_doors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="checkBox_doors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="checkBox_doors.Text" xml:space="preserve">
+    <value>门</value>
+  </data>
+  <data name="checkBox_sprites.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 42</value>
+  </data>
+  <data name="checkBox_sprites.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="checkBox_sprites.Text" xml:space="preserve">
+    <value>精灵</value>
+  </data>
   <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 131</value>
+    <value>221, 131</value>
   </data>
   <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -260,7 +287,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>264, 166</value>
+    <value>308, 166</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>

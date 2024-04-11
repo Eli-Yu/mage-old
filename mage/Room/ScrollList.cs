@@ -246,6 +246,13 @@ namespace mage
             scrolls.RemoveAt(num / 6);
         }
 
+        //for clear scrolls in FormRoomOptions
+        public void Clear()
+        {
+            Edited = true;
+            scrolls.Clear();
+        }
+
         public void Export(ByteStream dst)
         {
             dst.Write8((byte)scrolls.Count);

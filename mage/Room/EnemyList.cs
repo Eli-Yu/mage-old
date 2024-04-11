@@ -165,6 +165,13 @@ namespace mage
             enemies.RemoveAt(num);
         }
 
+        //for clear doors in FormRoomOptions
+        public void Clear()
+        {
+            Edited = true;
+            enemies.Clear();
+        }
+
         public void Export(ByteStream dst)
         {
             foreach (Enemy rs in enemies)

@@ -10,6 +10,9 @@ namespace mage
         private FormMain main;
         private Room room;
 
+        private bool updatedScreenBoxes = false;
+        private bool updatedBlocksBoxes = false;
+
         // constructor
         public FormRoomOptions(FormMain main)
         {
@@ -30,8 +33,9 @@ namespace mage
             textBox_height.Text = Hex.ToString(room.Height);
         }
 
-        private void UpdateText(TextBox textBox, Label label, int size)
+        private void UpdateText(TextBox textBox, TextBox label, int size)
         {
+            updatedScreenBoxes = true;
             try
             {
                 double screen = Hex.ToByte(textBox.Text);
@@ -51,16 +55,45 @@ namespace mage
                 label.Text = "–";
                 label.ForeColor = Color.DarkRed;
             }
+            updatedScreenBoxes = false;
+        }
+
+        //update blocks value by editing screens
+        private void UpdateBlockText(TextBox textBox, TextBox label, int size)
+        {
+            updatedBlocksBoxes = true;
+            try
+            {
+                int blocks = Hex.ToByte(textBox.Text);
+                blocks = blocks * size + 4;
+                label.Text = Hex.ToString(blocks);
+                if (blocks % 1 == 0 & blocks > 0)
+                {
+                    label.ForeColor = Color.Black;
+                }
+                else
+                {
+                    label.ForeColor = Color.DarkRed;
+                }
+            }
+            catch
+            {
+                label.Text = "0";
+                label.ForeColor = Color.DarkRed;
+            }
+            updatedBlocksBoxes = false;
         }
 
         private void textBox_width_TextChanged(object sender, EventArgs e)
         {
-            UpdateText(textBox_width, label_screenX, 15);
+            if (updatedBlocksBoxes) return;
+            UpdateText(textBox_width, textBox_screenX, 15);
         }
 
         private void textBox_height_TextChanged(object sender, EventArgs e)
         {
-            UpdateText(textBox_height, label_screenY, 10);
+            if (updatedBlocksBoxes) return;
+            UpdateText(textBox_height, textBox_screenY, 10);
         }
 
         private void button_clearBG_Click(object sender, EventArgs e)
@@ -84,6 +117,25 @@ namespace mage
             {
                 room.Clip.Clear();
                 checkBox_clip.Checked = false;
+            }
+
+            //add clear sprites, doors and scrolls options
+            if (checkBox_sprites.Checked)
+            {
+                foreach (EnemyList l in room.enemyLists) l?.Clear();
+                checkBox_sprites.Checked = false;
+            }
+
+            if (checkBox_doors.Checked)
+            {
+                room.doorList.Clear();
+                checkBox_doors.Checked = false;
+            }
+
+            if (checkBox_scrolls.Checked)
+            {
+                room.scrollList.Clear();
+                checkBox_scrolls.Checked = false;
             }
 
             main.ReloadRoom(true);
@@ -130,6 +182,16 @@ namespace mage
             Close();
         }
 
-        
+        private void textBox_screenX_TextChanged(object sender, EventArgs e)
+        {
+            if(updatedScreenBoxes) return;
+            UpdateBlockText(textBox_screenX, textBox_width, 15);
+        }
+
+        private void textBox_screenY_TextChanged(object sender, EventArgs e)
+        {
+            if (updatedScreenBoxes) return;
+            UpdateBlockText(textBox_screenY, textBox_height, 10);
+        }
     }
 }

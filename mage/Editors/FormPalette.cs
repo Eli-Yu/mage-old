@@ -2,7 +2,9 @@
 using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace mage
 {
@@ -15,6 +17,7 @@ namespace mage
         private byte red, green, blue;
         private Point pos;
         private bool noUpdate;
+        private bool noHtmlUpdate;
         private Pen wp, bp;
 
         private Palette palette;
@@ -239,6 +242,10 @@ namespace mage
 
             // PC
             label_24bitVal.Text = (red * 8) + ", " + (green * 8) + ", " + (blue * 8);
+
+            // HTML
+            if (noHtmlUpdate) return;
+            textBox_html_color.Text = $"#{red * 8:X2}{green * 8:X2}{blue * 8:X2}";
         }
 
         private void DrawChosenColor()
@@ -482,6 +489,28 @@ namespace mage
         private void statusStrip_exportYY_Click(object sender, EventArgs e)
         {
             Export(PalFileType.YYCHR);
+        }
+
+        private void textBox_html_color_TextChanged(object sender, EventArgs e)
+        {
+            //html process
+            string html = textBox_html_color.Text;
+            html = Regex.Match(html, @"[0-9a-fA-F]+").Value;
+            if (html.Length != 6) return; //if 6 numbers are not given
+            html = html.Insert(0, "#");
+            Color c = ColorTranslator.FromHtml(html);
+
+            noUpdate = true;
+
+            numericUpDown_red.Value = red = (byte)(c.R / 8);
+            numericUpDown_green.Value = green = (byte)(c.G / 8);
+            numericUpDown_blue.Value = blue = (byte)(c.B / 8);
+
+            noUpdate = false;
+
+            noHtmlUpdate = true;
+            ColorChanged();
+            noHtmlUpdate = false;
         }
 
         private void Import(PalFileType type)

@@ -54,6 +54,8 @@
             this.pictureBox_green = new System.Windows.Forms.PictureBox();
             this.pictureBox_blue = new System.Windows.Forms.PictureBox();
             this.groupBox_color = new System.Windows.Forms.GroupBox();
+            this.textBox_html_color = new System.Windows.Forms.TextBox();
+            this.label_html = new System.Windows.Forms.Label();
             this.groupBox_shortcuts = new System.Windows.Forms.GroupBox();
             this.label_sprite = new System.Windows.Forms.Label();
             this.label_tileset = new System.Windows.Forms.Label();
@@ -283,6 +285,8 @@
             // groupBox_color
             // 
             resources.ApplyResources(this.groupBox_color, "groupBox_color");
+            this.groupBox_color.Controls.Add(this.textBox_html_color);
+            this.groupBox_color.Controls.Add(this.label_html);
             this.groupBox_color.Controls.Add(this.label_red);
             this.groupBox_color.Controls.Add(this.pictureBox_blue);
             this.groupBox_color.Controls.Add(this.label_green);
@@ -294,6 +298,17 @@
             this.groupBox_color.Controls.Add(this.numericUpDown_blue);
             this.groupBox_color.Name = "groupBox_color";
             this.groupBox_color.TabStop = false;
+            // 
+            // textBox_html_color
+            // 
+            resources.ApplyResources(this.textBox_html_color, "textBox_html_color");
+            this.textBox_html_color.Name = "textBox_html_color";
+            this.textBox_html_color.TextChanged += new System.EventHandler(this.textBox_html_color_TextChanged);
+            // 
+            // label_html
+            // 
+            resources.ApplyResources(this.label_html, "label_html");
+            this.label_html.Name = "label_html";
             // 
             // groupBox_shortcuts
             // 
@@ -495,5 +510,7 @@
         private System.Windows.Forms.ToolStripMenuItem statusStrip_exportRaw;
         private System.Windows.Forms.ToolStripMenuItem statusStrip_exportTLP;
         private System.Windows.Forms.ToolStripMenuItem statusStrip_exportYY;
+        private System.Windows.Forms.TextBox textBox_html_color;
+        private System.Windows.Forms.Label label_html;
     }
 }

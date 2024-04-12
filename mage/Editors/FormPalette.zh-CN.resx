@@ -136,6 +136,15 @@
   <data name="comboBox_tileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 21</value>
   </data>
+  <data name="groupBox_offset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 12</value>
+  </data>
+  <data name="groupBox_offset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 73</value>
+  </data>
+  <data name="groupBox_offset.Text" xml:space="preserve">
+    <value>偏移量</value>
+  </data>
   <data name="button_minus.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 43</value>
   </data>
@@ -174,15 +183,6 @@
   </data>
   <data name="textBox_offset.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 22</value>
-  </data>
-  <data name="groupBox_offset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 12</value>
-  </data>
-  <data name="groupBox_offset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 73</value>
-  </data>
-  <data name="groupBox_offset.Text" xml:space="preserve">
-    <value>偏移量</value>
   </data>
   <data name="comboBox_sprite.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 46</value>
@@ -236,7 +236,7 @@
     <value>40, 22</value>
   </data>
   <data name="button_apply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>451, 211</value>
+    <value>451, 234</value>
   </data>
   <data name="button_apply.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 23</value>
@@ -245,7 +245,7 @@
     <value>应用</value>
   </data>
   <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>451, 239</value>
+    <value>451, 262</value>
   </data>
   <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 23</value>
@@ -286,14 +286,38 @@
   <data name="pictureBox_blue.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 20</value>
   </data>
+  <data name="textBox_html_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 103</value>
+  </data>
+  <data name="textBox_html_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="label_html.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 106</value>
+  </data>
+  <data name="label_html.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="label_html.Text" xml:space="preserve">
+    <value>HTML：</value>
+  </data>
   <data name="groupBox_color.Location" type="System.Drawing.Point, System.Drawing">
     <value>291, 91</value>
   </data>
   <data name="groupBox_color.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 109</value>
+    <value>234, 132</value>
   </data>
   <data name="groupBox_color.Text" xml:space="preserve">
     <value>颜色选择器</value>
+  </data>
+  <data name="groupBox_shortcuts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 12</value>
+  </data>
+  <data name="groupBox_shortcuts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 73</value>
+  </data>
+  <data name="groupBox_shortcuts.Text" xml:space="preserve">
+    <value>快捷选择</value>
   </data>
   <data name="label_sprite.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 49</value>
@@ -313,15 +337,6 @@
   <data name="label_tileset.Text" xml:space="preserve">
     <value>贴图集：</value>
   </data>
-  <data name="groupBox_shortcuts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 12</value>
-  </data>
-  <data name="groupBox_shortcuts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 73</value>
-  </data>
-  <data name="groupBox_shortcuts.Text" xml:space="preserve">
-    <value>快捷选择</value>
-  </data>
   <data name="label_24bitVal.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 32</value>
   </data>
@@ -338,7 +353,7 @@
     <value>24位：</value>
   </data>
   <data name="groupBox_info.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 206</value>
+    <value>291, 229</value>
   </data>
   <data name="groupBox_info.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 55</value>
@@ -346,11 +361,11 @@
   <data name="groupBox_info.Text" xml:space="preserve">
     <value>信息</value>
   </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 287</value>
+  </data>
   <data name="statusStrip_spring.Size" type="System.Drawing.Size, System.Drawing">
     <value>452, 18</value>
-  </data>
-  <data name="statusStrip_importRaw.Text" xml:space="preserve">
-    <value>原始（Raw）...</value>
   </data>
   <data name="statusStrip_import.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 21</value>
@@ -358,7 +373,7 @@
   <data name="statusStrip_import.Text" xml:space="preserve">
     <value>导入</value>
   </data>
-  <data name="statusStrip_exportRaw.Text" xml:space="preserve">
+  <data name="statusStrip_importRaw.Text" xml:space="preserve">
     <value>原始（Raw）...</value>
   </data>
   <data name="statusStrip_export.Size" type="System.Drawing.Size, System.Drawing">
@@ -367,8 +382,8 @@
   <data name="statusStrip_export.Text" xml:space="preserve">
     <value>导出</value>
   </data>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 287</value>
+  <data name="statusStrip_exportRaw.Text" xml:space="preserve">
+    <value>原始（Raw）...</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>

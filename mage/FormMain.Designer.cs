@@ -166,6 +166,7 @@
             this.label_area = new System.Windows.Forms.Label();
             this.label_room = new System.Windows.Forms.Label();
             this.groupBox_tileset = new System.Windows.Forms.GroupBox();
+            this.button_Clip = new System.Windows.Forms.Button();
             this.comboBox_clipdata = new System.Windows.Forms.ComboBox();
             this.label_clipdata = new System.Windows.Forms.Label();
             this.panel_tileset = new System.Windows.Forms.Panel();
@@ -1199,11 +1200,20 @@
             // groupBox_tileset
             // 
             resources.ApplyResources(this.groupBox_tileset, "groupBox_tileset");
+            this.groupBox_tileset.Controls.Add(this.button_Clip);
             this.groupBox_tileset.Controls.Add(this.comboBox_clipdata);
             this.groupBox_tileset.Controls.Add(this.label_clipdata);
             this.groupBox_tileset.Controls.Add(this.panel_tileset);
             this.groupBox_tileset.Name = "groupBox_tileset";
             this.groupBox_tileset.TabStop = false;
+            // 
+            // button_Clip
+            // 
+            resources.ApplyResources(this.button_Clip, "button_Clip");
+            this.button_Clip.Image = global::mage.Properties.Resources.shortcut_air;
+            this.button_Clip.Name = "button_Clip";
+            this.button_Clip.UseVisualStyleBackColor = true;
+            this.button_Clip.Click += new System.EventHandler(this.menuItem_clipShortcuts_Click);
             // 
             // comboBox_clipdata
             // 
@@ -1211,6 +1221,7 @@
             this.comboBox_clipdata.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_clipdata.FormattingEnabled = true;
             this.comboBox_clipdata.Name = "comboBox_clipdata";
+            this.comboBox_clipdata.SelectedIndexChanged += new System.EventHandler(this.comboBox_clipdata_SelectedIndexChanged);
             // 
             // label_clipdata
             // 
@@ -2035,6 +2046,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuItem_defaultClipBreakable;
         private System.Windows.Forms.ToolStripMenuItem menuItem_viewClipValues;
         private System.Windows.Forms.ToolStripMenuItem menuItem_defaultClipValues;
+        private System.Windows.Forms.Button button_Clip;
     }
 }
 

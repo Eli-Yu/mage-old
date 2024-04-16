@@ -2455,6 +2455,67 @@ namespace mage
 
         #endregion
 
-        
+        private void comboBox_clipdata_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            button_Clip.Image = (comboBox_clipdata.SelectedItem.ToString().Split('-')[0].Trim()) switch
+            {
+                "0" => Resources.shortcut_air,
+                "10" => Resources.shortcut_solid,
+                "11" => Resources.shortcut_slope45_pos,
+                "12" => Resources.shortcut_slope45_neg,
+                "13" => Resources.shortcut_slope27_Lpos,
+                "14" => Resources.shortcut_slope27_Upos,
+                "15" => Resources.shortcut_slope27_Lneg,
+                "16" => Resources.shortcut_slope27_Uneg,
+                "1B" => Resources.shortcut_water,
+                "1C" => Resources.shortcut_wet,
+                "1D" => Resources.shortcut_dusty,
+                "20" => Resources.shortcut_trans_door,
+                "27" => Resources.shortcut_trans_up,
+                "28" => Resources.shortcut_trans_down,
+                "2C" => Resources.shortcut_bubbly,
+                "2D" => Resources.shortcut_dusty_very,
+                "50" => Resources.shortcut_shot_TL,
+                "51" => Resources.shortcut_shot_TR,
+                "52" => Resources.shortcut_shot,
+                "53" => Version.IsMF ? Resources.shortcut_shot : Resources.shortcut_shot_TL,
+                "54" => Version.IsMF ? Resources.shortcut_missile_block : Resources.shortcut_shot_TR,
+                "55" => Version.IsMF ? Resources.shortcut_bomb : Resources.shortcut_shot,
+                "56" => Version.IsMF ? Resources.shortcut_bomb : Resources.shortcut_crumble,
+                "57" => Version.IsMF ? Resources.shortcut_power_block : Resources.shortcut_bomb,
+                "58" => Version.IsMF ? Resources.shortcut_speed : Resources.shortcut_missile_block,
+                "59" => Version.IsMF ? Resources.shortcut_screw : Resources.shortcut_super_block,
+                "5A" => Version.IsMF ? Resources.shortcut_crumble : Resources.shortcut_speed,
+                "5B" => Version.IsMF ? Resources.shortcut_shot : Resources.shortcut_power_block,
+                "5C" => Version.IsMF ? Resources.shortcut_shot_TL : Resources.shortcut_energy,
+                "5D" => Version.IsMF ? Resources.shortcut_shot_TR : Resources.shortcut_missile,
+                "5E" => Version.IsMF ? Resources.shortcut_missile_block : Resources.shortcut_super,
+                "5F" => Version.IsMF ? null : Resources.shortcut_power,
+                "60" => Resources.shortcut_shot_BL,
+                "61" => Resources.shortcut_shot_BR,
+                "62" => Version.IsMF ? Resources.shortcut_missile : Resources.shortcut_shot,
+                "63" => Version.IsMF ? Resources.shortcut_energy : Resources.shortcut_shot_BL,
+                "64" => Version.IsMF ? Resources.shortcut_missile_hidden : Resources.shortcut_shot_BR,
+                "65" => Version.IsMF ? Resources.shortcut_energy_hidden : null,
+                "66" => Version.IsMF ? Resources.shortcut_missile_water : Resources.shortcut_crumble_slow,
+                "67" => Version.IsMF ? Resources.shortcut_energy_water : Resources.shortcut_bomb,
+                "68" => Version.IsMF ? Resources.shortcut_power : Resources.shortcut_missile_block,
+                "69" => Version.IsMF ? Resources.shortcut_power_hidden : Resources.shortcut_super_block,
+                "6A" => Version.IsMF ? Resources.shortcut_power_water : Resources.shortcut_speed,
+                "6B" => Version.IsMF ? Resources.shortcut_speed : Resources.shortcut_screw,
+                "6C" => Version.IsMF ? Resources.shortcut_shot_BL : Resources.shortcut_energy_hidden,
+                "6D" => Version.IsMF ? Resources.shortcut_shot_BR : Resources.shortcut_missile_hidden,
+                "6E" => Version.IsMF ? null : Resources.shortcut_super_hidden,
+                "6F" => Version.IsMF ? null : Resources.shortcut_power_hidden,
+                "7C" => Version.IsMF ? null : Resources.shortcut_energy_water,
+                "7D" => Version.IsMF ? null : Resources.shortcut_missile_water,
+                "7E" => Version.IsMF ? null : Resources.shortcut_super_water,
+                "7F" => Version.IsMF ? null : Resources.shortcut_power_water,
+                "A0" => Version.IsMF ? null : Resources.shortcut_lava_weak,
+                "A1" => Version.IsMF ? null : Resources.shortcut_lava_strong,
+                "A2" => Version.IsMF ? null : Resources.shortcut_acid,
+                _ => null,
+            };
+        }
     }
 }

@@ -157,6 +157,7 @@
             this.menuItem_decimal = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator21 = new System.Windows.Forms.ToolStripSeparator();
             this.menuItem_tooltips = new System.Windows.Forms.ToolStripMenuItem();
+            this.changeEmulatorPathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip_help = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_viewHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_about = new System.Windows.Forms.ToolStripMenuItem();
@@ -986,7 +987,8 @@
             this.menuItem_defaultView,
             this.menuItem_numberBase,
             this.toolStripSeparator21,
-            this.menuItem_tooltips});
+            this.menuItem_tooltips,
+            this.changeEmulatorPathToolStripMenuItem});
             this.menuStrip_options.Name = "menuStrip_options";
             // 
             // menuItem_defaultView
@@ -1138,6 +1140,12 @@
             resources.ApplyResources(this.menuItem_tooltips, "menuItem_tooltips");
             this.menuItem_tooltips.Name = "menuItem_tooltips";
             this.menuItem_tooltips.Click += new System.EventHandler(this.menuItem_tooltips_Click);
+            // 
+            // changeEmulatorPathToolStripMenuItem
+            // 
+            resources.ApplyResources(this.changeEmulatorPathToolStripMenuItem, "changeEmulatorPathToolStripMenuItem");
+            this.changeEmulatorPathToolStripMenuItem.Name = "changeEmulatorPathToolStripMenuItem";
+            this.changeEmulatorPathToolStripMenuItem.Click += new System.EventHandler(this.changeEmulatorPathToolStripMenuItem_Click);
             // 
             // menuStrip_help
             // 
@@ -2047,6 +2055,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuItem_viewClipValues;
         private System.Windows.Forms.ToolStripMenuItem menuItem_defaultClipValues;
         private System.Windows.Forms.Button button_Clip;
+        private System.Windows.Forms.ToolStripMenuItem changeEmulatorPathToolStripMenuItem;
     }
 }
 

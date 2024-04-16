@@ -734,7 +734,7 @@
     <value>屏幕边线</value>
   </data>
   <data name="menuItem_defaultView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="menuItem_defaultView.Text" xml:space="preserve">
     <value>默认视图</value>
@@ -752,19 +752,25 @@
     <value>十进制</value>
   </data>
   <data name="menuItem_numberBase.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="menuItem_numberBase.Text" xml:space="preserve">
     <value>进制</value>
   </data>
   <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 6</value>
+    <value>177, 6</value>
   </data>
   <data name="menuItem_tooltips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="menuItem_tooltips.Text" xml:space="preserve">
     <value>禁用工具提示</value>
+  </data>
+  <data name="changeEmulatorPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="changeEmulatorPathToolStripMenuItem.Text" xml:space="preserve">
+    <value>更改模拟器路径</value>
   </data>
   <data name="menuStrip_options.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>

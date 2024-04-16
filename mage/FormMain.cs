@@ -2517,5 +2517,17 @@ namespace mage
                 _ => null,
             };
         }
+
+        private void changeEmulatorPathToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // get emulator path
+            var ofd = new OpenFileDialog();
+            ofd.Filter = Resources.Utility_Test_EmuFilterText;
+            if (ofd.ShowDialog() != DialogResult.OK)
+                return;
+
+            Settings.Default.emulatorPath = ofd.FileName;
+            Settings.Default.Save();
+        }
     }
 }

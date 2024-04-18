@@ -2473,6 +2473,66 @@ namespace mage.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap shortcut_hatch_blue {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_hatch_blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_hatch_green {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_hatch_green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_hatch_grey {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_hatch_grey", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_hatch_red {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_hatch_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_hatch_white {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_hatch_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_hatch_yellow {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_hatch_yellow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap shortcut_lava_strong {
             get {
                 object obj = ResourceManager.GetObject("shortcut_lava_strong", resourceCulture);

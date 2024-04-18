@@ -240,6 +240,7 @@
             this.toolStrip_tileBuilder = new System.Windows.Forms.ToolStripButton();
             this.toolStrip_add = new System.Windows.Forms.ToolStripButton();
             this.toolStrip_patches = new System.Windows.Forms.ToolStripButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.menuStrip.SuspendLayout();
             this.groupBox_location.SuspendLayout();
             this.groupBox_tileset.SuspendLayout();
@@ -266,6 +267,7 @@
             this.menuStrip_help});
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolTip.SetToolTip(this.menuStrip, resources.GetString("menuStrip.ToolTip"));
             // 
             // menuStrip_file
             // 
@@ -1176,6 +1178,7 @@
             this.groupBox_location.Controls.Add(this.label_room);
             this.groupBox_location.Name = "groupBox_location";
             this.groupBox_location.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox_location, resources.GetString("groupBox_location.ToolTip"));
             // 
             // comboBox_room
             // 
@@ -1183,6 +1186,7 @@
             this.comboBox_room.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_room.FormattingEnabled = true;
             this.comboBox_room.Name = "comboBox_room";
+            this.toolTip.SetToolTip(this.comboBox_room, resources.GetString("comboBox_room.ToolTip"));
             this.comboBox_room.SelectedIndexChanged += new System.EventHandler(this.comboBox_room_SelectedIndexChanged);
             this.comboBox_room.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox_KeyPress);
             // 
@@ -1192,6 +1196,7 @@
             this.comboBox_area.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_area.FormattingEnabled = true;
             this.comboBox_area.Name = "comboBox_area";
+            this.toolTip.SetToolTip(this.comboBox_area, resources.GetString("comboBox_area.ToolTip"));
             this.comboBox_area.SelectedIndexChanged += new System.EventHandler(this.comboBox_area_SelectedIndexChanged);
             this.comboBox_area.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox_KeyPress);
             // 
@@ -1199,11 +1204,13 @@
             // 
             resources.ApplyResources(this.label_area, "label_area");
             this.label_area.Name = "label_area";
+            this.toolTip.SetToolTip(this.label_area, resources.GetString("label_area.ToolTip"));
             // 
             // label_room
             // 
             resources.ApplyResources(this.label_room, "label_room");
             this.label_room.Name = "label_room";
+            this.toolTip.SetToolTip(this.label_room, resources.GetString("label_room.ToolTip"));
             // 
             // groupBox_tileset
             // 
@@ -1214,12 +1221,14 @@
             this.groupBox_tileset.Controls.Add(this.panel_tileset);
             this.groupBox_tileset.Name = "groupBox_tileset";
             this.groupBox_tileset.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox_tileset, resources.GetString("groupBox_tileset.ToolTip"));
             // 
             // button_Clip
             // 
             resources.ApplyResources(this.button_Clip, "button_Clip");
             this.button_Clip.Image = global::mage.Properties.Resources.shortcut_air;
             this.button_Clip.Name = "button_Clip";
+            this.toolTip.SetToolTip(this.button_Clip, resources.GetString("button_Clip.ToolTip"));
             this.button_Clip.UseVisualStyleBackColor = true;
             this.button_Clip.Click += new System.EventHandler(this.menuItem_clipShortcuts_Click);
             // 
@@ -1229,24 +1238,28 @@
             this.comboBox_clipdata.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_clipdata.FormattingEnabled = true;
             this.comboBox_clipdata.Name = "comboBox_clipdata";
+            this.toolTip.SetToolTip(this.comboBox_clipdata, resources.GetString("comboBox_clipdata.ToolTip"));
             this.comboBox_clipdata.SelectedIndexChanged += new System.EventHandler(this.comboBox_clipdata_SelectedIndexChanged);
             // 
             // label_clipdata
             // 
             resources.ApplyResources(this.label_clipdata, "label_clipdata");
             this.label_clipdata.Name = "label_clipdata";
+            this.toolTip.SetToolTip(this.label_clipdata, resources.GetString("label_clipdata.ToolTip"));
             // 
             // panel_tileset
             // 
             resources.ApplyResources(this.panel_tileset, "panel_tileset");
             this.panel_tileset.Controls.Add(this.tileView);
             this.panel_tileset.Name = "panel_tileset";
+            this.toolTip.SetToolTip(this.panel_tileset, resources.GetString("panel_tileset.ToolTip"));
             // 
             // tileView
             // 
             resources.ApplyResources(this.tileView, "tileView");
             this.tileView.Name = "tileView";
             this.tileView.TabStop = false;
+            this.toolTip.SetToolTip(this.tileView, resources.GetString("tileView.ToolTip"));
             this.tileView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tileView_MouseDown);
             this.tileView.MouseLeave += new System.EventHandler(this.tileView_MouseLeave);
             this.tileView.MouseMove += new System.Windows.Forms.MouseEventHandler(this.tileView_MouseMove);
@@ -1258,12 +1271,14 @@
             this.groupBox_room.Controls.Add(this.panel_room);
             this.groupBox_room.Name = "groupBox_room";
             this.groupBox_room.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox_room, resources.GetString("groupBox_room.ToolTip"));
             // 
             // panel_room
             // 
             resources.ApplyResources(this.panel_room, "panel_room");
             this.panel_room.Controls.Add(this.roomView);
             this.panel_room.Name = "panel_room";
+            this.toolTip.SetToolTip(this.panel_room, resources.GetString("panel_room.ToolTip"));
             // 
             // roomView
             // 
@@ -1271,6 +1286,7 @@
             this.roomView.ContextMenuStrip = this.contextMenu;
             this.roomView.Name = "roomView";
             this.roomView.TabStop = false;
+            this.toolTip.SetToolTip(this.roomView, resources.GetString("roomView.ToolTip"));
             this.roomView.DoubleClick += new System.EventHandler(this.roomView_DoubleClick);
             this.roomView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.roomView_MouseDown);
             this.roomView.MouseLeave += new System.EventHandler(this.roomView_MouseLeave);
@@ -1295,6 +1311,7 @@
             this.toolStripSeparator14,
             this.contextItem_testRoom});
             this.contextMenu.Name = "contextMenu";
+            this.toolTip.SetToolTip(this.contextMenu, resources.GetString("contextMenu.ToolTip"));
             this.contextMenu.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenu_Opening);
             // 
             // contextItem_addSprite
@@ -1381,11 +1398,13 @@
             this.groupBox_viewBG.Controls.Add(this.checkBox_viewBG0);
             this.groupBox_viewBG.Name = "groupBox_viewBG";
             this.groupBox_viewBG.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox_viewBG, resources.GetString("groupBox_viewBG.ToolTip"));
             // 
             // checkBox_viewBG3
             // 
             resources.ApplyResources(this.checkBox_viewBG3, "checkBox_viewBG3");
             this.checkBox_viewBG3.Name = "checkBox_viewBG3";
+            this.toolTip.SetToolTip(this.checkBox_viewBG3, resources.GetString("checkBox_viewBG3.ToolTip"));
             this.checkBox_viewBG3.UseVisualStyleBackColor = true;
             this.checkBox_viewBG3.CheckedChanged += new System.EventHandler(this.checkBox_viewBG3_CheckedChanged);
             // 
@@ -1393,6 +1412,7 @@
             // 
             resources.ApplyResources(this.checkBox_viewBG2, "checkBox_viewBG2");
             this.checkBox_viewBG2.Name = "checkBox_viewBG2";
+            this.toolTip.SetToolTip(this.checkBox_viewBG2, resources.GetString("checkBox_viewBG2.ToolTip"));
             this.checkBox_viewBG2.UseVisualStyleBackColor = true;
             this.checkBox_viewBG2.CheckedChanged += new System.EventHandler(this.checkBox_viewBG2_CheckedChanged);
             // 
@@ -1400,6 +1420,7 @@
             // 
             resources.ApplyResources(this.checkBox_viewBG1, "checkBox_viewBG1");
             this.checkBox_viewBG1.Name = "checkBox_viewBG1";
+            this.toolTip.SetToolTip(this.checkBox_viewBG1, resources.GetString("checkBox_viewBG1.ToolTip"));
             this.checkBox_viewBG1.UseVisualStyleBackColor = true;
             this.checkBox_viewBG1.CheckedChanged += new System.EventHandler(this.checkBox_viewBG1_CheckedChanged);
             // 
@@ -1407,6 +1428,7 @@
             // 
             resources.ApplyResources(this.checkBox_viewBG0, "checkBox_viewBG0");
             this.checkBox_viewBG0.Name = "checkBox_viewBG0";
+            this.toolTip.SetToolTip(this.checkBox_viewBG0, resources.GetString("checkBox_viewBG0.ToolTip"));
             this.checkBox_viewBG0.UseVisualStyleBackColor = true;
             this.checkBox_viewBG0.CheckedChanged += new System.EventHandler(this.checkBox_viewBG0_CheckedChanged);
             // 
@@ -1419,11 +1441,13 @@
             this.groupBox_editBG.Controls.Add(this.checkBox_editCLP);
             this.groupBox_editBG.Name = "groupBox_editBG";
             this.groupBox_editBG.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox_editBG, resources.GetString("groupBox_editBG.ToolTip"));
             // 
             // checkBox_editBG2
             // 
             resources.ApplyResources(this.checkBox_editBG2, "checkBox_editBG2");
             this.checkBox_editBG2.Name = "checkBox_editBG2";
+            this.toolTip.SetToolTip(this.checkBox_editBG2, resources.GetString("checkBox_editBG2.ToolTip"));
             this.checkBox_editBG2.UseVisualStyleBackColor = true;
             this.checkBox_editBG2.CheckedChanged += new System.EventHandler(this.checkBox_editBG2_CheckedChanged);
             // 
@@ -1431,6 +1455,7 @@
             // 
             resources.ApplyResources(this.checkBox_editBG1, "checkBox_editBG1");
             this.checkBox_editBG1.Name = "checkBox_editBG1";
+            this.toolTip.SetToolTip(this.checkBox_editBG1, resources.GetString("checkBox_editBG1.ToolTip"));
             this.checkBox_editBG1.UseVisualStyleBackColor = true;
             this.checkBox_editBG1.CheckedChanged += new System.EventHandler(this.checkBox_editBG1_CheckedChanged);
             // 
@@ -1438,6 +1463,7 @@
             // 
             resources.ApplyResources(this.checkBox_editBG0, "checkBox_editBG0");
             this.checkBox_editBG0.Name = "checkBox_editBG0";
+            this.toolTip.SetToolTip(this.checkBox_editBG0, resources.GetString("checkBox_editBG0.ToolTip"));
             this.checkBox_editBG0.UseVisualStyleBackColor = true;
             this.checkBox_editBG0.CheckedChanged += new System.EventHandler(this.checkBox_editBG0_CheckedChanged);
             // 
@@ -1445,6 +1471,7 @@
             // 
             resources.ApplyResources(this.checkBox_editCLP, "checkBox_editCLP");
             this.checkBox_editCLP.Name = "checkBox_editCLP";
+            this.toolTip.SetToolTip(this.checkBox_editCLP, resources.GetString("checkBox_editCLP.ToolTip"));
             this.checkBox_editCLP.UseVisualStyleBackColor = true;
             this.checkBox_editCLP.CheckedChanged += new System.EventHandler(this.checkBox_editCLP_CheckedChanged);
             // 
@@ -1457,6 +1484,7 @@
             this.statusLabel_clip});
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.ShowItemToolTips = true;
+            this.toolTip.SetToolTip(this.statusStrip, resources.GetString("statusStrip.ToolTip"));
             // 
             // statusLabel_coor
             // 
@@ -1482,6 +1510,7 @@
             // 
             resources.ApplyResources(this.label_spriteset, "label_spriteset");
             this.label_spriteset.Name = "label_spriteset";
+            this.toolTip.SetToolTip(this.label_spriteset, resources.GetString("label_spriteset.ToolTip"));
             // 
             // comboBox_spriteset
             // 
@@ -1489,6 +1518,7 @@
             this.comboBox_spriteset.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_spriteset.FormattingEnabled = true;
             this.comboBox_spriteset.Name = "comboBox_spriteset";
+            this.toolTip.SetToolTip(this.comboBox_spriteset, resources.GetString("comboBox_spriteset.ToolTip"));
             this.comboBox_spriteset.SelectedIndexChanged += new System.EventHandler(this.comboBox_spriteset_SelectedIndexChanged);
             // 
             // toolStrip
@@ -1532,6 +1562,7 @@
             this.toolStrip_patches});
             this.toolStrip.Name = "toolStrip";
             this.toolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolTip.SetToolTip(this.toolStrip, resources.GetString("toolStrip.ToolTip"));
             // 
             // toolStrip_open
             // 
@@ -1817,6 +1848,7 @@
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "FormMain";
+            this.toolTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.FormMain_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.FormMain_DragEnter);
@@ -2056,6 +2088,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuItem_defaultClipValues;
         private System.Windows.Forms.Button button_Clip;
         private System.Windows.Forms.ToolStripMenuItem changeEmulatorPathToolStripMenuItem;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }
 

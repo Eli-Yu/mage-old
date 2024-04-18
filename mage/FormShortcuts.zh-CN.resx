@@ -464,7 +464,7 @@
     <value>121, 234</value>
   </data>
   <data name="groupBox_slopes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 135</value>
+    <value>79, 135</value>
   </data>
   <data name="groupBox_slopes.Text" xml:space="preserve">
     <value>斜坡</value>
@@ -515,10 +515,10 @@
     <value>炸弹砖块（永不恢复）</value>
   </data>
   <data name="groupBox_breakable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 179</value>
+    <value>206, 179</value>
   </data>
   <data name="groupBox_breakable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 217</value>
+    <value>189, 217</value>
   </data>
   <data name="groupBox_breakable.Text" xml:space="preserve">
     <value>可破坏</value>
@@ -528,15 +528,6 @@
   </data>
   <data name="button_missile_block_never.Size" type="System.Drawing.Size, System.Drawing">
     <value>24, 24</value>
-  </data>
-  <data name="label_missile_block_never.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 136</value>
-  </data>
-  <data name="label_missile_block_never.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 13</value>
-  </data>
-  <data name="label_missile_block_never.Text" xml:space="preserve">
-    <value>砖块（永不恢复）</value>
   </data>
   <data name="button_missile_water.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 75</value>
@@ -568,11 +559,20 @@
   <data name="label_missile_hidden.Text" xml:space="preserve">
     <value>隐藏</value>
   </data>
+  <data name="label_missile_block_never.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 136</value>
+  </data>
+  <data name="label_missile_block_never.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label_missile_block_never.Text" xml:space="preserve">
+    <value>砖块（永不恢复）</value>
+  </data>
   <data name="groupBox_missile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 12</value>
+    <value>206, 12</value>
   </data>
   <data name="groupBox_missile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 161</value>
+    <value>150, 161</value>
   </data>
   <data name="groupBox_missile.Text" xml:space="preserve">
     <value>导弹</value>
@@ -611,7 +611,7 @@
     <value>121, 12</value>
   </data>
   <data name="groupBox_energy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 105</value>
+    <value>79, 105</value>
   </data>
   <data name="groupBox_energy.Text" xml:space="preserve">
     <value>能量包</value>
@@ -662,10 +662,10 @@
     <value>砖块（永不恢复）</value>
   </data>
   <data name="groupBox_super.Location" type="System.Drawing.Point, System.Drawing">
-    <value>381, 12</value>
+    <value>362, 12</value>
   </data>
   <data name="groupBox_super.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 161</value>
+    <value>154, 161</value>
   </data>
   <data name="groupBox_super.Text" xml:space="preserve">
     <value>超级导弹</value>
@@ -701,10 +701,10 @@
     <value>隐藏</value>
   </data>
   <data name="groupBox_power.Location" type="System.Drawing.Point, System.Drawing">
-    <value>531, 12</value>
+    <value>522, 12</value>
   </data>
   <data name="groupBox_power.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 133</value>
+    <value>153, 133</value>
   </data>
   <data name="groupBox_power.Text" xml:space="preserve">
     <value>重磅炸弹</value>
@@ -758,7 +758,7 @@
     <value>121, 124</value>
   </data>
   <data name="groupBox_transitions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 105</value>
+    <value>79, 105</value>
   </data>
   <data name="groupBox_transitions.Text" xml:space="preserve">
     <value>转移</value>
@@ -929,13 +929,94 @@
     <value>光束砖块（不恢复）</value>
   </data>
   <data name="groupBox_shot.Location" type="System.Drawing.Point, System.Drawing">
-    <value>441, 179</value>
+    <value>401, 179</value>
   </data>
   <data name="groupBox_shot.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 217</value>
   </data>
   <data name="groupBox_shot.Text" xml:space="preserve">
     <value>光束砖块</value>
+  </data>
+  <data name="label_grey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 185</value>
+  </data>
+  <data name="label_grey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_grey.Text" xml:space="preserve">
+    <value>灰门</value>
+  </data>
+  <data name="button_grey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 179</value>
+  </data>
+  <data name="label_yellow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 154</value>
+  </data>
+  <data name="label_yellow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_yellow.Text" xml:space="preserve">
+    <value>黄门</value>
+  </data>
+  <data name="button_yellow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 148</value>
+  </data>
+  <data name="label_green.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 123</value>
+  </data>
+  <data name="label_green.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_green.Text" xml:space="preserve">
+    <value>绿门</value>
+  </data>
+  <data name="button_green.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 117</value>
+  </data>
+  <data name="label_red.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 93</value>
+  </data>
+  <data name="label_red.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_red.Text" xml:space="preserve">
+    <value>红门</value>
+  </data>
+  <data name="button_red.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 86</value>
+  </data>
+  <data name="label_blue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 61</value>
+  </data>
+  <data name="label_blue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_blue.Text" xml:space="preserve">
+    <value>蓝门</value>
+  </data>
+  <data name="button_blue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 55</value>
+  </data>
+  <data name="label_white.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 30</value>
+  </data>
+  <data name="label_white.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_white.Text" xml:space="preserve">
+    <value>白门</value>
+  </data>
+  <data name="button_white.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 24</value>
+  </data>
+  <data name="groupBox_hatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 179</value>
+  </data>
+  <data name="groupBox_hatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 217</value>
+  </data>
+  <data name="groupBox_hatch.Text" xml:space="preserve">
+    <value>舱门</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>

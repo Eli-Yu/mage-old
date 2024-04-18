@@ -85,11 +85,11 @@
             this.label_bomb_never = new System.Windows.Forms.Label();
             this.groupBox_missile = new System.Windows.Forms.GroupBox();
             this.button_missile_block_never = new System.Windows.Forms.Button();
-            this.label_missile_block_never = new System.Windows.Forms.Label();
             this.button_missile_water = new System.Windows.Forms.Button();
             this.label_missile_water = new System.Windows.Forms.Label();
             this.button_missile_hidden = new System.Windows.Forms.Button();
             this.label_missile_hidden = new System.Windows.Forms.Label();
+            this.label_missile_block_never = new System.Windows.Forms.Label();
             this.groupBox_energy = new System.Windows.Forms.GroupBox();
             this.button_energy_water = new System.Windows.Forms.Button();
             this.label_energy_water = new System.Windows.Forms.Label();
@@ -138,6 +138,19 @@
             this.label_shot_never = new System.Windows.Forms.Label();
             this.button_shot_no = new System.Windows.Forms.Button();
             this.label_shot_no = new System.Windows.Forms.Label();
+            this.groupBox_hatch = new System.Windows.Forms.GroupBox();
+            this.label_grey = new System.Windows.Forms.Label();
+            this.button_grey = new System.Windows.Forms.Button();
+            this.label_yellow = new System.Windows.Forms.Label();
+            this.button_yellow = new System.Windows.Forms.Button();
+            this.label_green = new System.Windows.Forms.Label();
+            this.button_green = new System.Windows.Forms.Button();
+            this.label_red = new System.Windows.Forms.Label();
+            this.button_red = new System.Windows.Forms.Button();
+            this.label_blue = new System.Windows.Forms.Label();
+            this.button_blue = new System.Windows.Forms.Button();
+            this.label_white = new System.Windows.Forms.Label();
+            this.button_white = new System.Windows.Forms.Button();
             this.groupBox_basic.SuspendLayout();
             this.groupBox_ground.SuspendLayout();
             this.groupBox_slopes.SuspendLayout();
@@ -149,6 +162,7 @@
             this.groupBox_transitions.SuspendLayout();
             this.groupBox_liquids.SuspendLayout();
             this.groupBox_shot.SuspendLayout();
+            this.groupBox_hatch.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_air
@@ -564,11 +578,6 @@
             this.button_missile_block_never.UseVisualStyleBackColor = true;
             this.button_missile_block_never.Click += new System.EventHandler(this.button_missile_block_never_Click);
             // 
-            // label_missile_block_never
-            // 
-            resources.ApplyResources(this.label_missile_block_never, "label_missile_block_never");
-            this.label_missile_block_never.Name = "label_missile_block_never";
-            // 
             // button_missile_water
             // 
             resources.ApplyResources(this.button_missile_water, "button_missile_water");
@@ -594,6 +603,11 @@
             // 
             resources.ApplyResources(this.label_missile_hidden, "label_missile_hidden");
             this.label_missile_hidden.Name = "label_missile_hidden";
+            // 
+            // label_missile_block_never
+            // 
+            resources.ApplyResources(this.label_missile_block_never, "label_missile_block_never");
+            this.label_missile_block_never.Name = "label_missile_block_never";
             // 
             // groupBox_energy
             // 
@@ -967,10 +981,107 @@
             resources.ApplyResources(this.label_shot_no, "label_shot_no");
             this.label_shot_no.Name = "label_shot_no";
             // 
+            // groupBox_hatch
+            // 
+            resources.ApplyResources(this.groupBox_hatch, "groupBox_hatch");
+            this.groupBox_hatch.Controls.Add(this.label_grey);
+            this.groupBox_hatch.Controls.Add(this.button_grey);
+            this.groupBox_hatch.Controls.Add(this.label_yellow);
+            this.groupBox_hatch.Controls.Add(this.button_yellow);
+            this.groupBox_hatch.Controls.Add(this.label_green);
+            this.groupBox_hatch.Controls.Add(this.button_green);
+            this.groupBox_hatch.Controls.Add(this.label_red);
+            this.groupBox_hatch.Controls.Add(this.button_red);
+            this.groupBox_hatch.Controls.Add(this.label_blue);
+            this.groupBox_hatch.Controls.Add(this.button_blue);
+            this.groupBox_hatch.Controls.Add(this.label_white);
+            this.groupBox_hatch.Controls.Add(this.button_white);
+            this.groupBox_hatch.Name = "groupBox_hatch";
+            this.groupBox_hatch.TabStop = false;
+            // 
+            // label_grey
+            // 
+            resources.ApplyResources(this.label_grey, "label_grey");
+            this.label_grey.Name = "label_grey";
+            // 
+            // button_grey
+            // 
+            resources.ApplyResources(this.button_grey, "button_grey");
+            this.button_grey.Image = global::mage.Properties.Resources.shortcut_hatch_grey;
+            this.button_grey.Name = "button_grey";
+            this.button_grey.UseVisualStyleBackColor = true;
+            this.button_grey.Click += new System.EventHandler(this.button_grey_Click);
+            // 
+            // label_yellow
+            // 
+            resources.ApplyResources(this.label_yellow, "label_yellow");
+            this.label_yellow.Name = "label_yellow";
+            // 
+            // button_yellow
+            // 
+            resources.ApplyResources(this.button_yellow, "button_yellow");
+            this.button_yellow.Image = global::mage.Properties.Resources.shortcut_hatch_yellow;
+            this.button_yellow.Name = "button_yellow";
+            this.button_yellow.UseVisualStyleBackColor = true;
+            this.button_yellow.Click += new System.EventHandler(this.button_yellow_Click);
+            // 
+            // label_green
+            // 
+            resources.ApplyResources(this.label_green, "label_green");
+            this.label_green.Name = "label_green";
+            // 
+            // button_green
+            // 
+            resources.ApplyResources(this.button_green, "button_green");
+            this.button_green.Image = global::mage.Properties.Resources.shortcut_hatch_green;
+            this.button_green.Name = "button_green";
+            this.button_green.UseVisualStyleBackColor = true;
+            this.button_green.Click += new System.EventHandler(this.button_green_Click);
+            // 
+            // label_red
+            // 
+            resources.ApplyResources(this.label_red, "label_red");
+            this.label_red.Name = "label_red";
+            // 
+            // button_red
+            // 
+            resources.ApplyResources(this.button_red, "button_red");
+            this.button_red.Image = global::mage.Properties.Resources.shortcut_hatch_red;
+            this.button_red.Name = "button_red";
+            this.button_red.UseVisualStyleBackColor = true;
+            this.button_red.Click += new System.EventHandler(this.button_red_Click);
+            // 
+            // label_blue
+            // 
+            resources.ApplyResources(this.label_blue, "label_blue");
+            this.label_blue.Name = "label_blue";
+            // 
+            // button_blue
+            // 
+            resources.ApplyResources(this.button_blue, "button_blue");
+            this.button_blue.Image = global::mage.Properties.Resources.shortcut_hatch_blue;
+            this.button_blue.Name = "button_blue";
+            this.button_blue.UseVisualStyleBackColor = true;
+            this.button_blue.Click += new System.EventHandler(this.button_blue_Click);
+            // 
+            // label_white
+            // 
+            resources.ApplyResources(this.label_white, "label_white");
+            this.label_white.Name = "label_white";
+            // 
+            // button_white
+            // 
+            resources.ApplyResources(this.button_white, "button_white");
+            this.button_white.Image = global::mage.Properties.Resources.shortcut_hatch_white;
+            this.button_white.Name = "button_white";
+            this.button_white.UseVisualStyleBackColor = true;
+            this.button_white.Click += new System.EventHandler(this.button_white_Click);
+            // 
             // FormShortcuts
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupBox_hatch);
             this.Controls.Add(this.groupBox_power);
             this.Controls.Add(this.groupBox_energy);
             this.Controls.Add(this.groupBox_breakable);
@@ -983,7 +1094,9 @@
             this.Controls.Add(this.groupBox_ground);
             this.Controls.Add(this.groupBox_basic);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.KeyPreview = true;
             this.Name = "FormShortcuts";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormShortcuts_KeyDown);
             this.groupBox_basic.ResumeLayout(false);
             this.groupBox_basic.PerformLayout();
             this.groupBox_ground.ResumeLayout(false);
@@ -1006,6 +1119,8 @@
             this.groupBox_liquids.PerformLayout();
             this.groupBox_shot.ResumeLayout(false);
             this.groupBox_shot.PerformLayout();
+            this.groupBox_hatch.ResumeLayout(false);
+            this.groupBox_hatch.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1121,5 +1236,18 @@
         private System.Windows.Forms.Label label_shot_never;
         private System.Windows.Forms.Button button_shot_no;
         private System.Windows.Forms.Label label_shot_no;
+        private System.Windows.Forms.GroupBox groupBox_hatch;
+        private System.Windows.Forms.Label label_yellow;
+        private System.Windows.Forms.Button button_yellow;
+        private System.Windows.Forms.Label label_green;
+        private System.Windows.Forms.Button button_green;
+        private System.Windows.Forms.Label label_red;
+        private System.Windows.Forms.Button button_red;
+        private System.Windows.Forms.Label label_blue;
+        private System.Windows.Forms.Button button_blue;
+        private System.Windows.Forms.Label label_white;
+        private System.Windows.Forms.Button button_white;
+        private System.Windows.Forms.Label label_grey;
+        private System.Windows.Forms.Button button_grey;
     }
 }

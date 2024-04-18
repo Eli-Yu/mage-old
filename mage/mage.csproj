@@ -629,6 +629,12 @@
     <None Include="zh-CN\textLists.txt" />
     <None Include="zh-CN\endings.txt" />
     <None Include="Resources\Icons\toolbar_add.png" />
+    <None Include="Resources\Icons\shortcut_hatch_blue.png" />
+    <None Include="Resources\Icons\shortcut_hatch_green.png" />
+    <None Include="Resources\Icons\shortcut_hatch_red.png" />
+    <None Include="Resources\Icons\shortcut_hatch_white.png" />
+    <None Include="Resources\Icons\shortcut_hatch_yellow.png" />
+    <None Include="Resources\Icons\shortcut_hatch_grey.png" />
     <Content Include="Resources\Icons\toolbar_animation.png" />
     <Content Include="Resources\Icons\toolbar_connection.png" />
     <None Include="Resources\Icons\toolbar_demo.png" />

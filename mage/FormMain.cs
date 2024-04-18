@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
+using System.Text;
 using System.Windows.Forms;
 using mage.Properties;
 
@@ -2475,6 +2477,37 @@ namespace mage
                 "28" => Resources.shortcut_trans_down,
                 "2C" => Resources.shortcut_bubbly,
                 "2D" => Resources.shortcut_dusty_very,
+                "30" => Resources.shortcut_hatch_white,
+                "31" => Version.IsMF ? Resources.shortcut_hatch_white : null,
+                "32" => Version.IsMF ? Resources.shortcut_hatch_white : null,
+                "33" => Version.IsMF ? Resources.shortcut_hatch_white : null,
+                "34" => Version.IsMF ? Resources.shortcut_hatch_white : null,
+                "35" => Version.IsMF ? Resources.shortcut_hatch_white : null,
+                "36" => Resources.shortcut_hatch_blue,
+                "37" => Version.IsMF ? Resources.shortcut_hatch_blue : null,
+                "38" => Version.IsMF ? Resources.shortcut_hatch_blue : null,
+                "39" => Version.IsMF ? Resources.shortcut_hatch_blue : null,
+                "3A" => Version.IsMF ? Resources.shortcut_hatch_blue : null,
+                "3B" => Version.IsMF ? Resources.shortcut_hatch_blue : null,
+                "3C" => Version.IsMF ? Resources.shortcut_hatch_red : null,
+                "3D" => Version.IsMF ? Resources.shortcut_hatch_red : null,
+                "3E" => Version.IsMF ? Resources.shortcut_hatch_red : null,
+                "3F" => Version.IsMF ? Resources.shortcut_hatch_grey : null,
+                "40" => Version.IsMF ? Resources.shortcut_hatch_green : Resources.shortcut_hatch_red,
+                "41" => Version.IsMF ? Resources.shortcut_hatch_green : null,
+                "42" => Version.IsMF ? Resources.shortcut_hatch_green : null,
+                "43" => Version.IsMF ? Resources.shortcut_hatch_green : null,
+                "44" => Version.IsMF ? Resources.shortcut_hatch_green : null,
+                "45" => Version.IsMF ? Resources.shortcut_hatch_green : null,
+                "46" => Version.IsMF ? Resources.shortcut_hatch_yellow : Resources.shortcut_hatch_green,
+                "47" => Version.IsMF ? Resources.shortcut_hatch_yellow: null,
+                "48" => Version.IsMF ? Resources.shortcut_hatch_yellow : null,
+                "49" => Version.IsMF ? Resources.shortcut_hatch_yellow : null,
+                "4A" => Version.IsMF ? Resources.shortcut_hatch_yellow : null,
+                "4B" => Version.IsMF ? Resources.shortcut_hatch_yellow : null,
+                "4C" => Version.IsMF ? Resources.shortcut_hatch_red : Resources.shortcut_hatch_yellow,
+                "4D" => Version.IsMF ? Resources.shortcut_hatch_red : null,
+                "4E" => Version.IsMF ? Resources.shortcut_hatch_red : null,
                 "50" => Resources.shortcut_shot_TL,
                 "51" => Resources.shortcut_shot_TR,
                 "52" => Resources.shortcut_shot,
@@ -2507,6 +2540,14 @@ namespace mage
                 "6D" => Version.IsMF ? Resources.shortcut_shot_BR : Resources.shortcut_missile_hidden,
                 "6E" => Version.IsMF ? null : Resources.shortcut_super_hidden,
                 "6F" => Version.IsMF ? null : Resources.shortcut_power_hidden,
+                "70" => Resources.shortcut_bomb,
+                "71" => Resources.shortcut_bomb,
+                "72" => Resources.shortcut_bomb,
+                "73" => Resources.shortcut_bomb,
+                "74" => Resources.shortcut_bomb,
+                "75" => Resources.shortcut_bomb,
+                "76" => Resources.shortcut_bomb,
+                "77" => Resources.shortcut_bomb,
                 "7C" => Version.IsMF ? null : Resources.shortcut_energy_water,
                 "7D" => Version.IsMF ? null : Resources.shortcut_missile_water,
                 "7E" => Version.IsMF ? null : Resources.shortcut_super_water,
@@ -2516,6 +2557,10 @@ namespace mage
                 "A2" => Version.IsMF ? null : Resources.shortcut_acid,
                 _ => null,
             };
+            
+            //check the lenth of comboBox_clipdata.SelectItem, if too long, display tooltip
+            if (comboBox_clipdata.Width < Encoding.Default.GetByteCount(comboBox_clipdata.SelectedItem.ToString()) * comboBox_clipdata.Font.Size) toolTip.SetToolTip(comboBox_clipdata, comboBox_clipdata.SelectedItem.ToString());
+            else toolTip.SetToolTip(comboBox_clipdata, "");
         }
 
         private void changeEmulatorPathToolStripMenuItem_Click(object sender, EventArgs e)

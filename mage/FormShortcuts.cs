@@ -1,4 +1,5 @@
-﻿using System;
+﻿using mage.Properties;
+using System;
 using System.Windows.Forms;
 
 namespace mage
@@ -8,6 +9,9 @@ namespace mage
         // fields
         private bool isMF;
         private FormMain main;
+        
+        //hatch number: use to define the number of hatch in fusion
+        private byte hatchNumber = 1;
 
         // constructor
         public FormShortcuts(FormMain main)
@@ -33,6 +37,19 @@ namespace mage
                 label_acid.Enabled = false;
                 button_crumble_slow.Enabled = false;
                 label_crumble_slow.Enabled = false;
+
+                //grey hatch: navigation room use
+                button_grey.Enabled = true;
+                label_grey.Enabled = true;
+                //default hatch 1
+                foreach (Control label in groupBox_hatch.Controls)
+                {
+                    if(label is Label)
+                    {
+                        if (label == label_grey) continue;
+                        else label.Text += (" " + hatchNumber);
+                    }
+                }
             }
         }
 
@@ -349,7 +366,132 @@ namespace mage
             main.Clipdata = 0x61;
         }
         #endregion
-        
 
+        #region hatch
+        private void button_white_Click(object sender, EventArgs e)
+        {
+            if(!isMF) main.Clipdata = 0x30;
+            else
+            {
+                main.Clipdata = hatchNumber switch
+                {
+                    1 => 0x30,
+                    2 => 0x31,
+                    3 => 0x32,
+                    4 => 0x33,
+                    5 => 0x34,
+                    6 => 0x35,
+                    _ => 0x30,
+                };
+            }
+        }
+
+        private void button_blue_Click(object sender, EventArgs e)
+        {
+            if(!isMF) main.Clipdata = 0x36;
+            else
+            {
+                main.Clipdata = hatchNumber switch
+                {
+                    1 => 0x36,
+                    2 => 0x37,
+                    3 => 0x38,
+                    4 => 0x39,
+                    5 => 0x3A,
+                    6 => 0x3B,
+                    _ => 0x36,
+                };
+            }
+        }
+
+        private void button_red_Click(object sender, EventArgs e)
+        {
+            if(!isMF) main.Clipdata = 0x40;
+            else
+            {
+                main.Clipdata = hatchNumber switch
+                {
+                    1 => 0x3C,
+                    2 => 0x3D,
+                    3 => 0x3E,
+                    4 => 0x4C,
+                    5 => 0x4D,
+                    6 => 0x4E,
+                    _ => 0x3C,
+                };
+            }
+        }
+
+        private void button_green_Click(object sender, EventArgs e)
+        {
+            if (!isMF) main.Clipdata = 0x46;
+            else
+            {
+                main.Clipdata = hatchNumber switch
+                {
+                    1 => 0x40,
+                    2 => 0x41,
+                    3 => 0x42,
+                    4 => 0x43,
+                    5 => 0x44,
+                    6 => 0x45,
+                    _ => 0x40,
+                };
+            }
+        }
+
+        private void button_yellow_Click(object sender, EventArgs e)
+        {
+            if(!isMF) main.Clipdata = 0x4C;
+            else
+            {
+                main.Clipdata = hatchNumber switch
+                {
+                    1 => 0x46,
+                    2 => 0x47,
+                    3 => 0x48,
+                    4 => 0x49,
+                    5 => 0x4A,
+                    6 => 0x4B,
+                    _ => 0x46,
+                };
+            }
+        }
+
+        private void button_grey_Click(object sender, EventArgs e)
+        {
+            main.Clipdata = 0x3F;
+        }
+        #endregion
+
+        //input 1-6(inlude number pad 1-6) to select slot of hatch and modify hatch label in fusion
+        private void FormShortcuts_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(!isMF) return;
+            hatchNumber = e.KeyCode switch 
+            {
+                Keys.D1 => 1,
+                Keys.NumPad1 => 1,
+                Keys.D2 => 2,
+                Keys.NumPad2 => 2,
+                Keys.D3 => 3,
+                Keys.NumPad3 => 3,
+                Keys.D4 => 4,
+                Keys.NumPad4 => 4,
+                Keys.D5 => 5,
+                Keys.NumPad5 => 5,
+                Keys.D6 => 6,
+                Keys.NumPad6 => 6,
+                _ => 0,
+            };
+            foreach (Control label in groupBox_hatch.Controls)
+            {
+                if(label is Label)
+                {
+                    if (label == label_grey) continue;
+                    else if(hatchNumber!=0) label.Text = label.Text.Remove(label.Text.Length -1, 1) + hatchNumber;
+                }
+            }
+        }
     }
 }

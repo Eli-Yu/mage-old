@@ -138,8 +138,8 @@
   <data name="panel_tileset.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="menuItem_viewBG3.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+4</value>
+  <data name="&gt;&gt;groupBox_tileset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tileView.Name" xml:space="preserve">
     <value>tileView</value>
@@ -153,14 +153,14 @@
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>796, 24</value>
   </data>
-  <data name="&gt;&gt;menuItem_defaultBG2.Name" xml:space="preserve">
-    <value>menuItem_defaultBG2</value>
-  </data>
   <data name="contextItem_removeDoor.Text" xml:space="preserve">
     <value>Remove Door</value>
   </data>
   <data name="comboBox_clipdata.Location" type="System.Drawing.Point, System.Drawing">
     <value>60, 18</value>
+  </data>
+  <data name="menuItem_defaultClipCollision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
   </data>
   <data name="&gt;&gt;changeEmulatorPathToolStripMenuItem.Name" xml:space="preserve">
     <value>changeEmulatorPathToolStripMenuItem</value>
@@ -168,8 +168,14 @@
   <data name="&gt;&gt;menuItem_minimapEditor.Name" xml:space="preserve">
     <value>menuItem_minimapEditor</value>
   </data>
+  <data name="checkBox_editBG0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBox_editBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 16</value>
+  </data>
+  <data name="menuItem_editBG2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+3</value>
   </data>
   <data name="menuItem_defaultBG3.Text" xml:space="preserve">
     <value>BG 3</value>
@@ -183,8 +189,8 @@
   <data name="menuStrip_edit.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="toolStrip_viewSprites.Text" xml:space="preserve">
-    <value>View sprites</value>
+  <data name="groupBox_location.Text" xml:space="preserve">
+    <value>Location</value>
   </data>
   <data name="menuItem_zoomOut.Text" xml:space="preserve">
     <value>Zoom Out</value>
@@ -207,14 +213,14 @@
   <data name="&gt;&gt;groupBox_location.Name" xml:space="preserve">
     <value>groupBox_location</value>
   </data>
-  <data name="checkBox_viewBG2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;contextItem_editScroll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStrip_test.Name" xml:space="preserve">
+    <value>toolStrip_test</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox_tileset.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="toolStrip_tileBuilder.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -222,20 +228,17 @@
   <data name="menuItem_outlineSprites.Text" xml:space="preserve">
     <value>Sprite Outlines</value>
   </data>
-  <data name="label_spriteset.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;menuItem_defaultClipCollision.Name" xml:space="preserve">
+    <value>menuItem_defaultClipCollision</value>
   </data>
   <data name="contextItem_addScroll.Text" xml:space="preserve">
     <value>Add Scroll</value>
   </data>
-  <data name="toolStrip_editObjects.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="panel_tileset.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="checkBox_editBG1.Text" xml:space="preserve">
     <value>BG 1</value>
-  </data>
-  <data name="&gt;&gt;menuItem_defaultClipBreakable.Name" xml:space="preserve">
-    <value>menuItem_defaultClipBreakable</value>
   </data>
   <data name="&gt;&gt;menuItem_clipboard.Name" xml:space="preserve">
     <value>menuItem_clipboard</value>
@@ -252,9 +255,6 @@
   <data name="toolStrip_test.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;menuItem_viewAnimPal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="toolStrip_outlineDoors.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -270,8 +270,8 @@
   <data name="menuItem_import.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
   </data>
-  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;toolStrip_tileTable.Name" xml:space="preserve">
+    <value>toolStrip_tileTable</value>
   </data>
   <data name="roomView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -282,8 +282,8 @@
   <data name="toolStrip_sprite.Text" xml:space="preserve">
     <value>Sprite Editor</value>
   </data>
-  <data name="tileView.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;panel_tileset.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="menuItem_zoom800.Text" xml:space="preserve">
     <value>800%</value>
@@ -296,9 +296,6 @@
   </data>
   <data name="panel_tileset.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>273, 236</value>
-  </data>
-  <data name="contextItem_editDoor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
   </data>
   <data name="&gt;&gt;groupBox_editBG.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -318,6 +315,9 @@
   <data name="label_area.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;menuStrip_file.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;menuItem_addBG.Name" xml:space="preserve">
     <value>menuItem_addBG</value>
   </data>
@@ -327,8 +327,8 @@
   <data name="menuItem_zoom200.Text" xml:space="preserve">
     <value>200%</value>
   </data>
-  <data name="toolStrip_options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="&gt;&gt;menuItem_defaultSpriteOutlines.Name" xml:space="preserve">
+    <value>menuItem_defaultSpriteOutlines</value>
   </data>
   <data name="checkBox_editBG2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -354,8 +354,17 @@
   <data name="&gt;&gt;menuItem_zoom800.Name" xml:space="preserve">
     <value>menuItem_zoom800</value>
   </data>
+  <data name="checkBox_editCLP.Text" xml:space="preserve">
+    <value>Clip</value>
+  </data>
   <data name="menuItem_exportBG0image.Text" xml:space="preserve">
     <value>BG0 Image...</value>
+  </data>
+  <data name="checkBox_viewBG1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBox_editBG0.Text" xml:space="preserve">
+    <value>BG 0</value>
   </data>
   <data name="menuItem_defaultBG1.Text" xml:space="preserve">
     <value>BG 1</value>
@@ -387,14 +396,11 @@
   <data name="menuItem_import.Text" xml:space="preserve">
     <value>Import</value>
   </data>
-  <data name="menuItem_export.Text" xml:space="preserve">
-    <value>Export</value>
-  </data>
   <data name="&gt;&gt;menuItem_defaultDoors.Name" xml:space="preserve">
     <value>menuItem_defaultDoors</value>
   </data>
-  <data name="&gt;&gt;menuStrip_file.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuItem_editCLP.Text" xml:space="preserve">
+    <value>Clipdata</value>
   </data>
   <data name="&gt;&gt;menuItem_outlineScreens.Name" xml:space="preserve">
     <value>menuItem_outlineScreens</value>
@@ -402,20 +408,17 @@
   <data name="toolStrip_options.Text" xml:space="preserve">
     <value>Room Options</value>
   </data>
-  <data name="menuItem_editBG2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+3</value>
+  <data name="&gt;&gt;contextItem_removeDoor.Name" xml:space="preserve">
+    <value>contextItem_removeDoor</value>
   </data>
   <data name="&gt;&gt;menuItem_connectionEditor.Name" xml:space="preserve">
     <value>menuItem_connectionEditor</value>
   </data>
-  <data name="menuItem_zoomIn.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl +</value>
+  <data name="&gt;&gt;menuStrip_edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_redo.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="menuItem_saveROMas.Text" xml:space="preserve">
-    <value>Save ROM as...</value>
   </data>
   <data name="&gt;&gt;menuItem_openROM.Name" xml:space="preserve">
     <value>menuItem_openROM</value>
@@ -432,9 +435,6 @@
   <data name="menuItem_defaultClipdata.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
-  <data name="&gt;&gt;statusLabel_coor.Name" xml:space="preserve">
-    <value>statusLabel_coor</value>
-  </data>
   <data name="&gt;&gt;toolStrip_animation.Name" xml:space="preserve">
     <value>toolStrip_animation</value>
   </data>
@@ -444,11 +444,17 @@
   <data name="&gt;&gt;menuItem_viewCLP.Name" xml:space="preserve">
     <value>menuItem_viewCLP</value>
   </data>
+  <data name="checkBox_editBG1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;checkBox_editBG1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="label_area.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 12</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
+    <value>toolStrip</value>
   </data>
   <data name="&gt;&gt;toolStrip_outlineDoors.Name" xml:space="preserve">
     <value>toolStrip_outlineDoors</value>
@@ -456,11 +462,8 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_connectionEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_tileTable.Name" xml:space="preserve">
-    <value>toolStrip_tileTable</value>
+  <data name="menuItem_saveROMas.Text" xml:space="preserve">
+    <value>Save ROM as...</value>
   </data>
   <data name="&gt;&gt;toolStrip_open.Name" xml:space="preserve">
     <value>toolStrip_open</value>
@@ -468,23 +471,23 @@
   <data name="&gt;&gt;button_Clip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label_room.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBox_viewBG3.Text" xml:space="preserve">
     <value>BG 3</value>
   </data>
-  <data name="menuStrip_file.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
   <data name="&gt;&gt;contextItem_testRoom.Name" xml:space="preserve">
     <value>contextItem_testRoom</value>
+  </data>
+  <data name="toolStrip_connection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="toolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 6</value>
   </data>
   <data name="&gt;&gt;toolStrip_outlineScrolls.Name" xml:space="preserve">
     <value>toolStrip_outlineScrolls</value>
-  </data>
-  <data name="&gt;&gt;menuItem_viewClipBreakable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuStrip_tools.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -513,8 +516,8 @@
   <data name="&gt;&gt;menuItem_viewAnimPal.Name" xml:space="preserve">
     <value>menuItem_viewAnimPal</value>
   </data>
-  <data name="label_spriteset.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;contextItem_addDoor.Name" xml:space="preserve">
+    <value>contextItem_addDoor</value>
   </data>
   <data name="&gt;&gt;statusLabel_sel.Name" xml:space="preserve">
     <value>statusLabel_sel</value>
@@ -525,8 +528,8 @@
   <data name="&gt;&gt;menuItem_zoom400.Name" xml:space="preserve">
     <value>menuItem_zoom400</value>
   </data>
-  <data name="&gt;&gt;toolStrip_connection.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkBox_viewBG3.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 6</value>
@@ -543,11 +546,14 @@
   <data name="checkBox_editBG0.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 16</value>
   </data>
+  <data name="roomView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="menuItem_viewBG1.Text" xml:space="preserve">
     <value>BG 1</value>
   </data>
-  <data name="toolStrip_undo.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;menuItem_spritesetEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_patches.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -558,8 +564,8 @@
   <data name="menuItem_defaultBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
-  <data name="toolStrip_sprite.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="menuItem_compression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
   </data>
   <data name="toolStrip_animation.Text" xml:space="preserve">
     <value>Animation Editor</value>
@@ -579,8 +585,8 @@
   <data name="statusLabel_sel.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="menuItem_physicsEditor.Text" xml:space="preserve">
-    <value>Physics Editor</value>
+  <data name="&gt;&gt;menuItem_clearRecentFiles.Name" xml:space="preserve">
+    <value>menuItem_clearRecentFiles</value>
   </data>
   <data name="menuItem_addTileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 22</value>
@@ -588,8 +594,8 @@
   <data name="groupBox_tileset.Text" xml:space="preserve">
     <value>Tileset</value>
   </data>
-  <data name="menuItem_outlineScreens.Text" xml:space="preserve">
-    <value>Screen Outlines</value>
+  <data name="&gt;&gt;toolStrip_outlineSprites.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_defaultView.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -618,17 +624,20 @@
   <data name="&gt;&gt;menuItem_viewBG0.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="toolStrip_minimap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
   <data name="&gt;&gt;menuItem_testRoom.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuItem_tileTableEditor.Name" xml:space="preserve">
-    <value>menuItem_tileTableEditor</value>
   </data>
   <data name="&gt;&gt;checkBox_viewBG1.Parent" xml:space="preserve">
     <value>groupBox_viewBG</value>
   </data>
   <data name="&gt;&gt;menuItem_tileTableEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_spriteset.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;groupBox_editBG.Name" xml:space="preserve">
     <value>groupBox_editBG</value>
@@ -645,14 +654,14 @@
   <data name="statusLabel_clip.ToolTipText" xml:space="preserve">
     <value>Clipdata</value>
   </data>
-  <data name="&gt;&gt;menuItem_graphicsEditor.Name" xml:space="preserve">
-    <value>menuItem_graphicsEditor</value>
-  </data>
   <data name="&gt;&gt;toolStripSeparator23.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
+  </data>
+  <data name="menuItem_weaponEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="menuItem_editBG1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+2</value>
@@ -660,11 +669,8 @@
   <data name="&gt;&gt;toolStripSeparator20.Name" xml:space="preserve">
     <value>toolStripSeparator20</value>
   </data>
-  <data name="menuStrip_view.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_test.Name" xml:space="preserve">
-    <value>toolStrip_test</value>
+  <data name="&gt;&gt;toolStrip_sprite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStrip_outlineScrolls.Text" xml:space="preserve">
     <value>Outline scrolls</value>
@@ -675,35 +681,29 @@
   <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStrip_add.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label_room.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="comboBox_room.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;menuItem_openROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuItem_defaultClipBreakable.Name" xml:space="preserve">
+    <value>menuItem_defaultClipBreakable</value>
   </data>
   <data name="panel_tileset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;menuItem_outlineScrolls.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_editCLP.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+4</value>
   </data>
-  <data name="&gt;&gt;menuItem_defaultClipCollision.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
     <value>toolStripSeparator14</value>
   </data>
-  <data name="menuItem_compression.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
     <value>toolStripSeparator8</value>
@@ -729,8 +729,8 @@
   <data name="checkBox_editBG2.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 16</value>
   </data>
-  <data name="&gt;&gt;groupBox_viewBG.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuItem_tileTableEditor.Name" xml:space="preserve">
+    <value>menuItem_tileTableEditor</value>
   </data>
   <data name="menuItem_graphicsEditor.Text" xml:space="preserve">
     <value>Graphics Editor</value>
@@ -738,11 +738,8 @@
   <data name="menuItem_redo.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+Y</value>
   </data>
-  <data name="&gt;&gt;menuItem_tileBuilder.Name" xml:space="preserve">
-    <value>menuItem_tileBuilder</value>
-  </data>
-  <data name="changeEmulatorPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
+  <data name="&gt;&gt;menuItem_minimapEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox_editBG1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -762,20 +759,17 @@
   <data name="menuItem_outlineSprites.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F2</value>
   </data>
-  <data name="checkBox_viewBG3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 16</value>
-  </data>
   <data name="&gt;&gt;menuStrip_file.Name" xml:space="preserve">
     <value>menuStrip_file</value>
   </data>
   <data name="toolStrip_add.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
-  <data name="toolStrip_outlineSprites.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
-    <value>toolStrip</value>
+  <data name="&gt;&gt;statusLabel_coor.Name" xml:space="preserve">
+    <value>statusLabel_coor</value>
   </data>
   <data name="&gt;&gt;checkBox_editBG2.Name" xml:space="preserve">
     <value>checkBox_editBG2</value>
@@ -786,11 +780,8 @@
   <data name="checkBox_editBG2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;toolStrip_undo.Name" xml:space="preserve">
-    <value>toolStrip_undo</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuItem_defaultClipBreakable.Text" xml:space="preserve">
+    <value>Breakable</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -807,8 +798,8 @@
   <data name="menuItem_compression.Text" xml:space="preserve">
     <value>Compression</value>
   </data>
-  <data name="menuItem_viewSprites.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>F1</value>
+  <data name="menuItem_outlineScreens.Text" xml:space="preserve">
+    <value>Screen Outlines</value>
   </data>
   <data name="menuItem_defaultSpriteOutlines.Text" xml:space="preserve">
     <value>Sprite Outlines</value>
@@ -843,17 +834,11 @@
   <data name="menuItem_zoom100.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+0</value>
   </data>
-  <data name="toolStrip_editBGs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
   <data name="menuItem_viewClipBreakable.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 22</value>
   </data>
   <data name="menuItem_hexadecimal.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_redo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_viewClipCollision.Text" xml:space="preserve">
     <value>Collision</value>
@@ -867,8 +852,14 @@
   <data name="&gt;&gt;toolStrip_tileset.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="menuItem_zoomIn.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl +</value>
+  </data>
   <data name="&gt;&gt;toolStrip_redo.Name" xml:space="preserve">
     <value>toolStrip_redo</value>
+  </data>
+  <data name="checkBox_editBG2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;contextItem_editSprite.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -879,6 +870,9 @@
   <data name="&gt;&gt;menuItem_defaultClipdata.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;panel_room.Parent" xml:space="preserve">
+    <value>groupBox_room</value>
+  </data>
   <data name="&gt;&gt;groupBox_editBG.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -888,17 +882,17 @@
   <data name="&gt;&gt;menuItem_undo.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuItem_clipShortcuts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuItem_about.Name" xml:space="preserve">
+    <value>menuItem_about</value>
   </data>
-  <data name="menuItem_defaultClipBreakable.Text" xml:space="preserve">
-    <value>Breakable</value>
+  <data name="menuStrip_file.Text" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="&gt;&gt;menuItem_defaultBG1.Name" xml:space="preserve">
     <value>menuItem_defaultBG1</value>
   </data>
-  <data name="&gt;&gt;menuItem_editBG0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="toolStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="menuItem_defaultBG0.Text" xml:space="preserve">
     <value>BG 0</value>
@@ -906,20 +900,14 @@
   <data name="comboBox_area.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 20</value>
   </data>
-  <data name="&gt;&gt;statusLabel_clip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 6</value>
+  <data name="checkBox_viewBG3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
   </data>
   <data name="menuItem_clearRecentFiles.Text" xml:space="preserve">
     <value>Clear</value>
   </data>
-  <data name="&gt;&gt;menuItem_zoom100.Name" xml:space="preserve">
-    <value>menuItem_zoom100</value>
-  </data>
-  <data name="menuItem_addSpriteset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+  <data name="&gt;&gt;menuItem_editBG0.Name" xml:space="preserve">
+    <value>menuItem_editBG0</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 6</value>
@@ -936,11 +924,14 @@
   <data name="&gt;&gt;groupBox_room.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="menuItem_testRoom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+  <data name="&gt;&gt;checkBox_viewBG3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="checkBox_viewBG0.Text" xml:space="preserve">
     <value>BG 0</value>
+  </data>
+  <data name="toolStrip_graphics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="contextItem_removeDoor.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
@@ -951,6 +942,9 @@
   <data name="toolStrip_save.Text" xml:space="preserve">
     <value>Save ROM</value>
   </data>
+  <data name="menuItem_minimapEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
   <data name="&gt;&gt;menuItem_weaponEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -960,14 +954,20 @@
   <data name="&gt;&gt;menuItem_about.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="toolStrip_outlineSprites.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="label_clipdata.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="contextItem_editSprite.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
   </data>
-  <data name="&gt;&gt;contextItem_removeDoor.Name" xml:space="preserve">
-    <value>contextItem_removeDoor</value>
+  <data name="menuItem_addRoom.Text" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -977,6 +977,9 @@
   </data>
   <data name="&gt;&gt;checkBox_viewBG1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_undo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="statusLabel_sel.ToolTipText" xml:space="preserve">
     <value>Selection size</value>
@@ -1002,8 +1005,8 @@
   <data name="&gt;&gt;menuItem_viewClipCollision.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 25</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>812, 498</value>
   </data>
   <data name="menuItem_defaultClipdata.Text" xml:space="preserve">
     <value>Clipdata</value>
@@ -1026,23 +1029,20 @@
   <data name="menuItem_defaultDoors.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
-  <data name="&gt;&gt;menuItem_hexadecimal.Name" xml:space="preserve">
-    <value>menuItem_hexadecimal</value>
-  </data>
   <data name="&gt;&gt;menuItem_outlineDoors.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_paletteEditor.Text" xml:space="preserve">
-    <value>Palette Editor</value>
+  <data name="toolStrip_graphics.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;groupBox_editBG.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;menuItem_addEnemyset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_zoom400.Text" xml:space="preserve">
-    <value>400%</value>
+  <data name="toolStrip_sprite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
-  <data name="&gt;&gt;menuItem_tilesetEditor.Name" xml:space="preserve">
-    <value>menuItem_tilesetEditor</value>
+  <data name="menuItem_viewClipValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
     <value>toolStripSeparator12</value>
@@ -1077,14 +1077,17 @@
   <data name="menuItem_viewBG2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+3</value>
   </data>
-  <data name="menuItem_createBackup.Text" xml:space="preserve">
-    <value>Create Backup</value>
+  <data name="button_Clip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="tileView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;menuItem_exportRoomImage.Name" xml:space="preserve">
     <value>menuItem_exportRoomImage</value>
+  </data>
+  <data name="changeEmulatorPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
   </data>
   <data name="&gt;&gt;checkBox_viewBG2.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1104,6 +1107,9 @@
   <data name="checkBox_viewBG1.Text" xml:space="preserve">
     <value>BG 1</value>
   </data>
+  <data name="groupBox_viewBG.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;tileView.Parent" xml:space="preserve">
     <value>panel_tileset</value>
   </data>
@@ -1113,8 +1119,11 @@
   <data name="menuItem_exportTilesetImage.Text" xml:space="preserve">
     <value>Tileset Image...</value>
   </data>
-  <data name="&gt;&gt;menuItem_editBG0.Name" xml:space="preserve">
-    <value>menuItem_editBG0</value>
+  <data name="comboBox_room.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
   </data>
   <data name="menuItem_forceClipdata.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -1137,8 +1146,11 @@
   <data name="panel_room.Size" type="System.Drawing.Size, System.Drawing">
     <value>465, 363</value>
   </data>
-  <data name="contextItem_editScroll.Text" xml:space="preserve">
-    <value>Edit Scroll</value>
+  <data name="&gt;&gt;menuItem_viewAnimPal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem_viewClipBreakable.Name" xml:space="preserve">
+    <value>menuItem_viewClipBreakable</value>
   </data>
   <data name="&gt;&gt;menuItem_saveROMas.Name" xml:space="preserve">
     <value>menuItem_saveROMas</value>
@@ -1146,8 +1158,8 @@
   <data name="&gt;&gt;checkBox_viewBG1.Name" xml:space="preserve">
     <value>checkBox_viewBG1</value>
   </data>
-  <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 6</value>
+  <data name="toolStrip_viewSprites.Text" xml:space="preserve">
+    <value>View sprites</value>
   </data>
   <data name="contextItem_editScroll.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
@@ -1167,8 +1179,8 @@
   <data name="toolStrip_tileTable.Text" xml:space="preserve">
     <value>Tile Table Editor</value>
   </data>
-  <data name="&gt;&gt;menuItem_viewBG2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStrip_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="statusLabel_coor.ToolTipText" xml:space="preserve">
     <value>Coordinates</value>
@@ -1176,11 +1188,8 @@
   <data name="&gt;&gt;checkBox_editCLP.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="comboBox_clipdata.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_editBGs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuItem_undo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
   </data>
   <data name="&gt;&gt;label_area.Name" xml:space="preserve">
     <value>label_area</value>
@@ -1209,14 +1218,17 @@
   <data name="toolStrip_patches.Text" xml:space="preserve">
     <value>Patches</value>
   </data>
-  <data name="checkBox_editCLP.Text" xml:space="preserve">
-    <value>Clip</value>
+  <data name="&gt;&gt;menuItem_hexadecimal.Name" xml:space="preserve">
+    <value>menuItem_hexadecimal</value>
   </data>
   <data name="label_area.Text" xml:space="preserve">
     <value>Area:</value>
   </data>
   <data name="menuItem_decimal.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
+  </data>
+  <data name="groupBox_room.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="menuItem_exportBG.Text" xml:space="preserve">
     <value>Background...</value>
@@ -1230,11 +1242,17 @@
   <data name="statusLabel_coor.Text" xml:space="preserve">
     <value>(0, 0)</value>
   </data>
-  <data name="&gt;&gt;menuItem_motherShipHatches.Name" xml:space="preserve">
-    <value>menuItem_motherShipHatches</value>
+  <data name="panel_tileset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="menuItem_viewBG3.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+4</value>
   </data>
   <data name="&gt;&gt;comboBox_room.Name" xml:space="preserve">
     <value>comboBox_room</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator24.Name" xml:space="preserve">
+    <value>toolStripSeparator24</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator27.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1242,11 +1260,8 @@
   <data name="&gt;&gt;menuItem_defaultBG0.Name" xml:space="preserve">
     <value>menuItem_defaultBG0</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
-    <value>toolStripSeparator10</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuItem_editBG0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
   </data>
   <data name="&gt;&gt;toolStrip_header.Name" xml:space="preserve">
     <value>toolStrip_header</value>
@@ -1272,14 +1287,8 @@
   <data name="&gt;&gt;menuItem_clearRecentFiles.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuItem_addEnemyset.Type" xml:space="preserve">
+  <data name="&gt;&gt;menuItem_editBG0.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuItem_spritesetEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuItem_editCLP.Text" xml:space="preserve">
-    <value>Clipdata</value>
   </data>
   <data name="toolStrip_outlineScrolls.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -1293,9 +1302,6 @@
   <data name="&gt;&gt;menuItem_editObjects.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStrip_outlineSprites.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripSeparator25.Name" xml:space="preserve">
     <value>toolStripSeparator25</value>
   </data>
@@ -1304,6 +1310,9 @@
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 6</value>
+  </data>
+  <data name="menuItem_tilesetEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="&gt;&gt;toolStrip_tileset.Name" xml:space="preserve">
     <value>toolStrip_tileset</value>
@@ -1320,20 +1329,11 @@
   <data name="label_spriteset.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>812, 498</value>
-  </data>
   <data name="&gt;&gt;groupBox_tileset.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;menuStrip_edit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;menuItem_zoomOut.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuItem_importLZ77BGimage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
   </data>
   <data name="&gt;&gt;menuItem_addAnim.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1347,17 +1347,14 @@
   <data name="&gt;&gt;checkBox_viewBG3.Parent" xml:space="preserve">
     <value>groupBox_viewBG</value>
   </data>
-  <data name="&gt;&gt;panel_tileset.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="&gt;&gt;label_spriteset.Name" xml:space="preserve">
     <value>label_spriteset</value>
   </data>
   <data name="checkBox_viewBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 16</value>
   </data>
-  <data name="&gt;&gt;label_room.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuItem_zoom400.Text" xml:space="preserve">
+    <value>400%</value>
   </data>
   <data name="&gt;&gt;comboBox_clipdata.Parent" xml:space="preserve">
     <value>groupBox_tileset</value>
@@ -1365,17 +1362,20 @@
   <data name="label_clipdata.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;menuItem_testRoom.Name" xml:space="preserve">
-    <value>menuItem_testRoom</value>
+  <data name="&gt;&gt;toolStrip_animation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_recentFiles.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;contextItem_addSprite.Name" xml:space="preserve">
-    <value>contextItem_addSprite</value>
+  <data name="menuStrip_view.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
   </data>
-  <data name="toolStrip_graphics.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;menuItem_exportRoomImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_createBackup.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1398,23 +1398,26 @@
   <data name="&gt;&gt;menuItem_importTilesetImage.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox_editCLP.Name" xml:space="preserve">
-    <value>checkBox_editCLP</value>
+  <data name="checkBox_viewBG0.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="menuItem_viewBG0.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+1</value>
   </data>
-  <data name="panel_tileset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 44</value>
+  <data name="&gt;&gt;toolStrip_palette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_addRoom.Text" xml:space="preserve">
-    <value>Room</value>
+  <data name="&gt;&gt;menuItem_viewClipBreakable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStrip_outlineDoors.Text" xml:space="preserve">
     <value>Outline doors</value>
   </data>
   <data name="comboBox_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 40</value>
+  </data>
+  <data name="&gt;&gt;menuItem_openROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_outlineDoors.Text" xml:space="preserve">
     <value>Doors</value>
@@ -1449,11 +1452,8 @@
   <data name="menuItem_saveROMas.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 22</value>
   </data>
-  <data name="menuItem_viewBG0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_palette.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;contextItem_editScroll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_importEnding.Name" xml:space="preserve">
     <value>menuItem_importEnding</value>
@@ -1467,8 +1467,8 @@
   <data name="menuItem_outlineScrolls.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F4</value>
   </data>
-  <data name="groupBox_location.Text" xml:space="preserve">
-    <value>Location</value>
+  <data name="&gt;&gt;menuItem_LZ77decomp.Name" xml:space="preserve">
+    <value>menuItem_LZ77decomp</value>
   </data>
   <data name="&gt;&gt;label_room.Name" xml:space="preserve">
     <value>label_room</value>
@@ -1518,6 +1518,9 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>796, 459</value>
   </data>
+  <data name="toolStrip_spriteset.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;menuItem_paletteEditor.Name" xml:space="preserve">
     <value>menuItem_paletteEditor</value>
   </data>
@@ -1542,17 +1545,20 @@
   <data name="menuItem_defaultDoors.Text" xml:space="preserve">
     <value>Doors</value>
   </data>
-  <data name="menuItem_importTilesetImage.Text" xml:space="preserve">
-    <value>Tileset from Image...</value>
+  <data name="&gt;&gt;toolStrip_connection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_paletteEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG2.Name" xml:space="preserve">
-    <value>checkBox_viewBG2</value>
+  <data name="&gt;&gt;menuItem_defaultView.Name" xml:space="preserve">
+    <value>menuItem_defaultView</value>
   </data>
   <data name="&gt;&gt;menuItem_editBGs.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItem_zoom800.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
   </data>
   <data name="toolStrip_add.Text" xml:space="preserve">
     <value>Add</value>
@@ -1563,17 +1569,11 @@
   <data name="&gt;&gt;menuItem_zoom.Name" xml:space="preserve">
     <value>menuItem_zoom</value>
   </data>
-  <data name="&gt;&gt;menuItem_clearRecentFiles.Name" xml:space="preserve">
-    <value>menuItem_clearRecentFiles</value>
-  </data>
-  <data name="&gt;&gt;menuItem_clipboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="toolStrip_outlineScrolls.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="menuItem_editBG0.Text" xml:space="preserve">
-    <value>BG 0</value>
+  <data name="label_spriteset.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="menuItem_minimapEditor.Text" xml:space="preserve">
     <value>Minimap Editor</value>
@@ -1596,17 +1596,14 @@
   <data name="menuItem_defaultClipBreakable.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 22</value>
   </data>
-  <data name="&gt;&gt;menuItem_LZ77decomp.Type" xml:space="preserve">
+  <data name="&gt;&gt;menuStrip_tools.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_minimapEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="&gt;&gt;menuItem_editBG2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_outlineScreens.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>F5</value>
-  </data>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 435</value>
+  <data name="menuItem_viewAnimPal.Text" xml:space="preserve">
+    <value>Animated Palette</value>
   </data>
   <data name="menuItem_saveROM.Text" xml:space="preserve">
     <value>Save ROM</value>
@@ -1614,8 +1611,8 @@
   <data name="&gt;&gt;panel_tileset.Name" xml:space="preserve">
     <value>panel_tileset</value>
   </data>
-  <data name="&gt;&gt;contextItem_addScroll.Name" xml:space="preserve">
-    <value>contextItem_addScroll</value>
+  <data name="groupBox_editBG.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;toolStripSeparator23.Name" xml:space="preserve">
     <value>toolStripSeparator23</value>
@@ -1626,8 +1623,8 @@
   <data name="menuItem_addSpriteset.Text" xml:space="preserve">
     <value>Spriteset</value>
   </data>
-  <data name="toolStrip_graphics.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="&gt;&gt;menuItem_zoom100.Name" xml:space="preserve">
+    <value>menuItem_zoom100</value>
   </data>
   <data name="&gt;&gt;comboBox_spriteset.Name" xml:space="preserve">
     <value>comboBox_spriteset</value>
@@ -1635,17 +1632,14 @@
   <data name="menuItem_tileBuilder.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>MAGE 1.4</value>
-  </data>
-  <data name="&gt;&gt;menuItem_exportBG0image.Name" xml:space="preserve">
-    <value>menuItem_exportBG0image</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_editBGs.Name" xml:space="preserve">
-    <value>toolStrip_editBGs</value>
+  <data name="&gt;&gt;toolStrip_tileBuilder.Name" xml:space="preserve">
+    <value>toolStrip_tileBuilder</value>
   </data>
   <data name="&gt;&gt;checkBox_viewBG3.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip_view.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;checkBox_editBG0.Name" xml:space="preserve">
     <value>checkBox_editBG0</value>
@@ -1683,14 +1677,8 @@
   <data name="groupBox_location.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 69</value>
   </data>
-  <data name="&gt;&gt;menuItem_about.Name" xml:space="preserve">
-    <value>menuItem_about</value>
-  </data>
   <data name="&gt;&gt;checkBox_editCLP.Parent" xml:space="preserve">
     <value>groupBox_editBG</value>
-  </data>
-  <data name="&gt;&gt;menuItem_numberBase.Name" xml:space="preserve">
-    <value>menuItem_numberBase</value>
   </data>
   <data name="menuItem_editBG2.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -1722,14 +1710,14 @@
   <data name="toolStrip_tileBuilder.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="menuItem_saveROMas.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="menuItem_tileTableEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="label_spriteset.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 125</value>
-  </data>
-  <data name="&gt;&gt;menuItem_minimapEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStrip_undo.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1755,17 +1743,11 @@
   <data name="&gt;&gt;menuItem_animationEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
-    <value>toolStripSeparator7</value>
-  </data>
   <data name="&gt;&gt;toolStrip_options.Name" xml:space="preserve">
     <value>toolStrip_options</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator19.Name" xml:space="preserve">
     <value>toolStripSeparator19</value>
-  </data>
-  <data name="&gt;&gt;menuItem_tooltips.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStrip_palette.Name" xml:space="preserve">
     <value>toolStrip_palette</value>
@@ -1773,11 +1755,8 @@
   <data name="&gt;&gt;groupBox_location.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_weaponEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="menuItem_undo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
+  <data name="&gt;&gt;toolStrip_undo.Name" xml:space="preserve">
+    <value>toolStrip_undo</value>
   </data>
   <data name="menuItem_exportTileset.Text" xml:space="preserve">
     <value>Tileset...</value>
@@ -1785,11 +1764,11 @@
   <data name="label_area.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="menuItem_defaultClipCollision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+  <data name="&gt;&gt;menuItem_editBG1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator24.Name" xml:space="preserve">
-    <value>toolStripSeparator24</value>
+  <data name="&gt;&gt;contextItem_addDoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_importRLE.Text" xml:space="preserve">
     <value>RLE Background...</value>
@@ -1797,14 +1776,17 @@
   <data name="&gt;&gt;contextItem_removeSprite.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox_tileset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 286</value>
+  <data name="menuItem_exportBG3image.Text" xml:space="preserve">
+    <value>BG3 Image...</value>
   </data>
-  <data name="&gt;&gt;menuItem_exportRoomImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tileView.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="menuItem_tilesetEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="&gt;&gt;menuItem_defaultBG2.Name" xml:space="preserve">
+    <value>menuItem_defaultBG2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;roomView.Type" xml:space="preserve">
     <value>mage.RoomView, mage, Version=1.4.2.0, Culture=neutral, PublicKeyToken=null</value>
@@ -1827,14 +1809,11 @@
   <data name="&gt;&gt;menuItem_demoEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox_room.Name" xml:space="preserve">
-    <value>groupBox_room</value>
+  <data name="&gt;&gt;menuItem_numberBase.Name" xml:space="preserve">
+    <value>menuItem_numberBase</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_viewBG3.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="statusStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;menuItem_physicsEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1869,6 +1848,9 @@
   <data name="menuItem_importEnding.Text" xml:space="preserve">
     <value>Ending from Image</value>
   </data>
+  <data name="menuItem_viewBG0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
   <data name="toolStrip_tileset.Text" xml:space="preserve">
     <value>Tileset Editor</value>
   </data>
@@ -1887,8 +1869,11 @@
   <data name="&gt;&gt;menuItem_roomOptions.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox_viewBG.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="menuItem_createBackup.Text" xml:space="preserve">
+    <value>Create Backup</value>
+  </data>
+  <data name="&gt;&gt;menuItem_tileBuilder.Name" xml:space="preserve">
+    <value>menuItem_tileBuilder</value>
   </data>
   <data name="toolStrip_test.Text" xml:space="preserve">
     <value>Test Room</value>
@@ -1902,20 +1887,23 @@
   <data name="menuItem_defaultBG2.Text" xml:space="preserve">
     <value>BG 2</value>
   </data>
+  <data name="groupBox_viewBG.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="menuItem_demoEditor.Text" xml:space="preserve">
     <value>Demo Editor</value>
   </data>
   <data name="&gt;&gt;panel_tileset.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;tileView.Type" xml:space="preserve">
+    <value>mage.TileView, mage, Version=1.4.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="toolStrip_outlineSprites.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
   <data name="&gt;&gt;menuItem_exportTileset.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuItem_defaultClipCollision.Name" xml:space="preserve">
-    <value>menuItem_defaultClipCollision</value>
   </data>
   <data name="contextItem_testRoom.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
@@ -1926,14 +1914,11 @@
   <data name="&gt;&gt;toolStrip_spriteset.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStrip_sprite.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="contextItem_addSprite.Text" xml:space="preserve">
     <value>Add Sprite</value>
   </data>
-  <data name="menuItem_zoom800.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+  <data name="contextItem_editDoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
   </data>
   <data name="groupBox_editBG.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 94</value>
@@ -1944,8 +1929,8 @@
   <data name="menuItem_viewBG2.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
   </data>
-  <data name="&gt;&gt;toolStrip_animation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuItem_importEnding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label_spriteset.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2027,8 +2012,8 @@
   <data name="&gt;&gt;toolStrip_outlineSprites.Name" xml:space="preserve">
     <value>toolStrip_outlineSprites</value>
   </data>
-  <data name="&gt;&gt;toolStrip_tileBuilder.Name" xml:space="preserve">
-    <value>toolStrip_tileBuilder</value>
+  <data name="comboBox_area.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;toolStrip_editObjects.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2044,9 +2029,6 @@
   </data>
   <data name="menuItem_spriteEditor.Text" xml:space="preserve">
     <value>Sprite Editor</value>
-  </data>
-  <data name="&gt;&gt;contextItem_addDoor.Name" xml:space="preserve">
-    <value>contextItem_addDoor</value>
   </data>
   <data name="&gt;&gt;toolStrip_connection.Name" xml:space="preserve">
     <value>toolStrip_connection</value>
@@ -2081,8 +2063,8 @@
   <data name="menuItem_addEnemyset.Text" xml:space="preserve">
     <value>Room Sprites</value>
   </data>
-  <data name="button_Clip.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;menuItem_outlineScrolls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_viewBG0.Name" xml:space="preserve">
     <value>menuItem_viewBG0</value>
@@ -2102,8 +2084,8 @@
   <data name="&gt;&gt;toolStripSeparator19.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuStrip_tools.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label_spriteset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_importLZ77BGimage.Text" xml:space="preserve">
     <value>LZ77 BG from Image...</value>
@@ -2114,35 +2096,35 @@
   <data name="groupBox_room.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>479, 386</value>
   </data>
-  <data name="&gt;&gt;menuItem_editBG2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStrip_options.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuItem_outlineScrolls.Name" xml:space="preserve">
-    <value>menuItem_outlineScrolls</value>
   </data>
   <data name="contextItem_addDoor.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
   </data>
+  <data name="toolStrip_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
   <data name="menuItem_importTileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 22</value>
   </data>
-  <data name="&gt;&gt;menuItem_export.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStrip_editBGs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox_viewBG2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;menuItem_importEnding.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label_room.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_numberBase.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 22</value>
   </data>
   <data name="&gt;&gt;menuItem_importLZ77.Name" xml:space="preserve">
     <value>menuItem_importLZ77</value>
+  </data>
+  <data name="label_spriteset.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;menuItem_editCLP.Name" xml:space="preserve">
     <value>menuItem_editCLP</value>
@@ -2153,20 +2135,17 @@
   <data name="checkBox_viewBG3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="checkBox_editBG0.Text" xml:space="preserve">
-    <value>BG 0</value>
-  </data>
-  <data name="menuItem_defaultScreens.Text" xml:space="preserve">
-    <value>Screen Outlines</value>
+  <data name="&gt;&gt;menuItem_graphicsEditor.Name" xml:space="preserve">
+    <value>menuItem_graphicsEditor</value>
   </data>
   <data name="&gt;&gt;menuItem_exportBG3image.Name" xml:space="preserve">
     <value>menuItem_exportBG3image</value>
   </data>
-  <data name="toolStrip_connection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="&gt;&gt;menuItem_LZ77decomp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox_tileset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="toolStrip_editObjects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="menuStrip_edit.Text" xml:space="preserve">
     <value>Edit</value>
@@ -2207,20 +2186,26 @@
   <data name="&gt;&gt;menuItem_addRoom.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="statusLabel_clip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="&gt;&gt;statusLabel_clip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_tileset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 286</value>
   </data>
   <data name="&gt;&gt;tileView.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;menuItem_defaultView.Name" xml:space="preserve">
-    <value>menuItem_defaultView</value>
+  <data name="&gt;&gt;contextItem_addSprite.Name" xml:space="preserve">
+    <value>contextItem_addSprite</value>
   </data>
   <data name="&gt;&gt;contextItem_editDoor.Name" xml:space="preserve">
     <value>contextItem_editDoor</value>
   </data>
   <data name="groupBox_editBG.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="comboBox_clipdata.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;menuItem_viewBG3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2261,6 +2246,9 @@
   <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
     <value>toolStripSeparator6</value>
   </data>
+  <data name="&gt;&gt;label_clipdata.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;label_room.Parent" xml:space="preserve">
     <value>groupBox_location</value>
   </data>
@@ -2273,8 +2261,11 @@
   <data name="&gt;&gt;menuItem_undo.Name" xml:space="preserve">
     <value>menuItem_undo</value>
   </data>
-  <data name="tileView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 236</value>
+  <data name="checkBox_editCLP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
   </data>
   <data name="menuItem_createBackup.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 22</value>
@@ -2291,14 +2282,14 @@
   <data name="&gt;&gt;menuItem_exportBG0image.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;menuItem_spriteEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStrip_viewSprites.Name" xml:space="preserve">
     <value>toolStrip_viewSprites</value>
-  </data>
-  <data name="&gt;&gt;statusLabel_sel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_physicsEditor.Name" xml:space="preserve">
     <value>menuItem_physicsEditor</value>
@@ -2315,6 +2306,9 @@
   <data name="&gt;&gt;menuItem_outlineSprites.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;contextItem_addScroll.Name" xml:space="preserve">
+    <value>contextItem_addScroll</value>
+  </data>
   <data name="&gt;&gt;toolStrip_text.Name" xml:space="preserve">
     <value>toolStrip_text</value>
   </data>
@@ -2330,8 +2324,8 @@
   <data name="&gt;&gt;menuItem_defaultBG0.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuItem_outlineSprites.Name" xml:space="preserve">
-    <value>menuItem_outlineSprites</value>
+  <data name="&gt;&gt;menuItem_defaultClipCollision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboBox_room.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2351,8 +2345,8 @@
   <data name="&gt;&gt;menuItem_add.Name" xml:space="preserve">
     <value>menuItem_add</value>
   </data>
-  <data name="&gt;&gt;comboBox_spriteset.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="menuItem_testRoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
   </data>
   <data name="menuItem_editObjects.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -2366,8 +2360,14 @@
   <data name="toolStrip_demoEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
-  <data name="groupBox_room.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="menuItem_viewSprites.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
+  </data>
+  <data name="menuStrip_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="label_spriteset.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="roomView.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -2402,20 +2402,20 @@
   <data name="panel_tileset.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="statusLabel_clip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="&gt;&gt;toolStrip_minimap.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox_viewBG0.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="contextItem_editScroll.Text" xml:space="preserve">
+    <value>Edit Scroll</value>
+  </data>
   <data name="&gt;&gt;menuItem_roomOptions.Name" xml:space="preserve">
     <value>menuItem_roomOptions</value>
-  </data>
-  <data name="&gt;&gt;menuItem_defaultSpriteOutlines.Name" xml:space="preserve">
-    <value>menuItem_defaultSpriteOutlines</value>
-  </data>
-  <data name="&gt;&gt;comboBox_area.Name" xml:space="preserve">
-    <value>comboBox_area</value>
   </data>
   <data name="menuItem_openROM.Text" xml:space="preserve">
     <value>Open ROM...</value>
@@ -2426,8 +2426,8 @@
   <data name="&gt;&gt;menuItem_defaultScrolls.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_LZ77comp.Text" xml:space="preserve">
-    <value>LZ77 Compress File...</value>
+  <data name="&gt;&gt;menuItem_importRoom.Name" xml:space="preserve">
+    <value>menuItem_importRoom</value>
   </data>
   <data name="menuItem_editBG1.Text" xml:space="preserve">
     <value>BG 1</value>
@@ -2437,9 +2437,6 @@
   </data>
   <data name="&gt;&gt;toolStripSeparator18.Name" xml:space="preserve">
     <value>toolStripSeparator18</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_minimap.Name" xml:space="preserve">
-    <value>toolStrip_minimap</value>
   </data>
   <data name="checkBox_editBG0.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2453,14 +2450,14 @@
   <data name="&gt;&gt;menuItem_numberBase.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="statusLabel_coor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="&gt;&gt;menuItem_outlineSprites.Name" xml:space="preserve">
+    <value>menuItem_outlineSprites</value>
   </data>
   <data name="groupBox_tileset.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="toolStrip_redo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 22</value>
+  <data name="menuItem_importLZ77BGimage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
   </data>
   <data name="&gt;&gt;menuItem_viewSprites.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2501,14 +2498,20 @@
   <data name="&gt;&gt;label_clipdata.Parent" xml:space="preserve">
     <value>groupBox_tileset</value>
   </data>
+  <data name="menuItem_importLZ77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
   <data name="&gt;&gt;groupBox_location.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;roomView.Name" xml:space="preserve">
-    <value>roomView</value>
+  <data name="menuItem_export.Text" xml:space="preserve">
+    <value>Export</value>
   </data>
   <data name="groupBox_editBG.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="checkBox_viewBG1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="tileView.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -2534,9 +2537,6 @@
   <data name="menuItem_exportRoom.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 22</value>
   </data>
-  <data name="&gt;&gt;toolStrip_spriteset.Name" xml:space="preserve">
-    <value>toolStrip_spriteset</value>
-  </data>
   <data name="contextItem_testRoom.Text" xml:space="preserve">
     <value>Test Room Here</value>
   </data>
@@ -2546,8 +2546,8 @@
   <data name="&gt;&gt;toolStrip_viewSprites.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comboBox_spriteset.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;menuItem_outlineScrolls.Name" xml:space="preserve">
+    <value>menuItem_outlineScrolls</value>
   </data>
   <data name="menuItem_exportTileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 22</value>
@@ -2558,8 +2558,8 @@
   <data name="groupBox_viewBG.Text" xml:space="preserve">
     <value>View</value>
   </data>
-  <data name="menuItem_animationEditor.Text" xml:space="preserve">
-    <value>Animation Editor</value>
+  <data name="menuItem_LZ77decomp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
   </data>
   <data name="toolStrip_minimap.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2567,17 +2567,23 @@
   <data name="menuItem_editBGs.Text" xml:space="preserve">
     <value>BG Editing Mode</value>
   </data>
-  <data name="&gt;&gt;menuItem_defaultBG1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox_viewBG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBox_viewBG3.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 71</value>
   </data>
+  <data name="menuItem_addSpriteset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="statusLabel_coor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="menuItem_defaultScrolls.Text" xml:space="preserve">
     <value>Scrolls</value>
   </data>
-  <data name="menuItem_addAnim.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+  <data name="tileView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 236</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
     <value>toolStripSeparator3</value>
@@ -2591,8 +2597,8 @@
   <data name="&gt;&gt;comboBox_clipdata.Name" xml:space="preserve">
     <value>comboBox_clipdata</value>
   </data>
-  <data name="&gt;&gt;menuStrip_options.Name" xml:space="preserve">
-    <value>menuStrip_options</value>
+  <data name="menuStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox_viewBG.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2609,17 +2615,23 @@
   <data name="toolStrip_tileset.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="groupBox_location.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_spriteset.Text" xml:space="preserve">
+    <value>Spriteset:</value>
+  </data>
   <data name="&gt;&gt;menuItem_exportTilesetImage.Name" xml:space="preserve">
     <value>menuItem_exportTilesetImage</value>
   </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 6</value>
-  </data>
-  <data name="menuItem_viewSprites.Text" xml:space="preserve">
-    <value>Sprites</value>
+  <data name="&gt;&gt;comboBox_area.Name" xml:space="preserve">
+    <value>comboBox_area</value>
   </data>
   <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 435</value>
   </data>
   <data name="menuItem_editBG2.Text" xml:space="preserve">
     <value>BG 2</value>
@@ -2633,8 +2645,8 @@
   <data name="&gt;&gt;menuItem_decimal.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label_spriteset.Text" xml:space="preserve">
-    <value>Spriteset:</value>
+  <data name="&gt;&gt;roomView.Name" xml:space="preserve">
+    <value>roomView</value>
   </data>
   <data name="&gt;&gt;menuItem_defaultBG2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2645,8 +2657,8 @@
   <data name="toolStrip_test.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
-  <data name="label_room.Text" xml:space="preserve">
-    <value>Room:</value>
+  <data name="&gt;&gt;menuItem_viewSprites.Name" xml:space="preserve">
+    <value>menuItem_viewSprites</value>
   </data>
   <data name="menuItem_redo.Text" xml:space="preserve">
     <value>Redo</value>
@@ -2660,8 +2672,8 @@
   <data name="&gt;&gt;menuItem_weaponEditor.Name" xml:space="preserve">
     <value>menuItem_weaponEditor</value>
   </data>
-  <data name="toolStrip_add.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="groupBox_room.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="menuItem_zoom100.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
@@ -2669,8 +2681,14 @@
   <data name="toolStrip_animation.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
+  <data name="menuItem_LZ77comp.Text" xml:space="preserve">
+    <value>LZ77 Compress File...</value>
+  </data>
   <data name="changeEmulatorPathToolStripMenuItem.Text" xml:space="preserve">
     <value>Change Emulator Path</value>
+  </data>
+  <data name="toolStrip_add.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="menuItem_patches.Text" xml:space="preserve">
     <value>Patches</value>
@@ -2678,14 +2696,17 @@
   <data name="comboBox_spriteset.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 20</value>
   </data>
+  <data name="comboBox_spriteset.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;menuItem_LZ77comp.Name" xml:space="preserve">
     <value>menuItem_LZ77comp</value>
   </data>
   <data name="&gt;&gt;menuItem_exportBG.Name" xml:space="preserve">
     <value>menuItem_exportBG</value>
   </data>
-  <data name="menuItem_undo.Text" xml:space="preserve">
-    <value>Undo</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MAGE 1.4</value>
   </data>
   <data name="&gt;&gt;menuItem_viewHelp.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2705,8 +2726,11 @@
   <data name="&gt;&gt;contextItem_addScroll.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuItem_viewClipBreakable.Name" xml:space="preserve">
-    <value>menuItem_viewClipBreakable</value>
+  <data name="panel_room.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox_editBG.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;toolStrip_demoEditor.Name" xml:space="preserve">
     <value>toolStrip_demoEditor</value>
@@ -2714,11 +2738,11 @@
   <data name="menuItem_outlineScrolls.Text" xml:space="preserve">
     <value>Scrolls</value>
   </data>
+  <data name="label_clipdata.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="menuItem_add.Text" xml:space="preserve">
     <value>Add</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_tilesetEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2729,14 +2753,11 @@
   <data name="&gt;&gt;toolStripSeparator26.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_exportBG3image.Text" xml:space="preserve">
-    <value>BG3 Image...</value>
+  <data name="&gt;&gt;checkBox_viewBG2.Name" xml:space="preserve">
+    <value>checkBox_viewBG2</value>
   </data>
   <data name="&gt;&gt;menuItem_forceClipdata.Name" xml:space="preserve">
     <value>menuItem_forceClipdata</value>
-  </data>
-  <data name="&gt;&gt;contextItem_addDoor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator22.Name" xml:space="preserve">
     <value>toolStripSeparator22</value>
@@ -2750,11 +2771,8 @@
   <data name="menuItem_textEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;menuItem_editBGs.Name" xml:space="preserve">
-    <value>menuItem_editBGs</value>
-  </data>
-  <data name="&gt;&gt;menuItem_export.Name" xml:space="preserve">
-    <value>menuItem_export</value>
+  <data name="&gt;&gt;menuItem_export.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;contextItem_removeDoor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2762,23 +2780,38 @@
   <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
     <value>toolStripSeparator4</value>
   </data>
+  <data name="label_room.Text" xml:space="preserve">
+    <value>Room:</value>
+  </data>
   <data name="&gt;&gt;menuItem_addTileset.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_patches.Name" xml:space="preserve">
     <value>menuItem_patches</value>
   </data>
-  <data name="&gt;&gt;menuItem_addSpriteset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuItem_undo.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_options.Name" xml:space="preserve">
+    <value>menuStrip_options</value>
+  </data>
+  <data name="contextItem_editSprite.Text" xml:space="preserve">
+    <value>Edit Sprite</value>
   </data>
   <data name="toolStripSeparator24.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 6</value>
   </data>
-  <data name="label_clipdata.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 21</value>
+  <data name="menuItem_physicsEditor.Text" xml:space="preserve">
+    <value>Physics Editor</value>
+  </data>
+  <data name="&gt;&gt;statusLabel_sel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStrip_header.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 6</value>
   </data>
   <data name="&gt;&gt;toolStrip_demoEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2807,8 +2840,8 @@
   <data name="toolStrip_physics.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
-  <data name="menuItem_LZ77decomp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+  <data name="&gt;&gt;checkBox_editCLP.Name" xml:space="preserve">
+    <value>checkBox_editCLP</value>
   </data>
   <data name="menuItem_importLZ77.Text" xml:space="preserve">
     <value>LZ77 Background...</value>
@@ -2822,14 +2855,23 @@
   <data name="menuItem_defaultClipCollision.Text" xml:space="preserve">
     <value>Collision</value>
   </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;menuItem_viewBG2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;menuItem_defaultClipValues.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStrip_spriteset.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;menuItem_clipboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuItem_viewClipValues.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+  <data name="&gt;&gt;menuItem_exportBG0image.Name" xml:space="preserve">
+    <value>menuItem_exportBG0image</value>
+  </data>
+  <data name="comboBox_clipdata.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="checkBox_editBG1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2852,8 +2894,8 @@
   <data name="contextItem_removeSprite.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
   </data>
-  <data name="&gt;&gt;tileView.Type" xml:space="preserve">
-    <value>mage.TileView, mage, Version=1.4.2.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
   </data>
   <data name="menuItem_defaultBG1.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
@@ -2864,14 +2906,14 @@
   <data name="menuStrip_help.Text" xml:space="preserve">
     <value>Help</value>
   </data>
+  <data name="&gt;&gt;menuItem_tilesetEditor.Name" xml:space="preserve">
+    <value>menuItem_tilesetEditor</value>
+  </data>
   <data name="menuItem_motherShipHatches.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F7</value>
   </data>
-  <data name="label_clipdata.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 12</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuItem_editBGs.Name" xml:space="preserve">
+    <value>menuItem_editBGs</value>
   </data>
   <data name="&gt;&gt;menuItem_demoEditor.Name" xml:space="preserve">
     <value>menuItem_demoEditor</value>
@@ -2894,11 +2936,11 @@
   <data name="menuItem_zoomOut.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
   </data>
-  <data name="menuItem_saveROMas.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;toolStrip_spriteset.Name" xml:space="preserve">
+    <value>toolStrip_spriteset</value>
   </data>
-  <data name="checkBox_viewBG1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkBox_viewBG2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="panel_room.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2909,14 +2951,17 @@
   <data name="menuStrip_tools.Text" xml:space="preserve">
     <value>Tools</value>
   </data>
+  <data name="contextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="groupBox_tileset.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="toolStrip_spriteset.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
-  <data name="menuItem_defaultView.Text" xml:space="preserve">
-    <value>Default View</value>
+  <data name="menuItem_editBG0.Text" xml:space="preserve">
+    <value>BG 0</value>
   </data>
   <data name="&gt;&gt;menuItem_headerEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2927,11 +2972,11 @@
   <data name="&gt;&gt;menuItem_paletteEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 6</value>
+  <data name="&gt;&gt;comboBox_spriteset.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;menuItem_outlineScreens.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboBox_room.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2942,11 +2987,14 @@
   <data name="menuItem_defaultClipValues.Text" xml:space="preserve">
     <value>Values</value>
   </data>
-  <data name="&gt;&gt;menuItem_LZ77decomp.Name" xml:space="preserve">
-    <value>menuItem_LZ77decomp</value>
+  <data name="menuItem_importTilesetImage.Text" xml:space="preserve">
+    <value>Tileset from Image...</value>
   </data>
   <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
   </data>
   <data name="menuStrip_tools.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 21</value>
@@ -2954,20 +3002,23 @@
   <data name="&gt;&gt;menuItem_importLZ77BGimage.Name" xml:space="preserve">
     <value>menuItem_importLZ77BGimage</value>
   </data>
+  <data name="label_clipdata.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
   <data name="menuItem_viewCLP.Text" xml:space="preserve">
     <value>Clipdata</value>
   </data>
   <data name="&gt;&gt;menuStrip_editors.Name" xml:space="preserve">
     <value>menuStrip_editors</value>
   </data>
-  <data name="&gt;&gt;menuItem_editBG1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStrip_redo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStrip_minimap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="menuItem_paletteEditor.Text" xml:space="preserve">
+    <value>Palette Editor</value>
   </data>
   <data name="toolStrip_save.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -2984,8 +3035,8 @@
   <data name="&gt;&gt;checkBox_viewBG0.Name" xml:space="preserve">
     <value>checkBox_viewBG0</value>
   </data>
-  <data name="&gt;&gt;menuItem_defaultClipBreakable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="menuItem_viewSprites.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
@@ -2996,8 +3047,8 @@
   <data name="&gt;&gt;menuItem_graphicsEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuStrip_view.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 21</value>
+  <data name="&gt;&gt;menuItem_motherShipHatches.Name" xml:space="preserve">
+    <value>menuItem_motherShipHatches</value>
   </data>
   <data name="menuItem_exportRoom.Text" xml:space="preserve">
     <value>Room...</value>
@@ -3011,20 +3062,23 @@
   <data name="&gt;&gt;label_clipdata.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="menuItem_editBG0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
+  <data name="&gt;&gt;menuItem_testRoom.Name" xml:space="preserve">
+    <value>menuItem_testRoom</value>
   </data>
   <data name="&gt;&gt;menuItem_zoomIn.Name" xml:space="preserve">
     <value>menuItem_zoomIn</value>
   </data>
-  <data name="contextItem_editSprite.Text" xml:space="preserve">
-    <value>Edit Sprite</value>
+  <data name="&gt;&gt;toolStrip_minimap.Name" xml:space="preserve">
+    <value>toolStrip_minimap</value>
   </data>
-  <data name="menuItem_viewClipValues.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+7</value>
+  <data name="&gt;&gt;groupBox_room.Name" xml:space="preserve">
+    <value>groupBox_room</value>
   </data>
   <data name="roomView.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="menuItem_addAnim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
   </data>
   <data name="menuItem_tileTableEditor.Text" xml:space="preserve">
     <value>Tile Table Editor</value>
@@ -3032,8 +3086,14 @@
   <data name="&gt;&gt;groupBox_viewBG.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="menuItem_viewSprites.Text" xml:space="preserve">
+    <value>Sprites</value>
+  </data>
   <data name="&gt;&gt;toolStripSeparator24.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem_addSpriteset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuStrip_options.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3041,8 +3101,8 @@
   <data name="menuItem_viewHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 22</value>
   </data>
-  <data name="menuStrip_edit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 21</value>
+  <data name="&gt;&gt;menuItem_export.Name" xml:space="preserve">
+    <value>menuItem_export</value>
   </data>
   <data name="groupBox_room.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3074,11 +3134,14 @@
   <data name="&gt;&gt;toolStripSeparator21.Name" xml:space="preserve">
     <value>toolStripSeparator21</value>
   </data>
-  <data name="menuItem_importLZ77.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+  <data name="menuItem_outlineScreens.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F5</value>
   </data>
   <data name="checkBox_editBG1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="toolStrip_redo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
   </data>
   <data name="menuItem_addTileset.Text" xml:space="preserve">
     <value>Tileset</value>
@@ -3086,14 +3149,17 @@
   <data name="&gt;&gt;menuItem_editBG1.Name" xml:space="preserve">
     <value>menuItem_editBG1</value>
   </data>
-  <data name="&gt;&gt;menuItem_importRoom.Name" xml:space="preserve">
-    <value>menuItem_importRoom</value>
+  <data name="menuItem_animationEditor.Text" xml:space="preserve">
+    <value>Animation Editor</value>
   </data>
   <data name="&gt;&gt;menuItem_textEditor.Name" xml:space="preserve">
     <value>menuItem_textEditor</value>
   </data>
   <data name="&gt;&gt;contextItem_removeScroll.Name" xml:space="preserve">
     <value>contextItem_removeScroll</value>
+  </data>
+  <data name="&gt;&gt;menuItem_outlineScreens.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStrip_demoEditor.Text" xml:space="preserve">
     <value>Demo Editor</value>
@@ -3113,14 +3179,20 @@
   <data name="menuItem_spriteEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="menuItem_viewAnimPal.Text" xml:space="preserve">
-    <value>Animated Palette</value>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
+  </data>
+  <data name="menuItem_defaultView.Text" xml:space="preserve">
+    <value>Default View</value>
   </data>
   <data name="menuItem_exportTilesetImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 22</value>
   </data>
   <data name="&gt;&gt;menuItem_zoom200.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_area.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;menuItem_editCLP.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3134,11 +3206,14 @@
   <data name="&gt;&gt;menuItem_textEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="tileView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="contextItem_editDoor.Text" xml:space="preserve">
     <value>Edit Door</value>
   </data>
-  <data name="&gt;&gt;label_spriteset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStrip_editBGs.Name" xml:space="preserve">
+    <value>toolStrip_editBGs</value>
   </data>
   <data name="&gt;&gt;checkBox_editBG0.Parent" xml:space="preserve">
     <value>groupBox_editBG</value>
@@ -3152,6 +3227,9 @@
   <data name="menuItem_defaultSprites.Text" xml:space="preserve">
     <value>Sprites</value>
   </data>
+  <data name="checkBox_viewBG2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="checkBox_viewBG1.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 16</value>
   </data>
@@ -3164,11 +3242,17 @@
   <data name="&gt;&gt;menuItem_defaultScreens.Name" xml:space="preserve">
     <value>menuItem_defaultScreens</value>
   </data>
+  <data name="button_Clip.ToolTip" xml:space="preserve">
+    <value>Clipdata Shortcuts</value>
+  </data>
   <data name="&gt;&gt;checkBox_viewBG0.Parent" xml:space="preserve">
     <value>groupBox_viewBG</value>
   </data>
   <data name="&gt;&gt;toolStrip_patches.Name" xml:space="preserve">
     <value>toolStrip_patches</value>
+  </data>
+  <data name="&gt;&gt;menuItem_defaultClipBreakable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="statusLabel_sel.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 19</value>
@@ -3194,11 +3278,14 @@
   <data name="menuItem_zoom200.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
   </data>
+  <data name="menuItem_connectionEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
   <data name="menuItem_viewClipCollision.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+5</value>
   </data>
-  <data name="&gt;&gt;label_clipdata.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="toolStrip_editBGs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="&gt;&gt;label_room.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -3206,17 +3293,23 @@
   <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 6</value>
   </data>
-  <data name="&gt;&gt;panel_room.Parent" xml:space="preserve">
-    <value>groupBox_room</value>
+  <data name="menuItem_defaultScreens.Text" xml:space="preserve">
+    <value>Screen Outlines</value>
   </data>
   <data name="&gt;&gt;menuItem_importRoom.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_clipdata.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 21</value>
   </data>
   <data name="menuItem_about.Text" xml:space="preserve">
     <value>About MAGE</value>
   </data>
   <data name="toolStrip_tileBuilder.Text" xml:space="preserve">
     <value>Minimap Tile Builder</value>
+  </data>
+  <data name="&gt;&gt;menuItem_defaultBG1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_viewClipValues.Name" xml:space="preserve">
     <value>menuItem_viewClipValues</value>
@@ -3230,6 +3323,9 @@
   <data name="&gt;&gt;menuItem_addTileset.Name" xml:space="preserve">
     <value>menuItem_addTileset</value>
   </data>
+  <data name="menuItem_viewClipValues.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+7</value>
+  </data>
   <data name="&gt;&gt;menuItem_connectionEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3239,8 +3335,8 @@
   <data name="menuItem_LZ77comp.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 22</value>
   </data>
-  <data name="&gt;&gt;menuItem_viewSprites.Name" xml:space="preserve">
-    <value>menuItem_viewSprites</value>
+  <data name="&gt;&gt;menuItem_tooltips.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_defaultClipValues.Name" xml:space="preserve">
     <value>menuItem_defaultClipValues</value>
@@ -3252,6 +3348,9 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_compression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem_clipShortcuts.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuItem_importTileset.Text" xml:space="preserve">
@@ -3280,6 +3379,9 @@
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 20</value>
   </metadata>
   <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

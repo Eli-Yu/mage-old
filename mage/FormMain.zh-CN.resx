@@ -734,7 +734,7 @@
     <value>屏幕边线</value>
   </data>
   <data name="menuItem_defaultView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="menuItem_defaultView.Text" xml:space="preserve">
     <value>默认视图</value>
@@ -752,22 +752,22 @@
     <value>十进制</value>
   </data>
   <data name="menuItem_numberBase.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="menuItem_numberBase.Text" xml:space="preserve">
     <value>进制</value>
   </data>
   <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>157, 6</value>
   </data>
   <data name="menuItem_tooltips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="menuItem_tooltips.Text" xml:space="preserve">
     <value>禁用工具提示</value>
   </data>
   <data name="changeEmulatorPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="changeEmulatorPathToolStripMenuItem.Text" xml:space="preserve">
     <value>更改模拟器路径</value>
@@ -837,6 +837,9 @@
   </data>
   <data name="button_Clip.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 17</value>
+  </data>
+  <data name="button_Clip.ToolTip" xml:space="preserve">
+    <value>砖块属性快捷面板</value>
   </data>
   <data name="comboBox_clipdata.Location" type="System.Drawing.Point, System.Drawing">
     <value>70, 20</value>
@@ -1001,7 +1004,7 @@
     <value>153, 52</value>
   </data>
   <data name="groupBox_viewBG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 102</value>
+    <value>59, 102</value>
   </data>
   <data name="groupBox_viewBG.Text" xml:space="preserve">
     <value>查看</value>
@@ -1034,28 +1037,16 @@
     <value>砖属性</value>
   </data>
   <data name="groupBox_editBG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 52</value>
+    <value>218, 52</value>
   </data>
   <data name="groupBox_editBG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 102</value>
+    <value>81, 102</value>
   </data>
   <data name="groupBox_editBG.Text" xml:space="preserve">
     <value>编辑</value>
   </data>
-  <data name="statusLabel_coor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 21</value>
-  </data>
-  <data name="statusLabel_sel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 21</value>
-  </data>
-  <data name="statusLabel_clip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 21</value>
-  </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 471</value>
-  </data>
-  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>796, 26</value>
+    <value>0, 473</value>
   </data>
   <data name="label_spriteset.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 135</value>

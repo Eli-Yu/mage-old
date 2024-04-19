@@ -1,3 +1,10 @@
+1.4.3
+  - Double click to edit doors, sprites, and scrolls in oject mode
+  - Input Hex 24-bit color value in Plalette Editor
+  - Clear doors, sprites, and scrolls and input screens to change room size in Room Options
+  - Add a button for Clipdata Shortcuts in Main, and the image of the button will change with clipdata. 
+  - Add drag and drop selection of custom files in Text Editor
+
 1.4.2
   - Add custom code table fuction in Text Editor
 

@@ -117,8 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;pictureBox_palette.Name" xml:space="preserve">
-    <value>pictureBox_palette</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>647, 401</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_text.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;textBox_offsetVal.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -126,12 +131,11 @@
   <data name="&gt;&gt;textBox_offsetVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox_text.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;button_editPalette.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button_apply.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="button_update.Text" xml:space="preserve">
+    <value>Update</value>
   </data>
   <data name="button_selectFile.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -139,8 +143,8 @@
   <data name="&gt;&gt;button_apply.Parent" xml:space="preserve">
     <value>groupBox_options</value>
   </data>
-  <data name="&gt;&gt;checkBox_newLine.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
+  <data name="&gt;&gt;textBox_file.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox_wordWrap.Name" xml:space="preserve">
     <value>checkBox_wordWrap</value>
@@ -151,17 +155,20 @@
   <data name="&gt;&gt;button_apply.Name" xml:space="preserve">
     <value>button_apply</value>
   </data>
-  <data name="&gt;&gt;groupBox_preview.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;label_charPos.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDown_charWidth.Name" xml:space="preserve">
-    <value>numericUpDown_charWidth</value>
+  <data name="&gt;&gt;label_number.Name" xml:space="preserve">
+    <value>label_number</value>
   </data>
   <data name="&gt;&gt;label_language.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="label_text.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;comboBox_text.Name" xml:space="preserve">
     <value>comboBox_text</value>
@@ -169,7 +176,523 @@
   <data name="&gt;&gt;label_charPos.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="&gt;&gt;label_pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_editPalette.Parent" xml:space="preserve">
+    <value>groupBox_preview</value>
+  </data>
+  <data name="button_editGfx.Text" xml:space="preserve">
+    <value>Edit GFX</value>
+  </data>
+  <data name="groupBox_preview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 11</value>
+  </data>
+  <data name="label_offset.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_newLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 42</value>
+  </data>
+  <data name="checkBox_wordWrap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_customChar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_number.Text" xml:space="preserve">
+    <value>Number:</value>
+  </data>
+  <data name="&gt;&gt;checkBox_newLine.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="label_number.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_charWidth.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;button_selectFile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_close.Name" xml:space="preserve">
+    <value>button_close</value>
+  </data>
+  <data name="&gt;&gt;textBox_offsetVal.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="pictureBox_text.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox_Custom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="pictureBox_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 74</value>
+  </data>
+  <data name="&gt;&gt;label_offset.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="&gt;&gt;label_charWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_apply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="textBox_offsetVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 14</value>
+  </data>
+  <data name="&gt;&gt;button_editGfx.Parent" xml:space="preserve">
+    <value>groupBox_preview</value>
+  </data>
+  <data name="&gt;&gt;statusLabel_changes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormText</value>
+  </data>
+  <data name="button_editPalette.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_wordWrap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 18</value>
+  </data>
+  <data name="statusLabel_changes.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="&gt;&gt;label_language.Name" xml:space="preserve">
+    <value>label_language</value>
+  </data>
+  <data name="panel_gfx.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="checkBox_wordWrap.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 22</value>
+  </data>
+  <data name="&gt;&gt;button_update.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_editPalette.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="button_selectFile.Text" xml:space="preserve">
+    <value>Select FIle</value>
+  </data>
+  <data name="checkBox_wordWrap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="&gt;&gt;button_selectFile.Name" xml:space="preserve">
+    <value>button_selectFile</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_charWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_number.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 67</value>
+  </data>
+  <data name="&gt;&gt;label_text.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label_charWidth.Parent" xml:space="preserve">
+    <value>groupBox_Custom</value>
+  </data>
+  <data name="pictureBox_palette.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 16</value>
+  </data>
+  <data name="label_number.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox_preview.Name" xml:space="preserve">
+    <value>groupBox_preview</value>
+  </data>
+  <data name="&gt;&gt;textBox_offsetVal.Name" xml:space="preserve">
+    <value>textBox_offsetVal</value>
+  </data>
+  <data name="groupBox_Custom.Text" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="label_offset.Text" xml:space="preserve">
+    <value>Offset:</value>
+  </data>
+  <data name="&gt;&gt;button_close.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button_update.Parent" xml:space="preserve">
+    <value>groupBox_preview</value>
+  </data>
+  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 16, 0</value>
+  </data>
+  <data name="label_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="comboBox_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 18</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_charWidth.Name" xml:space="preserve">
+    <value>numericUpDown_charWidth</value>
+  </data>
+  <data name="&gt;&gt;checkBox_newLine.Name" xml:space="preserve">
+    <value>checkBox_newLine</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_number.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 70</value>
+  </data>
+  <data name="&gt;&gt;button_editPalette.Name" xml:space="preserve">
+    <value>button_editPalette</value>
+  </data>
+  <data name="&gt;&gt;label_language.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="comboBox_number.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
+    <value>textBox</value>
+  </data>
+  <data name="groupBox_options.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="label_charWidth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label_charWidth.Name" xml:space="preserve">
+    <value>label_charWidth</value>
+  </data>
+  <data name="textBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="&gt;&gt;button_selectFile.Parent" xml:space="preserve">
+    <value>groupBox_Custom</value>
+  </data>
+  <data name="label_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="&gt;&gt;panel_gfx.Parent" xml:space="preserve">
+    <value>groupBox_preview</value>
+  </data>
+  <data name="textBox_file.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox_options.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Text Editor</value>
+  </data>
+  <data name="&gt;&gt;button_apply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_gfx.Name" xml:space="preserve">
+    <value>panel_gfx</value>
+  </data>
+  <data name="label_pos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_wordWrap.Text" xml:space="preserve">
+    <value>Word wrap</value>
+  </data>
+  <data name="&gt;&gt;checkBox_wordWrap.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label_text.Name" xml:space="preserve">
+    <value>label_text</value>
+  </data>
+  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="statusLabel_changes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 17</value>
+  </data>
+  <data name="&gt;&gt;comboBox_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_palette.Name" xml:space="preserve">
+    <value>pictureBox_palette</value>
+  </data>
+  <data name="textBox_file.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="textBox_offsetVal.Text" xml:space="preserve">
+    <value>000000</value>
+  </data>
+  <data name="groupBox_preview.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>663, 369</value>
+  </data>
+  <data name="textBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBox_number.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_Custom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 134</value>
+  </data>
+  <data name="&gt;&gt;groupBox_preview.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_number.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_selectFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_editGfx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 92</value>
+  </data>
+  <data name="label_charWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 15</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Custom.Name" xml:space="preserve">
+    <value>groupBox_Custom</value>
+  </data>
+  <data name="&gt;&gt;label_pos.Name" xml:space="preserve">
+    <value>label_pos</value>
+  </data>
+  <data name="&gt;&gt;groupBox_options.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Custom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_editPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_wordWrap.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_editGfx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_text.Parent" xml:space="preserve">
+    <value>panel_gfx</value>
+  </data>
+  <data name="&gt;&gt;button_editGfx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_charPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_offset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_language.Name" xml:space="preserve">
+    <value>comboBox_language</value>
+  </data>
+  <data name="numericUpDown_charWidth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="label_pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 12</value>
+  </data>
+  <data name="groupBox_Custom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 55</value>
+  </data>
+  <data name="label_language.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;textBox_file.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_customChar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_update.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox_options.Name" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="label_charPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 67</value>
+  </data>
+  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 195</value>
+  </data>
+  <data name="label_charPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button_selectFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;comboBox_number.Name" xml:space="preserve">
+    <value>comboBox_number</value>
+  </data>
+  <data name="&gt;&gt;label_number.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="numericUpDown_charWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 90</value>
+  </data>
+  <data name="&gt;&gt;label_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_customChar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_offset.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel_gfx.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_customChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 19</value>
+  </data>
+  <data name="label_offset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 95</value>
+  </data>
+  <data name="&gt;&gt;checkBox_customChar.Parent" xml:space="preserve">
+    <value>groupBox_Custom</value>
+  </data>
+  <data name="button_apply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="numericUpDown_charWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 67</value>
+  </data>
+  <data name="button_selectFile.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_number.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_palette.Parent" xml:space="preserve">
+    <value>groupBox_preview</value>
+  </data>
+  <data name="&gt;&gt;label_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_newLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="panel_gfx.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox_offsetVal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBox_number.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_apply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button_apply.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 9.5pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox_preview.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_editGfx.Name" xml:space="preserve">
+    <value>button_editGfx</value>
+  </data>
+  <data name="groupBox_preview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 117</value>
+  </data>
+  <data name="label_charPos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_customChar.Text" xml:space="preserve">
+    <value>Use custom characters table</value>
+  </data>
+  <data name="groupBox_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 11</value>
+  </data>
+  <data name="button_editGfx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="checkBox_newLine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;comboBox_language.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
+  </data>
+  <data name="label_language.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBox_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_palette.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_charPos.Text" xml:space="preserve">
+    <value>Character:</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAIAEBAAAAAAGABoAwAAJgAAACAgAAAAABgAqAwAAI4DAAAoAAAAEAAAACAAAAABABgAAAAAAAAD
@@ -244,570 +767,26 @@
         AAP//wAP//8ADw==
 </value>
   </data>
-  <data name="&gt;&gt;label_pos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_editPalette.Parent" xml:space="preserve">
-    <value>groupBox_preview</value>
-  </data>
-  <data name="button_editGfx.Text" xml:space="preserve">
-    <value>Edit GFX</value>
-  </data>
-  <data name="&gt;&gt;label_charWidth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label_offset.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label_charPos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 12</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Custom.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox_text.Name" xml:space="preserve">
-    <value>pictureBox_text</value>
-  </data>
-  <data name="&gt;&gt;comboBox_language.Name" xml:space="preserve">
-    <value>comboBox_language</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 195</value>
-  </data>
-  <data name="button_selectFile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button_close.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="&gt;&gt;button_editGfx.Parent" xml:space="preserve">
-    <value>groupBox_preview</value>
-  </data>
-  <data name="button_update.Text" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="numericUpDown_charWidth.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button_close.Name" xml:space="preserve">
-    <value>button_close</value>
-  </data>
-  <data name="&gt;&gt;groupBox_preview.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>623, 173</value>
-  </data>
-  <data name="&gt;&gt;textBox_offsetVal.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="pictureBox_text.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="groupBox_Custom.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
-  </data>
-  <data name="checkBox_customChar.Text" xml:space="preserve">
-    <value>Use custom characters table</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 74</value>
-  </data>
-  <data name="&gt;&gt;label_offset.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown_charWidth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox_preview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_apply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 21</value>
-  </data>
-  <data name="textBox_offsetVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 14</value>
-  </data>
-  <data name="textBox_offsetVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 95</value>
-  </data>
-  <data name="&gt;&gt;statusLabel_changes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label_offset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 95</value>
-  </data>
-  <data name="&gt;&gt;comboBox_text.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="checkBox_wordWrap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 18</value>
-  </data>
-  <data name="statusLabel_changes.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 21</value>
-  </data>
-  <data name="&gt;&gt;label_language.Name" xml:space="preserve">
-    <value>label_language</value>
-  </data>
-  <data name="panel_gfx.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="checkBox_wordWrap.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>647, 22</value>
-  </data>
-  <data name="&gt;&gt;button_update.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button_editPalette.Text" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="button_selectFile.Text" xml:space="preserve">
-    <value>Select FIle</value>
-  </data>
-  <data name="&gt;&gt;checkBox_customChar.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="checkBox_wordWrap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 16</value>
-  </data>
-  <data name="label_charPos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 67</value>
-  </data>
-  <data name="comboBox_number.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 67</value>
-  </data>
-  <data name="&gt;&gt;label_text.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="checkBox_customChar.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label_charWidth.Parent" xml:space="preserve">
-    <value>groupBox_Custom</value>
-  </data>
-  <data name="pictureBox_palette.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 16</value>
-  </data>
-  <data name="label_number.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="groupBox_preview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>335, 117</value>
-  </data>
-  <data name="&gt;&gt;textBox_offsetVal.Name" xml:space="preserve">
-    <value>textBox_offsetVal</value>
-  </data>
-  <data name="label_pos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 67</value>
-  </data>
-  <data name="label_offset.Text" xml:space="preserve">
-    <value>Offset:</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Custom.Name" xml:space="preserve">
-    <value>groupBox_Custom</value>
-  </data>
-  <data name="&gt;&gt;button_update.Parent" xml:space="preserve">
-    <value>groupBox_preview</value>
-  </data>
-  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 0, 16, 0</value>
-  </data>
-  <data name="label_text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 20</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>647, 401</value>
-  </data>
-  <data name="comboBox_text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 18</value>
-  </data>
-  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;checkBox_newLine.Name" xml:space="preserve">
-    <value>checkBox_newLine</value>
-  </data>
-  <data name="checkBox_wordWrap.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_number.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 70</value>
-  </data>
-  <data name="&gt;&gt;button_editPalette.Name" xml:space="preserve">
-    <value>button_editPalette</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormText</value>
-  </data>
-  <data name="&gt;&gt;label_language.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="comboBox_number.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button_selectFile.Name" xml:space="preserve">
-    <value>button_selectFile</value>
-  </data>
-  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
-    <value>textBox</value>
-  </data>
-  <data name="groupBox_options.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="statusStrip.Text" xml:space="preserve">
-    <value>statusStrip</value>
-  </data>
-  <data name="button_update.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 38</value>
-  </data>
-  <data name="&gt;&gt;label_charWidth.Name" xml:space="preserve">
-    <value>label_charWidth</value>
-  </data>
-  <data name="textBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Both</value>
-  </data>
-  <data name="button_close.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 90</value>
-  </data>
-  <data name="label_language.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 45</value>
-  </data>
-  <data name="&gt;&gt;pictureBox_text.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBox_options.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Text Editor</value>
-  </data>
-  <data name="&gt;&gt;button_apply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_gfx.Name" xml:space="preserve">
-    <value>panel_gfx</value>
-  </data>
-  <data name="label_pos.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="checkBox_wordWrap.Text" xml:space="preserve">
-    <value>Word wrap</value>
-  </data>
-  <data name="&gt;&gt;comboBox_language.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="&gt;&gt;checkBox_wordWrap.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;label_text.Name" xml:space="preserve">
-    <value>label_text</value>
-  </data>
-  <data name="checkBox_customChar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label_number.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="textBox_file.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
-  </data>
-  <data name="comboBox_text.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="textBox_offsetVal.Text" xml:space="preserve">
-    <value>000000</value>
-  </data>
-  <data name="groupBox_preview.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="button_editGfx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 19</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>663, 369</value>
-  </data>
-  <data name="textBox_file.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="textBox.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;comboBox_number.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBox_Custom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 134</value>
-  </data>
-  <data name="label_pos.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_selectFile.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label_number.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_selectFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_close.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label_pos.Name" xml:space="preserve">
-    <value>label_pos</value>
-  </data>
-  <data name="&gt;&gt;groupBox_options.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;comboBox_number.Name" xml:space="preserve">
-    <value>comboBox_number</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Custom.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="checkBox_customChar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 19</value>
-  </data>
-  <data name="&gt;&gt;checkBox_wordWrap.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="panel_gfx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 74</value>
-  </data>
-  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox_text.Parent" xml:space="preserve">
-    <value>panel_gfx</value>
-  </data>
-  <data name="&gt;&gt;button_editGfx.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_close.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBox_Custom.Text" xml:space="preserve">
-    <value>Custom</value>
-  </data>
-  <data name="&gt;&gt;label_offset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_selectFile.Parent" xml:space="preserve">
-    <value>groupBox_Custom</value>
-  </data>
-  <data name="&gt;&gt;label_number.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="label_language.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 12</value>
-  </data>
-  <data name="label_pos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 12</value>
-  </data>
-  <data name="&gt;&gt;checkBox_newLine.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;textBox_file.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkBox_customChar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_update.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupBox_options.Name" xml:space="preserve">
-    <value>groupBox_options</value>
-  </data>
-  <data name="&gt;&gt;groupBox_preview.Name" xml:space="preserve">
-    <value>groupBox_preview</value>
-  </data>
-  <data name="button_selectFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>541, 19</value>
-  </data>
-  <data name="button_selectFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="checkBox_newLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 16</value>
-  </data>
-  <data name="numericUpDown_charWidth.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;label_number.Name" xml:space="preserve">
-    <value>label_number</value>
-  </data>
-  <data name="&gt;&gt;label_language.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label_language.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label_offset.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;panel_gfx.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label_language.Text" xml:space="preserve">
-    <value>Language:</value>
-  </data>
-  <data name="label_text.Text" xml:space="preserve">
-    <value>Text:</value>
-  </data>
-  <data name="&gt;&gt;checkBox_customChar.Parent" xml:space="preserve">
-    <value>groupBox_Custom</value>
-  </data>
-  <data name="button_apply.Text" xml:space="preserve">
-    <value>Apply</value>
-  </data>
-  <data name="&gt;&gt;groupBox_options.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button_selectFile.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown_charWidth.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label_number.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;label_text.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_gfx.Parent" xml:space="preserve">
-    <value>groupBox_preview</value>
-  </data>
-  <data name="panel_gfx.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textBox_offsetVal.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_editPalette.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
-    <value>statusStrip</value>
-  </data>
-  <data name="&gt;&gt;button_apply.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="textBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 9.5pt</value>
-  </data>
-  <data name="label_text.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;groupBox_options.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_customChar.Name" xml:space="preserve">
-    <value>checkBox_customChar</value>
-  </data>
-  <data name="&gt;&gt;button_editGfx.Name" xml:space="preserve">
-    <value>button_editGfx</value>
-  </data>
-  <data name="label_number.Text" xml:space="preserve">
-    <value>Number:</value>
-  </data>
-  <data name="label_charPos.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label_charPos.Text" xml:space="preserve">
-    <value>Character:</value>
-  </data>
-  <data name="groupBox_options.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 11</value>
-  </data>
-  <data name="&gt;&gt;panel_gfx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="checkBox_newLine.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 12</value>
-  </data>
-  <data name="label_charWidth.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="&gt;&gt;comboBox_number.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="comboBox_language.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 42</value>
-  </data>
-  <data name="label_language.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;comboBox_language.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox_palette.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="button_editGfx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 92</value>
-  </data>
   <data name="label_charWidth.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="numericUpDown_charWidth.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 23</value>
   </data>
-  <data name="&gt;&gt;button_update.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboBox_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 42</value>
   </data>
   <data name="comboBox_number.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 20</value>
   </data>
+  <data name="&gt;&gt;button_update.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="comboBox_language.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;button_close.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
+  <data name="&gt;&gt;groupBox_options.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="panel_gfx.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 38</value>
@@ -815,17 +794,23 @@
   <data name="label_offset.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="button_editPalette.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;label_pos.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
   </data>
-  <data name="label_text.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;checkBox_newLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_customChar.Name" xml:space="preserve">
+    <value>checkBox_customChar</value>
+  </data>
+  <data name="textBox_offsetVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 95</value>
   </data>
   <data name="&gt;&gt;comboBox_text.Parent" xml:space="preserve">
     <value>groupBox_options</value>
   </data>
-  <data name="groupBox_Custom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>622, 55</value>
+  <data name="label_charWidth.Text" xml:space="preserve">
+    <value>Char width:</value>
   </data>
   <data name="numericUpDown_charWidth.Location" type="System.Drawing.Point, System.Drawing">
     <value>259, 19</value>
@@ -836,38 +821,41 @@
   <data name="&gt;&gt;label_charWidth.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textBox_file.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="label_charWidth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 15</value>
+  <data name="&gt;&gt;checkBox_newLine.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="checkBox_newLine.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="groupBox_preview.Text" xml:space="preserve">
-    <value>Preview</value>
+  <data name="panel_gfx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 74</value>
   </data>
   <data name="&gt;&gt;comboBox_number.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="button_close.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="&gt;&gt;pictureBox_palette.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="checkBox_customChar.TabIndex" type="System.Int32, mscorlib">
+  <data name="label_pos.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="button_update.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 38</value>
+  </data>
+  <data name="&gt;&gt;panel_gfx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button_apply.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;textBox_file.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;textBox_file.Name" xml:space="preserve">
     <value>textBox_file</value>
   </data>
-  <data name="checkBox_newLine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 42</value>
+  <data name="&gt;&gt;pictureBox_text.Name" xml:space="preserve">
+    <value>pictureBox_text</value>
   </data>
   <data name="&gt;&gt;button_update.Name" xml:space="preserve">
     <value>button_update</value>
@@ -875,8 +863,8 @@
   <data name="button_editPalette.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 19</value>
   </data>
-  <data name="&gt;&gt;button_editPalette.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button_selectFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="label_charWidth.Location" type="System.Drawing.Point, System.Drawing">
     <value>187, 23</value>
@@ -899,8 +887,8 @@
   <data name="label_charWidth.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;checkBox_newLine.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox_preview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBox_customChar.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 22</value>
@@ -911,17 +899,23 @@
   <data name="label_pos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="statusLabel_changes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 17</value>
+  <data name="&gt;&gt;checkBox_customChar.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="groupBox_preview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 11</value>
+  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 173</value>
   </data>
-  <data name="numericUpDown_charWidth.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
+  <data name="&gt;&gt;groupBox_Custom.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="label_charPos.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="groupBox_preview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_text.Text" xml:space="preserve">
+    <value>Text:</value>
   </data>
   <data name="pictureBox_text.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -931,9 +925,6 @@
   </data>
   <data name="button_editPalette.Location" type="System.Drawing.Point, System.Drawing">
     <value>269, 15</value>
-  </data>
-  <data name="label_charWidth.Text" xml:space="preserve">
-    <value>Char width:</value>
   </data>
   <data name="&gt;&gt;label_charPos.Parent" xml:space="preserve">
     <value>groupBox_options</value>
@@ -959,8 +950,8 @@
   <data name="comboBox_language.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 20</value>
   </data>
-  <data name="&gt;&gt;label_text.Parent" xml:space="preserve">
-    <value>groupBox_options</value>
+  <data name="button_selectFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 19</value>
   </data>
   <data name="groupBox_options.Size" type="System.Drawing.Size, System.Drawing">
     <value>282, 117</value>
@@ -968,14 +959,20 @@
   <data name="&gt;&gt;statusLabel_changes.Name" xml:space="preserve">
     <value>statusLabel_changes</value>
   </data>
-  <data name="&gt;&gt;label_pos.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label_text.Parent" xml:space="preserve">
     <value>groupBox_options</value>
+  </data>
+  <data name="textBox_file.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;label_pos.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;pictureBox_palette.Parent" xml:space="preserve">
-    <value>groupBox_preview</value>
+  <data name="comboBox_text.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_language.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBox_file.Location" type="System.Drawing.Point, System.Drawing">
     <value>306, 19</value>
@@ -986,14 +983,17 @@
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 379</value>
   </data>
-  <data name="&gt;&gt;button_editGfx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkBox_customChar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="comboBox_text.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 20</value>
   </data>
   <data name="label_number.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 12</value>
+  </data>
+  <data name="&gt;&gt;button_close.Parent" xml:space="preserve">
+    <value>groupBox_options</value>
   </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

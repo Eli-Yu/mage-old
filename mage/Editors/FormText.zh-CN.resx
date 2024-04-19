@@ -205,6 +205,15 @@
   <data name="panel_gfx.Size" type="System.Drawing.Size, System.Drawing">
     <value>257, 80</value>
   </data>
+  <data name="groupBox_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 127</value>
+  </data>
+  <data name="groupBox_options.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
   <data name="label_charPos.Location" type="System.Drawing.Point, System.Drawing">
     <value>173, 73</value>
   </data>
@@ -238,14 +247,14 @@
   <data name="button_apply.Text" xml:space="preserve">
     <value>应用</value>
   </data>
-  <data name="groupBox_options.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="groupBox_preview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 12</value>
   </data>
-  <data name="groupBox_options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 127</value>
+  <data name="groupBox_preview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 127</value>
   </data>
-  <data name="groupBox_options.Text" xml:space="preserve">
-    <value>选项</value>
+  <data name="groupBox_preview.Text" xml:space="preserve">
+    <value>预览</value>
   </data>
   <data name="button_editGfx.Location" type="System.Drawing.Point, System.Drawing">
     <value>269, 87</value>
@@ -280,15 +289,6 @@
   </data>
   <data name="pictureBox_palette.Size" type="System.Drawing.Size, System.Drawing">
     <value>257, 17</value>
-  </data>
-  <data name="groupBox_preview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 12</value>
-  </data>
-  <data name="groupBox_preview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>335, 127</value>
-  </data>
-  <data name="groupBox_preview.Text" xml:space="preserve">
-    <value>预览</value>
   </data>
   <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 202</value>

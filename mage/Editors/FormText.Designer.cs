@@ -267,8 +267,11 @@
             // textBox_file
             // 
             resources.ApplyResources(this.textBox_file, "textBox_file");
+            this.textBox_file.AllowDrop = true;
             this.textBox_file.Name = "textBox_file";
             this.textBox_file.ReadOnly = true;
+            this.textBox_file.DragDrop += new System.Windows.Forms.DragEventHandler(this.textBox_file_DragDrop);
+            this.textBox_file.DragEnter += new System.Windows.Forms.DragEventHandler(this.textBox_file_DragEnter);
             // 
             // button_selectFile
             // 

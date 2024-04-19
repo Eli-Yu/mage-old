@@ -238,15 +238,6 @@
   <data name="groupBox_resize.Text" xml:space="preserve">
     <value>调整房间大小</value>
   </data>
-  <data name="groupBox_clear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="groupBox_clear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 140</value>
-  </data>
-  <data name="groupBox_clear.Text" xml:space="preserve">
-    <value>清除背景</value>
-  </data>
   <data name="checkBox_scrolls.Location" type="System.Drawing.Point, System.Drawing">
     <value>70, 65</value>
   </data>
@@ -273,6 +264,15 @@
   </data>
   <data name="checkBox_sprites.Text" xml:space="preserve">
     <value>精灵</value>
+  </data>
+  <data name="groupBox_clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox_clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 140</value>
+  </data>
+  <data name="groupBox_clear.Text" xml:space="preserve">
+    <value>清除数据</value>
   </data>
   <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
     <value>221, 131</value>

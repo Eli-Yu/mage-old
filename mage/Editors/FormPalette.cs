@@ -244,7 +244,7 @@ namespace mage
             label_24bitVal.Text = (red * 8) + ", " + (green * 8) + ", " + (blue * 8);
 
             // HTML
-            if (noHtmlUpdate) return;
+            //if (noHtmlUpdate) return;
             textBox_html_color.Text = $"#{red * 8:X2}{green * 8:X2}{blue * 8:X2}";
         }
 
@@ -508,9 +508,10 @@ namespace mage
 
             noUpdate = false;
 
-            noHtmlUpdate = true;
+            //noHtmlUpdate = true;
             ColorChanged();
-            noHtmlUpdate = false;
+            textBox_html_color.SelectionStart = textBox_html_color.TextLength;
+            //noHtmlUpdate = false;
         }
 
         private void Import(PalFileType type)

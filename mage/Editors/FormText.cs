@@ -702,5 +702,42 @@ namespace mage
                 status.ChangeMade();
             }
         }
+
+        //dragdrop file to select custom file
+        private void textBox_file_DragDrop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+
+                if (files.Length == 1 && Path.GetExtension(files[0]).Equals(".txt", StringComparison.OrdinalIgnoreCase))
+                {
+                    if (CheckCustomFile(files[0]))
+                    {
+                        //display custom file name
+                        textBox_file.Text = files[0];
+                        SetCharTable(System.IO.File.ReadAllLines(files[0]));
+                        status.ChangeMade();
+                    }
+                }
+            }
+        }
+
+        private void textBox_file_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+
+                if (files.Length == 1 && Path.GetExtension(files[0]).Equals(".txt", StringComparison.OrdinalIgnoreCase))
+                {
+                    e.Effect = DragDropEffects.Copy;
+                }
+                else
+                {
+                    e.Effect = DragDropEffects.None;
+                }
+            }
+        }
     }
 }

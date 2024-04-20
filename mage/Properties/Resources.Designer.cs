@@ -1205,6 +1205,24 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Vertical bomb chain  的本地化字符串。
+        /// </summary>
+        internal static string formShortcut_VBombChain_Text {
+            get {
+                return ResourceManager.GetString("formShortcut_VBombChain_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Horizontal bomb chain  的本地化字符串。
+        /// </summary>
+        internal static string formShortcuts_HBombChain_Text {
+            get {
+                return ResourceManager.GetString("formShortcuts_HBombChain_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  (too high) 的本地化字符串。
         /// </summary>
         internal static string formSprite_label_totalProbHigh {

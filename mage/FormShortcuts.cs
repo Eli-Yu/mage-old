@@ -12,6 +12,10 @@ namespace mage
         
         //hatch number: use to define the number of hatch in fusion
         private byte hatchNumber = 1;
+        //bomb->bomb chian, slope->ceiling
+        private bool isSwitch = false;
+        //horizontal, vertical bomb chain number
+        private byte hNumber = 1, vNumber = 1;
 
         // constructor
         public FormShortcuts(FormMain main)
@@ -20,6 +24,9 @@ namespace mage
 
             this.main = main;
             Initialize();
+            //mouse wheel events, can not use designer bind
+            button_bomb.MouseWheel += button_bomb_MouseWheel;
+            button_bomb_never.MouseWheel += button_bomb_never_MouseWheel;
         }
 
         private void Initialize()
@@ -264,14 +271,28 @@ namespace mage
         #region breakable
         private void button_bomb_Click(object sender, EventArgs e)
         {
-            if (isMF) { main.Clipdata = 0x56; }
-            else { main.Clipdata = 0x67; }
+            if(isSwitch)
+            {//vertical
+                main.Clipdata = (ushort)(0x70 + vNumber - 1);
+            }
+            else 
+            { 
+                if (isMF) { main.Clipdata = 0x56; }
+                else { main.Clipdata = 0x67; }
+            }
         }
 
         private void button_bomb_never_Click(object sender, EventArgs e)
         {
-            if (isMF) { main.Clipdata = 0x55; }
-            else { main.Clipdata = 0x57; }
+            if (isSwitch)
+            {//horizontal bomb chain
+                main.Clipdata = (ushort)(0x74 + hNumber - 1);
+            }
+            else 
+            {
+                if (isMF) { main.Clipdata = 0x55; }
+                else { main.Clipdata = 0x57; }
+            }
         }
 
         private void button_speed_Click(object sender, EventArgs e)
@@ -467,23 +488,40 @@ namespace mage
         //input 1-6(inlude number pad 1-6) to select slot of hatch and modify hatch label in fusion
         private void FormShortcuts_KeyDown(object sender, KeyEventArgs e)
         {
-            if(!isMF) return;
-            hatchNumber = e.KeyCode switch 
+            switch (e.KeyCode)
             {
-                Keys.D1 => 1,
-                Keys.NumPad1 => 1,
-                Keys.D2 => 2,
-                Keys.NumPad2 => 2,
-                Keys.D3 => 3,
-                Keys.NumPad3 => 3,
-                Keys.D4 => 4,
-                Keys.NumPad4 => 4,
-                Keys.D5 => 5,
-                Keys.NumPad5 => 5,
-                Keys.D6 => 6,
-                Keys.NumPad6 => 6,
-                _ => 0,
-            };
+                case Keys.D1:
+                case Keys.NumPad1:
+                    hatchNumber = 1;
+                    break;
+                case Keys.D2:
+                case Keys.NumPad2:
+                    hatchNumber = 2;
+                    break;
+                case Keys.D3:
+                case Keys.NumPad3:
+                    hatchNumber = 3;
+                    break;
+                case Keys.D4:
+                case Keys.NumPad4:
+                    hatchNumber = 4;
+                    break;
+                case Keys.D5:
+                case Keys.NumPad5:
+                    hatchNumber = 5;
+                    break;
+                case Keys.D6:
+                case Keys.NumPad6:
+                    hatchNumber = 6;
+                    break;
+                case Keys.C:
+                    isSwitch = !isSwitch;
+                    switchType();
+                    break;
+                default: return;
+            }
+
+            if(!isMF) return;
             foreach (Control label in groupBox_hatch.Controls)
             {
                 if(label is Label)
@@ -491,6 +529,54 @@ namespace mage
                     if (label == label_grey) continue;
                     else if(hatchNumber!=0) label.Text = label.Text.Remove(label.Text.Length -1, 1) + hatchNumber;
                 }
+            }
+        }
+
+        private void button_bomb_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (isSwitch)
+            {
+                if(e.Delta > 0)
+                {//scroll up, number -, when less than 1 set 4 (max value of bomb chain) -> cycle rolling
+                    vNumber = (byte)(--vNumber < 1? 4 : vNumber);
+                }
+                else if(e.Delta < 0)
+                {//scroll down, number +
+                    vNumber = (byte)(++vNumber > 4 ? 1 : vNumber);
+                }
+                //change label
+                label_bomb.Text = Resources.formShortcut_VBombChain_Text + vNumber.ToString();
+            }
+        }
+
+        private void button_bomb_never_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (isSwitch)
+            {
+                if (e.Delta > 0)
+                {//scroll up, number -
+                    hNumber = (byte)(--hNumber < 1 ? 4 : hNumber);
+                }
+                else if (e.Delta < 0)
+                {//scroll down, number +
+                    hNumber = (byte)(++hNumber > 4 ? 1 : hNumber);
+                }
+                label_bomb_never.Text = Resources.formShortcuts_HBombChain_Text + hNumber.ToString();
+            }
+        }
+
+        private void switchType()
+        {
+            if (!isSwitch)
+            {
+                var resource = new System.Resources.ResourceManager("mage.FormShortcuts", System.Reflection.Assembly.GetExecutingAssembly());
+                label_bomb.Text = resource.GetString("label_bomb.Text");
+                label_bomb_never.Text = resource.GetString("label_bomb_never.Text");
+            }
+            else
+            {
+                label_bomb.Text = Resources.formShortcut_VBombChain_Text + vNumber.ToString();
+                label_bomb_never.Text = Resources.formShortcuts_HBombChain_Text + hNumber.ToString();
             }
         }
     }

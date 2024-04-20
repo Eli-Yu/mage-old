@@ -741,4 +741,10 @@
   <data name="formText_CustomFileNotFound" xml:space="preserve">
     <value>找不到自定义码表文件，将使用默认码表。</value>
   </data>
+  <data name="formShortcut_VBombChain_Text" xml:space="preserve">
+    <value>垂直链式炸弹砖块 </value>
+  </data>
+  <data name="formShortcuts_HBombChain_Text" xml:space="preserve">
+    <value>水平链式炸弹砖块 </value>
+  </data>
 </root>

@@ -1123,4 +1123,31 @@ You can refer to the default file (MF_chars.txt, ZM_chars.txt).</value>
   <data name="formShortcuts_HBombChain_Text" xml:space="preserve">
     <value>Horizontal bomb chain </value>
   </data>
+  <data name="shorcut_ceiling27_Lneg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons\shorcut_ceiling27_Lneg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shorcut_ceiling27_Lpos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons\shorcut_ceiling27_Lpos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shorcut_ceiling27_Uneg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons\shorcut_ceiling27_Uneg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shorcut_ceiling27_Upos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons\shorcut_ceiling27_Upos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shorcut_ceiling45_neg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons\shorcut_ceiling45_neg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shorcut_ceiling45_pos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons\shorcut_ceiling45_pos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formShortcuts_groupBox_slopes_Text" xml:space="preserve">
+    <value>Ceiling</value>
+  </data>
+  <data name="formShortcuts_slope_steep_Text" xml:space="preserve">
+    <value>Steep ceiling</value>
+  </data>
+  <data name="formShortcuts_slope_slight_Text" xml:space="preserve">
+    <value>Slight ceiling</value>
+  </data>
 </root>

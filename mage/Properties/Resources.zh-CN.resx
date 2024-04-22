@@ -747,4 +747,13 @@
   <data name="formShortcuts_HBombChain_Text" xml:space="preserve">
     <value>水平链式炸弹砖块 </value>
   </data>
+  <data name="formShortcuts_groupBox_slopes_Text" xml:space="preserve">
+    <value>天花板</value>
+  </data>
+  <data name="formShortcuts_slope_steep_Text" xml:space="preserve">
+    <value>陡斜面</value>
+  </data>
+  <data name="formShortcuts_slope_slight_Text" xml:space="preserve">
+    <value>缓斜面</value>
+  </data>
 </root>

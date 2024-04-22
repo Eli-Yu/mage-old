@@ -217,32 +217,38 @@ namespace mage
         #region slopes
         private void button_slope45_pos_Click(object sender, EventArgs e)
         {
-            main.Clipdata = 0x11;
+            if (isSwitch) main.Clipdata = 0x21;
+            else main.Clipdata = 0x11;
         }
 
         private void button_slope45_neg_Click(object sender, EventArgs e)
         {
-            main.Clipdata = 0x12;
+            if (isSwitch) main.Clipdata = 0x22;
+            else main.Clipdata = 0x12;
         }
 
         private void button_slope27_Lpos_Click(object sender, EventArgs e)
         {
-            main.Clipdata = 0x13;
+            if (isSwitch) main.Clipdata = 0x23;
+            else main.Clipdata = 0x13;
         }
 
         private void button_slope27_Upos_Click(object sender, EventArgs e)
         {
-            main.Clipdata = 0x14;
+            if (isSwitch) main.Clipdata = 0x24;
+            else main.Clipdata = 0x14;
         }
 
         private void button_slope27_Uneg_Click(object sender, EventArgs e)
         {
-            main.Clipdata = 0x15;
+            if (isSwitch) main.Clipdata = 0x25;
+            else main.Clipdata = 0x15;
         }
 
         private void button_slope27_Lneg_Click(object sender, EventArgs e)
         {
-            main.Clipdata = 0x16;
+            if (isSwitch) main.Clipdata = 0x26;
+            else main.Clipdata = 0x16;
         }
         #endregion
 
@@ -572,11 +578,32 @@ namespace mage
                 var resource = new System.Resources.ResourceManager("mage.FormShortcuts", System.Reflection.Assembly.GetExecutingAssembly());
                 label_bomb.Text = resource.GetString("label_bomb.Text");
                 label_bomb_never.Text = resource.GetString("label_bomb_never.Text");
+
+                groupBox_slopes.Text = resource.GetString("groupBox_slopes.Text");
+                label_slope_steep.Text = resource.GetString("label_slope_steep.Text");
+                label_slope_slight.Text = resource.GetString("label_slope_slight.Text");
+                button_slope45_pos.Image = Resources.shortcut_slope45_pos;
+                button_slope45_neg.Image = Resources.shortcut_slope45_neg;
+                button_slope27_Lpos.Image = Resources.shortcut_slope27_Lpos;
+                button_slope27_Upos.Image = Resources.shortcut_slope27_Upos;
+                button_slope27_Lneg.Image = Resources.shortcut_slope27_Lneg;
+                button_slope27_Uneg.Image = Resources.shortcut_slope27_Uneg;
+
             }
             else
             {
                 label_bomb.Text = Resources.formShortcut_VBombChain_Text + vNumber.ToString();
                 label_bomb_never.Text = Resources.formShortcuts_HBombChain_Text + hNumber.ToString();
+
+                groupBox_slopes.Text = Resources.formShortcuts_groupBox_slopes_Text;
+                label_slope_steep.Text = Resources.formShortcuts_slope_steep_Text;
+                label_slope_slight.Text = Resources.formShortcuts_slope_slight_Text;
+                button_slope45_pos.Image = Resources.shorcut_ceiling45_pos;
+                button_slope45_neg.Image = Resources.shorcut_ceiling45_neg;
+                button_slope27_Lpos.Image = Resources.shorcut_ceiling27_Upos;
+                button_slope27_Upos.Image = Resources.shorcut_ceiling27_Lpos;
+                button_slope27_Lneg.Image = Resources.shorcut_ceiling27_Uneg;
+                button_slope27_Uneg.Image = Resources.shorcut_ceiling27_Lneg;
             }
         }
     }

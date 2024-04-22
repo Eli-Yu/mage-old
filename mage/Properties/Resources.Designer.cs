@@ -1214,11 +1214,38 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Ceiling 的本地化字符串。
+        /// </summary>
+        internal static string formShortcuts_groupBox_slopes_Text {
+            get {
+                return ResourceManager.GetString("formShortcuts_groupBox_slopes_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Horizontal bomb chain  的本地化字符串。
         /// </summary>
         internal static string formShortcuts_HBombChain_Text {
             get {
                 return ResourceManager.GetString("formShortcuts_HBombChain_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Slight ceiling 的本地化字符串。
+        /// </summary>
+        internal static string formShortcuts_slope_slight_Text {
+            get {
+                return ResourceManager.GetString("formShortcuts_slope_slight_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Steep ceiling 的本地化字符串。
+        /// </summary>
+        internal static string formShortcuts_slope_steep_Text {
+            get {
+                return ResourceManager.GetString("formShortcuts_slope_steep_Text", resourceCulture);
             }
         }
         
@@ -2374,6 +2401,66 @@ namespace mage.Properties {
         internal static System.Drawing.Bitmap scrollNums {
             get {
                 object obj = ResourceManager.GetObject("scrollNums", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shorcut_ceiling27_Lneg {
+            get {
+                object obj = ResourceManager.GetObject("shorcut_ceiling27_Lneg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shorcut_ceiling27_Lpos {
+            get {
+                object obj = ResourceManager.GetObject("shorcut_ceiling27_Lpos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shorcut_ceiling27_Uneg {
+            get {
+                object obj = ResourceManager.GetObject("shorcut_ceiling27_Uneg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shorcut_ceiling27_Upos {
+            get {
+                object obj = ResourceManager.GetObject("shorcut_ceiling27_Upos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shorcut_ceiling45_neg {
+            get {
+                object obj = ResourceManager.GetObject("shorcut_ceiling45_neg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shorcut_ceiling45_pos {
+            get {
+                object obj = ResourceManager.GetObject("shorcut_ceiling45_pos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -45,6 +45,11 @@ namespace mage
                 button_crumble_slow.Enabled = false;
                 label_crumble_slow.Enabled = false;
 
+                //switch groupBox ladder, and hide groupBox super
+                groupBox_super.Visible = false;
+                groupBox_ladder.Enabled = true;
+                groupBox_ladder.Visible = true;
+
                 //grey hatch: navigation room use
                 button_grey.Enabled = true;
                 label_grey.Enabled = true;
@@ -488,6 +493,23 @@ namespace mage
         private void button_grey_Click(object sender, EventArgs e)
         {
             main.Clipdata = 0x3F;
+        }
+        #endregion
+
+        #region ladder
+        private void button_ladder_ceiling_Click(object sender, EventArgs e)
+        {
+            main.Clipdata = 0x18;
+        }
+
+        private void button_ladder_right_Click(object sender, EventArgs e)
+        {
+            main.Clipdata = 0x19;
+        }
+
+        private void button_ladder_left_Click(object sender, EventArgs e)
+        {
+            main.Clipdata = 0x1A;
         }
         #endregion
 

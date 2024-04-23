@@ -645,6 +645,9 @@
     <None Include="Resources\Icons\shorcut_ceiling27_Upos.png" />
     <None Include="Resources\Icons\shorcut_ceiling45_neg.png" />
     <None Include="Resources\Icons\shorcut_ceiling45_pos.png" />
+    <None Include="Resources\Icons\shortcut_ladder_ceiling.png" />
+    <None Include="Resources\Icons\shortcut_ladder_left.png" />
+    <None Include="Resources\Icons\shortcut_ladder_right.png" />
     <Content Include="Resources\Icons\toolbar_animation.png" />
     <Content Include="Resources\Icons\toolbar_connection.png" />
     <None Include="Resources\Icons\toolbar_demo.png" />

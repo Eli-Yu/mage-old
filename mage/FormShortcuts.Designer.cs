@@ -151,6 +151,13 @@
             this.button_blue = new System.Windows.Forms.Button();
             this.label_white = new System.Windows.Forms.Label();
             this.button_white = new System.Windows.Forms.Button();
+            this.groupBox_ladder = new System.Windows.Forms.GroupBox();
+            this.button_ladder_left = new System.Windows.Forms.Button();
+            this.label_ladder_left = new System.Windows.Forms.Label();
+            this.button_ladder_right = new System.Windows.Forms.Button();
+            this.label_ladder_right = new System.Windows.Forms.Label();
+            this.button_ladder_ceiling = new System.Windows.Forms.Button();
+            this.label_ladder_ceiling = new System.Windows.Forms.Label();
             this.groupBox_basic.SuspendLayout();
             this.groupBox_ground.SuspendLayout();
             this.groupBox_slopes.SuspendLayout();
@@ -163,6 +170,7 @@
             this.groupBox_liquids.SuspendLayout();
             this.groupBox_shot.SuspendLayout();
             this.groupBox_hatch.SuspendLayout();
+            this.groupBox_ladder.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_air
@@ -1077,10 +1085,62 @@
             this.button_white.UseVisualStyleBackColor = true;
             this.button_white.Click += new System.EventHandler(this.button_white_Click);
             // 
+            // groupBox_ladder
+            // 
+            resources.ApplyResources(this.groupBox_ladder, "groupBox_ladder");
+            this.groupBox_ladder.Controls.Add(this.button_ladder_left);
+            this.groupBox_ladder.Controls.Add(this.label_ladder_left);
+            this.groupBox_ladder.Controls.Add(this.button_ladder_right);
+            this.groupBox_ladder.Controls.Add(this.label_ladder_right);
+            this.groupBox_ladder.Controls.Add(this.button_ladder_ceiling);
+            this.groupBox_ladder.Controls.Add(this.label_ladder_ceiling);
+            this.groupBox_ladder.Name = "groupBox_ladder";
+            this.groupBox_ladder.TabStop = false;
+            // 
+            // button_ladder_left
+            // 
+            resources.ApplyResources(this.button_ladder_left, "button_ladder_left");
+            this.button_ladder_left.Image = global::mage.Properties.Resources.shortcut_ladder_left;
+            this.button_ladder_left.Name = "button_ladder_left";
+            this.button_ladder_left.UseVisualStyleBackColor = true;
+            this.button_ladder_left.Click += new System.EventHandler(this.button_ladder_left_Click);
+            // 
+            // label_ladder_left
+            // 
+            resources.ApplyResources(this.label_ladder_left, "label_ladder_left");
+            this.label_ladder_left.Name = "label_ladder_left";
+            // 
+            // button_ladder_right
+            // 
+            resources.ApplyResources(this.button_ladder_right, "button_ladder_right");
+            this.button_ladder_right.Image = global::mage.Properties.Resources.shortcut_ladder_right;
+            this.button_ladder_right.Name = "button_ladder_right";
+            this.button_ladder_right.UseVisualStyleBackColor = true;
+            this.button_ladder_right.Click += new System.EventHandler(this.button_ladder_right_Click);
+            // 
+            // label_ladder_right
+            // 
+            resources.ApplyResources(this.label_ladder_right, "label_ladder_right");
+            this.label_ladder_right.Name = "label_ladder_right";
+            // 
+            // button_ladder_ceiling
+            // 
+            resources.ApplyResources(this.button_ladder_ceiling, "button_ladder_ceiling");
+            this.button_ladder_ceiling.Image = global::mage.Properties.Resources.shortcut_ladder_ceiling;
+            this.button_ladder_ceiling.Name = "button_ladder_ceiling";
+            this.button_ladder_ceiling.UseVisualStyleBackColor = true;
+            this.button_ladder_ceiling.Click += new System.EventHandler(this.button_ladder_ceiling_Click);
+            // 
+            // label_ladder_ceiling
+            // 
+            resources.ApplyResources(this.label_ladder_ceiling, "label_ladder_ceiling");
+            this.label_ladder_ceiling.Name = "label_ladder_ceiling";
+            // 
             // FormShortcuts
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupBox_ladder);
             this.Controls.Add(this.groupBox_hatch);
             this.Controls.Add(this.groupBox_power);
             this.Controls.Add(this.groupBox_energy);
@@ -1121,6 +1181,8 @@
             this.groupBox_shot.PerformLayout();
             this.groupBox_hatch.ResumeLayout(false);
             this.groupBox_hatch.PerformLayout();
+            this.groupBox_ladder.ResumeLayout(false);
+            this.groupBox_ladder.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1249,5 +1311,12 @@
         private System.Windows.Forms.Button button_white;
         private System.Windows.Forms.Label label_grey;
         private System.Windows.Forms.Button button_grey;
+        private System.Windows.Forms.GroupBox groupBox_ladder;
+        private System.Windows.Forms.Button button_ladder_left;
+        private System.Windows.Forms.Label label_ladder_left;
+        private System.Windows.Forms.Button button_ladder_right;
+        private System.Windows.Forms.Label label_ladder_right;
+        private System.Windows.Forms.Button button_ladder_ceiling;
+        private System.Windows.Forms.Label label_ladder_ceiling;
     }
 }

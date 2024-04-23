@@ -1018,6 +1018,33 @@
   <data name="groupBox_hatch.Text" xml:space="preserve">
     <value>舱门</value>
   </data>
+  <data name="label_ladder_left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label_ladder_left.Text" xml:space="preserve">
+    <value>左侧墙</value>
+  </data>
+  <data name="label_ladder_right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label_ladder_right.Text" xml:space="preserve">
+    <value>右侧墙</value>
+  </data>
+  <data name="label_ladder_ceiling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label_ladder_ceiling.Text" xml:space="preserve">
+    <value>天花板</value>
+  </data>
+  <data name="groupBox_ladder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 12</value>
+  </data>
+  <data name="groupBox_ladder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 97</value>
+  </data>
+  <data name="groupBox_ladder.Text" xml:space="preserve">
+    <value>梯子</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>

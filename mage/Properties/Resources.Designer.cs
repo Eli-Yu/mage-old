@@ -2638,6 +2638,36 @@ namespace mage.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap shortcut_ladder_ceiling {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_ladder_ceiling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_ladder_left {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_ladder_left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_ladder_right {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_ladder_right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap shortcut_lava_strong {
             get {
                 object obj = ResourceManager.GetObject("shortcut_lava_strong", resourceCulture);

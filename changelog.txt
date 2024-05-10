@@ -4,6 +4,10 @@
   - Clear doors, sprites, and scrolls and input screens to change room size in Room Options
   - Add a button for Clipdata Shortcuts in Main, and the image of the button will change with clipdata. 
   - Add drag and drop selection of custom files in Text Editor
+  - Add hatch shortcut (press 1-6 to select hatch numbers for MF), bomb chain and ceiling shorcut (press C 
+    switch, and scroll the mouse wheel to switch bomb chain numbers), and add ladder shortcut (for MF) to
+    Clipdata Shortcuts, and Main Window also shows these new clipdata's images
+  - Add Automatic backup option,  it will automatically backup the ROM when the set time interval is reached
 
 1.4.2
   - Add custom code table fuction in Text Editor

@@ -734,7 +734,7 @@
     <value>屏幕边线</value>
   </data>
   <data name="menuItem_defaultView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="menuItem_defaultView.Text" xml:space="preserve">
     <value>默认视图</value>
@@ -752,22 +752,49 @@
     <value>十进制</value>
   </data>
   <data name="menuItem_numberBase.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="menuItem_numberBase.Text" xml:space="preserve">
     <value>进制</value>
   </data>
+  <data name="toolStripComboBox_backup.Items" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="toolStripComboBox_backup.Items1" xml:space="preserve">
+    <value>5 分钟</value>
+  </data>
+  <data name="toolStripComboBox_backup.Items2" xml:space="preserve">
+    <value>10 分钟</value>
+  </data>
+  <data name="toolStripComboBox_backup.Items3" xml:space="preserve">
+    <value>15 分钟</value>
+  </data>
+  <data name="toolStripComboBox_backup.Items4" xml:space="preserve">
+    <value>20 分钟</value>
+  </data>
+  <data name="toolStripComboBox_backup.Items5" xml:space="preserve">
+    <value>25 分钟</value>
+  </data>
+  <data name="toolStripComboBox_backup.Items6" xml:space="preserve">
+    <value>30 分钟</value>
+  </data>
+  <data name="menuItem_autoBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="menuItem_autoBackup.Text" xml:space="preserve">
+    <value>自动备份</value>
+  </data>
   <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
+    <value>177, 6</value>
   </data>
   <data name="menuItem_tooltips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="menuItem_tooltips.Text" xml:space="preserve">
     <value>禁用工具提示</value>
   </data>
   <data name="changeEmulatorPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="changeEmulatorPathToolStripMenuItem.Text" xml:space="preserve">
     <value>更改模拟器路径</value>

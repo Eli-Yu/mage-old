@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using mage.Properties;
@@ -154,6 +155,9 @@ namespace mage
             else if (zoom == 2) { menuItem_zoom400.Checked = true; }
             else if (zoom == 3) { menuItem_zoom800.Checked = true; }
             roomView.UpdateZoom(zoom, false);
+
+            // for auto backup
+            toolStripComboBox_backup.SelectedIndex = Settings.Default.autoBackup;
         }
 
         private void SaveSettings()
@@ -173,6 +177,9 @@ namespace mage
             Settings.Default.hexadecimal = menuItem_hexadecimal.Checked;
             Settings.Default.tooltips = menuItem_tooltips.Checked;
             Settings.Default.zoom = zoom;
+
+            // for auto backup
+            Settings.Default.autoBackup = toolStripComboBox_backup.SelectedIndex;
             Settings.Default.Save();
         }
 
@@ -1088,6 +1095,19 @@ namespace mage
             EnableControls(true);
             menuItem_editBGs.Checked = toolStrip_editBGs.Checked = true;
             menuItem_editObjects.Checked = toolStrip_editObjects.Checked = false;
+
+            // for auto backup
+            if (toolStripComboBox_backup.SelectedIndex == 0 || toolStripComboBox_backup.SelectedIndex == -1)
+            {
+                timer.Stop();
+                timer.Enabled = false;
+            }
+            else
+            {
+                timer.Enabled = true;
+                timer.Interval = 60000 * 5 * toolStripComboBox_backup.SelectedIndex;
+                timer.Start();
+            }
         }
 
         private void EnableControls(bool val)
@@ -2582,6 +2602,38 @@ namespace mage
 
             Settings.Default.emulatorPath = ofd.FileName;
             Settings.Default.Save();
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            // add current room if not yet added
+            room.SaveObjects();
+
+            // get file name
+            string directory = Path.Combine(Path.GetDirectoryName(filename), "AutoBackup");
+            Directory.CreateDirectory(directory);
+            string backup = Path.Combine(directory, DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss") + ".gba");
+
+            // save backup
+            byte[] copy = ROM.BackupData();
+            ROM.SaveROM(backup, false);
+            Version.SaveProject(backup);
+            ROM.RestoreData(copy);
+        }
+
+        private void toolStripComboBox_backup_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (toolStripComboBox_backup.SelectedIndex == 0 || toolStripComboBox_backup.SelectedIndex == -1 || menuStrip_options.Enabled == false)
+            {
+                timer.Stop();
+                timer.Enabled = false;
+            }
+            else
+            {
+                timer.Enabled = true;
+                timer.Interval = 60000 * 5 * toolStripComboBox_backup.SelectedIndex;
+                timer.Start();
+            }
         }
     }
 }

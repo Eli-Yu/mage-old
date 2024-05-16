@@ -244,6 +244,7 @@
             this.toolStrip_patches = new System.Windows.Forms.ToolStripButton();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.menuItem_creditEditor = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.groupBox_location.SuspendLayout();
             this.groupBox_tileset.SuspendLayout();
@@ -634,7 +635,8 @@
             this.menuItem_textEditor,
             this.menuItem_demoEditor,
             this.menuItem_physicsEditor,
-            this.menuItem_weaponEditor});
+            this.menuItem_weaponEditor,
+            this.menuItem_creditEditor});
             resources.ApplyResources(this.menuStrip_editors, "menuStrip_editors");
             this.menuStrip_editors.Name = "menuStrip_editors";
             // 
@@ -1832,6 +1834,12 @@
             // 
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+            // menuItem_creditEditor
+            // 
+            this.menuItem_creditEditor.Name = "menuItem_creditEditor";
+            resources.ApplyResources(this.menuItem_creditEditor, "menuItem_creditEditor");
+            this.menuItem_creditEditor.Click += new System.EventHandler(this.menuItem_creditEditor_Click);
+            // 
             // FormMain
             // 
             this.AllowDrop = true;
@@ -2093,6 +2101,7 @@
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.ToolStripMenuItem menuItem_autoBackup;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox_backup;
+        private System.Windows.Forms.ToolStripMenuItem menuItem_creditEditor;
     }
 }
 

@@ -121,40 +121,13 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>796, 25</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
-    <value>menuStrip</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="menuStrip_file.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 21</value>
-  </data>
-  <data name="menuStrip_file.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
   <data name="menuItem_openROM.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 22</value>
   </data>
   <data name="menuItem_openROM.Text" xml:space="preserve">
     <value>Open ROM...</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuItem_saveROM.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -188,12 +161,6 @@
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 6</value>
   </data>
-  <data name="menuItem_recentFiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="menuItem_recentFiles.Text" xml:space="preserve">
-    <value>Recent Files</value>
-  </data>
   <data name="menuItem_clearRecentFiles.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 22</value>
   </data>
@@ -203,14 +170,17 @@
   <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 6</value>
   </data>
-  <data name="menuStrip_edit.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="menuItem_recentFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
   </data>
-  <data name="menuStrip_edit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 21</value>
+  <data name="menuItem_recentFiles.Text" xml:space="preserve">
+    <value>Recent Files</value>
   </data>
-  <data name="menuStrip_edit.Text" xml:space="preserve">
-    <value>Edit</value>
+  <data name="menuStrip_file.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 21</value>
+  </data>
+  <data name="menuStrip_file.Text" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="menuItem_editBGs.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -300,14 +270,14 @@
   <data name="menuItem_editCLP.Text" xml:space="preserve">
     <value>Clipdata</value>
   </data>
-  <data name="menuStrip_view.Enabled" type="System.Boolean, mscorlib">
+  <data name="menuStrip_edit.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="menuStrip_view.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 21</value>
+  <data name="menuStrip_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
   </data>
-  <data name="menuStrip_view.Text" xml:space="preserve">
-    <value>View</value>
+  <data name="menuStrip_edit.Text" xml:space="preserve">
+    <value>Edit</value>
   </data>
   <data name="menuItem_viewBG0.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+1</value>
@@ -345,12 +315,6 @@
   <data name="menuItem_viewBG3.Text" xml:space="preserve">
     <value>BG 3</value>
   </data>
-  <data name="menuItem_viewCLP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 22</value>
-  </data>
-  <data name="menuItem_viewCLP.Text" xml:space="preserve">
-    <value>Clipdata</value>
-  </data>
   <data name="menuItem_viewClipCollision.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+5</value>
   </data>
@@ -377,6 +341,12 @@
   </data>
   <data name="menuItem_viewClipValues.Text" xml:space="preserve">
     <value>Values</value>
+  </data>
+  <data name="menuItem_viewCLP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="menuItem_viewCLP.Text" xml:space="preserve">
+    <value>Clipdata</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 6</value>
@@ -456,12 +426,6 @@
   <data name="menuItem_clipboard.Text" xml:space="preserve">
     <value>Clipboard</value>
   </data>
-  <data name="menuItem_zoom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 22</value>
-  </data>
-  <data name="menuItem_zoom.Text" xml:space="preserve">
-    <value>Zoom</value>
-  </data>
   <data name="menuItem_zoom100.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+0</value>
   </data>
@@ -516,14 +480,20 @@
   <data name="menuItem_zoomOut.Text" xml:space="preserve">
     <value>Zoom Out</value>
   </data>
-  <data name="menuStrip_editors.Enabled" type="System.Boolean, mscorlib">
+  <data name="menuItem_zoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="menuItem_zoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="menuStrip_view.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="menuStrip_editors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
+  <data name="menuStrip_view.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
   </data>
-  <data name="menuStrip_editors.Text" xml:space="preserve">
-    <value>Editors</value>
+  <data name="menuStrip_view.Text" xml:space="preserve">
+    <value>View</value>
   </data>
   <data name="menuItem_headerEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -618,14 +588,20 @@
   <data name="menuItem_weaponEditor.Text" xml:space="preserve">
     <value>Weapon Editor</value>
   </data>
-  <data name="menuStrip_tools.Enabled" type="System.Boolean, mscorlib">
+  <data name="menuItem_creditEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="menuItem_creditEditor.Text" xml:space="preserve">
+    <value>Credit Editor</value>
+  </data>
+  <data name="menuStrip_editors.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="menuStrip_tools.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 21</value>
+  <data name="menuStrip_editors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
   </data>
-  <data name="menuStrip_tools.Text" xml:space="preserve">
-    <value>Tools</value>
+  <data name="menuStrip_editors.Text" xml:space="preserve">
+    <value>Editors</value>
   </data>
   <data name="menuItem_roomOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
@@ -647,12 +623,6 @@
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 6</value>
-  </data>
-  <data name="menuItem_import.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
-  </data>
-  <data name="menuItem_import.Text" xml:space="preserve">
-    <value>Import</value>
   </data>
   <data name="menuItem_importTileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 22</value>
@@ -699,11 +669,11 @@
   <data name="menuItem_importEnding.Text" xml:space="preserve">
     <value>Ending from Image</value>
   </data>
-  <data name="menuItem_export.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="menuItem_import.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
   </data>
-  <data name="menuItem_export.Text" xml:space="preserve">
-    <value>Export</value>
+  <data name="menuItem_import.Text" xml:space="preserve">
+    <value>Import</value>
   </data>
   <data name="menuItem_exportTileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 22</value>
@@ -750,11 +720,11 @@
   <data name="menuItem_exportRoomImage.Text" xml:space="preserve">
     <value>Room Image...</value>
   </data>
-  <data name="menuItem_compression.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="menuItem_export.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
   </data>
-  <data name="menuItem_compression.Text" xml:space="preserve">
-    <value>Compression</value>
+  <data name="menuItem_export.Text" xml:space="preserve">
+    <value>Export</value>
   </data>
   <data name="menuItem_LZ77comp.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 22</value>
@@ -768,6 +738,12 @@
   <data name="menuItem_LZ77decomp.Text" xml:space="preserve">
     <value>LZ77 Decompress File...</value>
   </data>
+  <data name="menuItem_compression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="menuItem_compression.Text" xml:space="preserve">
+    <value>Compression</value>
+  </data>
   <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 6</value>
   </data>
@@ -776,12 +752,6 @@
   </data>
   <data name="menuItem_tileBuilder.Text" xml:space="preserve">
     <value>Minimap Tile Builder</value>
-  </data>
-  <data name="menuItem_add.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
-  </data>
-  <data name="menuItem_add.Text" xml:space="preserve">
-    <value>Add</value>
   </data>
   <data name="menuItem_addBG.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 22</value>
@@ -819,26 +789,26 @@
   <data name="menuItem_addAnim.Text" xml:space="preserve">
     <value>Animation</value>
   </data>
+  <data name="menuItem_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="menuItem_add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
   <data name="menuItem_patches.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
   </data>
   <data name="menuItem_patches.Text" xml:space="preserve">
     <value>Patches</value>
   </data>
-  <data name="menuStrip_options.Enabled" type="System.Boolean, mscorlib">
+  <data name="menuStrip_tools.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="menuStrip_options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 21</value>
+  <data name="menuStrip_tools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
   </data>
-  <data name="menuStrip_options.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="menuItem_defaultView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
-  </data>
-  <data name="menuItem_defaultView.Text" xml:space="preserve">
-    <value>Default View</value>
+  <data name="menuStrip_tools.Text" xml:space="preserve">
+    <value>Tools</value>
   </data>
   <data name="menuItem_defaultBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
@@ -864,12 +834,6 @@
   <data name="menuItem_defaultBG3.Text" xml:space="preserve">
     <value>BG 3</value>
   </data>
-  <data name="menuItem_defaultClipdata.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
-  </data>
-  <data name="menuItem_defaultClipdata.Text" xml:space="preserve">
-    <value>Clipdata</value>
-  </data>
   <data name="menuItem_defaultClipCollision.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 22</value>
   </data>
@@ -887,6 +851,12 @@
   </data>
   <data name="menuItem_defaultClipValues.Text" xml:space="preserve">
     <value>Values</value>
+  </data>
+  <data name="menuItem_defaultClipdata.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="menuItem_defaultClipdata.Text" xml:space="preserve">
+    <value>Clipdata</value>
   </data>
   <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 6</value>
@@ -921,11 +891,11 @@
   <data name="menuItem_defaultScreens.Text" xml:space="preserve">
     <value>Screen Outlines</value>
   </data>
-  <data name="menuItem_numberBase.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="menuItem_defaultView.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 22</value>
   </data>
-  <data name="menuItem_numberBase.Text" xml:space="preserve">
-    <value>Number Base</value>
+  <data name="menuItem_defaultView.Text" xml:space="preserve">
+    <value>Default View</value>
   </data>
   <data name="menuItem_hexadecimal.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
@@ -939,11 +909,11 @@
   <data name="menuItem_decimal.Text" xml:space="preserve">
     <value>Decimal</value>
   </data>
-  <data name="menuItem_autoBackup.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="menuItem_numberBase.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 22</value>
   </data>
-  <data name="menuItem_autoBackup.Text" xml:space="preserve">
-    <value>Auto Backup</value>
+  <data name="menuItem_numberBase.Text" xml:space="preserve">
+    <value>Number Base</value>
   </data>
   <data name="toolStripComboBox_backup.Items" xml:space="preserve">
     <value>Disable</value>
@@ -969,6 +939,12 @@
   <data name="toolStripComboBox_backup.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 25</value>
   </data>
+  <data name="menuItem_autoBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="menuItem_autoBackup.Text" xml:space="preserve">
+    <value>Auto Backup</value>
+  </data>
   <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
     <value>202, 6</value>
   </data>
@@ -984,11 +960,14 @@
   <data name="changeEmulatorPathToolStripMenuItem.Text" xml:space="preserve">
     <value>Change Emulator Path</value>
   </data>
-  <data name="menuStrip_help.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 21</value>
+  <data name="menuStrip_options.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="menuStrip_help.Text" xml:space="preserve">
-    <value>Help</value>
+  <data name="menuStrip_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 21</value>
+  </data>
+  <data name="menuStrip_options.Text" xml:space="preserve">
+    <value>Options</value>
   </data>
   <data name="menuItem_viewHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 22</value>
@@ -1002,80 +981,32 @@
   <data name="menuItem_about.Text" xml:space="preserve">
     <value>About MAGE</value>
   </data>
-  <data name="&gt;&gt;comboBox_room.Name" xml:space="preserve">
-    <value>comboBox_room</value>
+  <data name="menuStrip_help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
   </data>
-  <data name="&gt;&gt;comboBox_room.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuStrip_help.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
-  <data name="&gt;&gt;comboBox_room.Parent" xml:space="preserve">
-    <value>groupBox_location</value>
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;comboBox_room.ZOrder" xml:space="preserve">
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>796, 25</value>
+  </data>
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;comboBox_area.Name" xml:space="preserve">
-    <value>comboBox_area</value>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
   </data>
-  <data name="&gt;&gt;comboBox_area.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox_area.Parent" xml:space="preserve">
-    <value>groupBox_location</value>
-  </data>
-  <data name="&gt;&gt;comboBox_area.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label_area.Name" xml:space="preserve">
-    <value>label_area</value>
-  </data>
-  <data name="&gt;&gt;label_area.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_area.Parent" xml:space="preserve">
-    <value>groupBox_location</value>
-  </data>
-  <data name="&gt;&gt;label_area.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label_room.Name" xml:space="preserve">
-    <value>label_room</value>
-  </data>
-  <data name="&gt;&gt;label_room.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_room.Parent" xml:space="preserve">
-    <value>groupBox_location</value>
-  </data>
-  <data name="&gt;&gt;label_room.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox_location.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupBox_location.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 48</value>
-  </data>
-  <data name="groupBox_location.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 69</value>
-  </data>
-  <data name="groupBox_location.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox_location.Text" xml:space="preserve">
-    <value>Location</value>
-  </data>
-  <data name="&gt;&gt;groupBox_location.Name" xml:space="preserve">
-    <value>groupBox_location</value>
-  </data>
-  <data name="&gt;&gt;groupBox_location.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox_location.Parent" xml:space="preserve">
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox_location.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="comboBox_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 40</value>
@@ -1173,90 +1104,36 @@
   <data name="&gt;&gt;label_room.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="groupBox_location.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox_location.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 48</value>
+  </data>
+  <data name="groupBox_location.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 69</value>
+  </data>
+  <data name="groupBox_location.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox_location.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="&gt;&gt;groupBox_location.Name" xml:space="preserve">
+    <value>groupBox_location</value>
+  </data>
+  <data name="&gt;&gt;groupBox_location.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_location.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_location.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="groupBox_tileset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;button_Clip.Name" xml:space="preserve">
-    <value>button_Clip</value>
-  </data>
-  <data name="&gt;&gt;button_Clip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_Clip.Parent" xml:space="preserve">
-    <value>groupBox_tileset</value>
-  </data>
-  <data name="&gt;&gt;button_Clip.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;comboBox_clipdata.Name" xml:space="preserve">
-    <value>comboBox_clipdata</value>
-  </data>
-  <data name="&gt;&gt;comboBox_clipdata.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox_clipdata.Parent" xml:space="preserve">
-    <value>groupBox_tileset</value>
-  </data>
-  <data name="&gt;&gt;comboBox_clipdata.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label_clipdata.Name" xml:space="preserve">
-    <value>label_clipdata</value>
-  </data>
-  <data name="&gt;&gt;label_clipdata.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_clipdata.Parent" xml:space="preserve">
-    <value>groupBox_tileset</value>
-  </data>
-  <data name="&gt;&gt;label_clipdata.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel_tileset.Name" xml:space="preserve">
-    <value>panel_tileset</value>
-  </data>
-  <data name="&gt;&gt;panel_tileset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_tileset.Parent" xml:space="preserve">
-    <value>groupBox_tileset</value>
-  </data>
-  <data name="&gt;&gt;panel_tileset.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox_tileset.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupBox_tileset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 148</value>
-  </data>
-  <data name="groupBox_tileset.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>287, 286</value>
-  </data>
-  <data name="groupBox_tileset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 286</value>
-  </data>
-  <data name="groupBox_tileset.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="groupBox_tileset.Text" xml:space="preserve">
-    <value>Tileset</value>
-  </data>
-  <data name="&gt;&gt;groupBox_tileset.Name" xml:space="preserve">
-    <value>groupBox_tileset</value>
-  </data>
-  <data name="&gt;&gt;groupBox_tileset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox_tileset.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox_tileset.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>493, 20</value>
-  </metadata>
   <data name="button_Clip.Location" type="System.Drawing.Point, System.Drawing">
     <value>257, 15</value>
   </data>
@@ -1266,6 +1143,9 @@
   <data name="button_Clip.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 20</value>
+  </metadata>
   <data name="button_Clip.ToolTip" xml:space="preserve">
     <value>Clipdata Shortcuts</value>
   </data>
@@ -1335,6 +1215,18 @@
   <data name="panel_tileset.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="tileView.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tileView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tileView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 236</value>
+  </data>
+  <data name="tileView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;tileView.Name" xml:space="preserve">
     <value>tileView</value>
   </data>
@@ -1371,74 +1263,38 @@
   <data name="&gt;&gt;panel_tileset.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="tileView.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="groupBox_tileset.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="tileView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="groupBox_tileset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 148</value>
   </data>
-  <data name="tileView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 236</value>
+  <data name="groupBox_tileset.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>287, 286</value>
   </data>
-  <data name="tileView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="groupBox_tileset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 286</value>
   </data>
-  <data name="&gt;&gt;tileView.Name" xml:space="preserve">
-    <value>tileView</value>
+  <data name="groupBox_tileset.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;tileView.Type" xml:space="preserve">
-    <value>mage.TileView, mage, Version=1.4.3.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="groupBox_tileset.Text" xml:space="preserve">
+    <value>Tileset</value>
   </data>
-  <data name="&gt;&gt;tileView.Parent" xml:space="preserve">
-    <value>panel_tileset</value>
+  <data name="&gt;&gt;groupBox_tileset.Name" xml:space="preserve">
+    <value>groupBox_tileset</value>
   </data>
-  <data name="&gt;&gt;tileView.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;groupBox_tileset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_tileset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_tileset.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="groupBox_room.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;panel_room.Name" xml:space="preserve">
-    <value>panel_room</value>
-  </data>
-  <data name="&gt;&gt;panel_room.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_room.Parent" xml:space="preserve">
-    <value>groupBox_room</value>
-  </data>
-  <data name="&gt;&gt;panel_room.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox_room.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupBox_room.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 48</value>
-  </data>
-  <data name="groupBox_room.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>479, 386</value>
-  </data>
-  <data name="groupBox_room.Size" type="System.Drawing.Size, System.Drawing">
-    <value>479, 386</value>
-  </data>
-  <data name="groupBox_room.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox_room.Text" xml:space="preserve">
-    <value>Room</value>
-  </data>
-  <data name="&gt;&gt;groupBox_room.Name" xml:space="preserve">
-    <value>groupBox_room</value>
-  </data>
-  <data name="&gt;&gt;groupBox_room.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox_room.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox_room.ZOrder" xml:space="preserve">
-    <value>7</value>
   </data>
   <data name="panel_room.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -1446,78 +1302,12 @@
   <data name="panel_room.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;roomView.Name" xml:space="preserve">
-    <value>roomView</value>
-  </data>
-  <data name="&gt;&gt;roomView.Type" xml:space="preserve">
-    <value>mage.RoomView, mage, Version=1.4.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;roomView.Parent" xml:space="preserve">
-    <value>panel_room</value>
-  </data>
-  <data name="&gt;&gt;roomView.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel_room.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 18</value>
-  </data>
-  <data name="panel_room.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>465, 363</value>
-  </data>
-  <data name="panel_room.Size" type="System.Drawing.Size, System.Drawing">
-    <value>465, 363</value>
-  </data>
-  <data name="panel_room.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel_room.Name" xml:space="preserve">
-    <value>panel_room</value>
-  </data>
-  <data name="&gt;&gt;panel_room.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_room.Parent" xml:space="preserve">
-    <value>groupBox_room</value>
-  </data>
-  <data name="&gt;&gt;panel_room.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="roomView.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <metadata name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>363, 20</value>
   </metadata>
-  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 242</value>
-  </data>
-  <data name="&gt;&gt;contextMenu.Name" xml:space="preserve">
-    <value>contextMenu</value>
-  </data>
-  <data name="&gt;&gt;contextMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="roomView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="roomView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>448, 347</value>
-  </data>
-  <data name="roomView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;roomView.Name" xml:space="preserve">
-    <value>roomView</value>
-  </data>
-  <data name="&gt;&gt;roomView.Type" xml:space="preserve">
-    <value>mage.RoomView, mage, Version=1.4.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;roomView.Parent" xml:space="preserve">
-    <value>panel_room</value>
-  </data>
-  <data name="&gt;&gt;roomView.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="contextItem_addSprite.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
   </data>
@@ -1587,80 +1377,89 @@
   <data name="contextItem_testRoom.Text" xml:space="preserve">
     <value>Test Room Here</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG3.Name" xml:space="preserve">
-    <value>checkBox_viewBG3</value>
+  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 242</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;contextMenu.Name" xml:space="preserve">
+    <value>contextMenu</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG3.Parent" xml:space="preserve">
-    <value>groupBox_viewBG</value>
+  <data name="&gt;&gt;contextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG3.ZOrder" xml:space="preserve">
+  <data name="roomView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="roomView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 347</value>
+  </data>
+  <data name="roomView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG2.Name" xml:space="preserve">
-    <value>checkBox_viewBG2</value>
+  <data name="&gt;&gt;roomView.Name" xml:space="preserve">
+    <value>roomView</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;roomView.Type" xml:space="preserve">
+    <value>mage.RoomView, mage, Version=1.4.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG2.Parent" xml:space="preserve">
-    <value>groupBox_viewBG</value>
+  <data name="&gt;&gt;roomView.Parent" xml:space="preserve">
+    <value>panel_room</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;roomView.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG1.Name" xml:space="preserve">
-    <value>checkBox_viewBG1</value>
+  <data name="panel_room.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panel_room.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>465, 363</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG1.Parent" xml:space="preserve">
-    <value>groupBox_viewBG</value>
+  <data name="panel_room.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 363</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG1.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="panel_room.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG0.Name" xml:space="preserve">
-    <value>checkBox_viewBG0</value>
+  <data name="&gt;&gt;panel_room.Name" xml:space="preserve">
+    <value>panel_room</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panel_room.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG0.Parent" xml:space="preserve">
-    <value>groupBox_viewBG</value>
+  <data name="&gt;&gt;panel_room.Parent" xml:space="preserve">
+    <value>groupBox_room</value>
   </data>
-  <data name="&gt;&gt;checkBox_viewBG0.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;panel_room.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="groupBox_viewBG.Enabled" type="System.Boolean, mscorlib">
+  <data name="groupBox_room.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="groupBox_viewBG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 48</value>
+  <data name="groupBox_room.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 48</value>
   </data>
-  <data name="groupBox_viewBG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 94</value>
+  <data name="groupBox_room.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>479, 386</value>
   </data>
-  <data name="groupBox_viewBG.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="groupBox_room.Size" type="System.Drawing.Size, System.Drawing">
+    <value>479, 386</value>
   </data>
-  <data name="groupBox_viewBG.Text" xml:space="preserve">
-    <value>View</value>
+  <data name="groupBox_room.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;groupBox_viewBG.Name" xml:space="preserve">
-    <value>groupBox_viewBG</value>
+  <data name="groupBox_room.Text" xml:space="preserve">
+    <value>Room</value>
   </data>
-  <data name="&gt;&gt;groupBox_viewBG.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupBox_room.Name" xml:space="preserve">
+    <value>groupBox_room</value>
+  </data>
+  <data name="&gt;&gt;groupBox_room.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox_viewBG.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox_room.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox_viewBG.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;groupBox_room.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="checkBox_viewBG3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1770,80 +1569,32 @@
   <data name="&gt;&gt;checkBox_viewBG0.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;checkBox_editBG2.Name" xml:space="preserve">
-    <value>checkBox_editBG2</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG2.Parent" xml:space="preserve">
-    <value>groupBox_editBG</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG1.Name" xml:space="preserve">
-    <value>checkBox_editBG1</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG1.Parent" xml:space="preserve">
-    <value>groupBox_editBG</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG0.Name" xml:space="preserve">
-    <value>checkBox_editBG0</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG0.Parent" xml:space="preserve">
-    <value>groupBox_editBG</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editBG0.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editCLP.Name" xml:space="preserve">
-    <value>checkBox_editCLP</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editCLP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editCLP.Parent" xml:space="preserve">
-    <value>groupBox_editBG</value>
-  </data>
-  <data name="&gt;&gt;checkBox_editCLP.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox_editBG.Enabled" type="System.Boolean, mscorlib">
+  <data name="groupBox_viewBG.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="groupBox_editBG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 48</value>
+  <data name="groupBox_viewBG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 48</value>
   </data>
-  <data name="groupBox_editBG.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="groupBox_viewBG.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 94</value>
   </data>
-  <data name="groupBox_editBG.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="groupBox_viewBG.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="groupBox_editBG.Text" xml:space="preserve">
-    <value>Edit</value>
+  <data name="groupBox_viewBG.Text" xml:space="preserve">
+    <value>View</value>
   </data>
-  <data name="&gt;&gt;groupBox_editBG.Name" xml:space="preserve">
-    <value>groupBox_editBG</value>
+  <data name="&gt;&gt;groupBox_viewBG.Name" xml:space="preserve">
+    <value>groupBox_viewBG</value>
   </data>
-  <data name="&gt;&gt;groupBox_editBG.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupBox_viewBG.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox_editBG.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox_viewBG.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox_editBG.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;groupBox_viewBG.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="checkBox_editBG2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1953,35 +1704,38 @@
   <data name="&gt;&gt;checkBox_editCLP.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="groupBox_editBG.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox_editBG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 48</value>
+  </data>
+  <data name="groupBox_editBG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 94</value>
+  </data>
+  <data name="groupBox_editBG.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox_editBG.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;groupBox_editBG.Name" xml:space="preserve">
+    <value>groupBox_editBG</value>
+  </data>
+  <data name="&gt;&gt;groupBox_editBG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_editBG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_editBG.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
   <data name="statusStrip.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 435</value>
-  </data>
-  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 0, 16, 0</value>
-  </data>
-  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>796, 24</value>
-  </data>
-  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
-    <value>statusStrip</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="statusLabel_coor.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2021,6 +1775,30 @@
   </data>
   <data name="statusLabel_clip.ToolTipText" xml:space="preserve">
     <value>Clipdata</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 435</value>
+  </data>
+  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 16, 0</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>796, 24</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="label_spriteset.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2079,30 +1857,6 @@
   <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>265, 20</value>
   </metadata>
-  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 25</value>
-  </data>
-  <data name="toolStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 1, 0</value>
-  </data>
-  <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>796, 25</value>
-  </data>
-  <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
-    <value>toolStrip</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="toolStrip_open.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
@@ -2370,14 +2124,32 @@
   <data name="toolStrip_patches.Text" xml:space="preserve">
     <value>Patches</value>
   </data>
-  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>493, 20</value>
-  </metadata>
+  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="toolStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 1, 0</value>
+  </data>
+  <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>796, 25</value>
+  </data>
+  <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
+    <value>toolStrip</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>589, 20</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>zh-CN</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -3577,6 +3349,12 @@
   </data>
   <data name="&gt;&gt;timer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem_creditEditor.Name" xml:space="preserve">
+    <value>menuItem_creditEditor</value>
+  </data>
+  <data name="&gt;&gt;menuItem_creditEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormMain</value>

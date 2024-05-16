@@ -361,95 +361,44 @@
   <data name="menuStrip_view.Text" xml:space="preserve">
     <value>视图</value>
   </data>
-  <data name="menuItem_headerEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
   <data name="menuItem_headerEditor.Text" xml:space="preserve">
     <value>头编辑器</value>
-  </data>
-  <data name="menuItem_tilesetEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
   </data>
   <data name="menuItem_tilesetEditor.Text" xml:space="preserve">
     <value>贴图集编辑器</value>
   </data>
-  <data name="toolStripSeparator24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
-  </data>
-  <data name="menuItem_graphicsEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
   <data name="menuItem_graphicsEditor.Text" xml:space="preserve">
     <value>图形编辑器</value>
-  </data>
-  <data name="menuItem_paletteEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
   </data>
   <data name="menuItem_paletteEditor.Text" xml:space="preserve">
     <value>调色板编辑器</value>
   </data>
-  <data name="menuItem_tileTableEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
   <data name="menuItem_tileTableEditor.Text" xml:space="preserve">
     <value>贴图块表编辑器</value>
-  </data>
-  <data name="menuItem_animationEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
   </data>
   <data name="menuItem_animationEditor.Text" xml:space="preserve">
     <value>动画编辑器</value>
   </data>
-  <data name="toolStripSeparator25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
-  </data>
-  <data name="menuItem_spriteEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
   <data name="menuItem_spriteEditor.Text" xml:space="preserve">
     <value>精灵编辑器</value>
-  </data>
-  <data name="menuItem_spritesetEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
   </data>
   <data name="menuItem_spritesetEditor.Text" xml:space="preserve">
     <value>精灵集编辑器</value>
   </data>
-  <data name="menuItem_minimapEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
   <data name="menuItem_minimapEditor.Text" xml:space="preserve">
     <value>地图编辑器</value>
-  </data>
-  <data name="menuItem_connectionEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
   </data>
   <data name="menuItem_connectionEditor.Text" xml:space="preserve">
     <value>连接编辑器</value>
   </data>
-  <data name="toolStripSeparator26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
-  </data>
-  <data name="menuItem_textEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
   <data name="menuItem_textEditor.Text" xml:space="preserve">
     <value>文本编辑器</value>
-  </data>
-  <data name="menuItem_demoEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
   </data>
   <data name="menuItem_demoEditor.Text" xml:space="preserve">
     <value>演示编辑器</value>
   </data>
-  <data name="menuItem_physicsEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
   <data name="menuItem_physicsEditor.Text" xml:space="preserve">
     <value>物理编辑器</value>
-  </data>
-  <data name="menuItem_weaponEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
   </data>
   <data name="menuItem_weaponEditor.Text" xml:space="preserve">
     <value>武器编辑器</value>
@@ -734,7 +683,7 @@
     <value>屏幕边线</value>
   </data>
   <data name="menuItem_defaultView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="menuItem_defaultView.Text" xml:space="preserve">
     <value>默认视图</value>
@@ -752,7 +701,7 @@
     <value>十进制</value>
   </data>
   <data name="menuItem_numberBase.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="menuItem_numberBase.Text" xml:space="preserve">
     <value>进制</value>
@@ -779,22 +728,22 @@
     <value>30 分钟</value>
   </data>
   <data name="menuItem_autoBackup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="menuItem_autoBackup.Text" xml:space="preserve">
     <value>自动备份</value>
   </data>
   <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>157, 6</value>
   </data>
   <data name="menuItem_tooltips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="menuItem_tooltips.Text" xml:space="preserve">
     <value>禁用工具提示</value>
   </data>
   <data name="changeEmulatorPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="changeEmulatorPathToolStripMenuItem.Text" xml:space="preserve">
     <value>更改模拟器路径</value>
@@ -823,17 +772,26 @@
   <data name="menuStrip_help.Text" xml:space="preserve">
     <value>帮助</value>
   </data>
+  <data name="menuStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="comboBox_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 43</value>
   </data>
   <data name="comboBox_room.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 21</value>
   </data>
+  <data name="comboBox_room.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="comboBox_area.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 18</value>
   </data>
   <data name="comboBox_area.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 21</value>
+  </data>
+  <data name="comboBox_area.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label_area.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 21</value>
@@ -844,6 +802,9 @@
   <data name="label_area.Text" xml:space="preserve">
     <value>区域：</value>
   </data>
+  <data name="label_area.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 46</value>
   </data>
@@ -853,6 +814,9 @@
   <data name="label_room.Text" xml:space="preserve">
     <value>房间：</value>
   </data>
+  <data name="label_room.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="groupBox_location.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 52</value>
   </data>
@@ -861,6 +825,9 @@
   </data>
   <data name="groupBox_location.Text" xml:space="preserve">
     <value>定位</value>
+  </data>
+  <data name="groupBox_location.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="button_Clip.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 17</value>
@@ -874,6 +841,9 @@
   <data name="comboBox_clipdata.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 21</value>
   </data>
+  <data name="comboBox_clipdata.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label_clipdata.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 23</value>
   </data>
@@ -883,8 +853,14 @@
   <data name="label_clipdata.Text" xml:space="preserve">
     <value>砖块属性：</value>
   </data>
+  <data name="label_clipdata.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="tileView.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 256</value>
+  </data>
+  <data name="tileView.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="panel_tileset.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 48</value>
@@ -894,6 +870,9 @@
   </data>
   <data name="panel_tileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 256</value>
+  </data>
+  <data name="panel_tileset.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox_tileset.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 160</value>
@@ -906,6 +885,9 @@
   </data>
   <data name="groupBox_tileset.Text" xml:space="preserve">
     <value>贴图集</value>
+  </data>
+  <data name="groupBox_tileset.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="contextItem_addSprite.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 22</value>
@@ -979,8 +961,14 @@
   <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 242</value>
   </data>
+  <data name="contextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="roomView.Size" type="System.Drawing.Size, System.Drawing">
     <value>448, 376</value>
+  </data>
+  <data name="roomView.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="panel_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 20</value>
@@ -990,6 +978,9 @@
   </data>
   <data name="panel_room.Size" type="System.Drawing.Size, System.Drawing">
     <value>465, 393</value>
+  </data>
+  <data name="panel_room.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 52</value>
@@ -1003,11 +994,17 @@
   <data name="groupBox_room.Text" xml:space="preserve">
     <value>房间</value>
   </data>
+  <data name="groupBox_room.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBox_viewBG3.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 77</value>
   </data>
   <data name="checkBox_viewBG3.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
+  </data>
+  <data name="checkBox_viewBG3.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="checkBox_viewBG2.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 57</value>
@@ -1015,17 +1012,26 @@
   <data name="checkBox_viewBG2.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
+  <data name="checkBox_viewBG2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBox_viewBG1.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 37</value>
   </data>
   <data name="checkBox_viewBG1.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
+  <data name="checkBox_viewBG1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBox_viewBG0.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 17</value>
   </data>
   <data name="checkBox_viewBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
+  </data>
+  <data name="checkBox_viewBG0.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox_viewBG.Location" type="System.Drawing.Point, System.Drawing">
     <value>153, 52</value>
@@ -1036,11 +1042,17 @@
   <data name="groupBox_viewBG.Text" xml:space="preserve">
     <value>查看</value>
   </data>
+  <data name="groupBox_viewBG.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBox_editBG2.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 57</value>
   </data>
   <data name="checkBox_editBG2.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
+  </data>
+  <data name="checkBox_editBG2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="checkBox_editBG1.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 37</value>
@@ -1048,11 +1060,17 @@
   <data name="checkBox_editBG1.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
+  <data name="checkBox_editBG1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBox_editBG0.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 17</value>
   </data>
   <data name="checkBox_editBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
+  </data>
+  <data name="checkBox_editBG0.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="checkBox_editCLP.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 77</value>
@@ -1063,6 +1081,9 @@
   <data name="checkBox_editCLP.Text" xml:space="preserve">
     <value>砖属性</value>
   </data>
+  <data name="checkBox_editCLP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="groupBox_editBG.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 52</value>
   </data>
@@ -1072,8 +1093,14 @@
   <data name="groupBox_editBG.Text" xml:space="preserve">
     <value>编辑</value>
   </data>
+  <data name="groupBox_editBG.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 473</value>
+  </data>
+  <data name="statusStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label_spriteset.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 135</value>
@@ -1084,11 +1111,17 @@
   <data name="label_spriteset.Text" xml:space="preserve">
     <value>精灵集：</value>
   </data>
+  <data name="label_spriteset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="comboBox_spriteset.Location" type="System.Drawing.Point, System.Drawing">
     <value>69, 133</value>
   </data>
   <data name="comboBox_spriteset.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 21</value>
+  </data>
+  <data name="comboBox_spriteset.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="toolStrip_open.Text" xml:space="preserve">
     <value>打开 ROM</value>
@@ -1170,6 +1203,9 @@
   </data>
   <data name="toolStrip_patches.Text" xml:space="preserve">
     <value>补丁</value>
+  </data>
+  <data name="toolStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -1256,5 +1292,8 @@
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>812, 536</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

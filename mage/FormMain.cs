@@ -2635,5 +2635,14 @@ namespace mage
                 timer.Start();
             }
         }
+
+        private void menuItem_creditEditor_Click(object sender, EventArgs e)
+        {
+            if (!FindOpenForm(typeof(FormCredits), false))
+            {
+                FormCredits form = new FormCredits();
+                form.Show();
+            }
+        }
     }
 }

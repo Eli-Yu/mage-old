@@ -756,4 +756,45 @@
   <data name="formShortcuts_slope_slight_Text" xml:space="preserve">
     <value>缓斜面</value>
   </data>
+  <data name="formCredits_ParseText_Ex_1W" xml:space="preserve">
+    <value>融合不支持[1W]标记，请检查。
+行{0}: {1}</value>
+  </data>
+  <data name="formCredits_ParseText_illegalChar" xml:space="preserve">
+    <value>包含非法字符，请检查。
+{0} 位于行 {1}：{2}</value>
+  </data>
+  <data name="formCredits_ParseText_InvalidPrefix" xml:space="preserve">
+    <value>无效前缀，请检查。
+行 {0}: {1}</value>
+  </data>
+  <data name="formCredits_tooLong" xml:space="preserve">
+    <value>部分行长度超过35字符，超出部分已自动截断。
+行：{0}</value>
+  </data>
+  <data name="formCredits_tooLong_Attention" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="formCredits_tooManyLines" xml:space="preserve">
+    <value>最多支持{0}行文本，请上删除超出的行。</value>
+  </data>
+  <data name="formCredits_HelpText" xml:space="preserve">
+    <value>标记说明
+[1]：空行
+[1B]：一行高的蓝色文本
+[1R]：一行高的红色文本
+[1W]：一行高的白色文本，仅限零点任务
+[2W]：两行高的白色文本
+[Copyright1]：输出 All rights, including
+[Copyright2]：输出 the copyrights of Game,
+[Copyright3]：输出 Scenario, Music_and_Program,
+[Copyright4]：输出 reserved by NINTENDO.
+[END]：结束
+﻿
+支持的字符：
+[1B]、[1R]、[1W]：大写字母、空格、英文逗号、英文句号、&amp;，小写字母（仅零点任务支持）
+[2W]：大小写字母、空格、英文逗号、英文句号、'、í
+
+注：零点任务中每行的文本会自动居中显示，但融合里需要使用空格手动居中</value>
+  </data>
 </root>

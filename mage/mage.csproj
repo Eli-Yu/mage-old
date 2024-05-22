@@ -356,6 +356,9 @@
     <EmbeddedResource Include="Editors\FormConnection.zh-CN.resx">
       <DependentUpon>FormConnection.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Editors\FormCredits.zh-CN.resx">
+      <DependentUpon>FormCredits.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Editors\FormDemo.zh-CN.resx">
       <DependentUpon>FormDemo.cs</DependentUpon>
     </EmbeddedResource>
@@ -582,10 +585,12 @@
     <None Include="Resources\Misc\MF_genTileTable" />
     <None Include="Resources\Misc\MF_U_eventConnections.ips" />
     <None Include="Resources\Misc\MF_U_locationNames.ips" />
+    <None Include="Resources\Misc\MF_U_testCredit.ips" />
     <None Include="Resources\Misc\MF_U_testDemo.ips" />
     <None Include="Resources\Misc\ZM_genTileTable" />
     <None Include="Resources\Misc\ZM_U_eventConnections.ips" />
     <None Include="Resources\Misc\ZM_U_locationNames.ips" />
+    <None Include="Resources\Misc\ZM_U_testCredit.ips" />
     <None Include="Resources\Misc\ZM_U_testDemo.ips" />
     <None Include="Resources\Misc\ZM_U_testRoom.ips" />
     <None Include="Resources\Patches\MF_U_addMinimapTiles.ips" />

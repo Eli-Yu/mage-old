@@ -1159,4 +1159,51 @@ You can refer to the default file (MF_chars.txt, ZM_chars.txt).</value>
   <data name="shortcut_ladder_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icons\shortcut_ladder_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="formCredits_ParseText_Ex_1W" xml:space="preserve">
+    <value>The [1W] tag is not supported in Metroid Fusion, please check.
+Line {0}: {1}</value>
+  </data>
+  <data name="formCredits_ParseText_illegalChar" xml:space="preserve">
+    <value>Contains illegal characters, please check.
+{0} in line {1}: {2}</value>
+  </data>
+  <data name="formCredits_ParseText_InvalidPrefix" xml:space="preserve">
+    <value>Invalid prefix, please check.
+Line {0}: {1}</value>
+  </data>
+  <data name="formCredits_tooLong" xml:space="preserve">
+    <value>Some lines are longer than 35 characters and have been truncated to 35 characters.
+Lines: {0}</value>
+  </data>
+  <data name="formCredits_tooLong_Attention" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="formCredits_tooManyLines" xml:space="preserve">
+    <value>Supports up to {0} lines of text, please delete the extra lines.</value>
+  </data>
+  <data name="formCredits_HelpText" xml:space="preserve">
+    <value>Description of markup
+[1]: blank line
+[1B]: one line high blue text
+[1R]: one line of high red text
+[1W]: one line of high white text, only supported for Zero Mission
+[2W]: two lines of high white text
+[Copyright1]: output All rights, including
+[Copyright2]: output the copyrights of Game,
+[Copyright3]: output Scenario, Music_and_Program,
+[Copyright4]: output reserved by NINTENDO.
+[END]: end
+﻿
+Supported characters:
+[1B], [1R], [1W]: uppercase letters, space , lowercase letters (Zero Mession only), and , . &amp;
+[2W]: uppercase and lowercase letters, space and  ,  .  '  í
+
+Note: In ZM the text on each line is automatically centered, but in Fusion you need to manually center it using spaces</value>
+  </data>
+  <data name="MF_U_testCredit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Misc\MF_U_testCredit.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ZM_U_testCredit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Misc\ZM_U_testCredit.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

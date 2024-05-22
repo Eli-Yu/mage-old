@@ -165,6 +165,35 @@ namespace mage
             ROM.RestoreData(backup);
         }
 
+        public static void Credit()
+        {
+            // backup previous rom data
+            byte[] backup = ROM.BackupData();
+
+            // apply changes to rom
+            Patch p = Version.TestCredit;
+            p.Apply();
+
+            // save new changes and launch
+            try
+            {
+                string path = Path.GetTempPath();
+                path = Path.Combine(path, "test.gba");
+                ROM.SaveROM(path, false);
+                RunEmulator(path);
+            }
+            catch (Exception e)
+            {
+                //MessageBox.Show("Test ROM could not be launched.\n\n" + e.Message,
+                //    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.Utility_Test_LaunchFailExceptionText + e.Message,
+                    Resources.form_ErrorMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            // restore data
+            ROM.RestoreData(backup);
+        }
+
         private static void RunEmulator(string romPath)
         {
             // check for emulator path

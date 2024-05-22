@@ -503,6 +503,86 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Description of markup
+        ///[1]: blank line
+        ///[1B]: one line high blue text
+        ///[1R]: one line of high red text
+        ///[1W]: one line of high white text, only supported for Zero Mission
+        ///[2W]: two lines of high white text
+        ///[Copyright1]: output All rights, including
+        ///[Copyright2]: output the copyrights of Game,
+        ///[Copyright3]: output Scenario, Music_and_Program,
+        ///[Copyright4]: output reserved by NINTENDO.
+        ///[END]: end
+        ///﻿
+        ///Supported characters:
+        ///[1B], [1R], [1W]: uppercase letters, space , lowercase letters (Zero Mession only [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_HelpText {
+            get {
+                return ResourceManager.GetString("formCredits_HelpText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The [1W] tag is not supported in Metroid Fusion, please check.
+        ///Line {0}: {1} 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_ParseText_Ex_1W {
+            get {
+                return ResourceManager.GetString("formCredits_ParseText_Ex_1W", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Contains illegal characters, please check.
+        ///{0} in line {1}: {2} 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_ParseText_illegalChar {
+            get {
+                return ResourceManager.GetString("formCredits_ParseText_illegalChar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Invalid prefix, please check.
+        ///Line {0}: {1} 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_ParseText_InvalidPrefix {
+            get {
+                return ResourceManager.GetString("formCredits_ParseText_InvalidPrefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Some lines are longer than 35 characters and have been truncated to 35 characters.
+        ///Lines: {0} 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_tooLong {
+            get {
+                return ResourceManager.GetString("formCredits_tooLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Attention 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_tooLong_Attention {
+            get {
+                return ResourceManager.GetString("formCredits_tooLong_Attention", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Supports up to {0} lines of text, please delete the extra lines. 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_tooManyLines {
+            get {
+                return ResourceManager.GetString("formCredits_tooManyLines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 MAGE demo (*.mgd)|*.mgd 的本地化字符串。
         /// </summary>
         internal static string formDemo_FilterText {
@@ -2218,6 +2298,16 @@ namespace mage.Properties {
         internal static string MF_U_sSpriteOAM {
             get {
                 return ResourceManager.GetString("MF_U_sSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] MF_U_testCredit {
+            get {
+                object obj = ResourceManager.GetObject("MF_U_testCredit", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -4008,6 +4098,16 @@ namespace mage.Properties {
         internal static string ZM_U_sSpriteOAM {
             get {
                 return ResourceManager.GetString("ZM_U_sSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_U_testCredit {
+            get {
+                object obj = ResourceManager.GetObject("ZM_U_testCredit", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

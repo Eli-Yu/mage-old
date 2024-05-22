@@ -117,53 +117,90 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;button_test.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button_apply.Text" xml:space="preserve">
-    <value>Apply</value>
-  </data>
-  <data name="&gt;&gt;button_test.Name" xml:space="preserve">
-    <value>button_test</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_preview.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button_test.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 320</value>
+  </data>
+  <data name="gfxView_preview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 320</value>
+  </data>
   <data name="panel_preview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 38</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panel_preview.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label_line.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 16</value>
+    <value>298, 41</value>
   </data>
   <data name="panel_preview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 295</value>
+    <value>497, 320</value>
   </data>
-  <data name="gfxView_preview.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="button_apply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
-  <data name="&gt;&gt;panel_preview.Name" xml:space="preserve">
-    <value>panel_preview</value>
+  <data name="button_apply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;label_pos.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="button_apply.Text" xml:space="preserve">
+    <value>应用</value>
   </data>
-  <data name="&gt;&gt;label_pos.Name" xml:space="preserve">
-    <value>label_pos</value>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 12</value>
+  </data>
+  <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="button_update.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 12</value>
+  </data>
+  <data name="button_update.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_update.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="label_line.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 17</value>
+  </data>
+  <data name="label_line.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_line.Text" xml:space="preserve">
+    <value>行：</value>
+  </data>
+  <data name="label_pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 17</value>
+  </data>
+  <data name="label_pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="button_help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 12</value>
+  </data>
+  <data name="button_help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_help.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="button_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 12</value>
+  </data>
+  <data name="button_test.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="button_test.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>807, 373</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -239,244 +276,10 @@
         AAP//wAP//8ADw==
 </value>
   </data>
-  <data name="&gt;&gt;button_apply.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="button_help.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 11</value>
-  </data>
-  <data name="label_line.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="button_test.Location" type="System.Drawing.Point, System.Drawing">
-    <value>499, 11</value>
-  </data>
-  <data name="&gt;&gt;button_help.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label_pos.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_close.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label_pos.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button_apply.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="panel_preview.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;button_update.Name" xml:space="preserve">
-    <value>button_update</value>
-  </data>
-  <data name="textBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 8.25pt</value>
-  </data>
-  <data name="&gt;&gt;button_close.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_apply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_update.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="button_test.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 38</value>
-  </data>
-  <data name="label_line.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="button_help.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;panel_preview.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_preview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gfxView_preview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="button_test.Text" xml:space="preserve">
-    <value>Test Credits</value>
-  </data>
-  <data name="label_line.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 12</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>823, 412</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Credits Editor</value>
+    <value>制作名单编辑器</value>
   </data>
-  <data name="gfxView_preview.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="button_close.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 296</value>
-  </data>
-  <data name="panel_preview.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;gfxView_preview.Name" xml:space="preserve">
-    <value>gfxView_preview</value>
-  </data>
-  <data name="&gt;&gt;button_close.Name" xml:space="preserve">
-    <value>button_close</value>
-  </data>
-  <data name="textBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="&gt;&gt;button_help.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label_pos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 12</value>
-  </data>
-  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
-    <value>textBox</value>
-  </data>
-  <data name="label_pos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>807, 344</value>
-  </data>
-  <data name="&gt;&gt;gfxView_preview.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_help.Name" xml:space="preserve">
-    <value>button_help</value>
-  </data>
-  <data name="button_help.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="&gt;&gt;label_line.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label_line.Text" xml:space="preserve">
-    <value>Line: </value>
-  </data>
-  <data name="button_update.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 11</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormCredits</value>
-  </data>
-  <data name="button_apply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 11</value>
-  </data>
-  <data name="label_pos.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;label_line.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 11</value>
-  </data>
-  <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
-  </data>
-  <data name="&gt;&gt;button_apply.Name" xml:space="preserve">
-    <value>button_apply</value>
-  </data>
-  <data name="textBox.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="button_update.Text" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="&gt;&gt;button_update.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label_pos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_apply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
-  </data>
-  <data name="&gt;&gt;button_test.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_update.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_line.Name" xml:space="preserve">
-    <value>label_line</value>
-  </data>
-  <data name="button_close.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gfxView_preview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 295</value>
-  </data>
-  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button_update.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
-  </data>
-  <data name="button_help.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
-  </data>
-  <data name="textBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;button_help.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_test.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 21</value>
-  </data>
-  <data name="label_pos.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;gfxView_preview.Parent" xml:space="preserve">
-    <value>panel_preview</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="&gt;&gt;button_test.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button_apply.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;gfxView_preview.Type" xml:space="preserve">
-    <value>mage.GfxView, mage, Version=1.4.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;button_close.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button_update.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_line.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>823, 383</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>zh-CN</value>
-  </metadata>
 </root>

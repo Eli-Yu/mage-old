@@ -288,6 +288,21 @@ namespace mage
                 }
             }
         }
+        public static Patch TestCredit
+        {
+            get
+            {
+                switch (GameCode)
+                {
+                    case "AMTE":
+                        return new Patch(Resources.MF_U_testCredit);
+                    case "BMXE":
+                        return new Patch(Resources.ZM_U_testCredit);
+                    default:
+                        return null;
+                }
+            }
+        }
         public static Patch DoorEventCode
         {
             get

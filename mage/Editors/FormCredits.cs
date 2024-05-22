@@ -162,7 +162,7 @@ namespace mage
             while (true)
             {
                 byte inst = romStream.Read8(offset);
-                if (inst == 6) { break; }
+                if (inst == 6) { lines++; break; }
 
                 if (inst == 2) { lines += 2; }
                 else { lines++; }
@@ -253,7 +253,9 @@ namespace mage
                 else if (ch == 0x2D)
                 {
                     text.Append('\'');
-                    tileTable[index + 0x20] = 0x3A;
+                    //fix ' display error
+                    //tileTable[index + 0x20] = 0x3A;
+                    tileTable[index] = 0x3A;
                 }
                 else if (ch == 0x2E)
                 {
@@ -418,12 +420,12 @@ namespace mage
                             break;
                         case "[1W]":
                             // the [1W] only supported in ZM
-                            if(Version.IsMF) throw new ArgumentException(string.Format("The [1W] tag is not supported in Metroid Fusion, please check.\nLine {0}: {1}", Hex.ToString(i + 1), newCredits[i]));
+                            if(Version.IsMF) throw new ArgumentException(string.Format(Properties.Resources.formCredits_ParseText_Ex_1W, Hex.ToString(i + 1), newCredits[i]));
                             if (regex_1_zm.IsMatch(newCredits[i].Substring(4)))
                             {
                                 MatchCollection match = regex_1_zm.Matches(newCredits[i].Substring(4));
                                 string illegal = string.Join(" ", match.Cast<Match>().Select(m => m.Value).ToArray());
-                                throw new ArgumentException(string.Format("Contains illegal characters, please check.\n{0} in line {1}: {2}", illegal, Hex.ToString(i + 1), newCredits[i]));
+                                throw new ArgumentException(string.Format(Properties.Resources.formCredits_ParseText_illegalChar, illegal, Hex.ToString(i + 1), newCredits[i]));
                             }
                             if (newCredits[i].Substring(4).Length > 35)
                             {
@@ -440,7 +442,7 @@ namespace mage
                             {
                                 MatchCollection match = Version.IsMF? regex_1.Matches(newCredits[i].Substring(4)): regex_1_zm.Matches(newCredits[i].Substring(4));
                                 string illegal = string.Join(" ", match.Cast<Match>().Select(m => m.Value).ToArray());
-                                throw new ArgumentException(string.Format("Contains illegal characters, please check.\n{0} in line {1}: {2}", illegal, Hex.ToString(i + 1), newCredits[i]));
+                                throw new ArgumentException(string.Format(Properties.Resources.formCredits_ParseText_illegalChar, illegal, Hex.ToString(i + 1), newCredits[i]));
                             }
                             if (newCredits[i].Substring(4).Length > 35)
                             {
@@ -463,7 +465,7 @@ namespace mage
                             {
                                 MatchCollection match = regex_2.Matches(newCredits[i].Substring(4));
                                 string illegal = string.Join(" ", match.Cast<Match>().Select(m => m.Value).ToArray());
-                                throw new ArgumentException(string.Format("Contains illegal characters, please check.\n{0} in line {1}: {2}", illegal, Hex.ToString(i + 1), newCredits[i]));
+                                throw new ArgumentException(string.Format(Properties.Resources.formCredits_ParseText_illegalChar, illegal, Hex.ToString(i + 1), newCredits[i]));
                             }
                             //remap 'í' and '\''
                             newCredits[i] = newCredits[i].Replace('í', '+').Replace('\'', '-');
@@ -478,9 +480,10 @@ namespace mage
                             break;
                         case "[END]":
                             list.Add(new KeyValuePair<string, string>(pre, ""));
+                            textLines++;
                             break;
                         default:
-                            throw new ArgumentException(string.Format("Invalid prefix, please check.\nLine {0}: {1}", Hex.ToString(i + 1), newCredits[i]));
+                            throw new ArgumentException(string.Format(Properties.Resources.formCredits_ParseText_InvalidPrefix, Hex.ToString(i + 1), newCredits[i]));
                     }
                 }
             }
@@ -492,7 +495,7 @@ namespace mage
             {
                 throw;
             }
-            if(tooLong?.Count>0) MessageBox.Show($"Some lines are longer than 35 characters and have been truncated to 35 characters.\nLines: {string.Join(" ",tooLong)}", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if(tooLong?.Count>0) MessageBox.Show(string.Format(Properties.Resources.formCredits_tooLong, string.Join(" ", tooLong)), Properties.Resources.formCredits_tooLong_Attention, MessageBoxButtons.OK, MessageBoxIcon.Information);
             return list;
         }
 
@@ -564,16 +567,17 @@ namespace mage
                 switch (data[0])
                 {
                     case 0:
-                        ReadOneLine(data, 0x1000);
+                        //ReadOneLine(data, 0x1000);
+                        ReadOneLine(Version.IsMF? data: Center(data), 0x1000);
                         break;
                     case 1:
-                        ReadOneLine(data, 0x2000);
+                        ReadOneLine(Version.IsMF ? data : Center(data), 0x2000);
                         break;
                     case 2:
-                        ReadTwoLines(data);
+                        ReadTwoLines(Version.IsMF ? data : Center(data));
                         break;
                     case 3:
-                        ReadOneLine(data, 0x0000);
+                        ReadOneLine(Center(data), 0x0000);
                         break;
                     case 5:
                         dataIndex += 0x20;
@@ -658,7 +662,8 @@ namespace mage
                 }
                 else if (line[i] == 0x2D) //-
                 {
-                    newTable[index + 0x20] = 0x3A;
+                    //newTable[index + 0x20] = 0x3A;
+                    newTable[index] = 0x3A;
                 }
                 else if (line[i] == 0x2E) //.
                 {
@@ -678,6 +683,25 @@ namespace mage
                 newTable[dataIndex + indent + i] = (ushort)(value + i);
             }
             dataIndex += 0x20;
+        }
+
+        private byte[] Center(byte[] data)
+        {
+            int len = 0;
+            int noData = 0;
+            for(int i = 1; i < data.Length; i++) 
+            {
+                if (data[i] != 0 && data[i + 1] == 0) len = i;
+            }
+            //screen line up to 30 characters
+            noData = 30 - len;
+            noData = noData%2==0?noData/2:noData/2+1;
+            Array.Copy(data, 1, data, noData + 1, len);
+            for(int i = 0,j = 1; i < noData; i++) 
+            {
+                data[j++] = 32; 
+            }
+            return data;
         }
 
         private unsafe void DrawUpdate()
@@ -798,7 +822,7 @@ namespace mage
             //todo: size check, fusion size 0x2B98 bytes (310 rows), zm size 0x219C (239 rows)
             if (Version.IsMF? lines.Count > 310: lines.Count > 239)
             {
-                MessageBox.Show($"Supports up to {Hex.ToString(Version.IsMF? 310: 239)} lines of text, please delete the extra lines.", Properties.Resources.form_ErrorMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(string.Format(Properties.Resources.formCredits_tooManyLines, Hex.ToString(Version.IsMF ? 310 : 239)), Properties.Resources.form_ErrorMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             for (int i = 0; i < lines.Count; i++)
@@ -821,6 +845,18 @@ namespace mage
         private void textBox_KeyUp(object sender, KeyEventArgs e)
         {
             label_pos.Text = Hex.ToString(textBox.GetLineFromCharIndex(textBox.SelectionStart) + 1);
+        }
+
+        private void button_help_Click(object sender, EventArgs e)
+        {
+            string message = Properties.Resources.formCredits_HelpText;
+            MessageBox.Show(message,button_help.Text,MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button_test_Click(object sender, EventArgs e)
+        {
+            button_apply.PerformClick();
+            Test.Credit();
         }
     }
 }

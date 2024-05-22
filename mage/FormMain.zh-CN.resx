@@ -403,6 +403,9 @@
   <data name="menuItem_weaponEditor.Text" xml:space="preserve">
     <value>武器编辑器</value>
   </data>
+  <data name="menuItem_creditEditor.Text" xml:space="preserve">
+    <value>制作名单编辑器</value>
+  </data>
   <data name="menuStrip_editors.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 21</value>
   </data>
@@ -772,26 +775,17 @@
   <data name="menuStrip_help.Text" xml:space="preserve">
     <value>帮助</value>
   </data>
-  <data name="menuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="comboBox_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 43</value>
   </data>
   <data name="comboBox_room.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 21</value>
   </data>
-  <data name="comboBox_room.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="comboBox_area.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 18</value>
   </data>
   <data name="comboBox_area.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 21</value>
-  </data>
-  <data name="comboBox_area.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="label_area.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 21</value>
@@ -802,9 +796,6 @@
   <data name="label_area.Text" xml:space="preserve">
     <value>区域：</value>
   </data>
-  <data name="label_area.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 46</value>
   </data>
@@ -813,9 +804,6 @@
   </data>
   <data name="label_room.Text" xml:space="preserve">
     <value>房间：</value>
-  </data>
-  <data name="label_room.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="groupBox_location.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 52</value>
@@ -826,8 +814,12 @@
   <data name="groupBox_location.Text" xml:space="preserve">
     <value>定位</value>
   </data>
-  <data name="groupBox_location.ToolTip" xml:space="preserve">
-    <value />
+  <data name="button_Clip.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98HHBUXML7k5cwAAAA6SURBVDhPY2gAgx9gAGEDAR4uSAOETwwAaYAy
+        iQakayDZSbTXAGUSDUY9TQwgyw9wPRA2EODkNjQAAPw7tX9CP/MVAAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="button_Clip.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 17</value>
@@ -841,9 +833,6 @@
   <data name="comboBox_clipdata.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 21</value>
   </data>
-  <data name="comboBox_clipdata.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label_clipdata.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 23</value>
   </data>
@@ -853,14 +842,8 @@
   <data name="label_clipdata.Text" xml:space="preserve">
     <value>砖块属性：</value>
   </data>
-  <data name="label_clipdata.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tileView.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 256</value>
-  </data>
-  <data name="tileView.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="panel_tileset.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 48</value>
@@ -870,9 +853,6 @@
   </data>
   <data name="panel_tileset.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 256</value>
-  </data>
-  <data name="panel_tileset.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="groupBox_tileset.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 160</value>
@@ -885,9 +865,6 @@
   </data>
   <data name="groupBox_tileset.Text" xml:space="preserve">
     <value>贴图集</value>
-  </data>
-  <data name="groupBox_tileset.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="contextItem_addSprite.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 22</value>
@@ -961,14 +938,8 @@
   <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 242</value>
   </data>
-  <data name="contextMenu.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="roomView.Size" type="System.Drawing.Size, System.Drawing">
     <value>448, 376</value>
-  </data>
-  <data name="roomView.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="panel_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 20</value>
@@ -978,9 +949,6 @@
   </data>
   <data name="panel_room.Size" type="System.Drawing.Size, System.Drawing">
     <value>465, 393</value>
-  </data>
-  <data name="panel_room.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="groupBox_room.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 52</value>
@@ -994,17 +962,11 @@
   <data name="groupBox_room.Text" xml:space="preserve">
     <value>房间</value>
   </data>
-  <data name="groupBox_room.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="checkBox_viewBG3.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 77</value>
   </data>
   <data name="checkBox_viewBG3.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
-  </data>
-  <data name="checkBox_viewBG3.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="checkBox_viewBG2.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 57</value>
@@ -1012,26 +974,17 @@
   <data name="checkBox_viewBG2.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
-  <data name="checkBox_viewBG2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="checkBox_viewBG1.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 37</value>
   </data>
   <data name="checkBox_viewBG1.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
-  <data name="checkBox_viewBG1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="checkBox_viewBG0.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 17</value>
   </data>
   <data name="checkBox_viewBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
-  </data>
-  <data name="checkBox_viewBG0.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="groupBox_viewBG.Location" type="System.Drawing.Point, System.Drawing">
     <value>153, 52</value>
@@ -1042,17 +995,11 @@
   <data name="groupBox_viewBG.Text" xml:space="preserve">
     <value>查看</value>
   </data>
-  <data name="groupBox_viewBG.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="checkBox_editBG2.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 57</value>
   </data>
   <data name="checkBox_editBG2.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
-  </data>
-  <data name="checkBox_editBG2.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="checkBox_editBG1.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 37</value>
@@ -1060,17 +1007,11 @@
   <data name="checkBox_editBG1.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
-  <data name="checkBox_editBG1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="checkBox_editBG0.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 17</value>
   </data>
   <data name="checkBox_editBG0.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
-  </data>
-  <data name="checkBox_editBG0.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="checkBox_editCLP.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 77</value>
@@ -1081,9 +1022,6 @@
   <data name="checkBox_editCLP.Text" xml:space="preserve">
     <value>砖属性</value>
   </data>
-  <data name="checkBox_editCLP.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="groupBox_editBG.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 52</value>
   </data>
@@ -1093,14 +1031,8 @@
   <data name="groupBox_editBG.Text" xml:space="preserve">
     <value>编辑</value>
   </data>
-  <data name="groupBox_editBG.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 473</value>
-  </data>
-  <data name="statusStrip.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="label_spriteset.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 135</value>
@@ -1111,101 +1043,480 @@
   <data name="label_spriteset.Text" xml:space="preserve">
     <value>精灵集：</value>
   </data>
-  <data name="label_spriteset.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="comboBox_spriteset.Location" type="System.Drawing.Point, System.Drawing">
     <value>69, 133</value>
   </data>
   <data name="comboBox_spriteset.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 21</value>
   </data>
-  <data name="comboBox_spriteset.ToolTip" xml:space="preserve">
-    <value />
+  <data name="toolStrip_open.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KAQMKL47IEBQAAAJvSURBVDhPnZPNSxRxHMbn0L1bf4VCpLsd8lrX
+        okOH6BWyQCUMBVOM0sg1ImNzJYxqiWIFjawMD0GH9GBZ2Zpvuz93ZVddc1f3Zd5nfzM7T9+ZVSnqIP6Y
+        h+8Mw+d5nt+8CAD2LHf978Zu5a7o++pwcuwcXx6/8IfO88XRmnjkXcUB0v6/NOJq344BG/Eatl2ia5sO
+        R+VzU89gdaK+uDJRb2zPba19b9VTk83J6NtDpwQ27CnYlg5jtQfqkh9qIggt+Qq2mScvBbYlk8TytZnb
+        EUq8yIa9swIb9EolLhIcgBLrhTTXgexkHTJfG5CfuUO6jfz0LeSmb5DakAu3kJqoYRrsdbUssCEPN7V1
+        5GcDyE11I/2pCVr6C6VKW+nOLPzbgLbJhry6wEKHubv/kkHSAEt1QUuLwFgLwEg9gL7cBS3RTi2bocbq
+        oEQvwlIWwF56yOC5t2hbGizpM6zCGMzsKPjGIIrrz6Cn/DBW7kFPdkBbaoEavwplsRbKwhlYchgs6Bg8
+        9holLsEUx2HmP4JvvgHPhGD86oe+cpfSOwm+vgVfghI5DXnuBEzpGxxWYI88qs3zBH8Az46gmBmg9CdU
+        3U/JBCdaCW6k2rWQt2B55hgZTMJhBRaoFh0Dvjm8U72YekjJPoLbaN+NUNllyAsEzx93YSl8pGxArBD1
+        V226Bhsh8HSQHlyfW11L3CS4iWpfodpn6fWehDR7lOAaiFMHXQOHFaI9VWu8ECso8QH6Dl4Q8BQy66e6
+        vZR6H9K8j+BOSDPtkH62QJq+BvFHA4zMmO2wQqSrojHSXRmK+CozNPVdyedOkdje8g+x5yUIvwHWwvWO
+        6mIJ2wAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="toolStrip_open.Text" xml:space="preserve">
     <value>打开 ROM</value>
   </data>
+  <data name="toolStrip_save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKWSURBVDhPjZJbTxNBGIb7l4AunhJ/hdeGU4FSMICI
+        nDSaeKFGkGg0QhG0ECggimIBu4AGRShULBhMORTaIpQCPUN32bb7+s1UuSKEiyeTbud9vnd3RpNtGKsg
+        mgk7ESSUbIOoEsguSXOhdAyXro3jYpmI8wYxdLlcnBP0w1cAaJjAuOCOY8EtQU6okIj4UQrhwyR2wwoC
+        0QT/LSkp7EUS2PDL6rhjP3H1gW1f0FvymcC5sBHHnT4/4gqFaWPBoxkEYwnsUiAaT3JxhFbv/hFWfTKs
+        jiBIAmoiM0HYQYLb5h2+icEE/oiC4EGCT2YNdqiNa0fG6raEuk4Pvi6FIOhHVCZQ7K5DEvj4JkZhow1+
+        WmNyCjK1Ch0kqTqbLmF5S0KNyY3eSR+E4mGQQFRtawe41eODhyoyNgNHND3Jp8ekFLYCynHYuRXHzVfr
+        6Jr4A23RRy7A9DIJurd5dR1NL2qyofTJHMoIffMsdPSc/fefqrYVdFg90BYOkYCOacoZRX3XJr0bQWt9
+        lxf1nQwPak0emriB6o51VLW7UNm2iqqXa2i1uKDVvU8LJpei6TCRDhIkYeGa125e+UY7CSh43bhCLOPZ
+        4AqyCt6lBROLYQp7/+E5ns7DNLm6w8XDlRSsaHGivOU3mvqXkJU/wARWiI4Q6kxeft5noez5LzzsWURm
+        Xj80dDUxOh/idSU6svtf8k6F3YmSpz9xr3Membl9JCgVMWwPUoO0YHLt86kwQXHzD9xtt5PADM05g1Ud
+        mg2QwH3mBrrGWTQYbcjI6VE1Qol1feD7Hgamdk9835NoaJ1B7YtpJgiwj/hY0H+yCPrRoFA8QtfTwm+Y
+        tvADsnSDdFRvkZn/hj5YH1XupZCZT87I6Y5k5Jq//QWbzBTt9kMQwwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="toolStrip_save.Text" xml:space="preserve">
     <value>保存 ROM</value>
+  </data>
+  <data name="toolStrip_undo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJESURBVDhPpZLtT1JhHIbd/Dv6klMLy1aWBpmRVg5J
+        tDQSjTRCUAg6FvgGiIAgoYyXcM4NJSGJCRrMClPDqWjOajXXi9k3P/I/tLsDWwqDubU+XNs59zm/+3nO
+        dZ4sAP9FxvBf2L94FBWAWOVDusyDeKkFbfNctL5uAi/U8Ls5cCvW5LsZbvDUEPUu5pGMBcQKH8FfXrzc
+        9WLmpwf+HTd8P1yY+ubE+BcHhtd1kL16gNqxyuB1xxVqWoEkwsPs7hQC5OD0ziRefJ9IDLu/jsG1PYqR
+        T8MY+2yDYv4xKi30YIWpNLGT/QLRQjOEb+6AP8dByywb3Ok6cLy1YE9Wgwi1wbppxMhHM+wfhsCf4uKS
+        /jyRUnAYrNFrlip7+Z5xTQN9VAX5nBQX1OfC8WcZBzJx1VxmEfv5METV0ER6UNx7OhbPU14iTWeTphXJ
+        2V8uD9IsQt89aFcVUC514oz8ZHrBbQ/LVTfB3E7O4tANNEuppnhPsShH1zsC7f77KCQoqZ/Adlc/fRgS
+        QjzDB9NRETcN0jToeioax+vRuyCDeqUHquUu1NiqUCDOO5BImjZJgwLYt0ywbj2BedMA04YOg+v9GFjr
+        g4bctmxRAmWkE9xnHFDEecF8Yc7Bb7zhZAyIAjxyUI+h93oYN7QJWdpVJfrJVbvfdqDV1wyWjQGKKDeY
+        L8hJP0gMW7mV97wRdycbUKYrAa3vbNw0iuSFONVREDshORY+3p5L5AmOZj7KcUjTzovakjSJh5FyQ5rO
+        pqqKupOzw0HWH+d+o/aII7tsAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStrip_redo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJCSURBVDhPpZHrT9JRHMbd+jtolaXT6Sy7CFmUWjnT
+        NJulQQr+liQo9vPCTUicQRrm5OYFRUExza0trBwSIMNlbcYg0Oq9L/kf2tOBTQeDVq0Xz/fFd8/zOec8
+        JwvAfynj8nd6sHpH3rRUdyR5l2L4k5ocddEGW7U1eZdiEPspRoeHT7dvNLva3nNilLMRLa8bwF2pR6Oj
+        Ft3vhHj8RoAa8zV9GkC8SbFEHp5Tu63EZGgMC7vTePnNisU9C2zRKcx9NcMSNsAcHMOjVzxU6C5pDgGd
+        vlaG6APPaQyOYPWHHfbdSTj2ZgnEgvnIJGbDJlhCekyQsGFHB8rBxRUtU3cIELpbaM12P1a+zydOnQkb
+        Id0Q4669BvXWKtRO3cBNYzkeLjej1cEBW8M0xXOHAME612UK6jAXMWEmZABpep+Exw9MByobKY2yn5bY
+        kneJQa01xawRM7nuBNReKUjTaeG4Lg+VKFkDZ9O/kTQdmyZvjJfU7+7BbUtlRkAmJQZnud41vKWGfmcY
+        Lz5pUW2u2K8cv/pXkMS4t3CLpt+2w/RllECeQxsYAH/xfrxplA6eB1NZjHOyIpzpLUBhVx7yO3JILAlA
+        mmaQpp3S9S6MftZCHZDj2Uc1hrZUGAwoMOCXod/XB7mvBxIPjVxBdiogripDOev6GNvJJ99Er4mg8krw
+        xC+HalMKBQnLvN3oI+FetxgnqWPpgLjKhi8ySNM0adp1QXE6Viwp/FlE56OgMxd5wlPIaTuBbBI+zjtK
+        7BkA/y5k/QLTVqaAdAhJBQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStrip_editBGs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wAAADsABataJCQAAAAd0SU1FB98HHBQ0H6pexcMAAACFSURBVDhPpZMxEoAgDAQpLX0ST+JJljyPkg6N
+        eg5kLkNUZrYgYdfKcJz2k9Bqra9JKY2BnLOLGOPDq4CS/AEt1m3RMx5gYinrOcOeBiyxl2nAEmWHPWQa
+        sEQm00D/WJAQkDfTABZWSEfMAGChPjINAB3C3B0ACOE+BOTHwBe83PIV+E5oO1qORgemGwDgAAAAAElF
+        TkSuQmCC
+</value>
   </data>
   <data name="toolStrip_editBGs.Text" xml:space="preserve">
     <value>背景编辑模式</value>
   </data>
+  <data name="toolStrip_editObjects.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wAAADsABataJCQAAAAd0SU1FB+AEGwcXKwR4rC8AAADLSURBVDhPjZKtFcJAEIS3BEqIpAQkEomMTAlI
+        ykFGRlJOJCWcO95cmMvs/TwiRuRuvm/3JbHXbaqyhBBbaXXdA4vP+RPH+1qlJXIwQTOL79OWx7AFZxdb
+        ssgJCKMUkHHY8zujDB2VZAEOU3m+7ulIsEkWuOmA1vOWjkS3SFw1/Y9At/AClAhpDgtQKCWEjwhw4QCN
+        wF1B8xMKTAFfYhbwM+IgbSGApjW9+g9gLiUECev0LFAJLikipKDCTkCJisoAVBhxAobFMnV3si9tgyz/
+        1haMBwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="toolStrip_editObjects.Text" xml:space="preserve">
     <value>对象编辑模式</value>
+  </data>
+  <data name="toolStrip_viewSprites.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KBRYBJ/ZotyEAAADOSURBVDhPtY+xEcIwDEVdumQERmAUSkZgBEpG
+        cElJSUmZkhEYgTHUGX9F9n3FPkIB/04XS8p7TsLfEo8xc9l4PRW4ydPVVyIG41QAKhbZ6z4VroCNW1jU
+        SRi2keYathllrWYoGQkAikiWuHOSTjCC92GjoKRpfpbCzNZewgK9FUC5uUkM5q9ZF5SbcQaI0rl9zUcB
+        SzoBwU6g/7SQ6DnNMoXKudtXGGFBheV10Sef3TssQKrkcT+1BXqUtQG7IcxJ54PeaG0LZthZ+6uE8Abg
+        yEskQnf/ZgAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="toolStrip_viewSprites.Text" xml:space="preserve">
     <value>精灵视图</value>
   </data>
+  <data name="toolStrip_outlineSprites.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KBwsjJHYkWBMAAABCSURBVDhPpcshAsAwDIDA/P/TndqtlgwMhpnz
+        0yt3fhHxiYhPRHwi4hMRn4j4RMQnIj4R8YmIT0R8IuJ7Y+uVC+c85/zfIX+iVRIAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="toolStrip_outlineSprites.Text" xml:space="preserve">
     <value>精灵边线</value>
+  </data>
+  <data name="toolStrip_outlineDoors.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KBwsiL/jtsNoAAAAnSURBVDhPY2Bg+P+fMoxVkBSMYJAIRg0YNQAE
+        hqMB5GKsgsTi//8BeGzfIfrbtuoAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="toolStrip_outlineDoors.Text" xml:space="preserve">
     <value>门边线</value>
   </data>
+  <data name="toolStrip_outlineScrolls.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KBwsjOGIlBFwAAAArSURBVDhPY/j/H4gowEASU5AUDCShDBLBqAGj
+        BoDAcDSAXAwkMQWJxwz/ATkwTsDSw+o5AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="toolStrip_outlineScrolls.Text" xml:space="preserve">
     <value>滚动边线</value>
+  </data>
+  <data name="toolStrip_header.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGLSURBVDhPpVNdSwJREJ2/GEVFRB8UERRZiYIWQYQU
+        RJGiZVkSpslmiquJrqKYhZhJURT0+d4PEILATncGevOhtQOHszPMnbMzu5cA/IvUNadNbejvzYXoG5zH
+        iuEXOEJPsB8+whZ8gPXgHvN7t5jdvYFl+xrT3is49y6bfE4auE7fWx7jA2Zp2TpvSQN27oQT62V1XjVw
+        hl/5wTTGVossRI6jZ0k0Gg3U63VUq1V8fn2jWCyiUCggm81KrOs6kskk4vG41I+48iyqgVpYJxhazrIQ
+        8bYZtVpN3Mvlsjjm83nkcjmkUimJNU1DNBpFJBKR+sGlDAsRf6pOMLCYYiGy7t9JolKpiLthGOKYyWSQ
+        TqcRi8UkDoVCCAaDCAQCUt/vTLIQWXYakjCLHtspC9GMty6JUqkkc//OzJpIJGRmjv1+P3w+H9xut9R3
+        W09YiKY9NUmYRde8xiJ3QZvcvJA/a3ythFFXAcMrhtrymSyqf0FHnyOBXntcvXZMOWtQZ5jcgdreMDNs
+        m/w7QT803UMOzId7jQAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="toolStrip_header.Text" xml:space="preserve">
     <value>头编辑器</value>
   </data>
+  <data name="toolStrip_tileset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wAAADsABataJCQAAAAd0SU1FB98HHBQ1C6mfIP8AAACuSURBVDhPpZE7DoMwEAVdUnIkH8lHyFFS+mgp
+        Kd05eSsmWv+ESJBGrOz3BjDhc9U/CbWUcpuUUivIOTe4wBetsR9jZH0UUC7PzdDs98Ug8ParshgEuiOx
+        NSfwn0NmKiBA4RF2Q/Nx7AaZqYAnChW1/grJZgRIlgJQSWUEZ3gt6CWaVaTsM2IQ6GB8gNm/ts9MBQQE
+        B9kLyCwFYlbuM0sBZU9fFo2A/3oH5Cb4nVDf1bYSX9xxRxkAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="toolStrip_tileset.Text" xml:space="preserve">
     <value>贴图集编辑器</value>
+  </data>
+  <data name="toolStrip_graphics.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAO
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAH/SURBVDhPjZPL
+        SxtRFIdjF27cuagKtZT+AwqxrtouuumulK66sW5cuFDQRaELLRRa0FpMlYS2Aani+0F81ATxRVsqRTJo
+        K4yl2pjWQKaTjCaTZPJOf73nygxBYvTCxwzc8/vmnsMdE1tXGGZG/TlcY1wCYMqHljmZTIYzmUwum82i
+        EGwfVqu1r5CEVj2FY7EYNE0zUFUVoVAIsixziSRJsNlsXOLsLa9yj91wrfdXWriAChKJBFKpFH8S0WgU
+        4XAYgUCAC+LxOOgjg++eDYhrj3dU3wjW+q5rhoDCOiSgQCQSQTAYNFqJqz78ESxIKAv4Nn0Lc52X6UQn
+        AtaGUUjv1LfeiqIo8B+K8HztQirkhCQ0YP5phX36SUWpIThNvkSRfuBgsxvJ4w+QvzdisuOqMNRWWW4M
+        sZCAIImq7MG7+YqHld0mfHxzG3dryh6wXElRwZHyF+LWEn4uP2LHdkD91cKGVouAd5tSdC/OFng9u1h1
+        TsA1+xYrA/ex57oD9+hNeIQFvl9UIHoOYBl2YPXLBvy+LQgbU5h/fQ/iup3PpKhg/9AHu2MZ/c4dPB93
+        4+GLT2jvXYTs/410Os0pKmh/+R6t3SNo7ppBQ8cYWntW8FnY58PUOUvwT5dcgBxlKKwL6tjt02jjVGEh
+        cqw2yjLmfEE1SRh0rItAv371iQCm/y9cw2K+1pcMAAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="toolStrip_graphics.Text" xml:space="preserve">
     <value>图形编辑器</value>
   </data>
+  <data name="toolStrip_palette.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALySURBVDhPlVL7S9NRHN1P/QNZUVBQUBEq+KAIlErJ
+        KH8wUKJ0PqYmmmKWZT6aaeIjjOaebvP9mNM5nZrLqSmuzNSlLldTI9Gc5vtrU3MQG57uBoqPfumH88O9
+        nHM+5577oQH4J0YEYZ5feSHsYU6gTpvnrx14dUusyfX12svbdbBiND/8hJ4fqhiXJGKmjYtljQzLvVIY
+        WljQFd5Dd6b3d3XGNZ8t/h5xWIKezzBNq/KwPtoOsz4Y0NvDPOyJNZ0Sq59fw9DGw0B+ONqYl3K3DcaE
+        dw+QyKVTDdn400wHJA4w13pg84szYIglJg6Yb0rHnCIVvzS1oD5K0ZJ00dL85LyTzYBEzplqzLFN3ax2
+        BdREREyMXZEwD7lhtYuOcqUfUlrdwVFex0pfDUakSWiIdyoiYoarjhtk2ajiwUQPwO8cX5ir3bFWF4S5
+        xjQylYlZeTKeq65A1BeKp8Rkrv4ZplvYkMfZ62mk5aKf7UScEIeNrAwYPTyw1MGBcbABxoF6GDVyLDRn
+        431tCFhKL6hktzFT8RDzb0WojjlD0YZYdyaofhmomixQMf5YyIshYgV0JffRnnoZQwVRWCFvji7Mx1mR
+        Aj6iEhiKIrHYIUZl1CkT7dNLP5NtmrYJy2ox5hrSSFFya8ukHtCUiRdAfaiEi0gGeksPManHJD+QpBSj
+        LOI4aL0vbvK0ogh8kzFheMMC1SPBSm8NBskdaRn9fAaod2WQCJNxQ1gKriAVC0oWxqQpKA47Omb7BbIY
+        np1pnpkksqo1xW19tCoRVHeFTUipSzAjScAkj44Jjj9ma5iYV/HQmn4VBYxDAdtLtAUS2bHpsYtlmQgN
+        xdG2uJNcf/wQMLDYlo8pRQ46Mr0hDrFjW/n7DKyof+AoHyYlLnUWYLo8HovtQiIWQMMPJVMPW0TBdklb
+        3H1iK2Sx55ykMact1mnjsjT08xioe+RsjdwkCj7ouJO7S7gTlZEn40nL6yXhx7SFoUfYJDJZ0f28fRf/
+        B9D+Ap9MzWHUg2iSAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="toolStrip_palette.Text" xml:space="preserve">
     <value>调色板编辑器</value>
+  </data>
+  <data name="toolStrip_tileTable.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAO
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFySURBVDhPpVNb
+        SwJhFDx/UZKSiC4UFiRtuSi4SiAhBVGISKZdjJJiTSOjCIuisIduJC0J3XwPeunBN11P3znguqVEWwPD
+        LIedOcO3+wEi/otgm1BH53Llin/rFZVNwdQz+tYf0btWQs/qA8orGroTRRyP36G0cIOu6BUqiYsK+Tgg
+        lCnrkfwbWqUUPtc5gDb/hc7ZM+EXAUrqhR4sY3D6hATAt/HEg2ChSYKUcxokLBabJPSHjkhEgDgwAhmT
+        2teAeDHMWq/X2ZgVuxoBvcFDEgA6bcJPDXRdb2nQM3lAAkCf6jtoY4NkNrNWq/E73YE9EgB5+Z4H5o1k
+        xJjdIBk/SsMGCQ5llwRAit3ygIxJLWZUZnNaZqWtbHxfMgLsngwJwFj0mgfmBlzT1KBarbY06JDTJACu
+        yCUPrMLmVkn4Lqgj8wX+s4ZmTnEgdIx9U3lxyvt8UA5/Drt8O9jpzYra22KzisJDpARoe8OssO3w90T4
+        BAoMLgDOP8alAAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="toolStrip_tileTable.Text" xml:space="preserve">
     <value>贴图块表编辑器</value>
   </data>
+  <data name="toolStrip_animation.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJTSURBVDhPpZJfSJpRGMYjCBQU9MIu8kIvVChFE/wD
+        lsw/mIpKfyCFKaGbMh2fmW3QGBtL2O0uhgQbYzFcl6PLaG4jmNUG1vwKS3MznW03a2MX2z7Ki+/dG6MI
+        P7vaxQOH95zfwznPczoA4L90tkgmk8VEIvErHo9Xzx84r7GxsV2Px3PsdDpLp7OzTYSPCIJ4EovFwOfz
+        tRXC4HA4Hlit1h2GAcKA8I9IJNIksl+pm6+/U5PLh1R06ZDazM9S30qzlN1ub1oslg2j0YhIi0E0Gt1C
+        +H4oFCrqVu5BbK0KU28Brq0AvMgvwnE9CmazeXdwcJDQ6/UkwyAcDteCwWAuEAiQttVhUGRdEHxThitZ
+        gMhLgLuvPsLAwMC2TqfLqdXqGsMA4QrCGXxrIZAfhtslH1zfssDEuykYWV6CS4t5QJhEOKNQKCoMA7/f
+        X0Q4hUlvzjemYeHgDjw7uAVz9asw9/kypBvj0N/fT8rl8pRMJisyDLxeb2N0dJTELNo2cKK+vj5KKpWS
+        YrG4wTBAuOh2u1OY9Mbk+hHMvAeYXgMgVgEK5Udw+OUxSCSSDwinhEIh8wYul6syNDSUwaQLF7UgEonI
+        np6eTHd3NzMDm81WM5lMOUz6whYQ3hYIBDk+n89sAWESYQKT3rmoBYRLCBNcLpf5DwwGA2i12nVM+s/T
+        2iT9vD5Dz9dv0OnqBJ3eH6cf7o/QPB7vN4fDWWCz2Yi0GGg0mqZKpQqhSdsGToRPABaLNdzV1fWTYaBU
+        Ksu9vb1NTHrjdNYqhPcQhs7Ozk//ZtDxF37tYA1lRn2OAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="toolStrip_animation.Text" xml:space="preserve">
     <value>动画编辑器</value>
+  </data>
+  <data name="toolStrip_sprite.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KBwsFJLX62zcAAADbSURBVDhPjZDBEcMgDAT1zNNlpBSX4WfKooSU
+        k1L0IzpZRwQ2GTRzA0LsSSCzeMpRoUjXg6Aen1pE3UBFqu77Kdu/5XFvTJDwaysOqKpDWiyfmRAGhD0M
+        /AzAaBAmgZ7RQQbE+OcEBh6yrRnY1tUZGAAD6mLgXePdDbQcq48eJrl79wfsjvdDNMI56rg8ykFEhrGH
+        bkxcuYbVDTLIZ4wmOKc6OAcgAsxxMRsRRs0hBuGxgDwbLcM8w8iEID4j321/EGkbnSND7E6DkWkxwumi
+        a1L7xb/uqF0blPoFjs2QnLKTlcwAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="toolStrip_sprite.Text" xml:space="preserve">
     <value>精灵编辑器</value>
   </data>
+  <data name="toolStrip_spriteset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KBRYUKFFiTKQAAAE5SURBVDhPhZIhcsMwEEUFCwsLCwMDcwTBQMPA
+        wh5B0EcILDQMNCw07BEKewQzdd9KX5HTZKqZP7uW9z+t1g5tDWOu2Tb/d+1jxjBevj2ytaxLy1n7IWb0
+        Gg+uul0XAGn62cYqzGk65yG9uZ4PO1cBcBKFXRetm+7dLUCxAKTxs5yOyJHtA+y7EACVK1jhcg45PgXP
+        1zX4s3diz2r5nso1DOJmiwxQMAAUaYi9GOYGQDFyQJXMap04f314LkgD6K6cjJn8GMrwMElTmH0fyB+A
+        IBLFKb27MK9htfnYjCwCKYDOTJ5SzPOcXKfT0eLkJp2OWV2UGQCon6u0U9bGbDG87LwTjDI/BNyaEWb2
+        kRsNeAV0V7gH6M0YpQ1Ag3OQvaRYA+yN5HxCcubkv7KMDcCqBiQQat/f92P+BU8F34CkqFdbAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
   <data name="toolStrip_spriteset.Text" xml:space="preserve">
     <value>精灵集编辑器</value>
+  </data>
+  <data name="toolStrip_connection.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAO
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIgSURBVDhPpZHf
+        S1NhGMf9FwIjEgqiLroIEYIgCIIgCIQgUlC23FLZkh0VURurmU7NRK2UOba5TZdpU0/OLO2sWbqmqHNb
+        mztb/lxqLvKmv+HbszMQit6L6uK5eF8+5/M9z/fNAvBf88fLv5lfDglHFUQbh1hfBSJmFcKmMgSNSix3
+        y7H4pBjznYXwtd8glCEQbRocxN04EHl8Xx3Dt8gIUuFhpIKD+BpwYm/Jgfet+YQyBFGLmj7ksePvxhff
+        Y2zPdmBr5hE2PS1Yf9uE3QUrPE1XCWUI0r+cTk3OdWH7Qzu2vA+xIRiwNvUAn1/fQ/JjL6b0lwllCAI9
+        JUiFhjKp71ql1LU3eiRe6RAfryPpU0xoLxLKEKSL2qddNzzNWJ/OpCYmtBBf1iLOV2LT2wW+9jyhDIG/
+        4yb2Fu2Z1Ml0aj1ifA1SXgUQz8fujB6u6lxCGYLZtuvYmbccpsZGqxF1abAvyPDDX0BdGPBcc5ZQhsDb
+        fA1Jn1FKXR2pRGS4Ap8GVQgNlCJoL6EuGjGgPk0oQzDdcEUqKuriEBlSI/ysHKF+JVZscgSsxbTSfdjL
+        TxLKEEzqLlH7nVJq2EmpDgUCfTIsm4uwZCqAyGthUR4nlCEYr79AT9dGJbbQCxioiwYpVeR1iI3dpbXq
+        YLp1lNDfBIIgwO12Y7QmDy+qzklFOe+cQb/qFGxlJ2C9nQOz4hh65dkwyo6A4zhpDgX/Psj6CQV66PBR
+        u7f+AAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="toolStrip_connection.Text" xml:space="preserve">
     <value>连接编辑器</value>
   </data>
+  <data name="toolStrip_minimap.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMCSURBVDhPZZP5UxNnHIfz13WsMo46kLH1SLjaCh4g
+        MKGMQ0GqtDQWHagBNQ1iCsVy9ZA4HNpIRZMOkmiSJZsLMoKSzSGVSg7Gx30XHGv94Zn3h53v8353P5/V
+        7S7+eOZI1WGMJwzvUfoBRsp2KFcxVB1lT/HuGZ0YLmwV2Hq9RXZr8z9kye2cgvRmUiVF6lWG5EYaZUPR
+        JDpxmxjI5ayk/jjO69oy1p61sLFhZn7+APZ7STpGIlgmFVoGI7T9EqehT8aXCFJxsvSdIJHoIBo5zYtK
+        PTGbnufP63A6P+KnqSna7B6+H4/S9KOXpv4AtT0L+BVJFZShE++3vYGNxNo58k++5sWnB9j8px1JNuL2
+        93DNscTQgxTdvy/Rc3sV82iUQFIIyt8KsuoGF9UNGlVJK/HqvaSt5UjSUVx/H8Iy7sM2GadzOMCl8RDn
+        B31IqcD7glxuQB3+jny2F+VJI1RXkgibiMZquHXfyaR3nSHnCqMPElyfebotOKUJjJpgfd1GLNKKIr5F
+        tIH0pUrizSVEwl/guGvit4cr3JiUGZiOYnMEWdQEFehErkKQz4+hKN3kc/2a5GXqBxTDJ6wG2/E+Powr
+        FGbeN4xPtvDIayKU8VEpBKIUQpBS7MRiF1SJBcfCaXrd9Yy36ZEajUzM7mfef5G5uX1EPM2EeisIP3Xz
+        mSZQs8ypgkJhmtgzK1PLXVhcJobkb+mZa+DlmVpGRquJLJ9lefAgq2Y9M7ZSQmued4JsYZO/olfpmq3D
+        ttBCp/MU1kfNmO+eZMpeg3xwF94zRUxc2I/1Th2ds/XIGWlbINokajoWuswV11fcXOzE8rCJoUAHw/0G
+        pG9KWDqyC9fPX9KrPu/ztHPF3YKcDrwVlJHJppkO2Rlwm/lVLc5113n+HKlnrl3PxL02xoZNKDXHuHG/
+        lQGPmT73OaS1x3wuBMYqA8l/FTVXtRxpH4safoI7yJmARjLuI7CyQDDlJ5xZ1M7y4+q/UFS8x1GqSkQp
+        RK4iGoFY7/+IGzVqKrThvSVFjjfceP1j5CdlGwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="toolStrip_minimap.Text" xml:space="preserve">
     <value>地图编辑器</value>
+  </data>
+  <data name="toolStrip_text.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFySURBVDhPjZPbasJAEIZtn6NC38HiexbMhQ/gjYgS
+        8EJERRRUFONFPCDiraIoJsZ4tn/3X7rWU6ILHwm7M9/ODGwAQECsD0FIEH7Cp+CdOQolCG23W+twOJyO
+        xyMeIc4RiUS+byVKEGbyarWC67pnbNvGYrHAZDKRkvF4DE3TriRcb4IwAzabDXa7nfwSx3FgWRam06kU
+        rNdr8JJoNColdwImF4tFZLNZpNNppFIpxONxxGKxq3YIc/5y/wWijXMA/9m3amU2m8lKRqORt4BUq1WU
+        SiUUCgVkMhlZia7rSCaTSCQSmM/n/oJbVCXsnzNZLpdy31NgGAbq9ToqlQrK5bKcST6fRy6Xk7OhyFfw
+        CFbBARNWwz1PQbfbhWmaaLVaaDabaDQaqNVqElb1VKDgrWS/39/hKxgOhxgMBuj3++j1euh0Omi322co
+        9RL8KMkLnJhz+Ra+xIBcHtwEPuIkYh2RE7oUBCkRsKxX4NMPAgj8As6yoTIL3qbiAAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="toolStrip_text.Text" xml:space="preserve">
     <value>文本编辑器</value>
   </data>
+  <data name="toolStrip_demoEditor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJDSURBVDhPZZPvUtpAFMV9AZ+gL9IZX6Rv1BdwYGy/
+        tKPOgFo/4IxDxWotjFRqkIBSQRCh/IsESYgGCJDTcwNSoJn5kbD3nrN39+6uAFjg3fvwGlknSdIiHZIj
+        frK2nD8vXCU+4nxVyriumCjpA9SsIartZ0SSFUhsmrO6YCADJLx9msNo7KJqAvuJLr6ku/jZHqDHpDGR
+        mORI7qvJq4FPAobDf3wsZm+eGfh0/gTVGMPlGF8wxYXP1MTHzxURvyXjctvBZlxHXp8kHSo9+L/pKDzD
+        q6DJH4vvgeC6YjAWrTf7Edd3mDbx8ayFjdMWMlXgrgnE8xaX00e7D2g0MFlKZwR0iWhEKwYptWzgc+yR
+        Bhr83zWEkiZ2ogVJaAh7sSIsimqsJv8EqLUR1LIp8ZQY6DfVF86sYYPiDzS5KFoSrJM3U+q5Zh8hburu
+        peGRqdqSo88M/CcafMdNrB83kLj/3yDzx8auYmLrokPaSM8ZpFIPHfhOGp44SPe87kLKZsxbwk60iFhR
+        KnjGwbWNcPYFV6V/S/A28fy+B1UDKjZQ7BIDyD32cV3vI14aYvfqBVs8G4FLC1GazW+i10aHrdHYo9sO
+        oDSAH2UgUhjh4GaAvZSNgGJj+5eFoGLR2BHxpI1sq1eFHI4W26W2gCjFR3cuQtkh9tQegsmJOKB0kSg7
+        iwdpajA7ytWuiytWELkbIZSZzL6v8i7c2vitzcSLR3nOZHaZkg8mso2BtweX3BAZk9g0Z/EyzcPg8nUW
+        5FvGlq4zVv4CmC4ej8dhrTkAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="toolStrip_demoEditor.Text" xml:space="preserve">
     <value>演示编辑器</value>
+  </data>
+  <data name="toolStrip_physics.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGSSURBVDhPY/j//z9eXFhYWADED0A0NnkMAXQM1PgI
+        Sj9AlwNhDAFkPH/+/LqmpqaNZLkApBmIzwOxEDZ5GMYQANrEPHfu3EZiNIMwCgeomamuru5YY2Pjm+yZ
+        l9paNz0/N3X36689214+zZr/aFnYpHuFIRPuWgT13uHAasC8efMa2tvbnxcVl/3p2PDwfvq8R1MTZz2Y
+        GDntQTuQnh817cH0wJ47ef6dtwJ92m7perXcFIRrhvk5e+bFkik7Hv+MnnJTH9lwEPbvumXm23ErzLv1
+        pptn8w0r94ZrhrB4fgQKbZCfS5Y93tiw7tkldM0w7NVyg82j8YauW/01M5eaq9oY8QzUfLVh3fPbyJqw
+        Yafqq8IOFVdUYS6Ax3Pjumf3OjY//4yuARu2Lb3EhCFYtPTxmQk7XvwH+tUYXQ4bxhCIn/lg46Sdr/57
+        ttzIQZfDhjEEvFtuNk7c8fJ/YO+tJehy2DCGADBqvNs3Pf+ft/jRM8eKK2zo8ugYQwAYNUKVq57+qVj1
+        +D8wkALR5VHxfwYAUuW9Bm3PH7YAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="toolStrip_physics.Text" xml:space="preserve">
     <value>物理编辑器</value>
   </data>
+  <data name="toolStrip_weapon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAAd0SU1FB98KBgU6JF8Gu2QAAAC8SURBVDhPpY+7EQIhFEUJt5QNLYHQ0BIsgXBD
+        Q0uxhA0thxLIcA4zl3kg6ygGZ3y8z9mrO523vxg2R3jvs0X9ZunirhlsDzhwd5fXtOYYY6klaY7TkvK+
+        3BqJPbZI0giw9wLqEELh8dzLDlC/CUYJqIFlkEzvKuCBmaEV8KWjBPw2ApmnBTRYnP4LGliBnfUJmDVL
+        owRwlIBZPZZdS1ZC3SeoAgpFsgLeknxM8I2gT6HjnwTAzB5DLebY3AuVhscQ0Q0Y/AAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
   <data name="toolStrip_weapon.Text" xml:space="preserve">
     <value>武器编辑器</value>
+  </data>
+  <data name="toolStrip_options.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJnSURBVDhPpZL9T1JhFMfv1m/92B/XcoH9UG7RBm2s
+        2nLlxDkgcOrCGSAicKOlGKUB1zBeJdmFYPKqUaagKS/5zkRs69t9HsTqN1tn++48z3fnfM5z7i4D4L/E
+        sOG9Hltob2MiuINxfw3G9zWMeivQcdsYdm9hYHYT6tcl9E+vo3dyFY/tX9DNFmLnAGtot1Zv/MC/6J5l
+        +eQcYA58p6Y9Z4I1o8f40gj0yWHo4loM8io8WexD/0IPekPdeOR/QGvvjmWF3jPAmK9GzYsGqb3zLEWO
+        LYBe2JeYLxYqFxKpvaVL/gaMCB+rDSAxGSnT3I7paOvu9XrhcrlQO2jgxlCcWC3AkOsbDo9PMbVYwTRR
+        tIpX0QqcfAVcJAfvvA8zH9YQDAbh9/uRWl6HmXWAZVk9BQzMbOBAADj5KqHizVkmQaYWCgUEAgHk83ms
+        rKxgbm4O2WwWarUaSqXyMqNyFrFfP8VsvIq3H/+WJ5REOp2Gw+GAQqGARqOha8RiMeh0OrMwg2H6ptaw
+        d9QEl2xNnl+q0dwuLJfLZBL1SBgMRpRKJXg8HqhUKjA9L1cpwCs0kua27HY7OI5DsViEyWSCO1GlMhiN
+        yOVyAsiArq4uMN3PP2FXAPjTrcmBTCs3m00kEgnwPA+fz0chRqHZ7XYjHA5DKpWaBMAV5r51GTuHJ6ju
+        N7C1c4xStY6v20f4vHkAi8VCAeQ1ZB3SaLVaEYlECAAymewSIzfnIzJDpn57NIWbT5PoHIzjuobHVVUU
+        cuUEJBIJOhVO2Gw2aLVaXHvIQiwW/+zo6HgnPJShP8NFJJfLIRKJhOOfPphfKFk4xY3NkDwAAAAASUVO
+        RK5CYII=
+</value>
   </data>
   <data name="toolStrip_options.Text" xml:space="preserve">
     <value>房间选项</value>
   </data>
+  <data name="toolStrip_test.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJrSURBVDhPlZNNbxJhEMf5AH4CPgccPXrhVk0PvZl4
+        MeFi4qGpp5Ka6qExhbCWKKZNawOViDVV29RIrXQLxTSWl1KWFwELdCnsrrCwsCxl3HlgEdSLm/yTzTzz
+        +8/M86IDgDHdWAK9KqMqk6qpgfAfY/o/80fBa6oMD97UzN7Dcyp4kqKjp2dcJBbnDo4T9Kv9LDXt4c2Y
+        g7ljBgP4uttfskTOMgxbrYEodUC56hHVmzIUyzwEjmPM8m7GgrmaiWZgQDiW+C622ooaApDkLvBiBzhV
+        jXaXxERJhoNQWHRuJ9HEoIZ0ZGZsGytrcKUmQ/mnDG9DZWAFGUpCG4p8m6yhye5egLm3zuI4ejQweukf
+        FLaNnwYjeOuhHzaPygQ+r7aI8EtkL8DuCVLIooEp8C1J48zYKoJa1Ztz+0SvgyyB85UW1JoKXAoSrGy8
+        o5FFg6lw9JTDzarWOwTGigWupcKfiSYfBcEX5SBbloiRrFzBumuDQ5YYnERixADb12BMJPD8IUzM+sha
+        hpUGXXRgZfXl0MD05WucFsQ21CVlOCsmTs7TY3D6oklOJlUQwO50DUcwunxpKl+sQq8HBMxdSqTdidlP
+        BEYwVWpCstiETrcHe0dxsDg+DDdRf99dMfv8IYar9XcZq6EQ1sBEsUEKpNXqtmdrzB1Hqn+Maj6aGOyb
+        EcvWR7/I8v1EoaEMu8HLhJVTBR6sTrc4Y9/+fZEGBuQqL7hCljXPFhMMpyHP1sie4MzxHAc7/ggs2JeZ
+        adv7v6/yiInh7oucee75DvVkaZW2P3VwizaKe2x10jNWL3WbSvz7MY1KXfyP5wy6Xx14FVeYyRtqAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
   <data name="toolStrip_test.Text" xml:space="preserve">
     <value>房间测试</value>
+  </data>
+  <data name="toolStrip_tileBuilder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wAAADsABataJCQAAAIxJREFUOE+VkN0NwCAIhF3FdbqKj92x63QEChziT8S2lyNBvQ9tE+Vj7UACpHRP
+        NqDk2T0gvVr7qghArvkkOATYPv4rAIORx0ARgPFIy3L/0Wu7ahTiqS+yO6sEyFeZbGdd1PsG6P7QWwK/
+        y5dcSHh0YBCtjPRce8BtO1x9YkhvnjRZzjWBUN8L8ENED4YH/bkXQSYcAAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="toolStrip_tileBuilder.Text" xml:space="preserve">
     <value>地图块生成器</value>
   </data>
+  <data name="toolStrip_add.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKFSURBVDhPpZP9S1NRHMb9W/SXAiEpMQsFNaUEC2Vl
+        s01UdJou52yKznY3l865zRcynRu+VNSGbqORbtM5Hb5gJk4tXaRehxJtFEFQG/76dM+GTk2C6IHnwP1+
+        z+e595x7TgyA//IfBY2rLq7dWUu1OgR083hVUPKmItjwupQWmYspwQg37vT8Ew8al4ilnKwNvFrrxUpg
+        Ad7v61j7toxJnxUyZzUqDewA78Vt1nHmFCwMuXat2P+1i5kvDhjoATzf1sK6Z8Di11mo58UoGs4NcQZy
+        jkLCg3pKFMvA/okdE3Z/bmFoqwdPV9vR5WmF1qtBn1eNro0WTOxbQTn5yNfd8Of1ZsYeBTCwtH9JgU8/
+        Npg39qF3Uw3VOxnTikixKoZkgQ/pUg3sexbcHc5CzpM0KdOKBLTYq2mHz8J8qhEdK3K0LUsgnhGEYaIq
+        CwcN08UQTXGh/6BBz2Izrnel0EwrEiAdqzxwf3ag/6OGgZvC0FkSThZAOlcJk3cIGZrkA6YUCWiy8g7G
+        faNQr1OQe+rDk88SCaDcFTB7B5HanhgNqLeU0DqPGtpNFZre8iGcKwXPfCcMERGQ+KGTg36PAp3uR7ii
+        SIguQThaKL1vZsHmM0E8V4Zad1F4zYcisMDORt0EF7YdI651JyPxcXx0E/nGgtjyl/l+ylmFMXrkaMMI
+        WGMnJjAH49sGPDDdI7A/QXY++huJS57lsQoHb4YabWWwMyE6jxLUdDkkU2XQrbTBxsB8ExuJ8vgQA588
+        SIdm67NZLG1WIFefju55Csb3WhjXtVC5G5HRmUTgwHGY+EQA8a2e9Ljs7lQqs+MqnaZKCqYoLwYvt16g
+        L8njqQTZub9fpn83Yn4DQUbLHyk4qYsAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="toolStrip_add.Text" xml:space="preserve">
     <value>添加</value>
   </data>
+  <data name="toolStrip_patches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMbSURBVDhPVZFfbBMFHIB58cH3Pfngo+KL0WhITAyR
+        YNSxRCJhCi6jD6BCdEETdbrFhJF1czLmxC3CyMCwTRFhwCAbs9tY52izwqC2K7brWLtu3Z/Wbjegf+6u
+        18/fruYSL/mSy93v++53d5sAE9vF2BbBVTeUoHpgmaq+RQ5eWUCuKcK8cE+4IziE80KZ8IQVqDw/W9U8
+        mpDT/x+PVYPEI51QMod/MYcrkuaX2yvIfEqotAIV3dP1Ha6kKcXW8iwpBsl1g9W0wXrOIKsZaHnzNlm9
+        wOj0Y8RJWIE9ZwMnejxJdAMCKwbBpEE4YRBJGcQktiCxBaVY+PTnKKoOjTciRXmD8g5vd583hZIBz5zG
+        nXkdr+Bf1CWoE1zJSzCP9Pms04cztIo4cSuwq83jcIYU5lK6rKcyNqNya1bFHdXwxDQmhcDUIMGePYSv
+        2vF2vsFv7fu+swJvt4xPB5fS+OIaQxIYCqvcDGs4HxS5573E0kg1iu86PIqz5ruIu/mtZStQ9u2wqmTy
+        uCMqw/L0mzMiSuBPkSe9faQCdajzfSyNHiPj7yUfHcd/9sOsKb95dODJMvug+XWdppwzGQ3n8PiGWZ36
+        BiMzTubBJ6Q8VfzdtR/f6cp/PCfeecYMbK+9+vSuhkHUfEHEjdVFlsDEXQer/q8xsm7SMzaysQoe3q/B
+        91OpMXn89Rc2XDPw2hcXNr/bMIBRKDA2q5nrD4/IO9+u/k/eR3bufdanagmfKuOD2pbAhmcGXj3cXSL8
+        3twbIC7/+5w7y5X+ywQGv5S1x8hG9pOLVaLIJjMndzDimkTmr1mBVw6deU/I7LVfp7YnxJGm7wn01/DX
+        QCsLE+WkIxWkvF/hbd+JLxjlnCOIzJ+xAlsOnGqyd7vlvHhcaNoOD6MEO3YzUvMUt06W4mop5cdfXYSX
+        Ndov30WcYzJaDLxkaztY1XqDrj/uc80Vof6j51HdbagTPzBh30bvx8+ixINEkjqLazpHOp2Ic9gKvFjR
+        WiLUC11C/+6tJUaD7bmCo3EHp+vKC6UHGtl2qIOdn3dhO3oJmQkJLxcDbPoXO5MV754rMY8AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
   <data name="toolStrip_patches.Text" xml:space="preserve">
     <value>补丁</value>
-  </data>
-  <data name="toolStrip.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -1292,8 +1603,5 @@
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>812, 536</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

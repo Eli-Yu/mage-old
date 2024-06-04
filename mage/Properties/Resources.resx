@@ -1206,4 +1206,11 @@ Note: In ZM the text on each line is automatically centered, but in Fusion you n
   <data name="ZM_U_testCredit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Misc\ZM_U_testCredit.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="formCredits_ParseText_NoEND" xml:space="preserve">
+    <value>The text does not contain an [END] tag, please check.</value>
+  </data>
+  <data name="FormCredits_ParseText_TooManyEND" xml:space="preserve">
+    <value>Text contains more than one [END] tag, please check.
+Line: {0}</value>
+  </data>
 </root>

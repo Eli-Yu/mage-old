@@ -797,4 +797,11 @@
 
 注：零点任务中每行的文本会自动居中显示，但融合里需要使用空格手动居中</value>
   </data>
+  <data name="formCredits_ParseText_NoEND" xml:space="preserve">
+    <value>文本中不包含[END]标记，请检查。</value>
+  </data>
+  <data name="FormCredits_ParseText_TooManyEND" xml:space="preserve">
+    <value>文本中包含不止一个[END]标记，请检查。
+行：{0}</value>
+  </data>
 </root>

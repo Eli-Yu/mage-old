@@ -555,6 +555,25 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 The text does not contain an [END] tag, please check. 的本地化字符串。
+        /// </summary>
+        internal static string formCredits_ParseText_NoEND {
+            get {
+                return ResourceManager.GetString("formCredits_ParseText_NoEND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Text contains more than one [END] tag, please check.
+        ///Line: {0} 的本地化字符串。
+        /// </summary>
+        internal static string FormCredits_ParseText_TooManyEND {
+            get {
+                return ResourceManager.GetString("FormCredits_ParseText_TooManyEND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Some lines are longer than 35 characters and have been truncated to 35 characters.
         ///Lines: {0} 的本地化字符串。
         /// </summary>

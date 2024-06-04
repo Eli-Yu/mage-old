@@ -81,10 +81,12 @@ namespace mage
                 catch(Exception ex) { MessageBox.Show(ex.Message); }
             }
 
-            
+
 
             // get tile table
-            int addr = Version.IsMF ? 0x74B0B0: 0x54C130;
+            int addr = Version.IsMF ? 0x74B0B0: 0x54C10C;
+            //get offset from pointer
+            //int addr = Version.IsMF ? romStream.ReadPtr(0xA231C): romStream.ReadPtr(0x856C8);
             int position = 0;
             StringBuilder text = new StringBuilder();
 
@@ -389,7 +391,7 @@ namespace mage
             textLines = 0;
             
             //text length more than 35
-            List<int> tooLong = new List<int>();
+            List<string> tooLong = new List<string>();
 
             var list = new List<KeyValuePair<string, string>>();
             //split new credits:type,contents => list
@@ -430,7 +432,7 @@ namespace mage
                             if (newCredits[i].Substring(4).Length > 35)
                             {
                                 //more than 35, cut off anything longer than 35 characters
-                                tooLong.Add(i + 1);
+                                tooLong.Add(Hex.ToString(i + 1));
                                 list.Add(new KeyValuePair<string, string>(pre, newCredits[i].Substring(4,35)));
                             }
                             else list.Add(new KeyValuePair<string, string>(pre, newCredits[i].Substring(4)));
@@ -447,7 +449,7 @@ namespace mage
                             if (newCredits[i].Substring(4).Length > 35)
                             {
                                 //more than 35, cut off anything longer than 35 characters
-                                tooLong.Add(i + 1);
+                                tooLong.Add(Hex.ToString(i + 1));
                                 list.Add(new KeyValuePair<string, string>(pre, newCredits[i].Substring(4, 35)));
                             }
                             else list.Add(new KeyValuePair<string, string>(pre, newCredits[i].Substring(4)));
@@ -472,7 +474,7 @@ namespace mage
                             if (newCredits[i].Substring(4).Length > 35)
                             {
                                 //more than 35, cut off anything longer than 35 characters
-                                tooLong.Add(i + 1);
+                                tooLong.Add(Hex.ToString(i + 1));
                                 list.Add(new KeyValuePair<string, string>(pre, newCredits[i].Substring(4, 35)));
                             }
                             else list.Add(new KeyValuePair<string, string>(pre, newCredits[i].Substring(4)));
@@ -485,6 +487,15 @@ namespace mage
                         default:
                             throw new ArgumentException(string.Format(Properties.Resources.formCredits_ParseText_InvalidPrefix, Hex.ToString(i + 1), newCredits[i]));
                     }
+                }
+                //check [END] tag
+                //int count = list.Select(kv => kv.Key).ToList().Count(key => key=="[END]");
+                List<string> indexes = new List<string>();
+                for (int i = 0; i < list.Count; i++) { if (list[i].Key == "[END]") indexes.Add(Hex.ToString(i + 1)); }
+                if (indexes.Count == 0) throw new ArgumentException(Properties.Resources.formCredits_ParseText_NoEND);
+                else if (indexes.Count > 1)
+                {
+                    throw new ArgumentException(string.Format(Properties.Resources.FormCredits_ParseText_TooManyEND,string.Join(" ",indexes)));
                 }
             }
             catch (ArgumentException ex)
@@ -819,10 +830,10 @@ namespace mage
             var pairs = ParseText(out _);
             var lines = textToData(pairs);
 
-            //todo: size check, fusion size 0x2B98 bytes (310 rows), zm size 0x219C (239 rows)
-            if (Version.IsMF? lines.Count > 310: lines.Count > 239)
+            //todo: size check, fusion size 0x2B98 bytes (310 rows), zm size 0x21C0 (239 rows)
+            if (Version.IsMF? lines.Count > 310: lines.Count > 240)
             {
-                MessageBox.Show(string.Format(Properties.Resources.formCredits_tooManyLines, Hex.ToString(Version.IsMF ? 310 : 239)), Properties.Resources.form_ErrorMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(string.Format(Properties.Resources.formCredits_tooManyLines, Hex.ToString(Version.IsMF ? 310 : 240)), Properties.Resources.form_ErrorMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             for (int i = 0; i < lines.Count; i++)

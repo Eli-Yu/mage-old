@@ -24,14 +24,7 @@ namespace mage
             // debug menu
             if (debug)
             {
-                if (isMF)
-                {
-                    p = new Patch(Properties.Resources.MF_U_debugMenu);
-                }
-                else
-                {
-                    p = new Patch(Properties.Resources.ZM_U_itemToggle);
-                }
+                p = Version.DebugMenu;
                 p.Apply();
             }
 
@@ -140,7 +133,11 @@ namespace mage
                 case "AMTE":
                     ROM.Stream.Write8(0x718E8, demoNum);
                     break;
+                case "AMTJ":
+                    ROM.Stream.Write8(0x71F94, demoNum);
+                    break;
                 case "BMXE":
+                case "BMXJ":
                     ROM.Stream.Write8(0x60B42, demoNum);
                     break;
             }

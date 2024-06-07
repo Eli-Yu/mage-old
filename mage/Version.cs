@@ -178,8 +178,16 @@ namespace mage
         {
             get
             {
-                if (IsMF) { return Resources.MF_U_tileTables; }
-                else { return Resources.ZM_U_tileTables; }
+                //if (IsMF) { return Resources.MF_U_tileTables; }
+                //else { return Resources.ZM_U_tileTables; }
+                return GameCode switch
+                {
+                    "AMTE" => Resources.MF_U_tileTables,
+                    "AMTJ" => Resources.MF_J_tileTables,
+                    "BMXE" => Resources.ZM_U_tileTables,
+                    "BMXJ" => Resources.ZM_J_tileTables,
+                    _ => null,
+                };
             }
         }
         public static byte[] GenericTileTable
@@ -253,9 +261,26 @@ namespace mage
                         return Resources.MF_U_weapons;
                     case "BMXE":
                         return Resources.ZM_U_weapons;
+                    case "BMXJ":
+                        return Resources.ZM_J_weapons;
                     default:
                         return null;
                 }
+            }
+        }
+        //move physics from FormPhysics.cs to support other region version
+        public static string PhysicsData
+        {
+            get
+            {
+                return GameCode switch
+                {
+                    "AMTE" => Resources.MF_U_physics,
+                    //"AMTJ" => Resources.MF_J_physics,
+                    "BMXE" => Resources.ZM_U_physics,
+                    "BMXJ" => Resources.ZM_J_physics,
+                    _ => null,
+                };
             }
         }
         public static Patch TestRoom
@@ -268,9 +293,25 @@ namespace mage
                         return new Patch(Resources.MF_U_testRoom);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_testRoom);
+                    case "BMXJ":
+                        return new Patch(Resources.ZM_J_testRoom);
                     default:
                         return null;
                 }
+            }
+        }
+        //move debug menu from Test.cs to support other region version
+        public static Patch DebugMenu
+        {
+            get
+            {
+                return GameCode switch
+                {
+                    "AMTE" => new Patch(Resources.MF_U_debugMenu),
+                    "BMXE" => new Patch(Resources.ZM_U_itemToggle),
+                    "BMXJ" => new Patch(Resources.ZM_J_itemToggle),
+                    _ => null
+                };
             }
         }
         public static Patch TestDemo
@@ -281,8 +322,12 @@ namespace mage
                 {
                     case "AMTE":
                         return new Patch(Resources.MF_U_testDemo);
+                    case "AMTJ":
+                        return new Patch(Resources.MF_J_testDemo);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_testDemo);
+                    case "BMXJ":
+                        return new Patch(Resources.ZM_J_testDemo);
                     default:
                         return null;
                 }
@@ -298,6 +343,8 @@ namespace mage
                         return new Patch(Resources.MF_U_eventConnections);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_eventConnections);
+                    case "BMXJ":
+                        return new Patch(Resources.ZM_J_eventConnections);
                     default:
                         return null;
                 }
@@ -313,6 +360,8 @@ namespace mage
                         return new Patch(Resources.MF_U_locationNames);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_locationNames);
+                    case "BMXJ":
+                        return new Patch(Resources.ZM_J_locationNames);
                     default:
                         return null;
                 }
@@ -325,9 +374,12 @@ namespace mage
                 switch (GameCode)
                 {
                     case "AMTE":
+                    case "AMTJ":
                         return Resources.MF_U_demoRAM;
                     case "BMXE":
                         return Resources.ZM_U_demoRAM;
+                    case "BMXJ":
+                        return Resources.ZM_J_demoRAM;
                     default:
                         return null;
                 }
@@ -343,8 +395,14 @@ namespace mage
                     case "AMTE":
                         patches = Resources.MF_U_patches;
                         break;
+                    case "AMTJ":
+                        patches = Resources.MF_J_patches;
+                        break;
                     case "BMXE":
                         patches = Resources.ZM_U_patches;
+                        break;
+                    case "BMXJ":
+                        patches = Resources.ZM_J_patches;
                         break;
                 }
                 return patches.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
@@ -388,12 +446,12 @@ namespace mage
             {
                 case "AMTE":
                 case "_AMTP":
-                case "_AMTJ":
+                case "AMTJ":
                     IsMF = true;
                     break;
                 case "BMXE":
                 case "_BMXP":
-                case "_BMXJ":
+                case "BMXJ":
                     IsMF = false;
                     break;
                 default:
@@ -444,15 +502,27 @@ namespace mage
             sr.Close();
 
             // primary sprite graphics
-            string text = "";
-            if (GameCode == "AMTE")
+            //string text = "";
+            //if (GameCode == "AMTE")
+            //{
+            //    text = Resources.MF_U_pSpriteOAM;
+            //}
+            //else if (GameCode == "BMXE")
+            //{
+            //    text = Resources.ZM_U_pSpriteOAM;
+            //}
+            //else if (GameCode == "BMXJ")
+            //{
+            //    text = Resources.ZM_J_pSpriteOAM;
+            //}
+            string text = GameCode switch
             {
-                text = Resources.MF_U_pSpriteOAM;
-            }
-            else if (GameCode == "BMXE")
-            {
-                text = Resources.ZM_U_pSpriteOAM;
-            }
+                "AMTE" => Resources.MF_U_pSpriteOAM,
+                "AMTJ" => Resources.MF_J_pSpriteOAM,
+                "BMXE" => Resources.ZM_U_pSpriteOAM,
+                "BMXJ" => Resources.ZM_J_pSpriteOAM,
+                _ => ""
+            };
             MatchCollection mc = Regex.Matches(text, @"\w+");
             PSpriteOAM = new Dictionary<byte, int>();
             for (int i = 0; i < mc.Count; i += 2)
@@ -482,14 +552,26 @@ namespace mage
             }
 
             // secondary sprite graphics
-            if (GameCode == "AMTE")
+            //if (GameCode == "AMTE")
+            //{
+            //    text = Resources.MF_U_sSpriteOAM;
+            //}
+            //else if (GameCode == "BMXE")
+            //{
+            //    text = Resources.ZM_U_sSpriteOAM;
+            //}
+            //else if (GameCode == "BMXJ")
+            //{
+            //    text = Resources.ZM_J_sSpriteOAM;
+            //}
+            text = GameCode switch
             {
-                text = Resources.MF_U_sSpriteOAM;
-            }
-            else if (GameCode == "BMXE")
-            {
-                text = Resources.ZM_U_sSpriteOAM;
-            }
+                "AMTE" => Resources.MF_U_sSpriteOAM,
+                "AMTJ" => Resources.MF_J_sSpriteOAM,
+                "BMXE" => Resources.ZM_U_sSpriteOAM,
+                "BMXJ" => Resources.ZM_J_sSpriteOAM,
+                _ => ""
+            };
             mc = Regex.Matches(text, @"\w+");
             SSpriteOwner = new Dictionary<byte, byte>();
             SSpriteOAM = new Dictionary<byte, int>();

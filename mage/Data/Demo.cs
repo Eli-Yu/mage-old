@@ -25,7 +25,8 @@ namespace mage
             int demoNum = number;
             if (!Version.IsMF)
             {
-                demoNum = romStream.Read8(0x363CE8 + demoNum);
+                if(Version.GameCode == "BMXE") demoNum = romStream.Read8(0x363CE8 + demoNum);
+                else if(Version.GameCode =="BMXJ") demoNum = romStream.Read8(0x363D44 + demoNum);
             }
 
             // load inputs

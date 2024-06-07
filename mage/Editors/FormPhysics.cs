@@ -24,9 +24,17 @@ namespace mage
         
         private void Initialize()
         {
-            string text;
-            if (Version.IsMF) { text = Properties.Resources.MF_U_physics; }
-            else { text = Properties.Resources.ZM_U_physics; }
+            //string text;
+            //if (Version.IsMF) { text = Properties.Resources.MF_U_physics; }
+            //else { text = Properties.Resources.ZM_U_physics; }
+            //text = Version.GameCode switch
+            //{
+            //    "AMTE" => Properties.Resources.MF_U_physics,
+            //    "BMXE" => Properties.Resources.ZM_U_physics,
+            //    "BMXJ" => Properties.Resources.ZM_J_physics,
+            //    _ => null,
+            //};
+            string text = Version.PhysicsData;
             StringReader sr = new StringReader(text);
 
             listView_physics.BeginUpdate();

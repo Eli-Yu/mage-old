@@ -579,10 +579,15 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Resources\Misc\MF_genTileTable" />
+    <None Include="Resources\Misc\MF_J_testDemo.ips" />
     <None Include="Resources\Misc\MF_U_eventConnections.ips" />
     <None Include="Resources\Misc\MF_U_locationNames.ips" />
     <None Include="Resources\Misc\MF_U_testDemo.ips" />
     <None Include="Resources\Misc\ZM_genTileTable" />
+    <None Include="Resources\Misc\ZM_J_eventConnections.ips" />
+    <None Include="Resources\Misc\ZM_J_locationNames.ips" />
+    <None Include="Resources\Misc\ZM_J_testDemo.ips" />
+    <None Include="Resources\Misc\ZM_J_testRoom.ips" />
     <None Include="Resources\Misc\ZM_U_eventConnections.ips" />
     <None Include="Resources\Misc\ZM_U_locationNames.ips" />
     <None Include="Resources\Misc\ZM_U_testDemo.ips" />
@@ -595,6 +600,7 @@
     <None Include="Resources\Patches\MF_U_noMinimap.ips" />
     <None Include="Resources\Patches\MF_U_singleWallJump.ips" />
     <None Include="Resources\Patches\MF_U_skipIntro.ips" />
+    <None Include="Resources\Patches\ZM_J_itemToggle.ips" />
     <None Include="Resources\Patches\ZM_U_addElevators1.ips" />
     <None Include="Resources\Patches\ZM_U_addElevators2.ips" />
     <None Include="Resources\Patches\ZM_U_addMinimapTiles.ips" />
@@ -618,6 +624,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Icons\button_bg_color.png" />
+    <None Include="zh-CN\ZM\ZM_J_patches.txt" />
+    <None Include="zh-CN\ZM\ZM_J_demoRAM.txt" />
+    <None Include="zh-CN\ZM\ZM_J_weapons.txt" />
+    <None Include="zh-CN\ZM\ZM_J_physics.txt" />
     <None Include="zh-CN\ZM\ZM_U_weapons.txt" />
     <None Include="zh-CN\ZM\ZM_U_physics.txt" />
     <None Include="zh-CN\ZM\ZM_U_patches.txt" />
@@ -677,8 +687,17 @@
     <Content Include="Resources\Icons\toolbar_zoom.png" />
     <Content Include="Resources\Lists\endings.txt" />
     <None Include="Resources\Lists\MF\MF_U_demoRAM.txt" />
+    <None Include="Resources\Lists\MF\MF_J_sSpriteOAM.txt" />
+    <None Include="Resources\Lists\MF\MF_J_tileTables.txt" />
     <Content Include="Resources\Lists\MF\MF_U_physics.txt" />
     <Content Include="Resources\Lists\MF\MF_U_sSpriteOAM.txt" />
+    <None Include="Resources\Lists\ZM\ZM_J_tileTables.txt" />
+    <None Include="Resources\Lists\ZM\ZM_J_pSpriteOAM.txt" />
+    <None Include="Resources\Lists\ZM\ZM_J_sSpriteOAM.txt" />
+    <None Include="Resources\Lists\ZM\ZM_J_physics.txt" />
+    <None Include="Resources\Lists\ZM\ZM_J_weapons.txt" />
+    <None Include="Resources\Lists\ZM\ZM_J_demoRAM.txt" />
+    <None Include="Resources\Lists\ZM\ZM_J_patches.txt" />
     <Content Include="Resources\Lists\ZM\ZM_spritePositions.txt" />
     <None Include="Resources\Lists\ZM\ZM_U_demoRAM.txt" />
     <Content Include="Resources\Lists\ZM\ZM_U_physics.txt" />

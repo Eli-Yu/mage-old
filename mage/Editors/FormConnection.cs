@@ -552,7 +552,9 @@ namespace mage
                 listView_locNames.Items.Add(item);
             }
 
-            comboBox_locLanguage.SelectedIndex = 2;
+            //for Japanese version select 0(Japanese), other version select 2(English)
+            if (Version.GameCode == "AMTJ" || Version.GameCode == "BMXJ") comboBox_locLanguage.SelectedIndex = 0;
+            else comboBox_locLanguage.SelectedIndex = 2;
         }
 
         private void GetLocationTextPtr()

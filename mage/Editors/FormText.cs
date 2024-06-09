@@ -139,8 +139,10 @@ namespace mage
             // get palette and draw
             palette = new Palette(romStream, Version.TextPaletteOffset, 1);
             pictureBox_palette.Image = palette.Draw(15, 0, 1);
-            
-            comboBox_language.SelectedIndex = 2;
+
+            //for Japanese version select 0(Japanese), other version select 2(English)
+            if(Version.GameCode == "AMTJ" || Version.GameCode == "BMXJ") comboBox_language.SelectedIndex = 0;
+            else comboBox_language.SelectedIndex = 2;
             comboBox_text.SelectedIndex = 0;
         }
 
@@ -421,6 +423,8 @@ namespace mage
         {
             int count = textLists[comboBox_text.SelectedIndex].count;
 
+            //for file screen Japanese(hiragana) has four additional entries (adult/child mode, difficulty) in Japanese version of Fusion
+            if (Version.GameCode == "AMTJ" && comboBox_text.SelectedIndex == 5 && comboBox_language.SelectedIndex > 1) count -= 4;
             comboBox_number.Items.Clear();
             for (int i = 0; i < count; i++)
             {
@@ -433,6 +437,14 @@ namespace mage
         private void comboBox_language_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox_text.SelectedIndex == -1) { return; }
+
+            //for file screen Japanese(hiragana) has four additional entries (adult/child mode, difficulty) in Japanese version of Fusion, remove them when switching from Japanese to other languages
+            if (Version.GameCode == "AMTJ" && comboBox_text.SelectedIndex == 5 && comboBox_language.SelectedIndex > 1 && comboBox_number.Items.Count == textLists[5].count)
+            {
+                //if select additonal entries(only for japanese) select last entry
+                if(comboBox_number.SelectedIndex >= comboBox_number.Items.Count - 4) comboBox_number.SelectedIndex = comboBox_number.Items.Count - 5;
+                for (int i = 0;i < 4;i++) comboBox_number.Items.RemoveAt(comboBox_number.Items.Count -1);
+            }
             GetText();
         }
 

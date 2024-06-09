@@ -1204,4 +1204,40 @@ You can refer to the default file (MF_chars.txt, ZM_chars.txt).</value>
   <data name="ZM_J_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lists\ZM\ZM_J_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
+  <data name="MF_J_debugMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patches\MF_J_debugMenu.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_eventConnections" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Misc\MF_J_eventConnections.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_getMissiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patches\MF_J_getMissiles.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_getPowerBombs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patches\MF_J_getPowerBombs.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_infiniteBombJump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patches\MF_J_infiniteBombJump.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_locationNames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Misc\MF_J_locationNames.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_noMinimap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patches\MF_J_noMinimap.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_physics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lists\MF\MF_J_physics.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="MF_J_singleWallJump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patches\MF_J_singleWallJump.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_skipIntro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patches\MF_J_skipIntro.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_testRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Misc\MF_J_testRoom.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MF_J_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lists\MF\MF_J_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
 </root>

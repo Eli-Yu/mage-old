@@ -21,7 +21,12 @@ namespace mage
             this.romStream = ROM.Stream;
 
             int total;
-            if (Version.IsMF) { total = 5; }
+            if (Version.IsMF) 
+            {
+                //Japanese version have 13 ending images
+                if (Version.GameCode == "AMTJ") total = 13;
+                else total = 5; 
+            }
             else { total = 8; }
 
             for (int i = 0; i < total; i++)

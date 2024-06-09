@@ -1,0 +1,7 @@
+MF_J_debugMenu,调试菜单,interdpth
+MF_J_skipIntro,跳过简介过场动画,P.JBoy
+MF_J_getMissiles,从扩充包获得导弹,P.JBoy
+MF_J_getPowerBombs,从扩充包获得重磅炸弹,P.JBoy
+MF_J_singleWallJump,单墙跳,biospark
+MF_J_infiniteBombJump,空中炸弹跳,biospark
+MF_J_noMinimap,无地图,biospark

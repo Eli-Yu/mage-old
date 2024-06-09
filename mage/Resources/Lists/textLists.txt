@@ -12,7 +12,7 @@
 7EEC40,13,Monologues
 7EF474,1A,Locations
 7EF490,30,Messages
-7F13FC,B,File screen
+7F13FC,1D,File screen
 
 [BMXE]
 75FEE0,06,Story

@@ -474,6 +474,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tools\FormImportEnding.resx">
       <DependentUpon>FormImportEnding.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Tools\FormImportLZ77BG.zh-CN.resx">
       <DependentUpon>FormImportLZ77BG.cs</DependentUpon>
@@ -579,7 +580,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Resources\Misc\MF_genTileTable" />
+    <None Include="Resources\Misc\MF_J_eventConnections.ips" />
+    <None Include="Resources\Misc\MF_J_locationNames.ips" />
     <None Include="Resources\Misc\MF_J_testDemo.ips" />
+    <None Include="Resources\Misc\MF_J_testRoom.ips" />
     <None Include="Resources\Misc\MF_U_eventConnections.ips" />
     <None Include="Resources\Misc\MF_U_locationNames.ips" />
     <None Include="Resources\Misc\MF_U_testDemo.ips" />
@@ -592,6 +596,13 @@
     <None Include="Resources\Misc\ZM_U_locationNames.ips" />
     <None Include="Resources\Misc\ZM_U_testDemo.ips" />
     <None Include="Resources\Misc\ZM_U_testRoom.ips" />
+    <None Include="Resources\Patches\MF_J_debugMenu.ips" />
+    <None Include="Resources\Patches\MF_J_getMissiles.ips" />
+    <None Include="Resources\Patches\MF_J_getPowerBombs.ips" />
+    <None Include="Resources\Patches\MF_J_infiniteBombJump.ips" />
+    <None Include="Resources\Patches\MF_J_noMinimap.ips" />
+    <None Include="Resources\Patches\MF_J_singleWallJump.ips" />
+    <None Include="Resources\Patches\MF_J_skipIntro.ips" />
     <None Include="Resources\Patches\MF_U_addMinimapTiles.ips" />
     <None Include="Resources\Patches\MF_U_debugMenu.ips" />
     <None Include="Resources\Patches\MF_U_getMissiles.ips" />
@@ -624,6 +635,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Icons\button_bg_color.png" />
+    <None Include="zh-CN\MF\MF_J_patches.txt" />
+    <None Include="zh-CN\MF\MF_J_weapons.txt" />
+    <None Include="zh-CN\MF\MF_J_physics.txt" />
     <None Include="zh-CN\ZM\ZM_J_patches.txt" />
     <None Include="zh-CN\ZM\ZM_J_demoRAM.txt" />
     <None Include="zh-CN\ZM\ZM_J_weapons.txt" />
@@ -689,6 +703,8 @@
     <None Include="Resources\Lists\MF\MF_U_demoRAM.txt" />
     <None Include="Resources\Lists\MF\MF_J_sSpriteOAM.txt" />
     <None Include="Resources\Lists\MF\MF_J_tileTables.txt" />
+    <None Include="Resources\Lists\MF\MF_J_physics.txt" />
+    <None Include="Resources\Lists\MF\MF_J_weapons.txt" />
     <Content Include="Resources\Lists\MF\MF_U_physics.txt" />
     <Content Include="Resources\Lists\MF\MF_U_sSpriteOAM.txt" />
     <None Include="Resources\Lists\ZM\ZM_J_tileTables.txt" />

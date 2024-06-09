@@ -4,485 +4,485 @@
 	Height=2
 	[
 		Name=普通
-		Graphics=58B524
-		Palette=58B464
+		Graphics=58BCB4
+		Palette=58BBF4
 		[
 			Name=伤害
-			Value=83C14
+			Value=84870
 		]
 		[
 			Name=蓄力伤害
-			Value=83CD8
+			Value=84934
 		]
 		[
 			Name=冷却时间
-			Value=8159A
+			Value=821FA
 		]
 		[
 			Name=屏幕内数量限制
-			Value=8157A
+			Value=821DA
 		]
 		[
 			Name=生成
-			Value=84F82
+			Value=85BDE
 		]
 		[
 			Name=蓄力生成
-			Value=84E6A
+			Value=85AC6
 		]
 		[
 			Name=速度
-			Value=84F70
+			Value=85BCC
 		]
 		[
 			Name=蓄力速度
-			Value=84E50
+			Value=85AAC
 		]
 	]
 	[
 		Name=蓄
-		Graphics=58BA24
-		Palette=58B484
+		Graphics=58C1B4
+		Palette=58BC14
 		[
 			Name=伤害
-			Value=83D9C
+			Value=849F8
 		]
 		[
 			Name=蓄力伤害
-			Value=83E7C
+			Value=84AD8
 		]
 		[
 			Name=枪口火光
-			Value=845BC
+			Value=85218
 		]
 		[
 			Name=伪团身旋击
-			Value=83744
+			Value=843A4
 		]
 		[
 			Name=屏幕内数量限制
-			Value=814F8
+			Value=82158
 		]
 		[
 			Name=生成
-			Value=85DFE
+			Value=86A5A
 		]
 		[
 			Name=蓄力生成
-			Value=85BDA
+			Value=86836
 		]
 		[
 			Name=速度
-			Value=85E0E
+			Value=86A6A
 		]
 		[
 			Name=蓄力速度
-			Value=85BEA
+			Value=86846
 		]
 	]
 	[
 		Name=宽
-		Graphics=58BF24
-		Palette=58B4A4
+		Graphics=58C6B4
+		Palette=58BC34
 		[
 			Name=伤害
-			Value=83F5C
+			Value=84BB8
 		]
 		[
 			Name=蓄力伤害
-			Value=84020
+			Value=84C7C
 		]
 		[
 			Name=枪口火光
-			Value=845C2
+			Value=8521E
 		]
 		[
 			Name=伪团身旋击
-			Value=83738
+			Value=84398
 		]
 		[
 			Name=屏幕内数量限制
-			Value=814AE
+			Value=8210E
 		]
 		[
 			Name=生成
-			Value=8609E
+			Value=86CFA
 		]
 		[
 			Name=蓄力生成
-			Value=85F5E
+			Value=86BBA
 		]
 		[
 			Name=速度
-			Value=860AC
+			Value=86D08
 		]
 		[
 			Name=蓄力速度
-			Value=85F6C
+			Value=86BC8
 		]
 	]
 	[
 		Name=等离子
-		Graphics=58C424
-		Palette=58B4C4
+		Graphics=58CBB4
+		Palette=58BC54
 		[
 			Name=伤害
-			Value=84118
+			Value=84D74
 		]
 		[
 			Name=蓄力伤害
-			Value=841F8
+			Value=84E54
 		]
 		[
 			Name=枪口火光
-			Value=845B4
+			Value=85210
 		]
 		[
 			Name=伪团身旋击
-			Value=8372C
+			Value=8438C
 		]
 		[
 			Name=屏幕内数量限制
-			Value=81462
+			Value=820C2
 		]
 		[
 			Name=生成
-			Value=8632A
+			Value=86F86
 		]
 		[
 			Name=蓄力生成
-			Value=861E2
+			Value=86E3E
 		]
 		[
 			Name=速度
-			Value=86338
+			Value=86F94
 		]
 		[
 			Name=蓄力速度
-			Value=861F0
+			Value=86E4C
 		]
 	]
 	[
 		Name=波动
-		Graphics=58C924
-		Palette=58B4E4
+		Graphics=58D0B4
+		Palette=58BC74
 		[
 			Name=伤害
-			Value=8435A
+			Value=84FB6
 		]
 		[
 			Name=蓄力伤害
-			Value=844C2
+			Value=8511E
 		]
 	]
 	[
 		Name=冰冻
-		Graphics=58CE24
-		Palette=58B504
+		Graphics=58D5B4
+		Palette=58BC94
 		[
 			Name=伤害
-			Value=8431A
+			Value=84F76
 		]
 		[
 			Name=蓄力伤害
-			Value=84482
+			Value=850DE
 		]
 	]
 	[
 		Name=波动/冰冻
 		[
 			Name=枪口火光
-			Value=845A2
+			Value=851FE
 		]
 		[
 			Name=伪团身旋击
-			Value=83712
+			Value=84372
 		]
 		[
 			Name=屏幕内数量限制
-			Value=81412
+			Value=82072
 		]
 		[
 			Name=生成
-			Value=8662E
+			Value=8728A
 		]
 		[
 			Name=蓄力生成
-			Value=864AA
+			Value=87106
 		]
 		[
 			Name=速度
-			Value=865FE
+			Value=8725A
 		]
 		[
 			Name=蓄力速度
-			Value=8647A
+			Value=870D6
 		]
 	]
 	[
 		Name=冷却时间
-		Value=81558
+		Value=821B8
 	]
 	[
 		Name=蓄力冷却时间
-		Value=81890
+		Value=824F0
 	]
 ]
 [
 	Name=导弹
-	Palette=3E40FC
+	Palette=3E66D8
 	Width=4
 	Height=2
 	[
 		Name=普通
-		Graphics=58D324
+		Graphics=58DAB4
 		[
 			Name=伤害
-			Value=84732
+			Value=8538E
 		]
 		[
 			Name=冷却时间
-			Value=816CE
+			Value=8232E
 		]
 		[
 			Name=屏幕内数量限制
-			Value=816AE
+			Value=8230E
 		]
 		[
 			Name=生成
-			Value=85178
+			Value=85DD4
 		]
 		[
 			Name=速度 1
-			Value=58B40C
+			Value=58BB9C
 		]
 		[
 			Name=速度 2
-			Value=58B40E
+			Value=58BB9E
 		]
 		[
 			Name=速度 3
-			Value=58B410
+			Value=58BBA0
 		]
 		[
 			Name=速度 4
-			Value=58B412
+			Value=58BBA2
 		]
 		[
 			Name=速度 5
-			Value=58B414
+			Value=58BBA4
 		]
 		[
 			Name=速度 6
-			Value=58B416
+			Value=58BBA6
 		]
 		[
 			Name=速度 7
-			Value=58B418
+			Value=58BBA8
 		]
 	]
 	[
 		Name=超级
-		Graphics=58D424
+		Graphics=58DBB4
 		[
 			Name=伤害
-			Value=84806
+			Value=85462
 		]
 		[
 			Name=冷却时间
-			Value=8169A
+			Value=822FA
 		]
 		[
 			Name=屏幕内数量限制
-			Value=8167A
+			Value=822DA
 		]
 		[
 			Name=生成
-			Value=85228
+			Value=85E84
 		]
 		[
 			Name=速度 1
-			Value=58B41A
+			Value=58BBAA
 		]
 		[
 			Name=速度 2
-			Value=58B41C
+			Value=58BBAC
 		]
 		[
 			Name=速度 3
-			Value=58B41E
+			Value=58BBAE
 		]
 		[
 			Name=速度 4
-			Value=58B420
+			Value=58BBB0
 		]
 		[
 			Name=速度 5
-			Value=58B422
+			Value=58BBB2
 		]
 		[
 			Name=速度 6
-			Value=58B424
+			Value=58BBB4
 		]
 		[
 			Name=速度 7
-			Value=58B426
+			Value=58BBB6
 		]
 	]
 	[
 		Name=冰冻
-		Graphics=58D524
+		Graphics=58DCB4
 		[
 			Name=伤害
-			Value=8491C
+			Value=85578
 		]
 		[
 			Name=冷却时间
-			Value=8165E
+			Value=822BE
 		]
 		[
 			Name=屏幕内数量限制
-			Value=8163E
+			Value=8229E
 		]
 		[
 			Name=生成
-			Value=852E0
+			Value=85F3C
 		]
 		[
 			Name=速度 1
-			Value=58B428
+			Value=58BBB8
 		]
 		[
 			Name=速度 2
-			Value=58B42A
+			Value=58BBBA
 		]
 		[
 			Name=速度 3
-			Value=58B42C
+			Value=58BBBC
 		]
 		[
 			Name=速度 4
-			Value=58B42E
+			Value=58BBBE
 		]
 		[
 			Name=速度 5
-			Value=58B430
+			Value=58BBC0
 		]
 		[
 			Name=速度 6
-			Value=58B432
+			Value=58BBC2
 		]
 		[
 			Name=速度 7
-			Value=58B434
+			Value=58BBC4
 		]
 	]
 	[
 		Name=散射
-		Graphics=58D624
+		Graphics=58DDB4
 		[
 			Name=伤害
-			Value=84A64
+			Value=856C0
 		]
 		[
 			Name=冷却时间
-			Value=81618
+			Value=82278
 		]
 		[
 			Name=屏幕内数量限制
-			Value=815C6
+			Value=82226
 		]
 		[
 			Name=生成
-			Value=85448
+			Value=860A4
 		]
 		[
 			Name=速度 1
-			Value=58B436
+			Value=58BBC6
 		]
 		[
 			Name=速度 2
-			Value=58B438
+			Value=58BBC8
 		]
 		[
 			Name=速度 3
-			Value=58B43A
+			Value=58BBCA
 		]
 		[
 			Name=速度 4
-			Value=58B43C
+			Value=58BBCC
 		]
 		[
 			Name=速度 5
-			Value=58B43E
+			Value=58BBCE
 		]
 		[
 			Name=速度 6
-			Value=58B440
+			Value=58BBD0
 		]
 		[
 			Name=速度 7
-			Value=58B442
+			Value=58BBD2
 		]
 	]
 ]
 [
 	Name=炸弹
-	Palette=3E40FC
+	Palette=3E66D8
 	[
 		Name=普通
-		Graphics=3E635C
+		Graphics=3E8938
 		Width=4
 		Height=1
 		[
 			Name=伤害
-			Value=84C7C
+			Value=858D8
 		]
 		[
 			Name=冷却时间
-			Value=816FE
+			Value=8235E
 		]
 		[
 			Name=屏幕内数量限制
-			Value=816E2
+			Value=82342
 		]
 		[
 			Name=计时器 1
-			Value=85740
+			Value=8639C
 		]
 		[
 			Name=计时器 2
-			Value=8579C
+			Value=863F8
 		]
 	]
 	[
 		Name=重磅
-		Graphics=3E62FC
+		Graphics=3E88D8
 		Width=3
 		Height=1
 		[
 			Name=伤害 1
-			Value=833C4
+			Value=84024
 		]
 		[
 			Name=伤害 2
-			Value=833C8
+			Value=84028
 		]
 		[
 			Name=冷却时间
-			Value=81730
+			Value=82390
 		]
 		[
 			Name=屏幕内数量限制
-			Value=8170A
+			Value=8236A
 		]
 		[
 			Name=计时器 1
-			Value=85928
+			Value=86584
 		]
 		[
 			Name=计时器 2
-			Value=859CA
+			Value=86626
 		]
 	]
 ]

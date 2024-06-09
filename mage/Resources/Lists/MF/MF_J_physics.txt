@@ -1,0 +1,52 @@
+[X velocities]
+Shinespark left;9D94;2
+Shinespark right;9D84;1
+Shinespark up left;9D50;2
+Shinespark up right;9D38;1
+Knockback left;98F8;2
+Knockback right;98FC;1
+Wall jump left;938C;2
+Wall jump right;9364;1
+Bomb jump left;9318;2
+Bomb jump right;92EE;1
+Mid-air bomb jump left;92DC;2
+Mid-air bomb jump right;92A4;1
+
+[Y velocities]
+Shinespark up;9D98;1
+Shinespark diagonal;9D48;1
+Knockback;98D2;1
+Straight jump;941E,9452;1
+High straight jump;940C,9478;1
+Spin jump;9238;1
+High spin jump;9230;1
+Space jump;72B4;1
+High space jump;729C;1
+Wall jump;934A;1
+Ledge jump up;7C4A;1
+Ledge jump out;934A;1
+Spring ball;9328;1
+Bomb jump;930C;1
+Mid-air bomb jump;92B6;1
+Morph ball bounce;96CE;1
+Elevator up;9C9C;1
+Elevator down;9CAC;2
+
+[Velocity caps]
+Ground X;4FA0;1
+Mid-air X;4F9C;1
+Mid-air morphed X;4F82;1
+Speed boost X;4F92;1
+Y;4F7A;1
+
+[Thresholds]
+Speed boost stage 1;6950;1
+Speed boost stage 2;693A;1
+Speed boost sound;6972;1
+Speed boost stage 3;6966;1
+Space jump fall;728C;1
+Morph ball bounce;96A6;1
+
+[Acceleration]
+X/Y;4F76;1
+Mid-air X;4F7E;1

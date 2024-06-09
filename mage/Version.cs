@@ -259,6 +259,8 @@ namespace mage
                 {
                     case "AMTE":
                         return Resources.MF_U_weapons;
+                    case "AMTJ":
+                        return Resources.MF_J_weapons;
                     case "BMXE":
                         return Resources.ZM_U_weapons;
                     case "BMXJ":
@@ -276,7 +278,7 @@ namespace mage
                 return GameCode switch
                 {
                     "AMTE" => Resources.MF_U_physics,
-                    //"AMTJ" => Resources.MF_J_physics,
+                    "AMTJ" => Resources.MF_J_physics,
                     "BMXE" => Resources.ZM_U_physics,
                     "BMXJ" => Resources.ZM_J_physics,
                     _ => null,
@@ -291,6 +293,8 @@ namespace mage
                 {
                     case "AMTE":
                         return new Patch(Resources.MF_U_testRoom);
+                    case "AMTJ":
+                        return new Patch(Resources.MF_J_testRoom);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_testRoom);
                     case "BMXJ":
@@ -308,6 +312,7 @@ namespace mage
                 return GameCode switch
                 {
                     "AMTE" => new Patch(Resources.MF_U_debugMenu),
+                    "AMTJ" => new Patch(Resources.MF_J_debugMenu),
                     "BMXE" => new Patch(Resources.ZM_U_itemToggle),
                     "BMXJ" => new Patch(Resources.ZM_J_itemToggle),
                     _ => null
@@ -341,6 +346,8 @@ namespace mage
                 {
                     case "AMTE":
                         return new Patch(Resources.MF_U_eventConnections);
+                    case "AMTJ":
+                        return new Patch(Resources.MF_J_eventConnections);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_eventConnections);
                     case "BMXJ":
@@ -358,6 +365,8 @@ namespace mage
                 {
                     case "AMTE":
                         return new Patch(Resources.MF_U_locationNames);
+                    case "AMTJ":
+                        return new Patch(Resources.MF_J_locationNames);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_locationNames);
                     case "BMXJ":

@@ -169,8 +169,17 @@ namespace mage
             get
             {
                 string chars;
-                if (IsMF) { chars = Resources.MF_chars; }
-                else { chars = Resources.ZM_chars; }
+                //if (IsMF) { chars = Resources.MF_chars; }
+                //else { chars = Resources.ZM_chars; }
+                //Japanese verion of Fusion have 3 additonal characters, and iQue version have unique character list
+                chars = GameCode switch
+                {
+                    "AMTE" => Resources.MF_chars,
+                    "AMTJ" => Resources.MF_J_chars,
+                    "BMTE" => Resources.ZM_chars,
+                    "BMTJ" => Resources.ZM_chars,
+                    _ => ""
+                };
                 return chars.Split(new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
             }
         }

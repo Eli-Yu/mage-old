@@ -705,6 +705,7 @@
     <None Include="Resources\Lists\MF\MF_J_tileTables.txt" />
     <None Include="Resources\Lists\MF\MF_J_physics.txt" />
     <None Include="Resources\Lists\MF\MF_J_weapons.txt" />
+    <None Include="Resources\Lists\MF\MF_C_chars.txt" />
     <Content Include="Resources\Lists\MF\MF_U_physics.txt" />
     <Content Include="Resources\Lists\MF\MF_U_sSpriteOAM.txt" />
     <None Include="Resources\Lists\ZM\ZM_J_tileTables.txt" />

@@ -176,6 +176,7 @@ namespace mage
                 {
                     "AMTE" => Resources.MF_chars,
                     "AMTJ" => Resources.MF_J_chars,
+                    "AMTC" => Resources.MF_C_chars,
                     "BMTE" => Resources.ZM_chars,
                     "BMTJ" => Resources.ZM_chars,
                     _ => ""
@@ -193,6 +194,7 @@ namespace mage
                 {
                     "AMTE" => Resources.MF_U_tileTables,
                     "AMTJ" => Resources.MF_J_tileTables,
+                    "AMTC" => Resources.MF_J_tileTables,
                     "BMXE" => Resources.ZM_U_tileTables,
                     "BMXJ" => Resources.ZM_J_tileTables,
                     _ => null,
@@ -252,6 +254,8 @@ namespace mage
         public static int TextGfxOffset { get { return romStream.ReadPtr(TextGfxPtr); } }
         public static int TextPaletteOffset { get; private set; }
         public static int CharacterWidthsOffset { get { return romStream.ReadPtr(CharacterWidthsPtr); } }
+        //for iQue characters and other use wide character 
+        public static int WideCharacterWidthsOffset { get { return CharacterWidthsPtr + 4; } }
         public static string[] Languages { get; private set; }
         public static int DemoInputOffset { get { return romStream.ReadPtr(DemoInputPtr); } }
         public static int DemoRamOffset { get { return romStream.ReadPtr(DemoRamPtr); } }
@@ -465,6 +469,7 @@ namespace mage
                 case "AMTE":
                 case "_AMTP":
                 case "AMTJ":
+                case "AMTC":
                     IsMF = true;
                     break;
                 case "BMXE":

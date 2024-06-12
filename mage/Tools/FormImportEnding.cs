@@ -24,7 +24,7 @@ namespace mage
             if (Version.IsMF) 
             {
                 //Japanese version have 13 ending images
-                if (Version.GameCode == "AMTJ") total = 13;
+                if (Version.GameCode == "AMTJ"|| Version.GameCode == "AMTC") total = 13;
                 else total = 5; 
             }
             else { total = 8; }

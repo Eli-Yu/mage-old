@@ -194,7 +194,7 @@ namespace mage
                 {
                     "AMTE" => Resources.MF_U_tileTables,
                     "AMTJ" => Resources.MF_J_tileTables,
-                    "AMTC" => Resources.MF_J_tileTables,
+                    "AMTC" => Resources.MF_C_tileTables,
                     "BMXE" => Resources.ZM_U_tileTables,
                     "BMXJ" => Resources.ZM_J_tileTables,
                     _ => null,
@@ -397,6 +397,7 @@ namespace mage
                 {
                     case "AMTE":
                     case "AMTJ":
+                    case "AMTC":
                         return Resources.MF_U_demoRAM;
                     case "BMXE":
                         return Resources.ZM_U_demoRAM;
@@ -542,6 +543,7 @@ namespace mage
             {
                 "AMTE" => Resources.MF_U_pSpriteOAM,
                 "AMTJ" => Resources.MF_J_pSpriteOAM,
+                "AMTC" => Resources.MF_C_pSpriteOAM,
                 "BMXE" => Resources.ZM_U_pSpriteOAM,
                 "BMXJ" => Resources.ZM_J_pSpriteOAM,
                 _ => ""
@@ -591,6 +593,7 @@ namespace mage
             {
                 "AMTE" => Resources.MF_U_sSpriteOAM,
                 "AMTJ" => Resources.MF_J_sSpriteOAM,
+                "AMTC" => Resources.MF_C_sSpriteOAM,
                 "BMXE" => Resources.ZM_U_sSpriteOAM,
                 "BMXJ" => Resources.ZM_J_sSpriteOAM,
                 _ => ""

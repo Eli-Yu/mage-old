@@ -706,6 +706,9 @@
     <None Include="Resources\Lists\MF\MF_J_physics.txt" />
     <None Include="Resources\Lists\MF\MF_J_weapons.txt" />
     <None Include="Resources\Lists\MF\MF_C_chars.txt" />
+    <None Include="Resources\Lists\MF\MF_C_pSpriteOAM.txt" />
+    <None Include="Resources\Lists\MF\MF_C_sSpriteOAM.txt" />
+    <None Include="Resources\Lists\MF\MF_C_tileTables.txt" />
     <Content Include="Resources\Lists\MF\MF_U_physics.txt" />
     <Content Include="Resources\Lists\MF\MF_U_sSpriteOAM.txt" />
     <None Include="Resources\Lists\ZM\ZM_J_tileTables.txt" />

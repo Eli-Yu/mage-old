@@ -1726,6 +1726,16 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] MF_C_eventConnections {
+            get {
+                object obj = ResourceManager.GetObject("MF_C_eventConnections", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 10=2E8560
         ///11=2EA2BC
         ///12=2EDA18
@@ -1772,12 +1782,7 @@ namespace mage.Properties {
         ///3B=3198CC
         ///3C=31B27C
         ///3D=31CFEC
-        ///3E=31DC3C
-        ///3F=308354
-        ///40=2EFE5C
-        ///41=31E694
-        ///42=31E694
-        ///43 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///3E=31D [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string MF_C_pSpriteOAM {
             get {
@@ -1822,10 +1827,7 @@ namespace mage.Properties {
         ///23=2B,329D7C
         ///24=2B,329D7C
         ///25=1C,2F9AA0
-        ///26=21,321A7C
-        ///27=52,32A6DC
-        ///28=56,32D3F4
-        ///29=56 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///26=21,32 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string MF_C_sSpriteOAM {
             get {
@@ -1885,6 +1887,60 @@ namespace mage.Properties {
         internal static string MF_C_tileTables {
             get {
                 return ResourceManager.GetString("MF_C_tileTables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 [
+        ///	Name=Beams
+        ///	Width=14
+        ///	Height=2
+        ///	[
+        ///		Name=Normal
+        ///		Graphics=592638
+        ///		Palette=592578
+        ///		[
+        ///			Name=Damage
+        ///			Value=84870
+        ///		]
+        ///		[
+        ///			Name=Charged damage
+        ///			Value=84934
+        ///		]
+        ///		[
+        ///			Name=Cooldown
+        ///			Value=821FA
+        ///		]
+        ///		[
+        ///			Name=Limit
+        ///			Value=821DA
+        ///		]
+        ///		[
+        ///			Name=Spawn
+        ///			Value=85BDE
+        ///		]
+        ///		[
+        ///			Name=Charged spawn
+        ///			Value=85AC6
+        ///		]
+        ///		[
+        ///			Name=Speed
+        ///			Value=85BCC
+        ///		]
+        ///		[
+        ///			Name=Charged speed
+        ///			Value=85AAC
+        ///		]
+        ///	]
+        ///	[
+        ///		Name=Charge
+        ///		Graphics=592B38
+        ///		Palette=592598
+        ///	 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string MF_C_weapons {
+            get {
+                return ResourceManager.GetString("MF_C_weapons", resourceCulture);
             }
         }
         
@@ -2426,7 +2482,10 @@ namespace mage.Properties {
         ///23=2B,329D38
         ///24=2B,329D38
         ///25=1C,2F9A5C
-        ///26=21,32 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///26=21,321A38
+        ///27=52,32A698
+        ///28=56,32D3B0
+        ///29=56 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string MF_J_sSpriteOAM {
             get {

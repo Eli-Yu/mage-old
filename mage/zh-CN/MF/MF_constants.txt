@@ -120,6 +120,6 @@ MinimapDataPtr=7786C
 TextGfxPtr=799AC
 TextPaletteOffset=56CA48
 CharacterWidthsPtr=79904
-Languages=简体中文
+Languages=中文
 DemoInputPtr=71E54
 DemoRamPtr=71F08

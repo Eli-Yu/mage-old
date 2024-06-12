@@ -553,7 +553,7 @@ namespace mage
             }
 
             //for Japanese version select 0(Japanese), other version select 2(English)
-            if (Version.GameCode == "AMTJ" || Version.GameCode == "BMXJ") comboBox_locLanguage.SelectedIndex = 0;
+            if (Version.GameCode == "AMTJ" || Version.GameCode == "AMTC"  || Version.GameCode == "BMXJ") comboBox_locLanguage.SelectedIndex = 0;
             else comboBox_locLanguage.SelectedIndex = 2;
         }
 

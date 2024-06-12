@@ -134,6 +134,7 @@ namespace mage
                     ROM.Stream.Write8(0x718E8, demoNum);
                     break;
                 case "AMTJ":
+                case "AMTC":
                     ROM.Stream.Write8(0x71F94, demoNum);
                     break;
                 case "BMXE":

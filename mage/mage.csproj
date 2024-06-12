@@ -579,6 +579,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Misc\MF_C_eventConnections.ips" />
     <None Include="Resources\Misc\MF_genTileTable" />
     <None Include="Resources\Misc\MF_J_eventConnections.ips" />
     <None Include="Resources\Misc\MF_J_locationNames.ips" />
@@ -635,6 +636,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Icons\button_bg_color.png" />
+    <None Include="zh-CN\MF\MF_C_weapons.txt" />
     <None Include="zh-CN\MF\MF_J_patches.txt" />
     <None Include="zh-CN\MF\MF_J_weapons.txt" />
     <None Include="zh-CN\MF\MF_J_physics.txt" />
@@ -709,6 +711,7 @@
     <None Include="Resources\Lists\MF\MF_C_pSpriteOAM.txt" />
     <None Include="Resources\Lists\MF\MF_C_sSpriteOAM.txt" />
     <None Include="Resources\Lists\MF\MF_C_tileTables.txt" />
+    <None Include="Resources\Lists\MF\MF_C_weapons.txt" />
     <Content Include="Resources\Lists\MF\MF_U_physics.txt" />
     <Content Include="Resources\Lists\MF\MF_U_sSpriteOAM.txt" />
     <None Include="Resources\Lists\ZM\ZM_J_tileTables.txt" />

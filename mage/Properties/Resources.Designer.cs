@@ -4236,6 +4236,179 @@ namespace mage.Properties {
         ///00C3	c
         /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
+        internal static string ZM_C_chars {
+            get {
+                return ResourceManager.GetString("ZM_C_chars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 11=2CBF36
+        ///12=2DE24E
+        ///13=2DE24E
+        ///14=2DF05E
+        ///15=2DF05E
+        ///16=2E582E
+        ///17=2E582E
+        ///18=2E6212
+        ///19=2E6212
+        ///1A=2CBF36
+        ///1B=2CBF0E
+        ///1C=2CBF5E
+        ///1D=2CBF76
+        ///1E=2CBF8E
+        ///1F=2E6C5A
+        ///20=2E6C5A
+        ///21=2CC38E
+        ///22=2CEF86
+        ///23=2CEF86
+        ///24=2CEF86
+        ///25=2CEF86
+        ///26=2CEF86
+        ///27=2CEF86
+        ///28=2CEF86
+        ///29=2CEF86
+        ///2A=2CEF86
+        ///2B=2CEF86
+        ///2C=2CEF86
+        ///2D=2CEF86
+        ///2E=2CEF86
+        ///2F=2CEF86
+        ///30=2CEF86
+        ///31=2CEF86
+        ///32=2E937E
+        ///33=2E937E
+        ///34=2E9D06
+        ///35=2CBFA6
+        ///36=2EABE6
+        ///37=2EABE6
+        ///38=2EB3C6
+        ///39=2EB3C6
+        ///3A=2ECEDE
+        ///3B=2EF2BE
+        ///3C=2EF2BE
+        ///3D=2E80FE
+        ///3E=2E820E
+        ///3F=2E7 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_C_pSpriteOAM {
+            get {
+                return ResourceManager.GetString("ZM_C_pSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 00=22,2CF04E
+        ///01=22,2CEFE6
+        ///02=22,2CF0BE
+        ///03=6F,2E4452
+        ///04=22,2CEF86
+        ///05=44,2CD16E
+        ///06=4F,2FA446
+        ///08=3B,2EF33E
+        ///09=42,2F10CA
+        ///0A=42,2F126A
+        ///0B=42,2F10F2
+        ///0C=1F,2E6DCA
+        ///0D=6E,2EE80A
+        ///0E=11,2E51CA
+        ///0F=20,2E6DCA
+        ///10=14,2DF1E6
+        ///11=4B,2F416A
+        ///12=4D,2F6E56
+        ///13=21,2CC3B6
+        ///14=4F,2FA27E
+        ///15=4F,2FA3FE
+        ///16=51,2FDB8E
+        ///17=61,3060D6
+        ///18=61,3062B6
+        ///19=A6,320DC2
+        ///1A=64,3073EE
+        ///1B=67,30850A
+        ///1C=6F,2E4AA2
+        ///1D=6F,2E4A72
+        ///1E=63,2FF80E
+        ///1F=73,311416
+        ///20=75,3141D2
+        ///21=61,306326
+        ///22=58,2DAA6E
+        ///23=58,2DAB46
+        ///24=4E,2F794E
+        ///25=77,31 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_C_sSpriteOAM {
+            get {
+                return ResourceManager.GetString("ZM_C_sSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 0040	 
+        ///0041	!
+        ///0042	”
+        ///0043	#
+        ///0044	$
+        ///0045	%
+        ///0046	&amp;
+        ///0047	&apos;
+        ///0048	(
+        ///0049	)
+        ///004A	*
+        ///004B	+
+        ///004C	,
+        ///004D	-
+        ///004E	.
+        ///004F	/
+        ///0050	0
+        ///0051	1
+        ///0052	2
+        ///0053	3
+        ///0054	4
+        ///0055	5
+        ///0056	6
+        ///0057	7
+        ///0058	8
+        ///0059	9
+        ///005A	:
+        ///005B	;
+        ///005C	□
+        ///005D	=
+        ///005E	1
+        ///005F	?
+        ///0081	A
+        ///0082	B
+        ///0083	C
+        ///0084	D
+        ///0085	E
+        ///0086	F
+        ///0087	G
+        ///0088	H
+        ///0089	I
+        ///008A	J
+        ///008B	K
+        ///008C	L
+        ///008D	M
+        ///008E	N
+        ///008F	O
+        ///0090	P
+        ///0091	Q
+        ///0092	R
+        ///0093	S
+        ///0094	T
+        ///0095	U
+        ///0096	V
+        ///0097	W
+        ///0098	X
+        ///0099	Y
+        ///009A	Z
+        ///009B	[
+        ///009C	¥
+        ///009D	]
+        ///00C1	a
+        ///00C2	b
+        ///00C3	c
+        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
         internal static string ZM_chars {
             get {
                 return ResourceManager.GetString("ZM_chars", resourceCulture);

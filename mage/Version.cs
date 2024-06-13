@@ -177,8 +177,9 @@ namespace mage
                     "AMTE" => Resources.MF_chars,
                     "AMTJ" => Resources.MF_J_chars,
                     "AMTC" => Resources.MF_C_chars,
-                    "BMTE" => Resources.ZM_chars,
-                    "BMTJ" => Resources.ZM_chars,
+                    "BMXE" => Resources.ZM_chars,
+                    "BMXJ" => Resources.ZM_chars,
+                    "BMXC" => Resources.ZM_C_chars,
                     _ => ""
                 };
                 return chars.Split(new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
@@ -197,7 +198,8 @@ namespace mage
                     "AMTC" => Resources.MF_C_tileTables,
                     "BMXE" => Resources.ZM_U_tileTables,
                     "BMXJ" => Resources.ZM_J_tileTables,
-                    _ => null,
+                    "BMXC" => Resources.ZM_J_tileTables,
+                    _ => "",
                 };
             }
         }
@@ -485,6 +487,7 @@ namespace mage
                 case "BMXE":
                 case "_BMXP":
                 case "BMXJ":
+                case "BMXC":
                     IsMF = false;
                     break;
                 default:
@@ -555,6 +558,7 @@ namespace mage
                 "AMTC" => Resources.MF_C_pSpriteOAM,
                 "BMXE" => Resources.ZM_U_pSpriteOAM,
                 "BMXJ" => Resources.ZM_J_pSpriteOAM,
+                //"BMXC" => Resources.ZM_C_pSpriteOAM,
                 _ => ""
             };
             MatchCollection mc = Regex.Matches(text, @"\w+");
@@ -605,6 +609,7 @@ namespace mage
                 "AMTC" => Resources.MF_C_sSpriteOAM,
                 "BMXE" => Resources.ZM_U_sSpriteOAM,
                 "BMXJ" => Resources.ZM_J_sSpriteOAM,
+                "BMXC" => Resources.ZM_C_sSpriteOAM,
                 _ => ""
             };
             mc = Regex.Matches(text, @"\w+");

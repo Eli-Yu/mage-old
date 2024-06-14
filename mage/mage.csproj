@@ -724,6 +724,7 @@
     <None Include="Resources\Lists\ZM\ZM_C_chars.txt" />
     <None Include="Resources\Lists\ZM\ZM_C_pSpriteOAM.txt" />
     <None Include="Resources\Lists\ZM\ZM_C_sSpriteOAM.txt" />
+    <None Include="Resources\Lists\ZM\ZM_C_tileTables.txt" />
     <Content Include="Resources\Lists\ZM\ZM_spritePositions.txt" />
     <None Include="Resources\Lists\ZM\ZM_U_demoRAM.txt" />
     <Content Include="Resources\Lists\ZM\ZM_U_physics.txt" />

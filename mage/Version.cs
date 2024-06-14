@@ -198,7 +198,7 @@ namespace mage
                     "AMTC" => Resources.MF_C_tileTables,
                     "BMXE" => Resources.ZM_U_tileTables,
                     "BMXJ" => Resources.ZM_J_tileTables,
-                    "BMXC" => Resources.ZM_J_tileTables,
+                    "BMXC" => Resources.ZM_C_tileTables,
                     _ => "",
                 };
             }
@@ -558,7 +558,7 @@ namespace mage
                 "AMTC" => Resources.MF_C_pSpriteOAM,
                 "BMXE" => Resources.ZM_U_pSpriteOAM,
                 "BMXJ" => Resources.ZM_J_pSpriteOAM,
-                //"BMXC" => Resources.ZM_C_pSpriteOAM,
+                "BMXC" => Resources.ZM_C_pSpriteOAM,
                 _ => ""
             };
             MatchCollection mc = Regex.Matches(text, @"\w+");

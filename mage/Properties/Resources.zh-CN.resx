@@ -756,9 +756,6 @@
   <data name="formShortcuts_slope_slight_Text" xml:space="preserve">
     <value>缓斜面</value>
   </data>
-  <data name="ZM_J_demoRAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\zh-CN\ZM\ZM_J_demoRAM.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="ZM_J_patches" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\zh-CN\ZM\ZM_J_patches.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -779,5 +776,14 @@
   </data>
   <data name="MF_C_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\zh-CN\MF\MF_C_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_C_patches" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_C_patches.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_C_physics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_C_physics.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_C_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_C_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

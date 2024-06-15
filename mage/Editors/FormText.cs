@@ -140,8 +140,8 @@ namespace mage
             palette = new Palette(romStream, Version.TextPaletteOffset, 1);
             pictureBox_palette.Image = palette.Draw(15, 0, 1);
 
-            //for Japanese version select 0(Japanese), other version select 2(English)
-            if(Version.GameCode == "AMTJ" || Version.GameCode == "AMTC" || Version.GameCode == "BMXJ") comboBox_language.SelectedIndex = 0;
+            //for Japanese version and iQue version select 0(Japanese), other version select 2(English)
+            if(Version.GameCode == "AMTJ" || Version.GameCode == "AMTC" || Version.GameCode == "BMXJ" || Version.GameCode == "BMXC") comboBox_language.SelectedIndex = 0;
             else comboBox_language.SelectedIndex = 2;
             comboBox_text.SelectedIndex = 0;
         }

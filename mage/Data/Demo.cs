@@ -25,8 +25,9 @@ namespace mage
             int demoNum = number;
             if (!Version.IsMF)
             {
-                if(Version.GameCode == "BMXE") demoNum = romStream.Read8(0x363CE8 + demoNum);
-                else if(Version.GameCode =="BMXJ") demoNum = romStream.Read8(0x363D44 + demoNum);
+                //demoNum = romStream.Read8(0x363CE8 + demoNum);
+                //remove hard code and support other version
+                demoNum = romStream.Read8(Version.DemoInputOffset + 0x100 +demoNum);
             }
 
             // load inputs
@@ -119,7 +120,9 @@ namespace mage
             int demoNum = number;
             if (!Version.IsMF)
             {
-                demoNum = romStream.Read8(0x363CE8 + demoNum);
+                //demoNum = romStream.Read8(0x363CE8 + demoNum);
+                //remove hard code and support other version
+                demoNum = romStream.Read8(Version.DemoInputOffset + 0x100 + demoNum);
             }
             int offset = Version.DemoInputOffset + demoNum * 0x10;
             ushort newLen = (ushort)inputData.Length;
@@ -146,7 +149,9 @@ namespace mage
             }
             else
             {
-                demoNum = romStream.Read8(0x363CE8 + demoNum);
+                //demoNum = romStream.Read8(0x363CE8 + demoNum);
+                //remove hard code and support other version
+                demoNum = romStream.Read8(Version.DemoInputOffset + 0x100 + demoNum);
                 offset = romStream.ReadPtr(Version.DemoRamOffset + demoNum * 4);
             }
 

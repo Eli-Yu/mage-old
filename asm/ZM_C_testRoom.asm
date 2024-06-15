@@ -1,5 +1,5 @@
 .gba
-.open "ZM_J.gba","ZM_J_testRoom.gba",0x8000000
+.open "ZM_C.gba","ZM_C_testRoom.gba",0x8000000
 
 ; TODO
 ; set values to 0 (room coordinates)
@@ -29,7 +29,7 @@ LoadSave:
     str     r0,[r2]     ; DMA source
     ldr     r0,=SlotA_SRAM
     str     r0,[r2,4]   ; DMA destination
-    ldr     r0,=0x80000910
+    ldr     r0,=0x800009D8
     str     r0,[r2,8]   ; DMA length
     ldr     r0,[r2,8]
 
@@ -42,36 +42,36 @@ LoadSave:
     mov     r1,0
     strh    r1,[r0,4]
     pop     r0-r3
-    ldr     r0,=0x807F044
+    ldr     r0,=0x8082518
     mov     r15,r0      ; return to hijacked code
     .pool
 
 ; fix code that changes room
 .ifdef Room
-    .org 0x80567E0
-        b       0x80567E6     ; skip overwrite of current room
+    .org 0x8059528
+        b       0x805952E     ; skip overwrite of current room
 .endif
 
 ; prevent save file check
-.org 0x8074594
+.org 0x807782C
     nop
     nop
 
 ; set stereo
 .ifdef Stereo
-    .org 0x8074CF8
+    .org 0x8077F90
         mov     r0,1
 .endif
 
 ; hijack code that initializes SubGameMode1
-.org 0x807F034
+.org 0x8082508
     push    r0-r3
     ldr     r0,=LoadSave
     mov     r15,r0
     .pool
 
 ; set game mode to in-game
-.org 0x807C77C
+.org 0x807F9F2
     mov     r0,7
     strh    r0,[r3]
     mov     r0,1

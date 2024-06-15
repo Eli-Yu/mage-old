@@ -33,8 +33,10 @@ namespace mage
             if (doorList.Count == 0)
             {
                 int offset;
-                if (isMF) { offset = 0x64C8C; }
-                else { offset = 0x567E0; }
+                //USA version, Janpanese and iQue version
+                if (isMF) { offset = (Version.GameCode == "AMTE") ? 0x64C8C: 0x65290; }
+                //adjust for iQue
+                else { offset = (Version.GameCode == "BMXC") ? 0x59528: 0x567E0; }
                 bs.Write16(offset, 0xE001);
                 doorNum = 0;
             }
@@ -140,6 +142,9 @@ namespace mage
                 case "BMXE":
                 case "BMXJ":
                     ROM.Stream.Write8(0x60B42, demoNum);
+                    break;
+                case "BMXC":
+                    ROM.Stream.Write8(0x6396A, demoNum);
                     break;
             }
 

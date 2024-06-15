@@ -552,8 +552,8 @@ namespace mage
                 listView_locNames.Items.Add(item);
             }
 
-            //for Japanese version select 0(Japanese), other version select 2(English)
-            if (Version.GameCode == "AMTJ" || Version.GameCode == "AMTC"  || Version.GameCode == "BMXJ") comboBox_locLanguage.SelectedIndex = 0;
+            //for Japanese version and iQue version select 0(Japanese), other version select 2(English)
+            if (Version.GameCode == "AMTJ" || Version.GameCode == "AMTC" || Version.GameCode == "BMXJ" || Version.GameCode == "BMXC") comboBox_locLanguage.SelectedIndex = 0;
             else comboBox_locLanguage.SelectedIndex = 2;
         }
 

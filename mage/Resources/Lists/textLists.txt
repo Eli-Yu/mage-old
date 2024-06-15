@@ -14,6 +14,14 @@
 7EF490,30,Messages
 7F13FC,1D,File screen
 
+[AMTC]
+77DDF4,72,Navigation
+77DE10,6F,Pause screen
+77E09C,13,Monologues
+77E3C0,1A,Locations
+77E3DC,30,Messages
+77EC68,1D,File screen
+
 [BMXE]
 75FEE0,06,Story
 7602D4,13,Descriptions
@@ -34,3 +42,10 @@
 760874,1A,Locations
 760890,27,Messages
 7608AC,25,File screen
+
+[BMXC]
+79F0D8,06,Story
+79F4D4,13,Descriptions
+79F964,1A,Locations
+79F980,27,Messages
+79F99C,25,File screen

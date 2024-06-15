@@ -282,6 +282,8 @@ namespace mage
                         return Resources.ZM_U_weapons;
                     case "BMXJ":
                         return Resources.ZM_J_weapons;
+                    case "BMXC":
+                        return Resources.ZM_C_weapons;
                     default:
                         return null;
                 }
@@ -299,7 +301,8 @@ namespace mage
                     "AMTC" => Resources.MF_J_physics,
                     "BMXE" => Resources.ZM_U_physics,
                     "BMXJ" => Resources.ZM_J_physics,
-                    _ => null,
+                    "BMXC" => Resources.ZM_C_physics,
+                    _ => "",
                 };
             }
         }
@@ -318,6 +321,8 @@ namespace mage
                         return new Patch(Resources.ZM_U_testRoom);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_testRoom);
+                    case "BMXC":
+                        return new Patch(Resources.ZM_C_testRoom);
                     default:
                         return null;
                 }
@@ -335,6 +340,7 @@ namespace mage
                     "AMTC" => new Patch(Resources.MF_J_debugMenu),
                     "BMXE" => new Patch(Resources.ZM_U_itemToggle),
                     "BMXJ" => new Patch(Resources.ZM_J_itemToggle),
+                    "BMXC" => new Patch(Resources.ZM_C_itemToggle),
                     _ => null
                 };
             }
@@ -354,6 +360,8 @@ namespace mage
                         return new Patch(Resources.ZM_U_testDemo);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_testDemo);
+                    case "BMXC":
+                        return new Patch(Resources.ZM_C_testDemo);
                     default:
                         return null;
                 }
@@ -375,6 +383,8 @@ namespace mage
                         return new Patch(Resources.ZM_U_eventConnections);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_eventConnections);
+                    case "BMXC":
+                        return new Patch(Resources.ZM_C_eventConnections);
                     default:
                         return null;
                 }
@@ -395,6 +405,8 @@ namespace mage
                         return new Patch(Resources.ZM_U_locationNames);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_locationNames);
+                    case "BMXC":
+                        return new Patch(Resources.ZM_C_locationNames);
                     default:
                         return null;
                 }
@@ -411,9 +423,9 @@ namespace mage
                     case "AMTC":
                         return Resources.MF_U_demoRAM;
                     case "BMXE":
-                        return Resources.ZM_U_demoRAM;
                     case "BMXJ":
-                        return Resources.ZM_J_demoRAM;
+                    case "BMXC":
+                        return Resources.ZM_U_demoRAM;
                     default:
                         return null;
                 }
@@ -437,6 +449,9 @@ namespace mage
                         break;
                     case "BMXJ":
                         patches = Resources.ZM_J_patches;
+                        break;
+                    case "BMXC":
+                        patches = Resources.ZM_C_patches;
                         break;
                 }
                 return patches.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);

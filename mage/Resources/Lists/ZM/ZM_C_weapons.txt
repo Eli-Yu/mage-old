@@ -1,0 +1,350 @@
+[
+	Name=Beams
+	Width=10
+	Height=4
+	[
+		Name=Normal
+		Graphics=340994
+		Palette=3408D4
+		[
+			Name=Spawn
+			Value=53904
+		]
+		[
+			Name=Speed
+			Value=538C8
+		]
+	]
+	[
+		Name=Long
+		Graphics=34137C
+		Palette=3408F4
+		[
+			Name=Spawn
+			Value=539FC
+		]
+		[
+			Name=Speed
+			Value=539C0
+		]
+	]
+	[
+		Name=Ice
+		Graphics=341CEC
+		Palette=340914
+		[
+			Name=Spawn
+			Value=53B04
+		]
+		[
+			Name=Speed
+			Value=53AAC
+		]
+	]
+	[
+		Name=Wave
+		Graphics=342720
+		Palette=340934
+		[
+			Name=Spawn
+			Value=53DFE
+		]
+		[
+			Name=Speed
+			Value=53DC2
+		]
+	]
+	[
+		Name=Plasma
+		Graphics=3436C0
+		Palette=340954
+		[
+			Name=Spawn
+			Value=53F6A
+		]
+		[
+			Name=Speed
+			Value=53F2C
+		]
+	]
+	[
+		Name=Pistol
+		Graphics=344864
+		Palette=340974
+		[
+			Name=Cooldown
+			Value=51DDE
+		]
+		[
+			Name=Charged cooldown
+			Value=51CD0
+		]
+		[
+			Name=Recharge
+			Value=A7B4
+		]
+		[
+			Name=Limit
+			Value=51DB8
+		]
+		[
+			Name=Charged limit
+			Value=51CAA
+		]
+		[
+			Name=Spawn
+			Value=540F4
+		]
+		[
+			Name=Charged Spawn
+			Value=54828
+		]
+		[
+			Name=Speed
+			Value=540B8
+		]
+		[
+			Name=Charged Speed
+			Value=547E0
+		]
+	]
+	[
+		Name=Damage
+		[
+			Name=Normal
+			[
+				Name=None
+				Value=52D2E
+			]
+			[
+				Name=Long
+				Value=52D40
+			]
+			[
+				Name=Ice
+				Value=52D74
+			]
+			[
+				Name=Long + Ice
+				Value=52D62
+			]
+			[
+				Name=Wave
+				Value=52DD8
+			]
+			[
+				Name=Long + Wave
+				Value=52DAC
+			]
+			[
+				Name=Ice + Wave
+				Value=52DC6
+			]
+			[
+				Name=Long + Ice + Wave
+				Value=52D9A
+			]
+			[
+				Name=Plasma
+				Value=52E80
+			]
+			[
+				Name=Long/Wave + Plasma
+				Value=52E6E
+			]
+			[
+				Name=Ice + Plasma
+				Value=52E54
+			]
+			[
+				Name=Long/Wave + Ice + Plasma
+				Value=52E42
+			]
+			[
+				Name=Long + Wave + Plasma
+				Value=52E20
+			]
+			[
+				Name=Long + Ice + Wave + Plasma
+				Value=52E06
+			]
+		]
+		[
+			Name=Charged
+			[
+				Name=None
+				Value=52EA4
+			]
+			[
+				Name=Long
+				Value=52EBC
+			]
+			[
+				Name=Ice
+				Value=52EEC
+			]
+			[
+				Name=Long + Ice
+				Value=52EDA
+			]
+			[
+				Name=Wave
+				Value=52F50
+			]
+			[
+				Name=Long + Wave
+				Value=52F24
+			]
+			[
+				Name=Ice + Wave
+				Value=52F3E
+			]
+			[
+				Name=Long + Ice + Wave
+				Value=52F12
+			]
+			[
+				Name=Plasma
+				Value=52FFE
+			]
+			[
+				Name=Long/Wave + Plasma
+				Value=52FEC
+			]
+			[
+				Name=Ice + Plasma
+				Value=52FD2
+			]
+			[
+				Name=Long/Wave + Ice + Plasma
+				Value=52FC0
+			]
+			[
+				Name=Long + Wave + Plasma
+				Value=52F9E
+			]
+			[
+				Name=Long + Ice + Wave + Plasma
+				Value=52F84
+			]
+		]
+	]
+	[
+		Name=Cooldown
+		Value=51EE0
+	]
+	[
+		Name=Limit
+		Value=51EBA
+	]
+]
+[
+	Name=Missiles
+	Graphics=3452B4
+	Palette=345234
+	Width=20
+	Height=E
+	[
+		Name=Normal
+		[
+			Name=Damage
+			Value=53778
+		]
+		[
+			Name=Cooldown
+			Value=51F24
+		]
+		[
+			Name=Limit
+			Value=52802
+		]
+		[
+			Name=Spawn
+			Value=54964
+		]
+		[
+			Name=Speed
+			Value=54910
+		]
+	]
+	[
+		Name=Super
+		[
+			Name=Damage
+			Value=53814
+		]
+		[
+			Name=Cooldown
+			Value=51F68
+		]
+		[
+			Name=Limit
+			Value=51F46
+		]
+		[
+			Name=Spawn
+			Value=54AB4
+		]
+		[
+			Name=Speed
+			Value=54A60
+		]
+	]
+]
+[
+	Name=Bombs
+	Graphics=3452B4
+	Palette=345234
+	Width=20
+	Height=E
+	[
+		Name=Normal
+		[
+			Name=Damage
+			Value=53898
+		]
+		[
+			Name=Cooldown
+			Value=51FAA
+		]
+		[
+			Name=Limit
+			Value=51F8A
+		]
+		[
+			Name=Timer 1
+			Value=54DA4
+		]
+		[
+			Name=Timer 2
+			Value=54EEA
+		]
+	]
+	[
+		Name=Power
+		[
+			Name=Damage 1
+			Value=53272
+		]
+		[
+			Name=Damage 2
+			Value=53276
+		]
+		[
+			Name=Cooldown
+			Value=51FE2
+		]
+		[
+			Name=Limit
+			Value=51FBA
+		]
+		[
+			Name=Timer 1
+			Value=54F98
+		]
+		[
+			Name=Timer 2
+			Value=5500E
+		]
+	]
+]

@@ -412,8 +412,16 @@ namespace mage
                 case "AMTE":
                     codeOffset = 0xF7C8;
                     break;
+                case "AMTJ":
+                case "AMTC":
+                    codeOffset = 0xF87C;
+                    break;
                 case "BMXE":
+                case "BMXJ":
                     codeOffset = 0xDFB0;
+                    break;
+                case "BMXC":
+                    codeOffset = 0x10A90;
                     break;
             }
 

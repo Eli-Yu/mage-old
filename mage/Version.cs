@@ -178,6 +178,7 @@ namespace mage
                     "AMTJ" => Resources.MF_J_chars,
                     "AMTC" => Resources.MF_C_chars,
                     "BMXE" => Resources.ZM_chars,
+                    "BMXP" => Resources.ZM_chars,
                     "BMXJ" => Resources.ZM_chars,
                     "BMXC" => Resources.ZM_C_chars,
                     _ => ""
@@ -197,6 +198,7 @@ namespace mage
                     "AMTJ" => Resources.MF_J_tileTables,
                     "AMTC" => Resources.MF_C_tileTables,
                     "BMXE" => Resources.ZM_U_tileTables,
+                    "BMXP" => Resources.ZM_E_tileTables,
                     "BMXJ" => Resources.ZM_J_tileTables,
                     "BMXC" => Resources.ZM_C_tileTables,
                     _ => "",
@@ -423,6 +425,7 @@ namespace mage
                     case "AMTC":
                         return Resources.MF_U_demoRAM;
                     case "BMXE":
+                    case "BMXP":
                     case "BMXJ":
                     case "BMXC":
                         return Resources.ZM_U_demoRAM;
@@ -500,7 +503,7 @@ namespace mage
                     IsMF = true;
                     break;
                 case "BMXE":
-                case "_BMXP":
+                case "BMXP":
                 case "BMXJ":
                 case "BMXC":
                     IsMF = false;
@@ -572,6 +575,7 @@ namespace mage
                 "AMTJ" => Resources.MF_J_pSpriteOAM,
                 "AMTC" => Resources.MF_C_pSpriteOAM,
                 "BMXE" => Resources.ZM_U_pSpriteOAM,
+                "BMXP" => Resources.ZM_E_pSpriteOAM,
                 "BMXJ" => Resources.ZM_J_pSpriteOAM,
                 "BMXC" => Resources.ZM_C_pSpriteOAM,
                 _ => ""
@@ -623,6 +627,7 @@ namespace mage
                 "AMTJ" => Resources.MF_J_sSpriteOAM,
                 "AMTC" => Resources.MF_C_sSpriteOAM,
                 "BMXE" => Resources.ZM_U_sSpriteOAM,
+                "BMXP" => Resources.ZM_E_sSpriteOAM,
                 "BMXJ" => Resources.ZM_J_sSpriteOAM,
                 "BMXC" => Resources.ZM_C_sSpriteOAM,
                 _ => ""

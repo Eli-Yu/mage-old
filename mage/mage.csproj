@@ -739,6 +739,9 @@
     <None Include="Resources\Lists\ZM\ZM_C_physics.txt" />
     <None Include="Resources\Lists\ZM\ZM_C_weapons.txt" />
     <None Include="Resources\Lists\ZM\ZM_C_patches.txt" />
+    <None Include="Resources\Lists\ZM\ZM_E_pSpriteOAM.txt" />
+    <None Include="Resources\Lists\ZM\ZM_E_sSpriteOAM.txt" />
+    <None Include="Resources\Lists\ZM\ZM_E_tileTables.txt" />
     <Content Include="Resources\Lists\ZM\ZM_spritePositions.txt" />
     <None Include="Resources\Lists\ZM\ZM_U_demoRAM.txt" />
     <Content Include="Resources\Lists\ZM\ZM_U_physics.txt" />

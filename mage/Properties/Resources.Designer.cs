@@ -1782,12 +1782,7 @@ namespace mage.Properties {
         ///3B=3198CC
         ///3C=31B27C
         ///3D=31CFEC
-        ///3E=31DC3C
-        ///3F=308354
-        ///40=2EFE5C
-        ///41=31E694
-        ///42=31E694
-        ///43 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///3E=31D [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string MF_C_pSpriteOAM {
             get {
@@ -1832,10 +1827,7 @@ namespace mage.Properties {
         ///23=2B,329D7C
         ///24=2B,329D7C
         ///25=1C,2F9AA0
-        ///26=21,321A7C
-        ///27=52,32A6DC
-        ///28=56,32D3F4
-        ///29=56 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///26=21,32 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string MF_C_sSpriteOAM {
             get {
@@ -2490,7 +2482,10 @@ namespace mage.Properties {
         ///23=2B,329D38
         ///24=2B,329D38
         ///25=1C,2F9A5C
-        ///26=21,32 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///26=21,321A38
+        ///27=52,32A698
+        ///28=56,32D3B0
+        ///29=56 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string MF_J_sSpriteOAM {
             get {
@@ -3741,20 +3736,19 @@ namespace mage.Properties {
         ///7EF490,30,Messages
         ///7F13FC,1D,File screen
         ///
+        ///[AMTC]
+        ///77DDF4,72,Navigation
+        ///77DE10,6F,Pause screen
+        ///77E09C,13,Monologues
+        ///77E3C0,1A,Locations
+        ///77E3DC,30,Messages
+        ///77EC68,1D,File screen
+        ///
         ///[BMXE]
         ///75FEE0,06,Story
         ///7602D4,13,Descriptions
         ///760764,1A,Locations
-        ///760780,27,Messages
-        ///76079C,25,File screen
-        ///
-        ///[BMXP]
-        ///773D80,06,Story
-        ///77417C,13,Descriptions
-        ///774A1C,1A,Locations
-        ///774A38,27,Messages
-        ///774A54,25,File screen
-        ///        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///760780,27,Message [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string textLists {
             get {
@@ -4332,45 +4326,28 @@ namespace mage.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [X 速度]
-        ///凤凰之舞 左;9D8C;2
-        ///凤凰之舞 右;941E;1
-        ///凤凰之舞 左上;9D6C;2
-        ///凤凰之舞 右上;9D5E;1
-        ///击退 左;11790;2
-        ///击退 右;11A06;1
-        ///不受伤 击退 左;11C64;2
-        ///不受伤 击退 右;11C68;1
-        ///炸弹跳 左;94FC;2
-        ///炸弹跳 右;94DA;1
-        ///空中炸弹跳 左;94C4;2
-        ///空中炸弹跳 右;94A0;1
+        ///   查找类似 [X velocities]
+        ///Shinespark left;9D8C;2
+        ///Shinespark right;941E;1
+        ///Shinespark up left;9D6C;2
+        ///Shinespark up right;9D5E;1
+        ///Knockback left;11790;2
+        ///Knockback right;11A06;1
+        ///No damage Knockback left;11C64;2
+        ///No damage Knockback right;11C68;1
+        ///Bomb jump left;94FC;2
+        ///Bomb jump right;94DA;1
+        ///Mid-air bomb jump left;94C4;2
+        ///Mid-air bomb jump right;94A0;1
         ///
-        ///[Y 速度]
-        ///凤凰之舞 上;9D90;1
-        ///凤凰之舞 对角线;9D66;1
-        ///击退;9978;1
-        ///直立跳;956E,9594;1
-        ///高跳 直立跳;956A,95A4;1
-        ///回旋跳;9408;1
-        ///高跳 回旋跳;9404;1
-        ///连跳;B970;1
-        ///高跳 连跳;B95E;1
-        ///蹬墙跳;9460;1
-        ///高跳 蹬墙跳;945C;1
-        ///边缘跳起;C0AC;1
-        ///弹簧球;950C;1
-        ///炸弹跳;94F2;1
-        ///空中炸弹跳;94B8;1
-        ///变形球反弹;9764;1
-        ///电梯上升;9E1C;1
-        ///电梯下降;9E30;2
-        ///
-        ///[速度上限]
-        ///地面 X;A094;1
-        ///空中 X;A09C;1
-        ///空中变球 X;A0AA;1
-        ///加速 X;AE [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///[Y velocities]
+        ///Shinespark up;9D90;1
+        ///Shinespark diagonal;9D66;1
+        ///Knockback;9978;1
+        ///Straight jump;956E,9594;1
+        ///High straight jump;956A,95A4;1
+        ///Spin jump;9408;1
+        ///H [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string ZM_C_physics {
             get {
@@ -4566,55 +4543,52 @@ namespace mage.Properties {
         
         /// <summary>
         ///   查找类似 [
-        ///	Name=光束
+        ///	Name=Beams
         ///	Width=10
         ///	Height=4
         ///	[
-        ///		Name=普通
+        ///		Name=Normal
         ///		Graphics=340994
         ///		Palette=3408D4
         ///		[
-        ///			Name=生成
+        ///			Name=Spawn
         ///			Value=53904
         ///		]
         ///		[
-        ///			Name=速度
+        ///			Name=Speed
         ///			Value=538C8
         ///		]
         ///	]
         ///	[
-        ///		Name=长
+        ///		Name=Long
         ///		Graphics=34137C
         ///		Palette=3408F4
         ///		[
-        ///			Name=生成
+        ///			Name=Spawn
         ///			Value=539FC
         ///		]
         ///		[
-        ///			Name=速度
+        ///			Name=Speed
         ///			Value=539C0
         ///		]
         ///	]
         ///	[
-        ///		Name=冰冻
+        ///		Name=Ice
         ///		Graphics=341CEC
         ///		Palette=340914
         ///		[
-        ///			Name=生成
+        ///			Name=Spawn
         ///			Value=53B04
         ///		]
         ///		[
-        ///			Name=速度
+        ///			Name=Speed
         ///			Value=53AAC
         ///		]
         ///	]
         ///	[
-        ///		Name=波动
+        ///		Name=Wave
         ///		Graphics=342720
-        ///		Palette=340934
-        ///		[
-        ///			Name=生成
-        ///			Value=53DF [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///		Palette=340934        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string ZM_C_weapons {
             get {
@@ -4846,6 +4820,162 @@ namespace mage.Properties {
         internal static string ZM_constants {
             get {
                 return ResourceManager.GetString("ZM_constants", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 11=2B33DC
+        ///12=2C56F4
+        ///13=2C56F4
+        ///14=2C6504
+        ///15=2C6504
+        ///16=2CCCD4
+        ///17=2CCCD4
+        ///18=2CD6B8
+        ///19=2CD6B8
+        ///1A=2B33DC
+        ///1B=2B33B4
+        ///1C=2B3404
+        ///1D=2B341C
+        ///1E=2B3434
+        ///1F=2CE100
+        ///20=2CE100
+        ///21=2B3834
+        ///22=2B642C
+        ///23=2B642C
+        ///24=2B642C
+        ///25=2B642C
+        ///26=2B642C
+        ///27=2B642C
+        ///28=2B642C
+        ///29=2B642C
+        ///2A=2B642C
+        ///2B=2B642C
+        ///2C=2B642C
+        ///2D=2B642C
+        ///2E=2B642C
+        ///2F=2B642C
+        ///30=2B642C
+        ///31=2B642C
+        ///32=2D0824
+        ///33=2D0824
+        ///34=2D11AC
+        ///35=2B344C
+        ///36=2D208C
+        ///37=2D208C
+        ///38=2D286C
+        ///39=2D286C
+        ///3A=2D4384
+        ///3B=2D6764
+        ///3C=2D6764
+        ///3D=2CF5A4
+        ///3E=2CF6B4
+        ///3F=2CE [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_E_pSpriteOAM {
+            get {
+                return ResourceManager.GetString("ZM_E_pSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 00=22,2B64F4
+        ///01=22,2B648C
+        ///02=22,2B6564
+        ///03=6F,2CB8F8
+        ///04=22,2B642C
+        ///05=44,2B4614
+        ///06=4F,2E18EC
+        ///08=3B,2D67E4
+        ///09=42,2D8570
+        ///0A=42,2D8710
+        ///0B=42,2D8598
+        ///0C=1F,2CE270
+        ///0D=6E,2D5CB0
+        ///0E=11,2CC670
+        ///0F=20,2CE270
+        ///10=14,2C668C
+        ///11=4B,2DB610
+        ///12=4D,2DE2FC
+        ///13=21,2B385C
+        ///14=4F,2E1724
+        ///15=4F,2E18A4
+        ///16=51,2E5034
+        ///17=61,2ED57C
+        ///18=61,2ED75C
+        ///19=A6,308268
+        ///1A=64,2EE894
+        ///1B=67,2EF9B0
+        ///1C=6F,2CBF48
+        ///1D=6F,2CBF18
+        ///1E=63,2E6CB4
+        ///1F=73,2F88BC
+        ///20=75,2FB678
+        ///21=61,2ED7CC
+        ///22=58,2C1F14
+        ///23=58,2C1FEC
+        ///24=4E,2DEDF4
+        ///25=77,2F [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_E_sSpriteOAM {
+            get {
+                return ResourceManager.GetString("ZM_E_sSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 367180=B
+        ///5F3674=E
+        ///5F3D78=E
+        ///5F447C=E
+        ///616BC8=21
+        ///617C4C=21
+        ///618950=21
+        ///6199D4=21
+        ///61AA58=21
+        ///61BADC=12
+        ///61C3E0=12
+        ///61CCE4=13
+        ///61D668=16
+        ///61E16C=13
+        ///61EAF0=13
+        ///63F258=15
+        ///63FCDC=18
+        ///6408E0=14
+        ///6412E4=1B
+        ///642068=14
+        ///673DA4=1B
+        ///674B28=1B
+        ///6758AC=30
+        ///6770B0=25
+        ///678334=1C
+        ///679138=1B
+        ///679EBC=17
+        ///67AA40=21
+        ///67BAC4=1B
+        ///67C848=2A
+        ///67DD4C=1A
+        ///6A7D94=1F
+        ///6A8D18=1E
+        ///6A9C1C=1A
+        ///6AA920=D
+        ///6AAFA4=25
+        ///6AC228=24
+        ///6C8E18=26
+        ///6CA11C=1A
+        ///6CAE20=1F
+        ///6CBDA4=23
+        ///6E9A14=21
+        ///6EAA98=1B
+        ///6EB81C=1C
+        ///6EC620=1B
+        ///6ED3A4=21
+        ///6EE428=1A
+        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_E_tileTables {
+            get {
+                return ResourceManager.GetString("ZM_E_tileTables", resourceCulture);
             }
         }
         

@@ -282,6 +282,8 @@ namespace mage
                         return Resources.MF_C_weapons;
                     case "BMXE":
                         return Resources.ZM_U_weapons;
+                    case "BMXP":
+                        return Resources.ZM_E_weapons;
                     case "BMXJ":
                         return Resources.ZM_J_weapons;
                     case "BMXC":
@@ -302,6 +304,7 @@ namespace mage
                     "AMTJ" => Resources.MF_J_physics,
                     "AMTC" => Resources.MF_J_physics,
                     "BMXE" => Resources.ZM_U_physics,
+                    "BMXP" => Resources.ZM_E_physics,
                     "BMXJ" => Resources.ZM_J_physics,
                     "BMXC" => Resources.ZM_C_physics,
                     _ => "",
@@ -383,6 +386,8 @@ namespace mage
                         return new Patch(Resources.MF_C_eventConnections);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_eventConnections);
+                    case "BMXP":
+                        return new Patch(Resources.ZM_E_eventConnections);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_eventConnections);
                     case "BMXC":
@@ -405,6 +410,8 @@ namespace mage
                         return new Patch(Resources.MF_J_locationNames);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_locationNames);
+                    case "BMXP":
+                        return new Patch(Resources.ZM_E_locationNames);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_locationNames);
                     case "BMXC":

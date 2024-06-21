@@ -592,6 +592,8 @@
     <None Include="Resources\Misc\ZM_C_locationNames.ips" />
     <None Include="Resources\Misc\ZM_C_testDemo.ips" />
     <None Include="Resources\Misc\ZM_C_testRoom.ips" />
+    <None Include="Resources\Misc\ZM_E_eventConnections.ips" />
+    <None Include="Resources\Misc\ZM_E_locationNames.ips" />
     <None Include="Resources\Misc\ZM_genTileTable" />
     <None Include="Resources\Misc\ZM_J_eventConnections.ips" />
     <None Include="Resources\Misc\ZM_J_locationNames.ips" />
@@ -646,6 +648,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Icons\button_bg_color.png" />
+    <None Include="zh-CN\ZM\ZM_E_weapons.txt" />
+    <None Include="zh-CN\ZM\ZM_E_physics.txt" />
     <None Include="zh-CN\ZM\ZM_C_patches.txt" />
     <None Include="zh-CN\ZM\ZM_C_weapons.txt" />
     <None Include="zh-CN\ZM\ZM_C_physics.txt" />
@@ -742,6 +746,8 @@
     <None Include="Resources\Lists\ZM\ZM_E_pSpriteOAM.txt" />
     <None Include="Resources\Lists\ZM\ZM_E_sSpriteOAM.txt" />
     <None Include="Resources\Lists\ZM\ZM_E_tileTables.txt" />
+    <None Include="Resources\Lists\ZM\ZM_E_physics.txt" />
+    <None Include="Resources\Lists\ZM\ZM_E_weapons.txt" />
     <Content Include="Resources\Lists\ZM\ZM_spritePositions.txt" />
     <None Include="Resources\Lists\ZM\ZM_U_demoRAM.txt" />
     <Content Include="Resources\Lists\ZM\ZM_U_physics.txt" />

@@ -4824,6 +4824,57 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_eventConnections {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_eventConnections", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_locationNames {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_locationNames", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 [X velocities]
+        ///Shinespark left;7428;2
+        ///Shinespark right;741A;1
+        ///Shinespark up left;7408;2
+        ///Shinespark up right;73FA;1
+        ///Knockback left;ED64;2
+        ///Knockback right;EFDA;1
+        ///No damage knockback left;F238;2
+        ///No damage knockback right;F23C;1
+        ///Bomb jump left;6B98;2
+        ///Bomb jump right;6B76;1
+        ///Mid-air bomb jump left;6B60;2
+        ///Mid-air bomb jump right;6B3C;1
+        ///
+        ///[Y velocities]
+        ///Shinespark up;742C;1
+        ///Shinespark diagonal;7402;1
+        ///Knockback;7014;1
+        ///Straight jump;6C0A,6C30;1
+        ///High straight jump;6C06,6C40;1
+        ///Spin jump;6AA4;1
+        ///High spin jump;6AA0;1
+        ///S [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_E_physics {
+            get {
+                return ResourceManager.GetString("ZM_E_physics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 11=2B33DC
         ///12=2C56F4
         ///13=2C56F4
@@ -4976,6 +5027,61 @@ namespace mage.Properties {
         internal static string ZM_E_tileTables {
             get {
                 return ResourceManager.GetString("ZM_E_tileTables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 [
+        ///	Name=Beams
+        ///	Width=10
+        ///	Height=4
+        ///	[
+        ///		Name=Normal
+        ///		Graphics=327E34
+        ///		Palette=327D74
+        ///		[
+        ///			Name=Spawn
+        ///			Value=50C88
+        ///		]
+        ///		[
+        ///			Name=Speed
+        ///			Value=50C4C
+        ///		]
+        ///	]
+        ///	[
+        ///		Name=Long
+        ///		Graphics=32881C
+        ///		Palette=327D94
+        ///		[
+        ///			Name=Spawn
+        ///			Value=50D80
+        ///		]
+        ///		[
+        ///			Name=Speed
+        ///			Value=50D44
+        ///		]
+        ///	]
+        ///	[
+        ///		Name=Ice
+        ///		Graphics=32918C
+        ///		Palette=327DB4
+        ///		[
+        ///			Name=Spawn
+        ///			Value=50E88
+        ///		]
+        ///		[
+        ///			Name=Speed
+        ///			Value=50E30
+        ///		]
+        ///	]
+        ///	[
+        ///		Name=Wave
+        ///		Graphics=329BC0
+        ///		Palette=327DD4        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_E_weapons {
+            get {
+                return ResourceManager.GetString("ZM_E_weapons", resourceCulture);
             }
         }
         

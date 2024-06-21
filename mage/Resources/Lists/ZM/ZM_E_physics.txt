@@ -1,0 +1,52 @@
+[X velocities]
+Shinespark left;7428;2
+Shinespark right;741A;1
+Shinespark up left;7408;2
+Shinespark up right;73FA;1
+Knockback left;ED64;2
+Knockback right;EFDA;1
+No damage knockback left;F238;2
+No damage knockback right;F23C;1
+Bomb jump left;6B98;2
+Bomb jump right;6B76;1
+Mid-air bomb jump left;6B60;2
+Mid-air bomb jump right;6B3C;1
+
+[Y velocities]
+Shinespark up;742C;1
+Shinespark diagonal;7402;1
+Knockback;7014;1
+Straight jump;6C0A,6C30;1
+High straight jump;6C06,6C40;1
+Spin jump;6AA4;1
+High spin jump;6AA0;1
+Space jump;8FE8;1
+High space jump;8FD8;1
+Wall jump;6AFC;1
+High wall jump;6AF8;1
+Ledge jump up;971C;1
+Spring ball;6BA8;1
+Bomb jump;6B8E;1
+Mid-air bomb jump;6B54;1
+Morph ball bounce;6E00;1
+Elevator up;74B8;1
+Elevator down;74CC;2
+
+[Velocity caps]
+Ground X;7730;1
+Mid-air X;7738;1
+Mid-air morphed X;7746;1
+Speed boost X;857E;1
+Positive Y;7752;1
+Negative Y;7758;1
+
+[Thresholds]
+Speed boost stage 1;858C;1
+Speed boost stage 2;857A;1
+Speed boost stage 3;85A2;1
+Space jump fall;8FC8;1
+Morph ball bounce;6DD8;1
+
+[Acceleration]
+X;7728;1
+Y;774C;1

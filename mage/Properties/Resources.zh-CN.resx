@@ -786,4 +786,10 @@
   <data name="ZM_C_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\zh-CN\ZM\ZM_C_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="ZM_E_physics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_E_physics.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ZM_E_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\zh-CN\ZM\ZM_E_weapons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>

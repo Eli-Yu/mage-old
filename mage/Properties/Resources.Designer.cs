@@ -4826,9 +4826,59 @@ namespace mage.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        internal static byte[] ZM_E_addElevators1 {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_addElevators1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_addElevators2 {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_addElevators2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_addMinimapTiles {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_addMinimapTiles", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_disableChozoHints {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_disableChozoHints", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         internal static byte[] ZM_E_eventConnections {
             get {
                 object obj = ResourceManager.GetObject("ZM_E_eventConnections", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_itemToggle {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_itemToggle", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -4840,6 +4890,31 @@ namespace mage.Properties {
             get {
                 object obj = ResourceManager.GetObject("ZM_E_locationNames", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_noMinimap {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_noMinimap", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ZM_E_itemToggle,Item toggle menu,Trunaur68
+        ///ZM_E_addElevators1,Add elevators (keep cutscenes),biospark
+        ///ZM_E_addElevators2,Add elevators (remove cutscenes),biospark
+        ///ZM_E_addMinimapTiles,Add minimap tiles,biospark
+        ///ZM_E_noMinimap,No minimap,biospark
+        ///ZM_E_disableChozoHints,Disable Chozo statue hints,biospark
+        ///ZM_E_removeCloseup,Remove Samus closeup,biospark 的本地化字符串。
+        /// </summary>
+        internal static string ZM_E_patches {
+            get {
+                return ResourceManager.GetString("ZM_E_patches", resourceCulture);
             }
         }
         
@@ -4926,6 +5001,16 @@ namespace mage.Properties {
         internal static string ZM_E_pSpriteOAM {
             get {
                 return ResourceManager.GetString("ZM_E_pSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_removeCloseup {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_removeCloseup", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

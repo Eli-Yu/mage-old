@@ -47,6 +47,9 @@ namespace mage
 
             numericUpDown_tile.Maximum = 0x1FF;
 
+            // support other region version 
+            Patch p = Version.AddMinimapTiles;
+
             if (Version.IsMF)
             {
                 //string[] hatches = new string[] { "Blue hatch", "Green hatch", "Yellow hatch", "Red hatch" };
@@ -60,7 +63,7 @@ namespace mage
                     Resources.formTileBuilder_ComboBoxCenterRe, Resources.formTileBuilder_ComboBoxCenterData };
                 comboBox_center.Items.AddRange(center);
 
-                Patch p = new Patch(Properties.Resources.MF_U_addMinimapTiles);
+                //Patch p = new Patch(Properties.Resources.MF_U_addMinimapTiles);
                 if (!p.IsApplied()) { numericUpDown_tile.Maximum = 0x1BF; }
             }
             else
@@ -78,7 +81,7 @@ namespace mage
 
                 comboBox_palette.Items.AddRange(new object[] { 3, 4 });
 
-                Patch p = new Patch(Properties.Resources.ZM_U_addMinimapTiles);
+                //Patch p = new Patch(Properties.Resources.ZM_U_addMinimapTiles);
                 if (!p.IsApplied()) { numericUpDown_tile.Maximum = 0x17F; }
             }
 

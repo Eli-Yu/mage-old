@@ -441,6 +441,24 @@ namespace mage
                 }
             }
         }
+        //move addMinimapTiles from FormMinimap.cs to support other region version
+        public static Patch AddMinimapTiles
+        {
+            get
+            {
+                return GameCode switch
+                {
+                    "AMTE" => new Patch(Resources.MF_U_addMinimapTiles),
+                    //"AMTJ" => new Patch(Resources.MF_J_addMinimapTiles),
+                    //"AMTC" => new Patch(Resources.MF_C_addMinimapTiles),
+                    "BMXE" => new Patch(Resources.ZM_U_addMinimapTiles),
+                    "BMXP" => new Patch(Resources.ZM_E_addMinimapTiles),
+                    "BMXJ" => new Patch(Resources.ZM_U_addMinimapTiles),
+                    //"BMXC" => new Patch(Resources.ZM_C_addMinimapTiles),
+                    _ => null
+                };
+            }
+        }
         public static string[] PatchList
         {
             get
@@ -456,6 +474,9 @@ namespace mage
                         break;
                     case "BMXE":
                         patches = Resources.ZM_U_patches;
+                        break;
+                    case "BMXP":
+                        patches = Resources.ZM_E_patches;
                         break;
                     case "BMXJ":
                         patches = Resources.ZM_J_patches;

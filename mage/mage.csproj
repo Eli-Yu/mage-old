@@ -624,6 +624,13 @@
     <None Include="Resources\Patches\ZM_C_itemToggle.ips" />
     <None Include="Resources\Patches\ZM_C_noMinimap.ips" />
     <None Include="Resources\Patches\ZM_C_removeCloseup.ips" />
+    <None Include="Resources\Patches\ZM_E_addElevators1.ips" />
+    <None Include="Resources\Patches\ZM_E_addElevators2.ips" />
+    <None Include="Resources\Patches\ZM_E_addMinimapTiles.ips" />
+    <None Include="Resources\Patches\ZM_E_disableChozoHints.ips" />
+    <None Include="Resources\Patches\ZM_E_itemToggle.ips" />
+    <None Include="Resources\Patches\ZM_E_noMinimap.ips" />
+    <None Include="Resources\Patches\ZM_E_removeCloseup.ips" />
     <None Include="Resources\Patches\ZM_J_itemToggle.ips" />
     <None Include="Resources\Patches\ZM_U_addElevators1.ips" />
     <None Include="Resources\Patches\ZM_U_addElevators2.ips" />
@@ -648,6 +655,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Icons\button_bg_color.png" />
+    <None Include="zh-CN\ZM\ZM_E_patches.txt" />
     <None Include="zh-CN\ZM\ZM_E_weapons.txt" />
     <None Include="zh-CN\ZM\ZM_E_physics.txt" />
     <None Include="zh-CN\ZM\ZM_C_patches.txt" />
@@ -748,6 +756,7 @@
     <None Include="Resources\Lists\ZM\ZM_E_tileTables.txt" />
     <None Include="Resources\Lists\ZM\ZM_E_physics.txt" />
     <None Include="Resources\Lists\ZM\ZM_E_weapons.txt" />
+    <None Include="Resources\Lists\ZM\ZM_E_patches.txt" />
     <Content Include="Resources\Lists\ZM\ZM_spritePositions.txt" />
     <None Include="Resources\Lists\ZM\ZM_U_demoRAM.txt" />
     <Content Include="Resources\Lists\ZM\ZM_U_physics.txt" />

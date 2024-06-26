@@ -60,10 +60,11 @@ namespace mage
             int numPalettes;
             numTiles = 0x200;
             isMF = Version.IsMF;
+            Patch p = Version.AddMinimapTiles;
             if (isMF)
             {
                 numPalettes = 3;
-                Patch p = new Patch(Properties.Resources.MF_U_addMinimapTiles);
+                //Patch p = new Patch(Properties.Resources.MF_U_addMinimapTiles);
                 if (!p.IsApplied()) { numTiles = 0x1C0; }
 
                 //comboBox_type.Items.AddRange(new string[] { "Normal", "Hidden" });
@@ -72,7 +73,7 @@ namespace mage
             else
             {
                 numPalettes = 5;
-                Patch p = new Patch(Properties.Resources.ZM_U_addMinimapTiles);
+                //Patch p = new Patch(Properties.Resources.ZM_U_addMinimapTiles);
                 if (!p.IsApplied()) { numTiles = 0x180; }
 
                 //comboBox_view.Items.Add("Start");

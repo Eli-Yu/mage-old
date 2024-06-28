@@ -410,6 +410,7 @@ namespace mage
             switch (Version.GameCode)
             {
                 case "AMTE":
+                case "AMTP":
                     codeOffset = 0xF7C8;
                     break;
                 case "AMTJ":
@@ -419,6 +420,9 @@ namespace mage
                 case "BMXE":
                 case "BMXJ":
                     codeOffset = 0xDFB0;
+                    break;
+                case "BMXP":
+                    codeOffset = 0XE064;
                     break;
                 case "BMXC":
                     codeOffset = 0x10A90;

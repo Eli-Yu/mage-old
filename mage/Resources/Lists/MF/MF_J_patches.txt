@@ -4,4 +4,5 @@ MF_J_getMissiles,Obtain missiles from expansion,P.JBoy
 MF_J_getPowerBombs,Obtain power bombs from expansion,P.JBoy
 MF_J_singleWallJump,Single wall jump,biospark
 MF_J_infiniteBombJump,Mid-air bomb jump,biospark
+MF_J_addMinimapTiles,Add minimap tiles,biospark
 MF_J_noMinimap,No minimap,biospark

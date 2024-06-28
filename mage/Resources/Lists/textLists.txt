@@ -6,6 +6,14 @@
 79CDF4,30,Messages
 79EC68,B,File screen
 
+[AMTP]
+79C924,72,Navigation
+79C940,6F,Pause screen
+79CDD8,13,Monologues
+79D60C,1A,Locations
+79D628,30,Messages
+79F4C4,1D,File screen
+
 [AMTJ]
 7EE7A0,72,Navigation
 7EE7BC,6F,Pause screen

@@ -1,6 +1,6 @@
 [X velocities]
 Shinespark left;9D8C;2
-Shinespark right;941E;1
+Shinespark right;9D7E;1
 Shinespark up left;9D6C;2
 Shinespark up right;9D5E;1
 Knockback left;11790;2

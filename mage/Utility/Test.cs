@@ -33,10 +33,21 @@ namespace mage
             if (doorList.Count == 0)
             {
                 int offset;
-                //USA version, Janpanese and iQue version
-                if (isMF) { offset = (Version.GameCode == "AMTE") ? 0x64C8C: 0x65290; }
-                //adjust for iQue
-                else { offset = (Version.GameCode == "BMXC") ? 0x59528: 0x567E0; }
+                //USA/Europe version, Janpanese and iQue version
+                if (isMF) { offset = (Version.GameCode == "AMTE" || Version.GameCode == "AMTP") ? 0x64C8C: 0x65290; }
+                //adjust for other version
+                else 
+                {
+                    offset = Version.GameCode switch 
+                    { 
+                        "BMXE" => 0x567E0,
+                        "BMXP" => 0x568AC,
+                        "BMXJ" => 0x567E0,
+                        "BMXC" => 0x59528,
+
+                        _ => 0x567E0
+                    }; 
+                }
                 bs.Write16(offset, 0xE001);
                 doorNum = 0;
             }

@@ -83,6 +83,8 @@ namespace mage
 
                 //Patch p = new Patch(Properties.Resources.ZM_U_addMinimapTiles);
                 if (!p.IsApplied()) { numericUpDown_tile.Maximum = 0x17F; }
+                //iQue version has 4 more rows of gfx than other versions
+                if (Version.GameCode == "BMXC") { numericUpDown_tile.Maximum += 0x80; }
             }
 
             loading = true;

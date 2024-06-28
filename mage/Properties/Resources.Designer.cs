@@ -2174,9 +2174,284 @@ namespace mage.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        internal static byte[] MF_E_eventConnections {
+            get {
+                object obj = ResourceManager.GetObject("MF_E_eventConnections", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 MF_U_debugMenu,Debug menu,interdpth
+        ///MF_E_skipIntro,Skip intro cutscene,P.JBoy
+        ///MF_U_getMissiles,Obtain missiles from expansion,P.JBoy
+        ///MF_U_getPowerBombs,Obtain power bombs from expansion,P.JBoy
+        ///MF_U_singleWallJump,Single wall jump,biospark
+        ///MF_U_infiniteBombJump,Mid-air bomb jump,biospark
+        ///MF_U_addMinimapTiles,Add minimap tiles,biospark
+        ///MF_U_noMinimap,No minimap,biospark 的本地化字符串。
+        /// </summary>
+        internal static string MF_E_patches {
+            get {
+                return ResourceManager.GetString("MF_E_patches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 10=2E6870
+        ///11=2E85CC
+        ///12=2EBD28
+        ///13=2ED52C
+        ///14=323D3C
+        ///15=2EBC08
+        ///16=3396E0
+        ///17=2EE16C
+        ///18=2EFEF8
+        ///19=31E974
+        ///1A=2F4D4C
+        ///1B=2F61BC
+        ///1C=2F7EF8
+        ///1D=2F8E58
+        ///1E=322030
+        ///1F=2F1B20
+        ///20=338468
+        ///21=31FDB4
+        ///22=338180
+        ///23=33B1F0
+        ///24=33B428
+        ///25=33B2B0
+        ///26=36A92C
+        ///27=36A894
+        ///28=325E2C
+        ///29=325E2C
+        ///2A=325E2C
+        ///2B=327FCC
+        ///2C=327CBC
+        ///2D=327CBC
+        ///2E=327CBC
+        ///2F=327CBC
+        ///30=327CBC
+        ///31=350BE0
+        ///32=2EE16C
+        ///33=2F98A4
+        ///34=3BE8AC
+        ///35=336E84
+        ///36=3BE8AC
+        ///37=2FB95C
+        ///38=2EE16C
+        ///39=2FD45C
+        ///3A=3032A0
+        ///3B=317BDC
+        ///3C=31958C
+        ///3D=31B2FC
+        ///3E=31B [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string MF_E_pSpriteOAM {
+            get {
+                return ResourceManager.GetString("MF_E_pSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] MF_E_skipIntro {
+            get {
+                object obj = ResourceManager.GetObject("MF_E_skipIntro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 00=11,2E85DC
+        ///01=11,2E8624
+        ///02=12,2EBDC8
+        ///03=13,2ED554
+        ///04=3C,31954C
+        ///05=14,323FC4
+        ///06=1A,2F4D84
+        ///07=19,31E8C4
+        ///08=19,31E924
+        ///09=19,31E984
+        ///0A=1F,2F1AE8
+        ///0C=39,2FD3D4
+        ///0D=1A,2F4D5C
+        ///0E=22,338400
+        ///0F=16,339920
+        ///10=5B,33EAD0
+        ///11=5C,33ECA8
+        ///12=1C,2F7E40
+        ///13=2B,32808C
+        ///15=3A,3032C8
+        ///16=3A,3037F4
+        ///17=3A,302FA8
+        ///18=3A,302FF8
+        ///19=3A,302FD0
+        ///1A=3A,3037CC
+        ///1B=3F,306AF4
+        ///1C=3F,3069AC
+        ///1D=41,31C954
+        ///1E=1E,322090
+        ///1F=1E,3220E8
+        ///20=3A,303814
+        ///21=28,325D5C
+        ///22=28,325CEC
+        ///23=2B,32808C
+        ///24=2B,32808C
+        ///25=1C,2F7DB0
+        ///26=21,31 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string MF_E_sSpriteOAM {
+            get {
+                return ResourceManager.GetString("MF_E_sSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] MF_E_testDemo {
+            get {
+                object obj = ResourceManager.GetObject("MF_E_testDemo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] MF_E_testRoom {
+            get {
+                object obj = ResourceManager.GetObject("MF_E_testRoom", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 3F1040=C
+        ///408A78=21
+        ///409AFC=16
+        ///40A600=20
+        ///40B604=20
+        ///40C608=1C
+        ///40D40C=1C
+        ///40E210=1C
+        ///40F014=12
+        ///40F918=1C
+        ///41071C=13
+        ///4110A0=1C
+        ///458694=17
+        ///459218=18
+        ///459E1C=18
+        ///45AA20=1C
+        ///45B824=2B
+        ///45CDA8=2B
+        ///45E32C=28
+        ///45F730=18
+        ///460334=18
+        ///460F38=18
+        ///461B3C=12
+        ///462440=1C
+        ///463244=1C
+        ///464048=2B
+        ///4655CC=11
+        ///465E50=13
+        ///4667D4=1B
+        ///467558=1C
+        ///46835C=14
+        ///468D60=14
+        ///469764=18
+        ///46A368=12
+        ///46AC6C=12
+        ///495050=D
+        ///4956D4=1C
+        ///4964D8=1C
+        ///4972DC=21
+        ///498360=F
+        ///4C7784=1B
+        ///4C8508=18
+        ///4C910C=1C
+        ///4C9F10=1C
+        ///4CAD14=1F
+        ///4CBC98=1F
+        ///4F3374=20 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string MF_E_tileTables {
+            get {
+                return ResourceManager.GetString("MF_E_tileTables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 [
+        ///	Name=Beams
+        ///	Width=14
+        ///	Height=2
+        ///	[
+        ///		Name=Normal
+        ///		Graphics=58BB80
+        ///		Palette=58BAC0
+        ///		[
+        ///			Name=Damage
+        ///			Value=83C14
+        ///		]
+        ///		[
+        ///			Name=Charged damage
+        ///			Value=83CD8
+        ///		]
+        ///		[
+        ///			Name=Cooldown
+        ///			Value=8159A
+        ///		]
+        ///		[
+        ///			Name=Limit
+        ///			Value=8157A
+        ///		]
+        ///		[
+        ///			Name=Spawn
+        ///			Value=84F82
+        ///		]
+        ///		[
+        ///			Name=Charged spawn
+        ///			Value=84E6A
+        ///		]
+        ///		[
+        ///			Name=Speed
+        ///			Value=84F70
+        ///		]
+        ///		[
+        ///			Name=Charged speed
+        ///			Value=84E50
+        ///		]
+        ///	]
+        ///	[
+        ///		Name=Charge
+        ///		Graphics=58C080
+        ///		Palette=58BAE0
+        ///	 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string MF_E_weapons {
+            get {
+                return ResourceManager.GetString("MF_E_weapons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         internal static byte[] MF_genTileTable {
             get {
                 object obj = ResourceManager.GetObject("MF_genTileTable", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] MF_J_addMinimapTiles {
+            get {
+                object obj = ResourceManager.GetObject("MF_J_addMinimapTiles", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -3728,6 +4003,14 @@ namespace mage.Properties {
         ///79CDF4,30,Messages
         ///79EC68,B,File screen
         ///
+        ///[AMTP]
+        ///79C924,72,Navigation
+        ///79C940,6F,Pause screen
+        ///79CDD8,13,Monologues
+        ///79D60C,1A,Locations
+        ///79D628,30,Messages
+        ///79F4C4,1D,File screen
+        ///
         ///[AMTJ]
         ///7EE7A0,72,Navigation
         ///7EE7BC,6F,Pause screen
@@ -3740,15 +4023,7 @@ namespace mage.Properties {
         ///77DDF4,72,Navigation
         ///77DE10,6F,Pause screen
         ///77E09C,13,Monologues
-        ///77E3C0,1A,Locations
-        ///77E3DC,30,Messages
-        ///77EC68,1D,File screen
-        ///
-        ///[BMXE]
-        ///75FEE0,06,Story
-        ///7602D4,13,Descriptions
-        ///760764,1A,Locations
-        ///760780,27,Message [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///77E3C0,1A,L [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string textLists {
             get {
@@ -4184,6 +4459,16 @@ namespace mage.Properties {
         internal static byte[] ZM_C_addElevators2 {
             get {
                 object obj = ResourceManager.GetObject("ZM_C_addElevators2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_C_addMinimapTiles {
+            get {
+                object obj = ResourceManager.GetObject("ZM_C_addMinimapTiles", resourceCulture);
                 return ((byte[])(obj));
             }
         }

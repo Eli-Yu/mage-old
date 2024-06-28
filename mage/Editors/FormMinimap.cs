@@ -75,6 +75,8 @@ namespace mage
                 numPalettes = 5;
                 //Patch p = new Patch(Properties.Resources.ZM_U_addMinimapTiles);
                 if (!p.IsApplied()) { numTiles = 0x180; }
+                //iQue version has 4 more rows of gfx than other versions
+                if (Version.GameCode == "BMXC") { numTiles += 0x80; }
 
                 //comboBox_view.Items.Add("Start");
                 //comboBox_type.Items.AddRange(new string[] { "Start", "Normal", "Heated", "Hidden", "Heated (hidden)" });

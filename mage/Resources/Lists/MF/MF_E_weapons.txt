@@ -4,485 +4,485 @@
 	Height=2
 	[
 		Name=Normal
-		Graphics=58BCB4
-		Palette=58BBF4
+		Graphics=58BB80
+		Palette=58BAC0
 		[
 			Name=Damage
-			Value=84870
+			Value=83C14
 		]
 		[
 			Name=Charged damage
-			Value=84934
+			Value=83CD8
 		]
 		[
 			Name=Cooldown
-			Value=821FA
+			Value=8159A
 		]
 		[
 			Name=Limit
-			Value=821DA
+			Value=8157A
 		]
 		[
 			Name=Spawn
-			Value=85BDE
+			Value=84F82
 		]
 		[
 			Name=Charged spawn
-			Value=85AC6
+			Value=84E6A
 		]
 		[
 			Name=Speed
-			Value=85BCC
+			Value=84F70
 		]
 		[
 			Name=Charged speed
-			Value=85AAC
+			Value=84E50
 		]
 	]
 	[
 		Name=Charge
-		Graphics=58C1B4
-		Palette=58BC14
+		Graphics=58C080
+		Palette=58BAE0
 		[
 			Name=Damage
-			Value=849F8
+			Value=83D9C
 		]
 		[
 			Name=Charged damage
-			Value=84AD8
+			Value=83E7C
 		]
 		[
 			Name=Flare
-			Value=85218
+			Value=845BC
 		]
 		[
 			Name=Pseudo screw attack
-			Value=843A4
+			Value=83744
 		]
 		[
 			Name=Limit
-			Value=82158
+			Value=814F8
 		]
 		[
 			Name=Spawn
-			Value=86A5A
+			Value=85DFE
 		]
 		[
 			Name=Charged spawn
-			Value=86836
+			Value=85BDA
 		]
 		[
 			Name=Speed
-			Value=86A6A
+			Value=85E0E
 		]
 		[
 			Name=Charged speed
-			Value=86846
+			Value=85BEA
 		]
 	]
 	[
 		Name=Wide
-		Graphics=58C6B4
-		Palette=58BC34
+		Graphics=58C580
+		Palette=58BB00
 		[
 			Name=Damage
-			Value=84BB8
+			Value=83F5C
 		]
 		[
 			Name=Charged damage
-			Value=84C7C
+			Value=84020
 		]
 		[
 			Name=Flare
-			Value=8521E
+			Value=845C2
 		]
 		[
 			Name=Pseudo screw attack
-			Value=84398
+			Value=83738
 		]
 		[
 			Name=Limit
-			Value=8210E
+			Value=814AE
 		]
 		[
 			Name=Spawn
-			Value=86CFA
+			Value=8609E
 		]
 		[
 			Name=Charged spawn
-			Value=86BBA
+			Value=85F5E
 		]
 		[
 			Name=Speed
-			Value=86D08
+			Value=860AC
 		]
 		[
 			Name=Charged speed
-			Value=86BC8
+			Value=85F6C
 		]
 	]
 	[
 		Name=Plasma
-		Graphics=58CBB4
-		Palette=58BC54
+		Graphics=58CA80
+		Palette=58BB20
 		[
 			Name=Damage
-			Value=84D74
+			Value=84118
 		]
 		[
 			Name=Charged damage
-			Value=84E54
+			Value=841F8
 		]
 		[
 			Name=Flare
-			Value=85210
+			Value=845B4
 		]
 		[
 			Name=Pseudo screw attack
-			Value=8438C
+			Value=8372C
 		]
 		[
 			Name=Limit
-			Value=820C2
+			Value=81462
 		]
 		[
 			Name=Spawn
-			Value=86F86
+			Value=8632A
 		]
 		[
 			Name=Charged spawn
-			Value=86E3E
+			Value=861E2
 		]
 		[
 			Name=Speed
-			Value=86F94
+			Value=86338
 		]
 		[
 			Name=Charged speed
-			Value=86E4C
+			Value=861F0
 		]
 	]
 	[
 		Name=Wave
-		Graphics=58D0B4
-		Palette=58BC74
+		Graphics=58CF80
+		Palette=58BB40
 		[
 			Name=Damage
-			Value=84FB6
+			Value=8435A
 		]
 		[
 			Name=Charged damage
-			Value=8511E
+			Value=844C2
 		]
 	]
 	[
 		Name=Ice
-		Graphics=58D5B4
-		Palette=58BC94
+		Graphics=58D480
+		Palette=58BB60
 		[
 			Name=Damage
-			Value=84F76
+			Value=8431A
 		]
 		[
 			Name=Charged damage
-			Value=850DE
+			Value=84482
 		]
 	]
 	[
 		Name=Wave/Ice
 		[
 			Name=Flare
-			Value=851FE
+			Value=845A2
 		]
 		[
 			Name=Pseudo screw attack
-			Value=84372
+			Value=83712
 		]
 		[
 			Name=Limit
-			Value=82072
+			Value=81412
 		]
 		[
 			Name=Spawn
-			Value=8728A
+			Value=8662E
 		]
 		[
 			Name=Charged spawn
-			Value=87106
+			Value=864AA
 		]
 		[
 			Name=Speed
-			Value=8725A
+			Value=865FE
 		]
 		[
 			Name=Charged speed
-			Value=870D6
+			Value=8647A
 		]
 	]
 	[
 		Name=Cooldown
-		Value=821B8
+		Value=81558
 	]
 	[
 		Name=Charged cooldown
-		Value=824F0
+		Value=81890
 	]
 ]
 [
 	Name=Missiles
-	Palette=3E66D8
+	Palette=3E4758
 	Width=4
 	Height=2
 	[
 		Name=Normal
-		Graphics=58DAB4
+		Graphics=58D980
 		[
 			Name=Damage
-			Value=8538E
+			Value=84732
 		]
 		[
 			Name=Cooldown
-			Value=8232E
+			Value=816CE
 		]
 		[
 			Name=Limit
-			Value=8230E
+			Value=816AE
 		]
 		[
 			Name=Spawn
-			Value=85DD4
+			Value=85178
 		]
 		[
 			Name=Speed 1
-			Value=58BB9C
+			Value=58BA68
 		]
 		[
 			Name=Speed 2
-			Value=58BB9E
+			Value=58BA6A
 		]
 		[
 			Name=Speed 3
-			Value=58BBA0
+			Value=58BA6C
 		]
 		[
 			Name=Speed 4
-			Value=58BBA2
+			Value=58BA6E
 		]
 		[
 			Name=Speed 5
-			Value=58BBA4
+			Value=58BA70
 		]
 		[
 			Name=Speed 6
-			Value=58BBA6
+			Value=58BA72
 		]
 		[
 			Name=Speed 7
-			Value=58BBA8
+			Value=58BA74
 		]
 	]
 	[
 		Name=Super
-		Graphics=58DBB4
+		Graphics=58DA80
 		[
 			Name=Damage
-			Value=85462
+			Value=84806
 		]
 		[
 			Name=Cooldown
-			Value=822FA
+			Value=8169A
 		]
 		[
 			Name=Limit
-			Value=822DA
+			Value=8167A
 		]
 		[
 			Name=Spawn
-			Value=85E84
+			Value=85228
 		]
 		[
 			Name=Speed 1
-			Value=58BBAA
+			Value=58BA76
 		]
 		[
 			Name=Speed 2
-			Value=58BBAC
+			Value=58BA78
 		]
 		[
 			Name=Speed 3
-			Value=58BBAE
+			Value=58BA7A
 		]
 		[
 			Name=Speed 4
-			Value=58BBB0
+			Value=58BA7C
 		]
 		[
 			Name=Speed 5
-			Value=58BBB2
+			Value=58BA7E
 		]
 		[
 			Name=Speed 6
-			Value=58BBB4
+			Value=58BA80
 		]
 		[
 			Name=Speed 7
-			Value=58BBB6
+			Value=58BA82
 		]
 	]
 	[
 		Name=Ice
-		Graphics=58DCB4
+		Graphics=58DB80
 		[
 			Name=Damage
-			Value=85578
+			Value=8491C
 		]
 		[
 			Name=Cooldown
-			Value=822BE
+			Value=8165E
 		]
 		[
 			Name=Limit
-			Value=8229E
+			Value=8163E
 		]
 		[
 			Name=Spawn
-			Value=85F3C
+			Value=852E0
 		]
 		[
 			Name=Speed 1
-			Value=58BBB8
+			Value=58BA84
 		]
 		[
 			Name=Speed 2
-			Value=58BBBA
+			Value=58BA86
 		]
 		[
 			Name=Speed 3
-			Value=58BBBC
+			Value=58BA88
 		]
 		[
 			Name=Speed 4
-			Value=58BBBE
+			Value=58BA8A
 		]
 		[
 			Name=Speed 5
-			Value=58BBC0
+			Value=58BA8C
 		]
 		[
 			Name=Speed 6
-			Value=58BBC2
+			Value=58BA8E
 		]
 		[
 			Name=Speed 7
-			Value=58BBC4
+			Value=58BA90
 		]
 	]
 	[
 		Name=Diffusion
-		Graphics=58DDB4
+		Graphics=58DC80
 		[
 			Name=Damage
-			Value=856C0
+			Value=84A64
 		]
 		[
 			Name=Cooldown
-			Value=82278
+			Value=81618
 		]
 		[
 			Name=Limit
-			Value=82226
+			Value=815C6
 		]
 		[
 			Name=Spawn
-			Value=860A4
+			Value=85448
 		]
 		[
 			Name=Speed 1
-			Value=58BBC6
+			Value=58BA92
 		]
 		[
 			Name=Speed 2
-			Value=58BBC8
+			Value=58BA94
 		]
 		[
 			Name=Speed 3
-			Value=58BBCA
+			Value=58BA96
 		]
 		[
 			Name=Speed 4
-			Value=58BBCC
+			Value=58BA98
 		]
 		[
 			Name=Speed 5
-			Value=58BBCE
+			Value=58BA9A
 		]
 		[
 			Name=Speed 6
-			Value=58BBD0
+			Value=58BA9C
 		]
 		[
 			Name=Speed 7
-			Value=58BBD2
+			Value=58BA9E
 		]
 	]
 ]
 [
 	Name=Bombs
-	Palette=3E66D8
+	Palette=3E4758
 	[
 		Name=Normal
-		Graphics=3E8938
+		Graphics=3E69B8
 		Width=4
 		Height=1
 		[
 			Name=Damage
-			Value=858D8
+			Value=84C7C
 		]
 		[
 			Name=Cooldown
-			Value=8235E
+			Value=816FE
 		]
 		[
 			Name=Limit
-			Value=82342
+			Value=816E2
 		]
 		[
 			Name=Timer 1
-			Value=8639C
+			Value=85740
 		]
 		[
 			Name=Timer 2
-			Value=863F8
+			Value=8579C
 		]
 	]
 	[
 		Name=Power
-		Graphics=3E88D8
+		Graphics=3E6958
 		Width=3
 		Height=1
 		[
 			Name=Damage 1
-			Value=84024
+			Value=833C4
 		]
 		[
 			Name=Damage 2
-			Value=84028
+			Value=833C8
 		]
 		[
 			Name=Cooldown
-			Value=82390
+			Value=81730
 		]
 		[
 			Name=Limit
-			Value=8236A
+			Value=8170A
 		]
 		[
 			Name=Timer 1
-			Value=86584
+			Value=85928
 		]
 		[
 			Name=Timer 2
-			Value=86626
+			Value=859CA
 		]
 	]
 ]

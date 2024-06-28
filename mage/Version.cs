@@ -175,6 +175,7 @@ namespace mage
                 chars = GameCode switch
                 {
                     "AMTE" => Resources.MF_chars,
+                    "AMTP" => Resources.MF_chars,
                     "AMTJ" => Resources.MF_J_chars,
                     "AMTC" => Resources.MF_C_chars,
                     "BMXE" => Resources.ZM_chars,
@@ -195,6 +196,7 @@ namespace mage
                 return GameCode switch
                 {
                     "AMTE" => Resources.MF_U_tileTables,
+                    "AMTP" => Resources.MF_E_tileTables,
                     "AMTJ" => Resources.MF_J_tileTables,
                     "AMTC" => Resources.MF_C_tileTables,
                     "BMXE" => Resources.ZM_U_tileTables,
@@ -276,6 +278,8 @@ namespace mage
                 {
                     case "AMTE":
                         return Resources.MF_U_weapons;
+                    case "AMTP":
+                        return Resources.MF_E_weapons;
                     case "AMTJ":
                         return Resources.MF_J_weapons;
                     case "AMTC":
@@ -301,6 +305,7 @@ namespace mage
                 return GameCode switch
                 {
                     "AMTE" => Resources.MF_U_physics,
+                    "AMTP" => Resources.MF_U_physics,
                     "AMTJ" => Resources.MF_J_physics,
                     "AMTC" => Resources.MF_J_physics,
                     "BMXE" => Resources.ZM_U_physics,
@@ -319,6 +324,8 @@ namespace mage
                 {
                     case "AMTE":
                         return new Patch(Resources.MF_U_testRoom);
+                    case "AMTP":
+                        return new Patch(Resources.MF_E_testRoom);
                     case "AMTJ":
                     case "AMTC":
                         return new Patch(Resources.MF_J_testRoom);
@@ -341,6 +348,7 @@ namespace mage
                 return GameCode switch
                 {
                     "AMTE" => new Patch(Resources.MF_U_debugMenu),
+                    "AMTP" => new Patch(Resources.MF_U_debugMenu),
                     "AMTJ" => new Patch(Resources.MF_J_debugMenu),
                     "AMTC" => new Patch(Resources.MF_J_debugMenu),
                     "BMXE" => new Patch(Resources.ZM_U_itemToggle),
@@ -358,6 +366,8 @@ namespace mage
                 {
                     case "AMTE":
                         return new Patch(Resources.MF_U_testDemo);
+                    case "AMTP":
+                        return new Patch(Resources.MF_E_testDemo);
                     case "AMTJ":
                     case "AMTC":
                         return new Patch(Resources.MF_J_testDemo);
@@ -380,6 +390,8 @@ namespace mage
                 {
                     case "AMTE":
                         return new Patch(Resources.MF_U_eventConnections);
+                    case "AMTP":
+                        return new Patch(Resources.MF_E_eventConnections);
                     case "AMTJ":
                         return new Patch(Resources.MF_J_eventConnections);
                     case "AMTC":
@@ -404,6 +416,7 @@ namespace mage
                 switch (GameCode)
                 {
                     case "AMTE":
+                    case "AMTP":
                         return new Patch(Resources.MF_U_locationNames);
                     case "AMTJ":
                     case "AMTC":
@@ -428,6 +441,7 @@ namespace mage
                 switch (GameCode)
                 {
                     case "AMTE":
+                    case "AMTP":
                     case "AMTJ":
                     case "AMTC":
                         return Resources.MF_U_demoRAM;
@@ -449,12 +463,13 @@ namespace mage
                 return GameCode switch
                 {
                     "AMTE" => new Patch(Resources.MF_U_addMinimapTiles),
-                    //"AMTJ" => new Patch(Resources.MF_J_addMinimapTiles),
-                    //"AMTC" => new Patch(Resources.MF_C_addMinimapTiles),
+                    "AMTP" => new Patch(Resources.MF_U_addMinimapTiles),
+                    "AMTJ" => new Patch(Resources.MF_J_addMinimapTiles),
+                    "AMTC" => new Patch(Resources.MF_J_addMinimapTiles),
                     "BMXE" => new Patch(Resources.ZM_U_addMinimapTiles),
                     "BMXP" => new Patch(Resources.ZM_E_addMinimapTiles),
                     "BMXJ" => new Patch(Resources.ZM_U_addMinimapTiles),
-                    //"BMXC" => new Patch(Resources.ZM_C_addMinimapTiles),
+                    "BMXC" => new Patch(Resources.ZM_C_addMinimapTiles),
                     _ => null
                 };
             }
@@ -469,7 +484,11 @@ namespace mage
                     case "AMTE":
                         patches = Resources.MF_U_patches;
                         break;
+                    case "AMTP":
+                        patches = Resources.MF_E_patches;
+                        break;
                     case "AMTJ":
+                    case "AMTC":
                         patches = Resources.MF_J_patches;
                         break;
                     case "BMXE":
@@ -525,7 +544,7 @@ namespace mage
             switch (gameCode)
             {
                 case "AMTE":
-                case "_AMTP":
+                case "AMTP":
                 case "AMTJ":
                 case "AMTC":
                     IsMF = true;
@@ -600,6 +619,7 @@ namespace mage
             string text = GameCode switch
             {
                 "AMTE" => Resources.MF_U_pSpriteOAM,
+                "AMTP" => Resources.MF_E_pSpriteOAM,
                 "AMTJ" => Resources.MF_J_pSpriteOAM,
                 "AMTC" => Resources.MF_C_pSpriteOAM,
                 "BMXE" => Resources.ZM_U_pSpriteOAM,
@@ -652,6 +672,7 @@ namespace mage
             text = GameCode switch
             {
                 "AMTE" => Resources.MF_U_sSpriteOAM,
+                "AMTP" => Resources.MF_E_sSpriteOAM,
                 "AMTJ" => Resources.MF_J_sSpriteOAM,
                 "AMTC" => Resources.MF_C_sSpriteOAM,
                 "BMXE" => Resources.ZM_U_sSpriteOAM,

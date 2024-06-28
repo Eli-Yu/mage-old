@@ -114,11 +114,11 @@
 			Name=Normal
 			[
 				Name=None
-				Value=52D2E
+				Value=52D32
 			]
 			[
 				Name=Long
-				Value=52D40
+				Value=52D44
 			]
 			[
 				Name=Ice
@@ -256,7 +256,7 @@
 		]
 		[
 			Name=Limit
-			Value=52802
+			Value=51F02
 		]
 		[
 			Name=Spawn

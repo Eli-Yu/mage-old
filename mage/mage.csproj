@@ -597,6 +597,8 @@
     <None Include="Resources\Misc\ZM_C_testRoom.ips" />
     <None Include="Resources\Misc\ZM_E_eventConnections.ips" />
     <None Include="Resources\Misc\ZM_E_locationNames.ips" />
+    <None Include="Resources\Misc\ZM_E_testDemo.ips" />
+    <None Include="Resources\Misc\ZM_E_testRoom.ips" />
     <None Include="Resources\Misc\ZM_genTileTable" />
     <None Include="Resources\Misc\ZM_J_eventConnections.ips" />
     <None Include="Resources\Misc\ZM_J_locationNames.ips" />

@@ -277,11 +277,12 @@ namespace mage.Properties {
         ///A2EC4,A2EC8,A2ED0,A2ED8,A2EE4,Over 2 hours;100%
         ///A2F34,A2F38,A2F40,A2F48,A2F54,Less than 2 hours;100%
         ///
-        ///[AMTJ]
-        ///74FBF0,74FBF4,74FBF8,74FBFC,74FC00,Over 4 hours;2-99%;Adult: Normal/Hard;or Easy mode
-        ///74FC04,74FC08,74FC0C,74FC10,74FC14,2-4 hours;2-99%;Adult: Normal/Hard
-        ///74FC18,74FC1C,74FC20,74FC24,74FC28,Less than 2 hours;2-99%;Adult: Normal/Hard
-        ///74 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///[AMTP]
+        ///A343C,A3440,A3448,A3450,A345C,Over 4 hours;0-99%
+        ///A3488,A348C,A3494,A349C,A34A8,2-4 hours;0-99%
+        ///A34D4,A34D8,A34E0,A34E8,A34F4,Less than 2 hours;0-99%
+        ///A3520,A3524,A352C,A3534,A3540,Over 2 hours;100%
+        ///A3590,A3594,A359C,A35A4,A35B0,Less tha [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string endings {
             get {
@@ -2606,6 +2607,7 @@ namespace mage.Properties {
         ///MF_J_getPowerBombs,Obtain power bombs from expansion,P.JBoy
         ///MF_J_singleWallJump,Single wall jump,biospark
         ///MF_J_infiniteBombJump,Mid-air bomb jump,biospark
+        ///MF_J_addMinimapTiles,Add minimap tiles,biospark
         ///MF_J_noMinimap,No minimap,biospark 的本地化字符串。
         /// </summary>
         internal static string MF_J_patches {
@@ -4600,6 +4602,7 @@ namespace mage.Properties {
         ///   查找类似 ZM_C_itemToggle,Item toggle menu,Trunaur68
         ///ZM_C_addElevators1,Add elevators (keep cutscenes),biospark
         ///ZM_C_addElevators2,Add elevators (remove cutscenes),biospark
+        ///ZM_C_addMinimapTiles,Add minimap tiles,biospark
         ///ZM_C_noMinimap,No minimap,biospark
         ///ZM_C_disableChozoHints,Disable Chozo statue hints,biospark
         ///ZM_C_removeCloseup,Remove Samus closeup,biospark 的本地化字符串。
@@ -4613,7 +4616,7 @@ namespace mage.Properties {
         /// <summary>
         ///   查找类似 [X velocities]
         ///Shinespark left;9D8C;2
-        ///Shinespark right;941E;1
+        ///Shinespark right;9D7E;1
         ///Shinespark up left;9D6C;2
         ///Shinespark up right;9D5E;1
         ///Knockback left;11790;2
@@ -5341,6 +5344,26 @@ namespace mage.Properties {
         internal static string ZM_E_sSpriteOAM {
             get {
                 return ResourceManager.GetString("ZM_E_sSpriteOAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_testDemo {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_testDemo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] ZM_E_testRoom {
+            get {
+                object obj = ResourceManager.GetObject("ZM_E_testRoom", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

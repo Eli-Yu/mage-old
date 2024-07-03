@@ -331,6 +331,8 @@ namespace mage
                         return new Patch(Resources.MF_J_testRoom);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_testRoom);
+                    case "BMXP":
+                        return new Patch(Resources.ZM_E_testRoom);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_testRoom);
                     case "BMXC":
@@ -352,6 +354,7 @@ namespace mage
                     "AMTJ" => new Patch(Resources.MF_J_debugMenu),
                     "AMTC" => new Patch(Resources.MF_J_debugMenu),
                     "BMXE" => new Patch(Resources.ZM_U_itemToggle),
+                    "BMXP" => new Patch(Resources.ZM_E_itemToggle),
                     "BMXJ" => new Patch(Resources.ZM_J_itemToggle),
                     "BMXC" => new Patch(Resources.ZM_C_itemToggle),
                     _ => null
@@ -373,6 +376,8 @@ namespace mage
                         return new Patch(Resources.MF_J_testDemo);
                     case "BMXE":
                         return new Patch(Resources.ZM_U_testDemo);
+                    case "BMXP":
+                        return new Patch(Resources.ZM_E_testDemo);
                     case "BMXJ":
                         return new Patch(Resources.ZM_J_testDemo);
                     case "BMXC":

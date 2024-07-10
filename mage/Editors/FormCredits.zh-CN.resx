@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 8.25pt</value>
+  </data>
   <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 41</value>
   </data>
@@ -133,6 +136,10 @@
   <data name="panel_preview.Size" type="System.Drawing.Size, System.Drawing">
     <value>497, 320</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_apply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="button_apply.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
@@ -141,6 +148,9 @@
   </data>
   <data name="button_apply.Text" xml:space="preserve">
     <value>应用</value>
+  </data>
+  <data name="button_close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
     <value>93, 12</value>
@@ -151,6 +161,9 @@
   <data name="button_close.Text" xml:space="preserve">
     <value>关闭</value>
   </data>
+  <data name="button_update.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="button_update.Location" type="System.Drawing.Point, System.Drawing">
     <value>308, 12</value>
   </data>
@@ -159,6 +172,9 @@
   </data>
   <data name="button_update.Text" xml:space="preserve">
     <value>更新</value>
+  </data>
+  <data name="label_line.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label_line.Location" type="System.Drawing.Point, System.Drawing">
     <value>202, 17</value>
@@ -169,11 +185,17 @@
   <data name="label_line.Text" xml:space="preserve">
     <value>行：</value>
   </data>
+  <data name="label_pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_pos.Location" type="System.Drawing.Point, System.Drawing">
     <value>236, 17</value>
   </data>
   <data name="label_pos.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 13</value>
+  </data>
+  <data name="button_help.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button_help.Location" type="System.Drawing.Point, System.Drawing">
     <value>702, 12</value>
@@ -275,6 +297,9 @@
         AA/AAAAPwAAAP8AAAD/AAAA/wAAAP/AAAD/wAAA/wAAAD8AAAA8AAAADAAAAA8AAAADAAAAA//AAA//w
         AAP//wAP//8ADw==
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>823, 412</value>

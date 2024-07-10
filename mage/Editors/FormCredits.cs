@@ -39,28 +39,35 @@ namespace mage
         private void Initialize()
         {
             // get palette
-            palette = Version.IsMF? new Palette(romStream, 0x7478A0, 3): new Palette(romStream, 0x54A6D4, 3);
+            //palette = Version.IsMF? new Palette(romStream, 0x7478A0, 3): new Palette(romStream, 0x54A6D4, 3);
+            palette = new Palette(romStream, Version.CreditPaletteOffset, 3);
 
             // get graphics
             gfxData = Version.IsMF? new byte[0x2400]: new byte[0x2800];
+            int gfxOffset = Version.CreditGfxOffset;
             if (Version.IsMF)
             {
-                Array.Copy(romStream.Data, 0x747900, gfxData, 0, 0x1400);
-                Array.Copy(romStream.Data, 0x748D00, gfxData, 0x1400, 0x1C0);
-                Array.Copy(romStream.Data, 0x748EC0, gfxData, 0x1800, 0x240);
-                Array.Copy(romStream.Data, 0x749100, gfxData, 0x1C00, 0x2C0);
-                Array.Copy(romStream.Data, 0x7493C0, gfxData, 0x2000, 0x2C0);
+                //Array.Copy(romStream.Data, 0x747900, gfxData, 0, 0x1400);
+                //Array.Copy(romStream.Data, 0x748D00, gfxData, 0x1400, 0x1C0);
+                //Array.Copy(romStream.Data, 0x748EC0, gfxData, 0x1800, 0x240);
+                //Array.Copy(romStream.Data, 0x749100, gfxData, 0x1C00, 0x2C0);
+                //Array.Copy(romStream.Data, 0x7493C0, gfxData, 0x2000, 0x2C0);
+                Array.Copy(romStream.Data, gfxOffset, gfxData, 0, 0x1400);
+                Array.Copy(romStream.Data, gfxOffset + 0x1400, gfxData, 0x1400, 0x1C0);
+                Array.Copy(romStream.Data, gfxOffset + 0x15C0, gfxData, 0x1800, 0x240);
+                Array.Copy(romStream.Data, gfxOffset + 0x1800, gfxData, 0x1C00, 0x2C0);
+                Array.Copy(romStream.Data, gfxOffset + 0x1AC0, gfxData, 0x2000, 0x2C0);
             }
             else
             {
                 try
                 {
-                    int len = romStream.Read32(0x54E2F0) >> 8;
-                    if (romStream.Read8(0x54E2F0) != 0x10 || len == 0)
+                    int len = romStream.Read32(gfxOffset) >> 8;
+                    if (romStream.Read8(gfxOffset) != 0x10 || len == 0)
                     {
                         throw new FormatException();
                     }
-                    byte[] zmGFX = new GFX(romStream, 0x54E2F0).data;
+                    byte[] zmGFX = new GFX(romStream, gfxOffset).data;
                     //copy small uppercase
                     Array.Copy(zmGFX, 0, gfxData, 0, 0x400);
                     //copy big uppercase
@@ -84,7 +91,8 @@ namespace mage
 
 
             // get tile table
-            int addr = Version.IsMF ? 0x74B0B0: 0x54C10C;
+            //int addr = Version.IsMF ? 0x74B0B0: 0x54C10C;
+            int addr = Version.CreditTextOffset;
             //get offset from pointer
             //int addr = Version.IsMF ? romStream.ReadPtr(0xA231C): romStream.ReadPtr(0x856C8);
             int position = 0;
@@ -825,22 +833,38 @@ namespace mage
             gfxView_preview.BackgroundImage = image;
 
         }
+        //private void button_apply_Click(object sender, EventArgs e)
+        //{
+        //    var pairs = ParseText(out _);
+        //    var lines = textToData(pairs);
+
+        //    //todo: size check, fusion size 0x2B98 bytes (310 rows), zm size 0x21C0 (239 rows)
+        //    if (Version.IsMF? lines.Count > 310: lines.Count > 240)
+        //    {
+        //        MessageBox.Show(string.Format(Properties.Resources.formCredits_tooManyLines, Hex.ToString(Version.IsMF ? 310 : 240)), Properties.Resources.form_ErrorMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        return;
+        //    }
+        //    for (int i = 0; i < lines.Count; i++)
+        //    {
+        //        if(Version.IsMF) Array.Copy(lines[i], 0, romStream.Data, 0x74B0B0 + 0x24 * i, 0x24);
+        //        else Array.Copy(lines[i], 0, romStream.Data, 0x54C10C + 0x24 * i, 0x24);
+        //    }
+        //}
+
         private void button_apply_Click(object sender, EventArgs e)
         {
             var pairs = ParseText(out _);
             var lines = textToData(pairs);
 
-            //todo: size check, fusion size 0x2B98 bytes (310 rows), zm size 0x21C0 (239 rows)
-            if (Version.IsMF? lines.Count > 310: lines.Count > 240)
+            ByteStream dataToWrite = new ByteStream();
+
+            foreach (byte[] line in lines)
             {
-                MessageBox.Show(string.Format(Properties.Resources.formCredits_tooManyLines, Hex.ToString(Version.IsMF ? 310 : 240)), Properties.Resources.form_ErrorMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                foreach (byte b in line)
+                    dataToWrite.Write8(b);
             }
-            for (int i = 0; i < lines.Count; i++)
-            {
-                if(Version.IsMF) Array.Copy(lines[i], 0, romStream.Data, 0x74B0B0 + 0x24 * i, 0x24);
-                else Array.Copy(lines[i], 0, romStream.Data, 0x54C130 + 0x24 * i, 0x24);
-            }
+
+            romStream.Write(dataToWrite, lines.Count * 0x24, Version.CreditTextPtr, false);
         }
 
         private void button_close_Click(object sender, EventArgs e)

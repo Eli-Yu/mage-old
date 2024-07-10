@@ -47,6 +47,9 @@ CharacterWidthsPtr=79130
 Languages=Japanese,Hiragana,English,German,French,Italian,Spanish
 DemoInputPtr=717A8
 DemoRamPtr=7185C
+CreditTextPtr=A231C
+CreditGfxOffset=747900
+CreditPaletteOffset=7478A0
 
 [AMTJ]
 AreaHeaderPtr=64EB0

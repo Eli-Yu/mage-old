@@ -47,6 +47,9 @@ CharacterWidthsPtr=6E478
 Languages=Japanese,Hiragana,English
 DemoInputPtr=60C14
 DemoRamPtr=753C8
+CreditTextPtr=856C8
+CreditGfxOffset=54E2F0
+CreditPaletteOffset=54A6D4
 
 [BMXP]
 AreaHeaderPtr=0

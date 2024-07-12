@@ -235,6 +235,8 @@ namespace mage
         public static int TextGfxOffset { get { return romStream.ReadPtr(TextGfxPtr); } }
         public static int TextPaletteOffset { get; private set; }
         public static int CharacterWidthsOffset { get { return romStream.ReadPtr(CharacterWidthsPtr); } }
+        //for iQue characters and other use wide character 
+        public static int WideCharacterWidthsOffset { get { return CharacterWidthsPtr + 4; } }
         public static string[] Languages { get; private set; }
         public static int DemoInputOffset { get { return romStream.ReadPtr(DemoInputPtr); } }
         public static int DemoRamOffset { get { return romStream.ReadPtr(DemoRamPtr); } }

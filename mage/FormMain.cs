@@ -2482,6 +2482,7 @@ namespace mage
             button_Clip.Image = (comboBox_clipdata.SelectedItem.ToString().Split('-')[0].Trim()) switch
             {
                 "0" => Resources.shortcut_air,
+                "9" => Version.IsMF ? Resources.shortcut_ladder_prevent : null,
                 "10" => Resources.shortcut_solid,
                 "11" => Resources.shortcut_slope45_pos,
                 "12" => Resources.shortcut_slope45_neg,
@@ -2504,6 +2505,8 @@ namespace mage
                 "26" => Resources.shorcut_ceiling27_Uneg,
                 "27" => Resources.shortcut_trans_up,
                 "28" => Resources.shortcut_trans_down,
+                "29" => Resources.shortcut_elevator_up,
+                "2A" => Resources.shortcut_elevator_down,
                 "2C" => Resources.shortcut_bubbly,
                 "2D" => Resources.shortcut_dusty_very,
                 "30" => Resources.shortcut_hatch_white,

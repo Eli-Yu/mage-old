@@ -511,6 +511,23 @@ namespace mage
         {
             main.Clipdata = 0x1A;
         }
+
+        private void button_ladder_prevent_Click(object sender, EventArgs e)
+        {
+            main.Clipdata = 0x9;
+        }
+        #endregion
+
+        #region elevators
+        private void button_elevator_up_Click(object sender, EventArgs e)
+        {
+            main.Clipdata = 0x29;
+        }
+
+        private void button_elevator_down_Click(object sender, EventArgs e)
+        {
+            main.Clipdata = 0x2A;
+        }
         #endregion
 
         //input 1-6(inlude number pad 1-6) to select slot of hatch and modify hatch label in fusion

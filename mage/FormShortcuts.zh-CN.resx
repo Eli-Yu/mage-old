@@ -284,7 +284,7 @@
     <value>24, 24</value>
   </data>
   <data name="label_power_block_never.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 109</value>
+    <value>36, 83</value>
   </data>
   <data name="label_power_block_never.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 13</value>
@@ -293,7 +293,7 @@
     <value>砖块（永不恢复）</value>
   </data>
   <data name="button_power_block_never.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 103</value>
+    <value>6, 77</value>
   </data>
   <data name="button_power_block_never.Size" type="System.Drawing.Size, System.Drawing">
     <value>24, 24</value>
@@ -671,13 +671,13 @@
     <value>超级导弹</value>
   </data>
   <data name="button_power_water.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 75</value>
+    <value>77, 47</value>
   </data>
   <data name="button_power_water.Size" type="System.Drawing.Size, System.Drawing">
     <value>24, 24</value>
   </data>
   <data name="label_power_water.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 81</value>
+    <value>107, 53</value>
   </data>
   <data name="label_power_water.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 13</value>
@@ -704,7 +704,7 @@
     <value>522, 12</value>
   </data>
   <data name="groupBox_power.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 133</value>
+    <value>153, 106</value>
   </data>
   <data name="groupBox_power.Text" xml:space="preserve">
     <value>重磅炸弹</value>
@@ -1018,17 +1018,50 @@
   <data name="groupBox_hatch.Text" xml:space="preserve">
     <value>舱门</value>
   </data>
+  <data name="button_ladder_prevent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="button_ladder_prevent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="label_ladder_prevent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 109</value>
+  </data>
+  <data name="label_ladder_prevent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label_ladder_prevent.Text" xml:space="preserve">
+    <value>阻止攀爬</value>
+  </data>
+  <data name="button_ladder_left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="label_ladder_left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 81</value>
+  </data>
   <data name="label_ladder_left.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 13</value>
   </data>
   <data name="label_ladder_left.Text" xml:space="preserve">
     <value>左侧墙</value>
   </data>
+  <data name="button_ladder_right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="label_ladder_right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 53</value>
+  </data>
   <data name="label_ladder_right.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 13</value>
   </data>
   <data name="label_ladder_right.Text" xml:space="preserve">
     <value>右侧墙</value>
+  </data>
+  <data name="button_ladder_ceiling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="label_ladder_ceiling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 25</value>
   </data>
   <data name="label_ladder_ceiling.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 13</value>
@@ -1040,10 +1073,43 @@
     <value>362, 12</value>
   </data>
   <data name="groupBox_ladder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 97</value>
+    <value>154, 133</value>
   </data>
   <data name="groupBox_ladder.Text" xml:space="preserve">
     <value>梯子</value>
+  </data>
+  <data name="button_elevator_down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="button_elevator_up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 26</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>上升</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 26</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>下降</value>
+  </data>
+  <data name="groupBox_elevators.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 124</value>
+  </data>
+  <data name="groupBox_elevators.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 49</value>
+  </data>
+  <data name="groupBox_elevators.Text" xml:space="preserve">
+    <value>电梯</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>

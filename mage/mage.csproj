@@ -73,6 +73,7 @@
     <Compile Include="Actions\EditBlocks.cs" />
     <Compile Include="CorruptDataException.cs" />
     <Compile Include="Data\Demo.cs" />
+    <Compile Include="Data\Tweak.cs" />
     <Compile Include="Editor.cs" />
     <Compile Include="Data\OAM.cs" />
     <Compile Include="Utility\Add.cs" />
@@ -687,6 +688,7 @@
     <Content Include="Resources\Lists\ZM\ZM_U_physics.txt" />
     <None Include="Resources\Lists\ZM\ZM_U_sSpriteOAM.txt" />
     <None Include="Resources\Misc\clipNums.png" />
+    <None Include="Resources\Lists\ZM\ZM_U_tweaks.txt" />
     <Content Include="Resources\Misc\flip_v.png" />
     <None Include="Resources\Lists\MF\MF_constants.txt" />
     <Content Include="Resources\Lists\MF\MF_spritePositions.txt" />

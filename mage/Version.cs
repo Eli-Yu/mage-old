@@ -352,6 +352,23 @@ namespace mage
                 return patches.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
             }
         }
+        public static string[] TweakInfo
+        {
+            get
+            {
+                string tweaks = null;
+                switch (GameCode)
+                {
+                    case "AMTE":
+                        //tweaks = Resources.MF_U_tweaks;
+                        break;
+                    case "BMXE":
+                        tweaks = Resources.ZM_U_tweaks;
+                        break;
+                }
+                return tweaks.Split(new string[] { "\r\n" }, StringSplitOptions.None);
+            }
+        }
         #endregion
 
         #region region specific (private)

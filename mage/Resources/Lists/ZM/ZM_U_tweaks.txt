@@ -1,0 +1,162 @@
+[Offset]
+ElevatorRoomPairsOffset=345934
+NumTanksPerAreaOffset=3459A0
+TankIncreaseAmountsOffset=3459C4
+BlockWeaknessesOffset=345AB0
+HatchBehaviorsOffset=345CA8
+BossMapIconsOffset=40D200
+ChozoStatueHintsOffset=40DF78
+ChozoHintChecksOffset=40E038
+ChozoHintTriggerEventsOffset=40E058
+HatchFlashOffset=5E793
+
+[Difficulty]
+Easy
+Normal
+Hard
+
+[BreakableBlock]
+None
+Shot block (reform)
+Bomb block (reform)
+Speed booster (reform)
+Crumble
+Slow crumble
+Missile (never reform)
+Missile (no reform)
+Super missile (never reform)
+Super missile (no reform)
+Power bomb (never reform)
+Screw attack (no reform)
+Speed booster (no reform)
+Bomb (never reform)
+Vertical bomb chain 1
+Vertical bomb chain 2
+Vertical bomb chain 3
+Vertical bomb chain 4
+Horizontal bomb chain 1
+Horizontal bomb chain 2
+Horizontal bomb chain 3
+Horizontal bomb chain 4
+
+[Event]
+None
+Easy mode
+Hard mode
+Enter Norfair demo played
+Exit Kraid demo played
+Enter Ridley demo played
+Enter mother ship demo played
+Enter Tourian demo played
+Grabbed by Chozo in Brinstar (shows long beam)
+Grabbed by Chozo in Brinstar (shows bombs)
+Grabbed by Chozo in Brinstar (shows ice beam)
+Grabbed by Chozo in Norfair (shows speed booster)
+Grabbed by Chozo in Brinstar (shows hi-jump)
+Grabbed by Chozo in Norfair (shows varia suit)
+Grabbed by Chozo in Brinstar (shows wave)
+Grabbed by Chozo (shows screw attack, unused)
+Power grip obtained
+Chozo pillar fully extended
+Hi jump obtained
+Varia suit obtained
+Charge beam obtained
+Screw attack obtained
+Space jump obtained
+Gravity suit obtained
+Plasma beam obtained
+Charge beam boss encountered at first location or killed
+Charge beam boss encountered at second location or killed
+Charge beam boss killed at second location
+Acid worm killed
+Kraid eyedoor killed
+Kraid killed
+Kraid elevator statue destroyed
+Caterpillar killed
+Imago tunnel discovered
+Cocoon killed
+Imago killed
+Ridley eyedoor killed
+Ridley killed
+Ridley elevator statue destroyed
+Mother brain killed
+Crocomire killed (unused)
+Repel machine killed (unused)
+Viewed statue room after long beam
+Dessgeega killed after statue room
+All three hives destroyed
+Bugs killed after bombs
+Ziplines activated
+Plant destroyed (in lava)
+Plant destroyed (post-varia)
+Plant destroyed (varia 2)
+Plant destroyed (varia 3)
+Plant destroyed (varia 1)
+Kraid baristutes dead
+Kraid statue opened
+Ridley statue opened
+1st Metroid room cleared
+3rd Metroid room cleared
+5th Metroid room cleared
+2nd Metroid room cleared
+6th Metroid room cleared
+4th Metroid room cleared
+Zebetite 1 destroyed
+Zebetite 2 destroyed
+Zebetite 3 destroyed
+Zebetite 4 destroyed
+Escaped Zebes
+Marker between Zebes and mother ship events
+Fully powered suit obtained
+Skipped varia suit
+Unknown
+Power bomb stolen
+Space pirate with power bomb 1
+Space pirate with power bomb 2
+Glass tube broken
+Mecha Ridley killed
+Escaped Chozodia
+Unknown
+Unknown
+End (unused)
+
+[CheckType]
+Beam/bombs
+Suit/misc
+Event
+
+[BeamBomb]
+Long beam
+Ice beam
+Wave beam
+Plasma beam
+Charge beam
+Unused1
+Unused2
+Bombs
+
+[SuitMisc]
+Hi-jump
+Speed booster
+Space jump
+Screw attack
+Varia suit
+Gravity suit
+Morph ball
+Power grip
+
+[BossIcon]
+None
+Kraid
+Ridley
+Boss dead
+Ship
+
+[StatueIcon]
+1,Target
+2,Up elevator
+3,Down elevator
+8,Green flame
+A,Green flame (moves up/down)
+C,Pink flame
+E,Pink flame (moves up/down)

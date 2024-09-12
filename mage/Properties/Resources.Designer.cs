@@ -4118,6 +4118,41 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 [Offset]
+        ///ElevatorRoomPairsOffset=345934
+        ///NumTanksPerAreaOffset=3459A0
+        ///TankIncreaseAmountsOffset=3459C4
+        ///BlockWeaknessesOffset=345AB0
+        ///HatchBehaviorsOffset=345CA8
+        ///BossMapIconsOffset=40D200
+        ///ChozoStatueHintsOffset=40DF78
+        ///ChozoHintChecksOffset=40E038
+        ///ChozoHintTriggerEventsOffset=40E058
+        ///HatchFlashOffset=5E793
+        ///
+        ///[Difficulty]
+        ///Easy
+        ///Normal
+        ///Hard
+        ///
+        ///[BreakableBlock]
+        ///None
+        ///Shot block (reform)
+        ///Bomb block (reform)
+        ///Speed booster (reform)
+        ///Crumble
+        ///Slow crumble
+        ///Missile (never reform)
+        ///Missile (no reform)
+        ///Su [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ZM_U_tweaks {
+            get {
+                return ResourceManager.GetString("ZM_U_tweaks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 [
         ///	Name=Beams
         ///	Width=10

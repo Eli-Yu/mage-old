@@ -648,6 +648,9 @@
     <None Include="Resources\Icons\shortcut_ladder_ceiling.png" />
     <None Include="Resources\Icons\shortcut_ladder_left.png" />
     <None Include="Resources\Icons\shortcut_ladder_right.png" />
+    <None Include="Resources\Icons\shortcut_elevator_down.png" />
+    <None Include="Resources\Icons\shortcut_elevator_up.png" />
+    <None Include="Resources\Icons\shortcut_ladder_prevent.png" />
     <Content Include="Resources\Icons\toolbar_animation.png" />
     <Content Include="Resources\Icons\toolbar_connection.png" />
     <None Include="Resources\Icons\toolbar_demo.png" />

@@ -378,7 +378,7 @@
 		]
 	]
 	[
-		Name=扩散
+		Name=散射
 		Graphics=58D624
 		[
 			Name=伤害

@@ -261,7 +261,8 @@ namespace mage
                     {
                         //cw = 10;
                         //if use custom char table is checked, use custom char width
-                        cw = checkBox_customChar.Checked ? (int)numericUpDown_charWidth.Value : 10;
+                        //optimize: auto load wide char width
+                        cw = checkBox_customChar.Checked ? (int)numericUpDown_charWidth.Value : romStream.Read8(Version.WideCharacterWidthsOffset);
                     }
 
                     int w = (int)Math.Ceiling(cw / 8.0);
@@ -531,6 +532,8 @@ namespace mage
             numericUpDown_charWidth.Enabled = val;
             button_selectFile.Enabled = val;
             textBox_file.Enabled = val;
+            //load wide char width as default value
+            numericUpDown_charWidth.Value = romStream.Read8(Version.WideCharacterWidthsOffset);
         }
 
         private void button_selectFile_Click(object sender, EventArgs e)

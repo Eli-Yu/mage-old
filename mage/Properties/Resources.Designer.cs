@@ -2548,6 +2548,26 @@ namespace mage.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap shortcut_elevator_down {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_elevator_down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_elevator_up {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_elevator_up", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap shortcut_energy {
             get {
                 object obj = ResourceManager.GetObject("shortcut_energy", resourceCulture);
@@ -2651,6 +2671,16 @@ namespace mage.Properties {
         internal static System.Drawing.Bitmap shortcut_ladder_left {
             get {
                 object obj = ResourceManager.GetObject("shortcut_ladder_left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shortcut_ladder_prevent {
+            get {
+                object obj = ResourceManager.GetObject("shortcut_ladder_prevent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

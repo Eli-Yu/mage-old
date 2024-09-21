@@ -2638,5 +2638,14 @@ namespace mage
                 timer.Start();
             }
         }
+
+        private void menuItem_tweaksEditor_Click(object sender, EventArgs e)
+        {
+            if (!FindOpenForm(typeof(FormTweak), false))
+            {
+                FormTweak form = new FormTweak(this);
+                form.Show();
+            }
+        }
     }
 }

@@ -76,6 +76,12 @@
     <Compile Include="Data\Tweak.cs" />
     <Compile Include="Editor.cs" />
     <Compile Include="Data\OAM.cs" />
+    <Compile Include="Editors\FormTweak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\FormTweak.Designer.cs">
+      <DependentUpon>FormTweak.cs</DependentUpon>
+    </Compile>
     <Compile Include="Utility\Add.cs" />
     <Compile Include="ByteStream.cs" />
     <Compile Include="Data\AnimPalette.cs" />
@@ -402,6 +408,9 @@
     <EmbeddedResource Include="Editors\FormTileTable.zh-CN.resx">
       <DependentUpon>FormTileTable.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Editors\FormTweak.resx">
+      <DependentUpon>FormTweak.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Editors\FormWeapon.resx">
       <DependentUpon>FormWeapon.cs</DependentUpon>
     </EmbeddedResource>
@@ -683,6 +692,7 @@
     <None Include="Resources\Lists\MF\MF_U_demoRAM.txt" />
     <Content Include="Resources\Lists\MF\MF_U_physics.txt" />
     <Content Include="Resources\Lists\MF\MF_U_sSpriteOAM.txt" />
+    <None Include="Resources\Lists\MF\MF_U_tweaks.txt" />
     <Content Include="Resources\Lists\ZM\ZM_spritePositions.txt" />
     <None Include="Resources\Lists\ZM\ZM_U_demoRAM.txt" />
     <Content Include="Resources\Lists\ZM\ZM_U_physics.txt" />

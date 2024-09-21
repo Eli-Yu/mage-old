@@ -360,7 +360,7 @@ namespace mage
                 switch (GameCode)
                 {
                     case "AMTE":
-                        //tweaks = Resources.MF_U_tweaks;
+                        tweaks = Resources.MF_U_tweaks;
                         break;
                     case "BMXE":
                         tweaks = Resources.ZM_U_tweaks;

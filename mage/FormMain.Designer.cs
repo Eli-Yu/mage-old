@@ -100,6 +100,7 @@
             this.menuItem_demoEditor = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_physicsEditor = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_weaponEditor = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItem_tweaksEditor = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip_tools = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_roomOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_testRoom = new System.Windows.Forms.ToolStripMenuItem();
@@ -634,7 +635,8 @@
             this.menuItem_textEditor,
             this.menuItem_demoEditor,
             this.menuItem_physicsEditor,
-            this.menuItem_weaponEditor});
+            this.menuItem_weaponEditor,
+            this.menuItem_tweaksEditor});
             resources.ApplyResources(this.menuStrip_editors, "menuStrip_editors");
             this.menuStrip_editors.Name = "menuStrip_editors";
             // 
@@ -736,6 +738,12 @@
             this.menuItem_weaponEditor.Name = "menuItem_weaponEditor";
             resources.ApplyResources(this.menuItem_weaponEditor, "menuItem_weaponEditor");
             this.menuItem_weaponEditor.Click += new System.EventHandler(this.menuItem_weaponEditor_Click);
+            // 
+            // menuItem_tweaksEditor
+            // 
+            this.menuItem_tweaksEditor.Name = "menuItem_tweaksEditor";
+            resources.ApplyResources(this.menuItem_tweaksEditor, "menuItem_tweaksEditor");
+            this.menuItem_tweaksEditor.Click += new System.EventHandler(this.menuItem_tweaksEditor_Click);
             // 
             // menuStrip_tools
             // 
@@ -2093,6 +2101,7 @@
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.ToolStripMenuItem menuItem_autoBackup;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox_backup;
+        private System.Windows.Forms.ToolStripMenuItem menuItem_tweaksEditor;
     }
 }
 

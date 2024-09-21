@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -33,10 +34,20 @@ namespace mage
         //zm use
         public static int BlockWeaknessesOffset { get; private set; }
         public static int HatchBehaviorsOffset { get; private set; }
-        public static int BossMapIconsOffset { get; private set; }
+        public static int MapIconsOffset { get; private set; }
         public static int ChozoStatueHintsOffset { get; private set; }
         public static int ChozoHintChecksOffset { get; private set; }
         public static int ChozoHintTriggerEventsOffset { get; private set; }
+        public static int HatchFlashOffset { get; private set; }
+        //fusion use
+        public static int SuitDamageReductionPercentOffset { get; private set; }
+        public static int DimLightingEventsOffset { get; private set; }
+        public static int NavRoomHatchLockEventsOffset { get; private set; }
+        public static int EventLocationAndNavInfoOffset { get; private set; }
+        public static int NavRoomLocationsOffset { get; private set; }
+        public static int MonologueEventsOffset { get; private set; }
+        public static int SecurityUnlockEventsOffset { get; private set; }
+        public static int NavigationTargetsOffset { get; private set; }
 
         public static List<string> Difficulty { get; private set; }
         public static List<string> BreakableBlocks { get; private set; }
@@ -44,8 +55,13 @@ namespace mage
         public static List<string> CheckType { get; private set; }
         public static List<string> BeamBomb { get; private set; }
         public static List<string> SuitMisc { get; private set; }
-        public static List<string> BossIcon { get; private set; }
+        public static List<string> MapIcon { get; private set; }
         public static Dictionary<byte, string> StatueIcon { get; private set; }
+
+        public static List<string> SubEvent {  get; private set; }
+        public static List<string> EventType { get; private set; }
+        public static List<string> TargetArea { get; private set; }
+        public static List<string> TargetDirection { get; private set; }
 
         public static void GetData()
         {
@@ -97,7 +113,7 @@ namespace mage
                         break;
                     case "Event":
                         Events = new List<string>();
-                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) Events.Add(tweakInfo[i]);
+                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) Events.Add(Hex.ToString(i) + " - " + tweakInfo[i]);
                         break;
                     case "CheckType":
                         CheckType = new List<string>();
@@ -111,9 +127,9 @@ namespace mage
                         SuitMisc = new List<string>();
                         for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) SuitMisc.Add(tweakInfo[i]);
                         break;
-                    case "BossIcon":
-                       BossIcon = new List<string>();
-                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) BossIcon.Add(tweakInfo[i]);
+                    case "MapIcon":
+                        MapIcon = new List<string>();
+                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) MapIcon.Add(tweakInfo[i]);
                         break;
                     case "StatueIcon":
                         StatueIcon = new Dictionary<byte, string>();
@@ -122,6 +138,22 @@ namespace mage
                             string[] statueIcon = tweakInfo[i].Split(',');
                             StatueIcon.Add(Convert.ToByte(statueIcon[0],16), statueIcon[1]);
                         }
+                        break;
+                    case "SubEvent":
+                        SubEvent = new List<string>();
+                        for(int i = pair.Value.Item1; i < pair.Value.Item2; i++) SubEvent.Add(tweakInfo[i]);
+                        break;
+                    case "EventType":
+                        EventType = new List<string>();
+                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) EventType.Add(tweakInfo[i]);
+                        break;
+                    case "TargetArea":
+                        TargetArea = new List<string>();
+                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) TargetArea.Add(tweakInfo[i]);
+                        break;
+                    case "TargetDirection":
+                        TargetDirection = new List<string>();
+                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) TargetDirection.Add(tweakInfo[i]);
                         break;
                     default: break;
                 }
@@ -177,19 +209,19 @@ namespace mage
         private byte super;
         private byte power;
 
+        private readonly int offset;
+
         public string Area { get; }
         public string Difficulty { get; }
 
         public Tank(ByteStream stream, int index, bool isIncrease)
         {
             if (isIncrease) Difficulty = TweakData.Difficulty[index];
+            //else if (index == Version.AreaNames.Length) Area = "Total"; //total of tanks
+            else if (index == 7) Area = "Total"; //total of tanks
             else Area = Version.AreaNames[index];
-            GetData(stream, index, isIncrease);
-        }
 
-        private void GetData(ByteStream stream, int index, bool isIncrease)
-        {
-            int offset = isIncrease ? TweakData.TankIncreaseAmountsOffset : TweakData.NumTanksPerAreaOffset;
+            offset = isIncrease ? TweakData.TankIncreaseAmountsOffset : TweakData.NumTanksPerAreaOffset;
             offset += index * (Version.IsMF ? 3 : 4);
             energy = stream.Read8(offset);
             missile = stream.Read8(offset + 1);
@@ -198,10 +230,29 @@ namespace mage
             power = Version.IsMF ? stream.Read8(offset + 2) : stream.Read8(offset + 3);
         }
 
-        private void Write(ByteStream stream, int index, bool isIncrease)
+        //private void GetData(ByteStream stream, int index, bool isIncrease)
+        //{
+        //    offset = isIncrease ? TweakData.TankIncreaseAmountsOffset : TweakData.NumTanksPerAreaOffset;
+        //    offset += index * (Version.IsMF ? 3 : 4);
+        //    energy = stream.Read8(offset);
+        //    missile = stream.Read8(offset + 1);
+        //    //fusion have no super tanks
+        //    super = Version.IsMF ? (byte)0 : stream.Read8(offset + 2);
+        //    power = Version.IsMF ? stream.Read8(offset + 2) : stream.Read8(offset + 3);
+        //}
+
+        public void Write(ByteStream stream, int index, bool isIncrease)
         {
             int offset = isIncrease ? TweakData.TankIncreaseAmountsOffset : TweakData.NumTanksPerAreaOffset;
             offset += index * (Version.IsMF ? 3 : 4);
+            stream.Write8(offset, energy);
+            stream.Write8(offset + 1, missile);
+            stream.Write8(offset + 2, Version.IsMF ? power : super);
+            if (!Version.IsMF) stream.Write8(offset + 3, power);
+        }
+
+        public void Write(ByteStream stream)
+        {
             stream.Write8(offset, energy);
             stream.Write8(offset + 1, missile);
             stream.Write8(offset + 2, Version.IsMF ? power : super);
@@ -226,7 +277,8 @@ namespace mage
         public string Power
         {
             get => Hex.ToString(power);
-            set { if (Hex.ToByte(value) < 16) power = Hex.ToByte(value); }
+            //set { if (Hex.ToByte(value) < 16) power = Hex.ToByte(value); }
+            set => power = Hex.ToByte(value);
         }
     }
 
@@ -241,32 +293,67 @@ namespace mage
         private byte x2;
         private byte y2;
 
+        private readonly int offset;
+
         public ElevatorPair(ByteStream stream, int index)
         {
-            int offset = TweakData.ElevatorRoomPairsOffset;
-            offset += 8 * index;
-            area1 = stream.Read8(offset);
-            room1 = stream.Read8(offset + 1);
-            x1 = stream.Read8(offset + 2);
-            y1 = stream.Read8(offset + 3);
-            area2 = stream.Read8(offset + 4);
-            room2 = stream.Read8(offset + 5);
-            x2 = stream.Read8(offset + 6);
-            y2 = stream.Read8(offset + 7);
+            offset = TweakData.ElevatorRoomPairsOffset;
+            if(Version.IsMF)
+            {//x y only for zm 
+                offset += 4 * index;
+                area1 = stream.Read8(offset);
+                room1 = stream.Read8(offset + 1);
+                area2 = stream.Read8(offset + 2);
+                room2 = stream.Read8(offset + 3);
+            }
+            else
+            {
+                offset += 8 * index;
+                area1 = stream.Read8(offset);
+                room1 = stream.Read8(offset + 1);
+                x1 = stream.Read8(offset + 2);
+                y1 = stream.Read8(offset + 3);
+                area2 = stream.Read8(offset + 4);
+                room2 = stream.Read8(offset + 5);
+                x2 = stream.Read8(offset + 6);
+                y2 = stream.Read8(offset + 7);
+            }
         }
 
-        private void Write(ByteStream stream, int index)
+        //public void Write(ByteStream stream, int index)
+        //{
+        //    int offset = TweakData.ElevatorRoomPairsOffset;
+        //    offset += 8 * index;
+        //    stream.Write8(offset, area1);
+        //    stream.Write8(offset + 1, room1);
+        //    stream.Write8(offset + 2, x1);
+        //    stream.Write8(offset + 3, y1);
+        //    stream.Write8(offset + 4, area2);
+        //    stream.Write8(offset + 5, room2);
+        //    stream.Write8(offset + 6, x2);
+        //    stream.Write8(offset + 7, y2);
+        //}
+
+        public void Write(ByteStream stream)
         {
-            int offset = TweakData.ElevatorRoomPairsOffset;
-            offset += 8 * index;
-            stream.Write8(offset, area1);
-            stream.Write8(offset + 1, room1);
-            stream.Write8(offset + 2, x1);
-            stream.Write8(offset + 3, y1);
-            stream.Write8(offset + 4, area2);
-            stream.Write8(offset + 5, room2);
-            stream.Write8(offset + 6, x2);
-            stream.Write8(offset + 7, y2);
+            if(Version.IsMF)
+            {
+                stream.Write8(offset, area1);
+                stream.Write8(offset + 1, room1);
+                stream.Write8(offset + 2, area2);
+                stream.Write8(offset + 3, room2);
+            }
+            else
+            {
+                stream.Write8(offset, area1);
+                stream.Write8(offset + 1, room1);
+                stream.Write8(offset + 2, x1);
+                stream.Write8(offset + 3, y1);
+                stream.Write8(offset + 4, area2);
+                stream.Write8(offset + 5, room2);
+                stream.Write8(offset + 6, x2);
+                stream.Write8(offset + 7, y2);
+            }
         }
 
         public string Area1
@@ -316,6 +403,30 @@ namespace mage
             get => Hex.ToString(y2);
             set => y2 = Hex.ToByte(value);
         }
+
+        public string  Coordinate1
+        {
+            get => Hex.ToString(x1) + ", " + Hex.ToString(y1);
+            set
+            {
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value, "\\s", "").Split(',');
+                x1 = Hex.ToByte(xy[0]);
+                y1 = Hex.ToByte(xy[1]);
+            }
+        }
+
+        public string Coordinate2
+        {
+            get => Hex.ToString(x2) + ", " + Hex.ToString(y2);
+            set
+            {
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value, "\\s", "").Split(',');
+                x2 = Hex.ToByte(xy[0]);
+                y2 = Hex.ToByte(xy[1]);
+            }
+        }
     }
 
     public class Hatch
@@ -323,10 +434,12 @@ namespace mage
         private byte weakness;
         private ushort hits;
 
-        public Hatch(ByteStream bs, byte index)
+        private readonly int offset;
+
+        public Hatch(ByteStream bs, int index)
         {
             //skip none and locked
-            int offset = TweakData.HatchBehaviorsOffset + 8;
+            offset = TweakData.HatchBehaviorsOffset + 8;
             offset = offset + index * 4;
             weakness = bs.Read8(offset);
             hits = bs.Read16(offset + 2);
@@ -334,8 +447,15 @@ namespace mage
 
         public void Write(ByteStream bs, int index)
         {
+            //skip none and locked
             int offset = TweakData.HatchBehaviorsOffset + 8;
             offset = offset + index * 4;
+            bs.Write8(offset, weakness);
+            bs.Write16(offset + 2, hits);
+        }
+
+        public void Write(ByteStream bs)
+        {
             bs.Write8(offset, weakness);
             bs.Write16(offset + 2, hits);
         }
@@ -346,20 +466,52 @@ namespace mage
             set => weakness = (byte)value;
         }
 
-        public string Hits
+        //public string Hits
+        //{
+        //    get => Hex.ToString(hits);
+        //    set => hits = Hex.ToUshort(value);
+        //}
+
+        public ushort Hits
         {
-            get => Hex.ToString(hits);
-            set => hits = Hex.ToUshort(value);
+            get => hits;
+            set => hits = value;
         }
     }
 
-    public class BoosIcon
+    public class BreakBlock
+    {
+        private ushort weakness;
+
+        private readonly int offset;
+
+        public BreakBlock(ByteStream stream, int index)
+        {
+            offset = TweakData.BlockWeaknessesOffset + index * 2;
+            weakness = stream.Read16(offset);
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write16(offset, weakness);
+        }
+
+        public Weakness Weakness
+        {
+            get => (Weakness)weakness;
+            set => weakness = (ushort)value;
+        }
+    }
+
+    public class MapIcon
     {
         private byte iconEvent;
         private byte iconType;
         private byte x;
         private byte y;
         private byte pixelOffset;
+
+        private readonly int offset;
 
         public string IconEvent
         {
@@ -368,8 +520,8 @@ namespace mage
         }
         public string IconType
         {
-            get => TweakData.BossIcon[iconType];
-            set => iconType = (byte)TweakData.BossIcon.IndexOf(value);
+            get => TweakData.MapIcon[iconType];
+            set => iconType = (byte)TweakData.MapIcon.IndexOf(value);
         }
         public string X
         {
@@ -387,9 +539,9 @@ namespace mage
             set => pixelOffset = Hex.ToByte(value);
         }
 
-        public BoosIcon(ByteStream bs, int index)
+        public MapIcon(ByteStream bs, int index)
         {
-            int offset = TweakData.BossMapIconsOffset + index * 5;
+            offset = TweakData.MapIconsOffset + index * 5;
             iconEvent = bs.Read8(offset);
             iconType = bs.Read8(offset + 1);
             x = bs.Read8(offset + 2);
@@ -397,9 +549,8 @@ namespace mage
             pixelOffset = bs.Read8(offset + 4);
         }
 
-        public void Write(ByteStream bs, int index)
+        public void Write(ByteStream bs)
         {
-            int offset = TweakData.BossMapIconsOffset + index * 5;
             bs.Write8(offset, iconEvent);
             bs.Write8(offset + 1, iconType);
             bs.Write8(offset + 2, x);
@@ -549,14 +700,14 @@ namespace mage
             {
                 0 => TweakData.BeamBomb[(byte)Math.Log(equipEvent, 2)],
                 1 => TweakData.SuitMisc[(byte)Math.Log(equipEvent, 2)],
-                3 => TweakData.Events[(byte)Math.Log(equipEvent, 2)],
+                2 => TweakData.Events[equipEvent],
                 _ => ""
             };
             set => equipEvent = type switch
             {
                 0 => (byte)Math.Pow(2, TweakData.BeamBomb.IndexOf(value)),
                 1 => (byte)Math.Pow(2, TweakData.SuitMisc.IndexOf(value)),
-                2 => (byte)Math.Pow(2, TweakData.Events.IndexOf(value)),
+                2 => (byte)TweakData.Events.IndexOf(value),
                 _ => 0
             };
         }
@@ -564,6 +715,287 @@ namespace mage
         {
             get => TweakData.Events[triggerEvent];
             set => triggerEvent = (byte)TweakData.Events.IndexOf(value);
+        }
+
+        public string StartCoordinate
+        {
+            get => StartX + ", "  + StartY;
+            set
+            {
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value, "\\s", "").Split(',');
+                StartX = xy[0];
+                StartY = xy[1];
+            }
+        }
+        public string EndCoordinate
+        {
+            get => EndX + ", " + EndY;
+            set
+            {
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value, "\\s", "").Split(',');
+                EndX = xy[0];
+                EndY = xy[1];
+            }
+        }
+        public string TargetCoordinate
+        {
+            get => TargetX + ", " + TargetY;
+            set
+            {
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value, "\\s", "").Split(',');
+                TargetX = xy[0];
+                TargetY = xy[1];
+            }
+        }
+
+    }
+
+    public struct DimLight
+    {
+        private byte dimEvent;
+        public bool isDim;
+
+        public readonly int offset;
+
+        public DimLight(ByteStream stream, int index)
+        {
+            offset = TweakData.DimLightingEventsOffset + 2 * index;
+            dimEvent = stream.Read8(offset);
+            isDim = stream.Read8(offset + 1) != 0;
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write8(offset, dimEvent);
+            stream.Write8(offset + 1, (byte)(isDim?1:0));
+        }
+
+        public string DimEvent
+        {
+            get => TweakData.Events[dimEvent];
+            set => dimEvent = (byte)TweakData.Events.IndexOf(value);
+        }
+    }
+
+    public struct NavRoom
+    {
+        private byte area;
+        private byte room;   //is mage room's id + 1
+
+        public readonly int offset;
+
+        public NavRoom(ByteStream stream, int index)
+        {
+            offset = TweakData.NavRoomLocationsOffset + 2 * index;
+            area = stream.Read8(offset);
+            room = stream.Read8(offset + 1);
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write8(offset, area);
+            stream.Write8(offset + 1, room);
+        }
+
+        public string Room
+        {//auto -1,+1 for display 
+            get => Hex.ToString(room - 1);
+            set => room = (byte)(Hex.ToByte(value) + 1);
+        }
+        public string DimEvent
+        {
+            get => Version.AreaNames[area];
+            set => area = (byte)Version.AreaNames.ToList().IndexOf(value);
+        }
+    }
+
+    public class Monologue
+    {
+        private byte eventM;
+        private byte elevator;
+        private byte elevatorRoom;
+        private byte cutscene;
+        private ushort subEventStart;
+        private ushort subEventEnd;
+
+        private readonly int offset;
+
+        public Monologue(ByteStream stream, int index)
+        {
+            offset = TweakData.MonologueEventsOffset + 8 * index;
+            eventM = stream.Read8(offset);
+            elevator = stream.Read8(offset + 1);
+            elevatorRoom = stream.Read8(offset + 2);
+            cutscene = stream.Read8(offset + 3);
+            subEventStart = stream.Read16(offset + 4);
+            subEventEnd = stream.Read16(offset + 6);
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write8(offset, eventM);
+            stream.Write8(offset + 1, elevator);
+            stream.Write8(offset + 2, elevatorRoom);
+            stream.Write8(offset + 3, cutscene);
+            stream.Write16(offset + 4, subEventStart);
+            stream.Write16(offset + 6, subEventEnd);
+        }
+
+        public string Event
+        {
+            get => TweakData.Events[eventM];
+            set => eventM = (byte)TweakData.Events.IndexOf(value);
+        }
+        public string Elevator
+        {
+            get => Hex.ToString(elevator);
+            set => elevator = Hex.ToByte(value);
+        }
+        public string ElevatorRoom
+        {
+            get => Hex.ToString(elevatorRoom);
+            set => elevatorRoom = Hex.ToByte(value);
+        }
+        public string Cutscene
+        {
+            get => Hex.ToString(cutscene);
+            set => cutscene = Hex.ToByte(value);
+        }
+        public string SubEventStart
+        {
+            get => TweakData.SubEvent[subEventStart];
+            set => subEventStart = (byte)TweakData.SubEvent.IndexOf(value);
+        }
+        public string SubEventEnd
+        {
+            get => TweakData.SubEvent[subEventEnd];
+            set => subEventEnd = (byte)TweakData.SubEvent.IndexOf(value);
+        }
+    }
+
+    public class Security
+    {
+        private byte level;
+        private byte area;
+        private byte eventPre;
+        private byte eventNew;
+        private ushort subEvent;
+
+        private readonly int offset;
+
+        public Security(ByteStream stream, int index)
+        {
+            offset = TweakData.SecurityUnlockEventsOffset + 8 * index;
+            level = stream.Read8(offset);
+            area = stream.Read8(offset + 1);
+            eventPre = stream.Read8(offset + 2);
+            eventNew = stream.Read8(offset + 3);
+            subEvent = stream.Read16(offset + 4);
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write8(offset, level);
+            stream.Write8(offset + 1, area);
+            stream.Write8(offset + 2, eventPre);
+            stream.Write8(offset + 3, eventNew);
+            stream.Write16(offset + 4, subEvent);
+        }
+
+        public string Level
+        {
+            get => Hex.ToString(level);
+            set { if (Hex.ToByte(value) > 4) throw new OverflowException(); else level = Hex.ToByte(value); } 
+        }
+        public string Area
+        {
+            get => Version.AreaNames[area];
+            set => area = (byte)Version.AreaNames.ToList().IndexOf(value);
+        }
+        public string EventPre
+        {
+            get => TweakData.Events[eventPre];
+            set => eventPre = (byte) TweakData.Events.IndexOf(value);
+        }
+        public string EventNew
+        {
+            get => TweakData.Events[eventNew];
+            set => eventNew = (byte)TweakData.Events.IndexOf(value);
+        }
+        public string SubEvent
+        {
+            get => TweakData.SubEvent[subEvent];
+            set => subEvent = (ushort)TweakData.SubEvent.IndexOf(value);
+        }
+    }
+
+    public class Target
+    {
+        private byte conversation;
+        private byte area;
+        private byte x;
+        private byte y; //x y is mage map coordinate + 1
+        private byte direction;
+
+        private readonly int offset;
+
+        public Target(ByteStream stream, int index)
+        {
+            offset = TweakData.NavigationTargetsOffset + 8 * index;
+            conversation = stream.Read8(offset);
+            area = stream.Read8(offset + 1);
+            x = stream.Read8(offset + 2);
+            y = stream.Read8(offset + 3);
+            direction = stream.Read8(offset + 4);
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write8(offset, conversation);
+            stream.Write8(offset + 1, area);
+            stream.Write8(offset + 2, x);
+            stream.Write8(offset + 3, y);
+            stream.Write8(offset + 4, direction);
+        }
+
+        public string Conversation
+        {
+            get => Hex.ToString(conversation);
+            set => Conversation = value;
+        }
+        public string Area
+        {
+            get => TweakData.TargetArea[area];
+            set => area = (byte)TweakData.TargetArea.IndexOf(value);
+        }
+        public string Direction
+        {
+            get => TweakData.TargetDirection[direction];
+            set => direction = (byte)TweakData.TargetDirection.IndexOf(value);
+        }
+        public string X
+        {// auto -1,+1
+            get => Hex.ToString(x - 1);
+            set => x = (byte)(Hex.ToByte(value) + 1);
+        }
+        public string Y
+        {//auto -1,+1
+            get => Hex.ToString(y - 1);
+            set => y = (byte)(Hex.ToByte(value) + 1);
+        }
+        public string Coordinate
+        {
+            get => X + ", " + Y;
+            set
+            {
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value,"\\s","").Split(',');
+                X = xy[0];
+                Y = xy[1];
+            }
         }
     }
 }

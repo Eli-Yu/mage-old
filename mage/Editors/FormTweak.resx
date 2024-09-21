@@ -1,0 +1,1541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="difficulty.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="difficulty.HeaderText" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <metadata name="energyIncrease.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="energyIncrease.HeaderText" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="energyIncrease.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="missileIncrease.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="missileIncrease.HeaderText" xml:space="preserve">
+    <value>Missile</value>
+  </data>
+  <data name="missileIncrease.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="superIncrease.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="superIncrease.HeaderText" xml:space="preserve">
+    <value>Super</value>
+  </data>
+  <data name="superIncrease.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="powerIncrease.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="powerIncrease.HeaderText" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="powerIncrease.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dataGridView_increaseTank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 290</value>
+  </data>
+  <data name="dataGridView_increaseTank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 162</value>
+  </data>
+  <data name="dataGridView_increaseTank.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_increaseTank.Name" xml:space="preserve">
+    <value>dataGridView_increaseTank</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_increaseTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_increaseTank.Parent" xml:space="preserve">
+    <value>tabPage_tank</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_increaseTank.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_applyIncrease.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 261</value>
+  </data>
+  <data name="button_applyIncrease.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_applyIncrease.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button_applyIncrease.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_applyIncrease.Name" xml:space="preserve">
+    <value>button_applyIncrease</value>
+  </data>
+  <data name="&gt;&gt;button_applyIncrease.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_applyIncrease.Parent" xml:space="preserve">
+    <value>tabPage_tank</value>
+  </data>
+  <data name="&gt;&gt;button_applyIncrease.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_increaseTank.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_increaseTank.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_increaseTank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 265</value>
+  </data>
+  <data name="label_increaseTank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 15</value>
+  </data>
+  <data name="label_increaseTank.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_increaseTank.Text" xml:space="preserve">
+    <value>Tank increase amounts</value>
+  </data>
+  <data name="&gt;&gt;label_increaseTank.Name" xml:space="preserve">
+    <value>label_increaseTank</value>
+  </data>
+  <data name="&gt;&gt;label_increaseTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_increaseTank.Parent" xml:space="preserve">
+    <value>tabPage_tank</value>
+  </data>
+  <data name="&gt;&gt;label_increaseTank.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_applyTank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 10</value>
+  </data>
+  <data name="button_applyTank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_applyTank.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button_applyTank.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_applyTank.Name" xml:space="preserve">
+    <value>button_applyTank</value>
+  </data>
+  <data name="&gt;&gt;button_applyTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_applyTank.Parent" xml:space="preserve">
+    <value>tabPage_tank</value>
+  </data>
+  <data name="&gt;&gt;button_applyTank.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="areaTank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="areaTank.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <metadata name="energyTank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="energyTank.HeaderText" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="energyTank.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="missileTank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="missileTank.HeaderText" xml:space="preserve">
+    <value>Missile</value>
+  </data>
+  <data name="missileTank.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="superTank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="superTank.HeaderText" xml:space="preserve">
+    <value>Super</value>
+  </data>
+  <data name="superTank.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="powerTank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="powerTank.HeaderText" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="powerTank.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dataGridView_areaTanks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 39</value>
+  </data>
+  <data name="dataGridView_areaTanks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 216</value>
+  </data>
+  <data name="dataGridView_areaTanks.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_areaTanks.Name" xml:space="preserve">
+    <value>dataGridView_areaTanks</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_areaTanks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_areaTanks.Parent" xml:space="preserve">
+    <value>tabPage_tank</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_areaTanks.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_areaTanks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_areaTanks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_areaTanks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 14</value>
+  </data>
+  <data name="label_areaTanks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 15</value>
+  </data>
+  <data name="label_areaTanks.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_areaTanks.Text" xml:space="preserve">
+    <value>Number of tanks per area</value>
+  </data>
+  <data name="&gt;&gt;label_areaTanks.Name" xml:space="preserve">
+    <value>label_areaTanks</value>
+  </data>
+  <data name="&gt;&gt;label_areaTanks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_areaTanks.Parent" xml:space="preserve">
+    <value>tabPage_tank</value>
+  </data>
+  <data name="&gt;&gt;label_areaTanks.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPage_tank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPage_tank.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_tank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 461</value>
+  </data>
+  <data name="tabPage_tank.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage_tank.Text" xml:space="preserve">
+    <value>Tanks</value>
+  </data>
+  <data name="&gt;&gt;tabPage_tank.Name" xml:space="preserve">
+    <value>tabPage_tank</value>
+  </data>
+  <data name="&gt;&gt;tabPage_tank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_tank.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_tank.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_applyElevator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 373</value>
+  </data>
+  <data name="button_applyElevator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_applyElevator.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_applyElevator.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_applyElevator.Name" xml:space="preserve">
+    <value>button_applyElevator</value>
+  </data>
+  <data name="&gt;&gt;button_applyElevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_applyElevator.Parent" xml:space="preserve">
+    <value>tabPage_elevator</value>
+  </data>
+  <data name="&gt;&gt;button_applyElevator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="area1Elevator.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="area1Elevator.HeaderText" xml:space="preserve">
+    <value>Area 1</value>
+  </data>
+  <metadata name="room1Elevator.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="room1Elevator.HeaderText" xml:space="preserve">
+    <value>Room 1</value>
+  </data>
+  <metadata name="coord1Elevator.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="coord1Elevator.HeaderText" xml:space="preserve">
+    <value>Coordinate 1</value>
+  </data>
+  <metadata name="area2Elevator.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="area2Elevator.HeaderText" xml:space="preserve">
+    <value>Area 2</value>
+  </data>
+  <metadata name="room2Elevator.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="room2Elevator.HeaderText" xml:space="preserve">
+    <value>Room 2</value>
+  </data>
+  <metadata name="coord2Elevator.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="coord2Elevator.HeaderText" xml:space="preserve">
+    <value>Coordinate 2</value>
+  </data>
+  <data name="dataGridView_elevators.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 7</value>
+  </data>
+  <data name="dataGridView_elevators.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 360</value>
+  </data>
+  <data name="dataGridView_elevators.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_elevators.Name" xml:space="preserve">
+    <value>dataGridView_elevators</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_elevators.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_elevators.Parent" xml:space="preserve">
+    <value>tabPage_elevator</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_elevators.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage_elevator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage_elevator.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_elevator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 461</value>
+  </data>
+  <data name="tabPage_elevator.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage_elevator.Text" xml:space="preserve">
+    <value>Elevator pairs</value>
+  </data>
+  <data name="&gt;&gt;tabPage_elevator.Name" xml:space="preserve">
+    <value>tabPage_elevator</value>
+  </data>
+  <data name="&gt;&gt;tabPage_elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_elevator.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_elevator.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_mapIconApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 244</value>
+  </data>
+  <data name="button_mapIconApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_mapIconApply.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button_mapIconApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_mapIconApply.Name" xml:space="preserve">
+    <value>button_mapIconApply</value>
+  </data>
+  <data name="&gt;&gt;button_mapIconApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_mapIconApply.Parent" xml:space="preserve">
+    <value>tabPage_hatch</value>
+  </data>
+  <data name="&gt;&gt;button_mapIconApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_MapIcon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_MapIcon.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_MapIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 248</value>
+  </data>
+  <data name="label_MapIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="label_MapIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_MapIcon.Text" xml:space="preserve">
+    <value>Map icons</value>
+  </data>
+  <data name="&gt;&gt;label_MapIcon.Name" xml:space="preserve">
+    <value>label_MapIcon</value>
+  </data>
+  <data name="&gt;&gt;label_MapIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_MapIcon.Parent" xml:space="preserve">
+    <value>tabPage_hatch</value>
+  </data>
+  <data name="&gt;&gt;label_MapIcon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="eventMapIcon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="eventMapIcon.HeaderText" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="eventMapIcon.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="typeMapIcon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="typeMapIcon.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="typeMapIcon.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <metadata name="mapX.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="mapX.HeaderText" xml:space="preserve">
+    <value>Map X</value>
+  </data>
+  <data name="mapX.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="mapY.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="mapY.HeaderText" xml:space="preserve">
+    <value>Map Y</value>
+  </data>
+  <data name="mapY.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="pixelOffset.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="pixelOffset.HeaderText" xml:space="preserve">
+    <value>Pixel offset</value>
+  </data>
+  <data name="pixelOffset.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="dataGridView_mapIcons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 269</value>
+  </data>
+  <data name="dataGridView_mapIcons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 184</value>
+  </data>
+  <data name="dataGridView_mapIcons.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_mapIcons.Name" xml:space="preserve">
+    <value>dataGridView_mapIcons</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_mapIcons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_mapIcons.Parent" xml:space="preserve">
+    <value>tabPage_hatch</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_mapIcons.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_blockApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 56</value>
+  </data>
+  <data name="button_blockApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_blockApply.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button_blockApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_blockApply.Name" xml:space="preserve">
+    <value>button_blockApply</value>
+  </data>
+  <data name="&gt;&gt;button_blockApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_blockApply.Parent" xml:space="preserve">
+    <value>groupBox_block</value>
+  </data>
+  <data name="&gt;&gt;button_blockApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_blockWeakness.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_blockWeakness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 60</value>
+  </data>
+  <data name="label_blockWeakness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="label_blockWeakness.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_blockWeakness.Text" xml:space="preserve">
+    <value>Weakness:</value>
+  </data>
+  <data name="&gt;&gt;label_blockWeakness.Name" xml:space="preserve">
+    <value>label_blockWeakness</value>
+  </data>
+  <data name="&gt;&gt;label_blockWeakness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_blockWeakness.Parent" xml:space="preserve">
+    <value>groupBox_block</value>
+  </data>
+  <data name="&gt;&gt;label_blockWeakness.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox_blockType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="comboBox_blockType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="comboBox_blockType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comboBox_blockType.Name" xml:space="preserve">
+    <value>comboBox_blockType</value>
+  </data>
+  <data name="&gt;&gt;comboBox_blockType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_blockType.Parent" xml:space="preserve">
+    <value>groupBox_block</value>
+  </data>
+  <data name="&gt;&gt;comboBox_blockType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items" xml:space="preserve">
+    <value>Beam</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items1" xml:space="preserve">
+    <value>Bomb/Pistol</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items2" xml:space="preserve">
+    <value>Missile</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items3" xml:space="preserve">
+    <value>Super missile</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items4" xml:space="preserve">
+    <value>Power bomb</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items5" xml:space="preserve">
+    <value>Speed boost</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items6" xml:space="preserve">
+    <value>Speed boost ground</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items7" xml:space="preserve">
+    <value>Screw attack</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Items8" xml:space="preserve">
+    <value>Bomb chain</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 166</value>
+  </data>
+  <data name="checkedListBox_blockWeakness.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_blockWeakness.Name" xml:space="preserve">
+    <value>checkedListBox_blockWeakness</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_blockWeakness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_blockWeakness.Parent" xml:space="preserve">
+    <value>groupBox_block</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_blockWeakness.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_blockType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_blockType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 25</value>
+  </data>
+  <data name="label_blockType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="label_blockType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_blockType.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="&gt;&gt;label_blockType.Name" xml:space="preserve">
+    <value>label_blockType</value>
+  </data>
+  <data name="&gt;&gt;label_blockType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_blockType.Parent" xml:space="preserve">
+    <value>groupBox_block</value>
+  </data>
+  <data name="&gt;&gt;label_blockType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox_block.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="groupBox_block.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 4</value>
+  </data>
+  <data name="groupBox_block.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 258</value>
+  </data>
+  <data name="groupBox_block.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox_block.Text" xml:space="preserve">
+    <value>Block weakness</value>
+  </data>
+  <data name="&gt;&gt;groupBox_block.Name" xml:space="preserve">
+    <value>groupBox_block</value>
+  </data>
+  <data name="&gt;&gt;groupBox_block.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_block.Parent" xml:space="preserve">
+    <value>tabPage_hatch</value>
+  </data>
+  <data name="&gt;&gt;groupBox_block.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox_hatchFlash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_hatchFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 85</value>
+  </data>
+  <data name="checkBox_hatchFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 19</value>
+  </data>
+  <data name="checkBox_hatchFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBox_hatchFlash.Text" xml:space="preserve">
+    <value>The hatch flashes on hit</value>
+  </data>
+  <data name="&gt;&gt;checkBox_hatchFlash.Name" xml:space="preserve">
+    <value>checkBox_hatchFlash</value>
+  </data>
+  <data name="&gt;&gt;checkBox_hatchFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_hatchFlash.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;checkBox_hatchFlash.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.Items" xml:space="preserve">
+    <value>Beam</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.Items1" xml:space="preserve">
+    <value>Bomb/Pistol</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.Items2" xml:space="preserve">
+    <value>Missile</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.Items3" xml:space="preserve">
+    <value>Super missile</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.Items4" xml:space="preserve">
+    <value>Power bomb</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 134</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 94</value>
+  </data>
+  <data name="checkedListBox_hatchWeakness.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_hatchWeakness.Name" xml:space="preserve">
+    <value>checkedListBox_hatchWeakness</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_hatchWeakness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_hatchWeakness.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_hatchWeakness.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_hatchApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 105</value>
+  </data>
+  <data name="button_hatchApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_hatchApply.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button_hatchApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_hatchApply.Name" xml:space="preserve">
+    <value>button_hatchApply</value>
+  </data>
+  <data name="&gt;&gt;button_hatchApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_hatchApply.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;button_hatchApply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_hatchWeakness.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_hatchWeakness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 109</value>
+  </data>
+  <data name="label_hatchWeakness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="label_hatchWeakness.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_hatchWeakness.Text" xml:space="preserve">
+    <value>Weakness:</value>
+  </data>
+  <data name="&gt;&gt;label_hatchWeakness.Name" xml:space="preserve">
+    <value>label_hatchWeakness</value>
+  </data>
+  <data name="&gt;&gt;label_hatchWeakness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_hatchWeakness.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;label_hatchWeakness.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numericUpDown_hatchHits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 54</value>
+  </data>
+  <data name="numericUpDown_hatchHits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="numericUpDown_hatchHits.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_hatchHits.Name" xml:space="preserve">
+    <value>numericUpDown_hatchHits</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_hatchHits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_hatchHits.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_hatchHits.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_hatchHits.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_hatchHits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_hatchHits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 56</value>
+  </data>
+  <data name="label_hatchHits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 15</value>
+  </data>
+  <data name="label_hatchHits.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_hatchHits.Text" xml:space="preserve">
+    <value>Hits:</value>
+  </data>
+  <data name="&gt;&gt;label_hatchHits.Name" xml:space="preserve">
+    <value>label_hatchHits</value>
+  </data>
+  <data name="&gt;&gt;label_hatchHits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_hatchHits.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;label_hatchHits.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBox_hatchType.Items" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="comboBox_hatchType.Items1" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="comboBox_hatchType.Items2" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="comboBox_hatchType.Items3" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="comboBox_hatchType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="comboBox_hatchType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="comboBox_hatchType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBox_hatchType.Name" xml:space="preserve">
+    <value>comboBox_hatchType</value>
+  </data>
+  <data name="&gt;&gt;comboBox_hatchType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_hatchType.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;comboBox_hatchType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_hatchType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_hatchType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_hatchType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="label_hatchType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="label_hatchType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_hatchType.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="&gt;&gt;label_hatchType.Name" xml:space="preserve">
+    <value>label_hatchType</value>
+  </data>
+  <data name="&gt;&gt;label_hatchType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_hatchType.Parent" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;label_hatchType.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox_hatch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="groupBox_hatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="groupBox_hatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 234</value>
+  </data>
+  <data name="groupBox_hatch.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox_hatch.Text" xml:space="preserve">
+    <value>The hatch behaviors</value>
+  </data>
+  <data name="&gt;&gt;groupBox_hatch.Name" xml:space="preserve">
+    <value>groupBox_hatch</value>
+  </data>
+  <data name="&gt;&gt;groupBox_hatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_hatch.Parent" xml:space="preserve">
+    <value>tabPage_hatch</value>
+  </data>
+  <data name="&gt;&gt;groupBox_hatch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPage_hatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage_hatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 461</value>
+  </data>
+  <data name="tabPage_hatch.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage_hatch.Text" xml:space="preserve">
+    <value>Hatch Block &amp; BossIcon</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hatch.Name" xml:space="preserve">
+    <value>tabPage_hatch</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hatch.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hatch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_statueApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 435</value>
+  </data>
+  <data name="button_statueApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_statueApply.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_statueApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_statueApply.Name" xml:space="preserve">
+    <value>button_statueApply</value>
+  </data>
+  <data name="&gt;&gt;button_statueApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_statueApply.Parent" xml:space="preserve">
+    <value>tabPage_statue</value>
+  </data>
+  <data name="&gt;&gt;button_statueApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridView_statue.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <metadata name="statueArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueArea.HeaderText" xml:space="preserve">
+    <value>Location Area</value>
+  </data>
+  <metadata name="statueStartCoordinate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueStartCoordinate.HeaderText" xml:space="preserve">
+    <value>Start Coord</value>
+  </data>
+  <metadata name="statueEndCoordinate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueEndCoordinate.HeaderText" xml:space="preserve">
+    <value>End Coord</value>
+  </data>
+  <metadata name="statueStartIcon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueStartIcon.HeaderText" xml:space="preserve">
+    <value>Start Icon</value>
+  </data>
+  <metadata name="statueTargetArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueTargetArea.HeaderText" xml:space="preserve">
+    <value>Target Area</value>
+  </data>
+  <metadata name="statueTargetCoordinate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueTargetCoordinate.HeaderText" xml:space="preserve">
+    <value>Target Coord</value>
+  </data>
+  <metadata name="statueEndIcon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueEndIcon.HeaderText" xml:space="preserve">
+    <value>End Icon</value>
+  </data>
+  <metadata name="statueCheckType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueCheckType.HeaderText" xml:space="preserve">
+    <value>Check type</value>
+  </data>
+  <metadata name="statueEquipEvent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueEquipEvent.HeaderText" xml:space="preserve">
+    <value>Equip/Event</value>
+  </data>
+  <metadata name="statueTriggerEvent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="statueTriggerEvent.HeaderText" xml:space="preserve">
+    <value>Trigger events</value>
+  </data>
+  <data name="dataGridView_statue.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="dataGridView_statue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dataGridView_statue.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dataGridView_statue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 422</value>
+  </data>
+  <data name="dataGridView_statue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_statue.Name" xml:space="preserve">
+    <value>dataGridView_statue</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_statue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_statue.Parent" xml:space="preserve">
+    <value>tabPage_statue</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_statue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage_statue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="tabPage_statue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage_statue.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_statue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 461</value>
+  </data>
+  <data name="tabPage_statue.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage_statue.Text" xml:space="preserve">
+    <value>Statues</value>
+  </data>
+  <data name="&gt;&gt;tabPage_statue.Name" xml:space="preserve">
+    <value>tabPage_statue</value>
+  </data>
+  <data name="&gt;&gt;tabPage_statue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_statue.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_statue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 461</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 487</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 487</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAGABoAwAAJgAAACAgAAAAABgAqAwAAI4DAAAoAAAAEAAAACAAAAABABgAAAAAAAAD
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUCgwUCgwUCgwUCgwAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAUCgwUCgwACjoACCwABhwUCgwUCgwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUCgw
+        YHhAACjoUCgwACjosMiQsMiQYHhAUCgwUCgwAAAAAAAAAAAAAAAAAAAAAAAAUCgwsMiQABhwsMiQACjo
+        ACjosMiQ+Pj4sMiQsMiQACCwUCgwUCgwAAAAAAAAAAAAYHhAABhwcPgAcPgAcPgAYHhAACjoACCwsMiQ
+        sMiQACCwACCwICBAICBAAAAAAAAAABhwYHhAcPgA+Pj4cPgAcPgAUCgwACjoABhwACjoICBAICBAAMD4
+        ICBAAAAAAAAAABhwcPgA+Pj4+Pj4cPgAcPgAUCgwACjoICBAICBAAMD4AMD4AJDoICBAAAAAAAAAUCgw
+        cPgA+Pj4+Pj4cPgAcPgAYHhAICBAAMD4AMD4AJDoAJDoICBAAAAAAAAAAAAAUCgwYHhAcPgAYHhAcPgA
+        ICBAICBAMPj4AJDoAJDoAJDoICBAAAAAAAAAAAAAAAAAUCgwABhwYHhAICBAICBAAMD4MPj4AJDoAJDo
+        ACAwACAwICBAAAAAAAAAAAAAAAAAAAAAICBAICBAAMD4AMD4MPj4MPj4ACAwACAwACAwGGC4ICBAAAAA
+        AAAAAAAAAAAAICBAAMD4MPj4MPj4MPj4MPj4GGC4ACAwGGC4AJDoGGC4GGC4ICBAAAAAAAAAICBAAMD4
+        MPj4MPj4MPj4AJDoGGC4GGC4AMD4MPj4AMD4GGC4GGC4GGC4ICBAAAAAAAAAICBAICBAICBAICBAICBA
+        GGC4AMD4MPj4MPj4AJDoAJDoAMD4AMD4AJDoICBAAAAAAAAAAAAAAAAAAAAAAAAAICBAICBAMPj4MPj4
+        MPj4AMD4AJDoGGC4ICBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICBAICBAICBAICBAICBAICBA
+        AAAAAAAA8P8AAMB/AACAHwAAgAMAAIABAACAAQAAgAEAAIADAACABwAAgAcAAMAHAACAAwAAAAEAAIAA
+        AAD8AQAA/wMAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABQKDBQKDBQKDBQKDBQKDBQKDBQKDBQKDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQKDBQKDBQKDBQ
+        KDBQKDBQKDBQKDBQKDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABQKDBQKDBQKDBQKDAaMsAaMsAAILAAILAAGHAAGHBQKDBQKDBQKDBQKDAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQKDBQKDBQKDBQ
+        KDAaMsAaMsAAILAAILAAGHAAGHBQKDBQKDBQKDBQKDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAABQKDBQKDBgeEBgeEAaNdIaNdJQKDBQKDAAKOgAKOiwyJCwyJCwyJCw
+        yJBgeEBgeEBQKDBQKDBQKDBQKDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQKDBQ
+        KDBgeEBgeEAaNdIaNdJQKDBQKDAAKOgAKOiwyJCwyJCwyJCwyJBgeEBgeEBQKDBQKDBQKDBQKDAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQKDBQKDCwyJCwyJAAGHAAGHCwyJCwyJAAKOgA
+        KOgAKOgAKOiwyJCwyJD4+Pj4+PiwyJCwyJCwyJCwyJAAILAAILBQKDBQKDBQKDBQKDAAAAAAAAAAAAAA
+        AAAAAAAAAABQKDBQKDCwyJCwyJAAGHAAGHCwyJCwyJAAKOgAKOgAKOgAKOiwyJCwyJD4+Pj4+PiwyJCw
+        yJCwyJCwyJAAILAAILBQKDBQKDBQKDBQKDAAAAAAAAAAAAAAAAAAAAAAAABPbkVPbkUAGHAAGHBw+ABw
+        +ABw+ABw+ABw+ABw+ABgeEBgeEAAKOgAKOgAILAAILCwyJCwyJCwyJCwyJAAILAAILAAILAAILAgIEAg
+        IEAgIEAgIEAAAAAAAAAAAAAAAABPbkVPbkUAGHAAGHBw+ABw+ABw+ABw+ABw+ABw+ABgeEBgeEAAKOgA
+        KOgAILAAILCwyJCwyJCwyJCwyJAAILAAILAAILAAILAgIEAgIEAgIEAgIEAAAAAAAAAAAAAAAAAAGHAA
+        GHBjeVdjeVdw+ABw+AD4+Pj4+Phw+ABw+ABw+ABw+ABQKDBQKDAAKOgAKOgAGHAAGHAAKOgAKOggIEAg
+        IEAgIEAgIEAAwPgAwPggIEAgIEAAAAAAAAAAAAAAAAAAGHAAGHBjeVdjeVdw+ABw+AD4+Pj4+Phw+ABw
+        +ABw+ABw+ABQKDBQKDAAKOgAKOgAGHAAGHAAKOgAKOggIEAgIEAgIEAgIEAAwPgAwPggIEAgIEAAAAAA
+        AAAAAAAAAAAAGHAAGHBw+ABw+AD4+Pj4+Pj4+Pj4+Phw+ABw+ABw+ABw+ABQKDBQKDAAKOgAKOggIEAg
+        IEAgIEAgIEAAwPgAwPgAwPgAwPgAkOgAkOggIEAgIEAAAAAAAAAAAAAAAAAAGHAAGHBw+ABw+AD4+Pj4
+        +Pj4+Pj4+Phw+ABw+ABw+ABw+ABQKDBQKDAAKOgAKOggIEAgIEAgIEAgIEAAwPgAwPgAwPgAwPgAkOgA
+        kOggIEAgIEAAAAAAAAAAAAAAAABQKDBQKDBw+ABw+AD4+Pj4+Pj4+Pj4+Phw+ABw+ABw+ABw+ABgeEBg
+        eEAgIEAgIEAAwPgAwPgAwPgAwPgAkOgAkOgAkOgAkOggIEAgIEAAAAAAAAAAAAAAAAAAAAAAAABQKDBQ
+        KDBw+ABw+AD4+Pj4+Pj4+Pj4+Phw+ABw+ABw+ABw+ABgeEBgeEAgIEAgIEAAwPgAwPgAwPgAwPgAkOgA
+        kOgAkOgAkOggIEAgIEAAAAAAAAAAAAAAAAAAAAAAAABQKDBQKDBgeEBgeEBw+ABw+ABgeEBgeEBw+ABw
+        +AAgIEAgIEAgIEAgIEAw+Pgw+PgAkOgAkOgAkOgAkOgAkOgAkOggIEAgIEAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAABQKDBQKDBgeEBgeEBw+ABw+ABgeEBgeEBw+ABw+AAgIEAgIEAgIEAgIEAw+Pgw+PgAkOgA
+        kOgAkOgAkOgAkOgAkOggIEAgIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQKDBQKDAAGHAAGHBgeEBg
+        eEAgIEAgIEAgIEAgIEAAwPgAwPgw+Pgw+PgAkOgAkOgAkOgAkOgAIDAAIDAAIDAAIDAgIEAgIEAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAABQKDBQKDAAGHAAGHBgeEBgeEAgIEAgIEAgIEAgIEAAwPgAwPgw+Pgw
+        +PgAkOgAkOgAkOgAkOgAIDAAIDAAIDAAIDAgIEAgIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAgIEAgIEAgIEAgIEAAwPgAwPgAwPgAwPgw+Pgw+Pgw+Pgw+PgAIDAAIDAAIDAAIDAAIDAAIDAYYLgY
+        YLggIEAgIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIEAgIEAgIEAgIEAAwPgAwPgAwPgA
+        wPgw+Pgw+Pgw+Pgw+PgAIDAAIDAAIDAAIDAAIDAAIDAYYLgYYLggIEAgIEAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAgIEAgIEAAwPgAwPgw+Pgw+Pgw+Pgw+Pgw+Pgw+Pgw+Pgw+PgYYLgYYLgAIDAAIDAYYLgY
+        YLgAkOgAkOgYYLgYYLgYYLgYYLggIEAgIEAAAAAAAAAAAAAAAAAAAAAAAAAgIEAgIEAAwPgAwPgw+Pgw
+        +Pgw+Pgw+Pgw+Pgw+Pgw+Pgw+PgYYLgYYLgAIDAAIDAYYLgYYLgAkOgAkOgYYLgYYLgYYLgYYLggIEAg
+        IEAAAAAAAAAAAAAAAAAgIEAgIEAAwPgAwPgw+Pgw+Pgw+Pgw+Pgw+Pgw+PgAkOgAkOgYYLgYYLgYYLgY
+        YLgAwPgAwPgw+Pgw+PgAwPgAwPgYYLgYYLgYYLgYYLgYYLgYYLggIEAgIEAAAAAAAAAgIEAgIEAAwPgA
+        wPgw+Pgw+Pgw+Pgw+Pgw+Pgw+PgAkOgAkOgYYLgYYLgYYLgYYLgAwPgAwPgw+Pgw+PgAwPgAwPgYYLgY
+        YLgYYLgYYLgYYLgYYLggIEAgIEAAAAAAAAAAAAAAAAAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAg
+        IEAYYLgYYLgAwPgAwPgw+Pgw+Pgw+Pgw+PgAkOgAkOgAkOgAkOgCreoCreoAwPgAwPgAkOgAkOggIEAg
+        IEAAAAAAAAAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAYYLgYYLgAwPgAwPgw+Pgw+Pgw+Pgw
+        +PgAkOgAkOgAkOgAkOgCreoCreoAwPgAwPgAkOgAkOggIEAgIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAgIEAgIEAgIEAgIEAw+Pgw+Pgw+Pgw+Pgw+Pgw+PgDru4Dru4AkOgAkOgYYLgY
+        YLggIEAgIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIEAgIEAgIEAg
+        IEAw+Pgw+Pgw+Pgw+Pgw+Pgw+PgDru4Dru4AkOgAkOgYYLgYYLggIEAgIEAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIEAgIEAgIEAgIEAgIEAgIEAgIEAg
+        IEAgIEAgIEAgIEAgIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAgIEAAAAAAAAAAAAAA
+        AAD/AP///wD///AAP//wAD//wAAD/8AAA//AAAAPwAAAD8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AA/AAAAPwAAAP8AAAD/AAAA/wAAAP/AAAD/wAAA/wAAAD8AAAA8AAAADAAAAA8AAAADAAAAA//AAA//w
+        AAP//wAP//8ADw==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormTweak</value>
+  </data>
+  <data name="&gt;&gt;difficulty.Name" xml:space="preserve">
+    <value>difficulty</value>
+  </data>
+  <data name="&gt;&gt;difficulty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;energyIncrease.Name" xml:space="preserve">
+    <value>energyIncrease</value>
+  </data>
+  <data name="&gt;&gt;energyIncrease.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;missileIncrease.Name" xml:space="preserve">
+    <value>missileIncrease</value>
+  </data>
+  <data name="&gt;&gt;missileIncrease.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;superIncrease.Name" xml:space="preserve">
+    <value>superIncrease</value>
+  </data>
+  <data name="&gt;&gt;superIncrease.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;powerIncrease.Name" xml:space="preserve">
+    <value>powerIncrease</value>
+  </data>
+  <data name="&gt;&gt;powerIncrease.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;areaTank.Name" xml:space="preserve">
+    <value>areaTank</value>
+  </data>
+  <data name="&gt;&gt;areaTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;energyTank.Name" xml:space="preserve">
+    <value>energyTank</value>
+  </data>
+  <data name="&gt;&gt;energyTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;missileTank.Name" xml:space="preserve">
+    <value>missileTank</value>
+  </data>
+  <data name="&gt;&gt;missileTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;superTank.Name" xml:space="preserve">
+    <value>superTank</value>
+  </data>
+  <data name="&gt;&gt;superTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;powerTank.Name" xml:space="preserve">
+    <value>powerTank</value>
+  </data>
+  <data name="&gt;&gt;powerTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;area1Elevator.Name" xml:space="preserve">
+    <value>area1Elevator</value>
+  </data>
+  <data name="&gt;&gt;area1Elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;room1Elevator.Name" xml:space="preserve">
+    <value>room1Elevator</value>
+  </data>
+  <data name="&gt;&gt;room1Elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coord1Elevator.Name" xml:space="preserve">
+    <value>coord1Elevator</value>
+  </data>
+  <data name="&gt;&gt;coord1Elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;area2Elevator.Name" xml:space="preserve">
+    <value>area2Elevator</value>
+  </data>
+  <data name="&gt;&gt;area2Elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;room2Elevator.Name" xml:space="preserve">
+    <value>room2Elevator</value>
+  </data>
+  <data name="&gt;&gt;room2Elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coord2Elevator.Name" xml:space="preserve">
+    <value>coord2Elevator</value>
+  </data>
+  <data name="&gt;&gt;coord2Elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eventMapIcon.Name" xml:space="preserve">
+    <value>eventMapIcon</value>
+  </data>
+  <data name="&gt;&gt;eventMapIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;typeMapIcon.Name" xml:space="preserve">
+    <value>typeMapIcon</value>
+  </data>
+  <data name="&gt;&gt;typeMapIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mapX.Name" xml:space="preserve">
+    <value>mapX</value>
+  </data>
+  <data name="&gt;&gt;mapX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mapY.Name" xml:space="preserve">
+    <value>mapY</value>
+  </data>
+  <data name="&gt;&gt;mapY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pixelOffset.Name" xml:space="preserve">
+    <value>pixelOffset</value>
+  </data>
+  <data name="&gt;&gt;pixelOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueArea.Name" xml:space="preserve">
+    <value>statueArea</value>
+  </data>
+  <data name="&gt;&gt;statueArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueStartCoordinate.Name" xml:space="preserve">
+    <value>statueStartCoordinate</value>
+  </data>
+  <data name="&gt;&gt;statueStartCoordinate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueEndCoordinate.Name" xml:space="preserve">
+    <value>statueEndCoordinate</value>
+  </data>
+  <data name="&gt;&gt;statueEndCoordinate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueStartIcon.Name" xml:space="preserve">
+    <value>statueStartIcon</value>
+  </data>
+  <data name="&gt;&gt;statueStartIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueTargetArea.Name" xml:space="preserve">
+    <value>statueTargetArea</value>
+  </data>
+  <data name="&gt;&gt;statueTargetArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueTargetCoordinate.Name" xml:space="preserve">
+    <value>statueTargetCoordinate</value>
+  </data>
+  <data name="&gt;&gt;statueTargetCoordinate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueEndIcon.Name" xml:space="preserve">
+    <value>statueEndIcon</value>
+  </data>
+  <data name="&gt;&gt;statueEndIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueCheckType.Name" xml:space="preserve">
+    <value>statueCheckType</value>
+  </data>
+  <data name="&gt;&gt;statueCheckType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueEquipEvent.Name" xml:space="preserve">
+    <value>statueEquipEvent</value>
+  </data>
+  <data name="&gt;&gt;statueEquipEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statueTriggerEvent.Name" xml:space="preserve">
+    <value>statueTriggerEvent</value>
+  </data>
+  <data name="&gt;&gt;statueTriggerEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormTweak</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

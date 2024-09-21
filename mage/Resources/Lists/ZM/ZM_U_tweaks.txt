@@ -4,7 +4,7 @@ NumTanksPerAreaOffset=3459A0
 TankIncreaseAmountsOffset=3459C4
 BlockWeaknessesOffset=345AB0
 HatchBehaviorsOffset=345CA8
-BossMapIconsOffset=40D200
+MapIconsOffset=40D200
 ChozoStatueHintsOffset=40DF78
 ChozoHintChecksOffset=40E038
 ChozoHintTriggerEventsOffset=40E058
@@ -145,7 +145,7 @@ Gravity suit
 Morph ball
 Power grip
 
-[BossIcon]
+[MapIcon]
 None
 Kraid
 Ridley

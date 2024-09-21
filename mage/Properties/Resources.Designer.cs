@@ -2297,6 +2297,37 @@ namespace mage.Properties {
         }
         
         /// <summary>
+        ///   查找类似 [Offset]
+        ///ElevatorRoomPairsOffset=3C8BFC
+        ///NumTanksPerAreaOffset=575F88
+        ///TankIncreaseAmountsOffset=0
+        ///SuitDamageReductionPercentOffset=2E493C
+        ///DimLightingEventsOffset=3C88F0
+        ///NavRoomHatchLockEventsOffset=3C88F8
+        ///EventLocationAndNavInfoOffset=575A60
+        ///NavRoomLocationsOffset=57604C
+        ///MonologueEventsOffset=576098
+        ///SecurityUnlockEventsOffset=5760C8
+        ///NavigationTargetsOffset=5766E4
+        ///
+        ///[Difficulty]
+        ///Easy
+        ///Normal
+        ///Hard
+        ///
+        ///[Event]
+        ///None
+        ///Navigation room before Quarantine Bay
+        ///Quarantine Bay hornoad dead
+        ///Navigation roo [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string MF_U_tweaks {
+            get {
+                return ResourceManager.GetString("MF_U_tweaks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 [
         ///	Name=Beams
         ///	Width=14
@@ -4124,7 +4155,7 @@ namespace mage.Properties {
         ///TankIncreaseAmountsOffset=3459C4
         ///BlockWeaknessesOffset=345AB0
         ///HatchBehaviorsOffset=345CA8
-        ///BossMapIconsOffset=40D200
+        ///MapIconsOffset=40D200
         ///ChozoStatueHintsOffset=40DF78
         ///ChozoHintChecksOffset=40E038
         ///ChozoHintTriggerEventsOffset=40E058
@@ -4144,7 +4175,7 @@ namespace mage.Properties {
         ///Slow crumble
         ///Missile (never reform)
         ///Missile (no reform)
-        ///Su [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///Super  [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string ZM_U_tweaks {
             get {

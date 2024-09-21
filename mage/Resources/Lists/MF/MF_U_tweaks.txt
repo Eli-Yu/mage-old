@@ -1,0 +1,155 @@
+[Offset]
+ElevatorRoomPairsOffset=3C8BFC
+NumTanksPerAreaOffset=575F88
+TankIncreaseAmountsOffset=0
+SuitDamageReductionPercentOffset=2E493C
+DimLightingEventsOffset=3C88F0
+NavRoomHatchLockEventsOffset=3C88F8
+EventLocationAndNavInfoOffset=575A60
+NavRoomLocationsOffset=57604C
+MonologueEventsOffset=576098
+SecurityUnlockEventsOffset=5760C8
+NavigationTargetsOffset=5766E4
+
+[Difficulty]
+Easy
+Normal
+Hard
+
+[Event]
+None
+Navigation room before Quarantine Bay
+Quarantine Bay hornoad dead
+Navigation room after Quarantine Bay (level 0 unlocked)
+Navigation room before elevator
+Skipped by not talking to computer
+Entered missile data room
+Missile data downloaded
+Entered navigation room (power outage)
+Navigation room after missiles
+Morph ball ability recovered
+Navigation room after morph ball
+Entered elevator room
+SA-X cutscene ends
+Navigation room entering SRX
+Charge beam ability recovered
+All stabilizers online
+Navigation room leaving SRX
+Navigation room entering TRO
+Security level 1 unlocked
+Skipped by not talking to computer
+Entered bomb data room
+Bomb data downloaded
+SA-X quake
+Left SA-X quake room
+Hi jump ability recovered
+Escaped TRO SA-X
+Navigation room leaving TRO
+Navigation room entering AQA
+Speed booster power regained
+Skipped by not talking to computer
+Entered pump control unit
+Water level lowered
+Navigation room leaving AQA
+Navigation room entering PYR
+Security level 2 unlocked
+Skipped by not talking to computer
+Entered super missile data room
+Super missile data downloaded
+Triggered BOX rumble
+BOX defeated
+Navigation room leaving PYR
+Left navigation room
+Secret conversation
+Secret conversation over
+Skipped by using NOC navigation room
+Entered NOC navigation room
+Navigation room entering NOC
+NOC SA-X encounter
+Escaped NOC SA-X
+NOC data room destroyed
+Varia suit effect recovered
+Reached top of room after Mega X (blue X flee)
+Navigation room leaving NOC
+Navigation room entering arc
+Security level 3 unlocked
+Skipped by not talking to computer
+Entered ice missile data room
+Ice effect added to missiles
+Navigation room leaving arc
+Wide beam ability recovered
+Cooling unit operational
+Navigation room leaving PYR
+Animals released
+Navigation room after animals
+Navigation room entering arc
+Power bomb data downloaded
+Arc SA-X encounter
+Escaped arc SA-X
+Navigation room leaving arc
+Power outage
+Entered ship
+Entered Yakuza's room
+Space jump ability recovered
+Auxiliary power engaged
+Navigation room after Yakuza
+Engaged TRO SA-X
+Escaped TRO SA-X
+Plasma beam ability recovered
+Navigation room leaving TRO
+Navigation room entering arc
+Gravity suit effect recovered
+Entered level 4 security room
+Security level 4 unlocked
+Secret message
+Entered diffusion missile data room
+Diffusion missile data downloaded
+Navigation room leaving AQA
+Navigation room entering NOC
+Restricted Zone warning
+Triggered BOX 2 rumble
+Wave beam ability recovered
+Restricted Lab explosion
+Restricted Lab detachment countdown
+Escaped Restricted Lab
+Navigation room after Restricted Lab
+Screw attack ability regained
+Navigation room leaving SRX
+End of first conversation
+Second conversation
+Skipped by not talking to computer
+Entered operations Deck
+SA-X defeated
+Orbit changed implemented
+Skipped by not talking to computer (unused)
+Entered ship room
+SA-X killed by Omega Metroid
+Ice beam ability recovered
+Omega Metroid defeated
+Escaped on ship
+
+[EventType]
+Normal
+Data download
+Skippable
+
+[TargetArea]
+None
+Operations Deck
+Docking Bays
+Habitation Deck
+Main Deck
+Reactor Silo
+Restricted Lab
+Sector 1
+Sector 2
+Sector 3
+Sector 4
+Sector 5
+Sector 6
+
+[TargetTextDiretion]
+Top
+Bottom
+Left
+Right

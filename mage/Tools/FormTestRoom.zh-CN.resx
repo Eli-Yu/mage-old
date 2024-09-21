@@ -172,11 +172,242 @@
   <data name="textBox_yPos.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 22</value>
   </data>
+  <data name="groupBox_equipment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 278</value>
+  </data>
+  <data name="groupBox_equipment.Text" xml:space="preserve">
+    <value>装备</value>
+  </data>
+  <data name="label_suitType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 247</value>
+  </data>
+  <data name="label_suitType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label_suitType.Text" xml:space="preserve">
+    <value>服装：</value>
+  </data>
+  <data name="comboBox_suit.Items" xml:space="preserve">
+    <value>普通服</value>
+  </data>
+  <data name="comboBox_suit.Items1" xml:space="preserve">
+    <value>传说中的加强服</value>
+  </data>
+  <data name="comboBox_suit.Items2" xml:space="preserve">
+    <value>零装</value>
+  </data>
+  <data name="comboBox_suit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 244</value>
+  </data>
+  <data name="comboBox_suit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items" xml:space="preserve">
+    <value>长光束</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items1" xml:space="preserve">
+    <value>冰光束</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items2" xml:space="preserve">
+    <value>波动光束</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items3" xml:space="preserve">
+    <value>等离子光束</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items4" xml:space="preserve">
+    <value>蓄光束</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items5" xml:space="preserve">
+    <value>炸弹</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 106</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items" xml:space="preserve">
+    <value>导弹</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items1" xml:space="preserve">
+    <value>超级导弹</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items2" xml:space="preserve">
+    <value>冰冻导弹</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items3" xml:space="preserve">
+    <value>散射导弹</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items4" xml:space="preserve">
+    <value>炸弹</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items5" xml:space="preserve">
+    <value>重磅炸弹</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 132</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 106</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items" xml:space="preserve">
+    <value>高跳</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items1" xml:space="preserve">
+    <value>加速器</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items2" xml:space="preserve">
+    <value>连跳</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items3" xml:space="preserve">
+    <value>团身旋击</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items4" xml:space="preserve">
+    <value>防护服</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items5" xml:space="preserve">
+    <value>重力服</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items6" xml:space="preserve">
+    <value>变形球</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items7" xml:space="preserve">
+    <value>SA-X服/强力抓</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 115</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 140</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items" xml:space="preserve">
+    <value>蓄光束</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items1" xml:space="preserve">
+    <value>宽光束</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items2" xml:space="preserve">
+    <value>等离子光束</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items3" xml:space="preserve">
+    <value>波动光束</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items4" xml:space="preserve">
+    <value>冰光束</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 89</value>
+  </data>
+  <data name="groupBox_hud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 87</value>
+  </data>
+  <data name="groupBox_hud.Text" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="numericUpDown_energyMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="numericUpDown_energy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="numericUpDown_missileMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="numericUpDown_missile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="numericUpDown_powerMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="numericUpDown_power.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="numericUpDown_superMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="numericUpDown_super.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="label_power.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label_power.Text" xml:space="preserve">
+    <value>重磅炸弹</value>
+  </data>
+  <data name="label_super.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label_super.Text" xml:space="preserve">
+    <value>超级导弹</value>
+  </data>
+  <data name="label_missile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="label_missile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_missile.Text" xml:space="preserve">
+    <value>导弹</value>
+  </data>
+  <data name="label_energy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="label_energy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_energy.Text" xml:space="preserve">
+    <value>能量</value>
+  </data>
+  <data name="groupBox_misc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 87</value>
+  </data>
+  <data name="groupBox_misc.Text" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="comboBox_difficulty.Items" xml:space="preserve">
+    <value>容易</value>
+  </data>
+  <data name="comboBox_difficulty.Items1" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="comboBox_difficulty.Items2" xml:space="preserve">
+    <value>困难</value>
+  </data>
+  <data name="comboBox_difficulty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="label_difficulty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_difficulty.Text" xml:space="preserve">
+    <value>难度</value>
+  </data>
+  <data name="comboBox_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="label_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label_language.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="label_event.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 496</value>
+  </data>
+  <data name="label_event.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label_event.Text" xml:space="preserve">
+    <value>事件：</value>
+  </data>
+  <data name="comboBox_event.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 493</value>
+  </data>
+  <data name="comboBox_event.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 21</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>223, 93</value>
+    <value>329, 526</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>

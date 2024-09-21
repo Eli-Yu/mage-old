@@ -117,58 +117,454 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label_yPos.Text" xml:space="preserve">
-    <value>Y position:</value>
+  <data name="&gt;&gt;label_power.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox_xPos.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="comboBox_difficulty.Items1" xml:space="preserve">
+    <value>Normal</value>
   </data>
-  <data name="&gt;&gt;button_go.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="label_missile.Text" xml:space="preserve">
+    <value>Missile</value>
+  </data>
+  <data name="&gt;&gt;comboBox_language.Name" xml:space="preserve">
+    <value>comboBox_language</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button_cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
+  <data name="comboBox_event.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 465</value>
   </data>
-  <data name="&gt;&gt;textBox_xPos.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textBox_xPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox_misc.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_event.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button_cancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;checkBox_debug.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox_debug.Parent" xml:space="preserve">
+  <data name="numericUpDown_superMax.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="numericUpDown_power.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 67</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_powerMax.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="&gt;&gt;groupBox_hud.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="textBox_yPos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 35</value>
+  <data name="&gt;&gt;label_super.Name" xml:space="preserve">
+    <value>label_super</value>
   </data>
-  <data name="button_go.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
+  <data name="&gt;&gt;numericUpDown_energyMax.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="groupBox_misc.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBox_yPos.Name" xml:space="preserve">
+    <value>textBox_yPos</value>
+  </data>
+  <data name="comboBox_suit.Items" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_super.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_debug.Text" xml:space="preserve">
+    <value>Debug menu</value>
+  </data>
+  <data name="comboBox_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 42</value>
+  </data>
+  <data name="checkBox_debug.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="numericUpDown_powerMax.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label_event.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_xPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 11</value>
+  </data>
+  <data name="&gt;&gt;label_xPos.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_superMax.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_power.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_suitType.Parent" xml:space="preserve">
+    <value>groupBox_equipment</value>
+  </data>
+  <data name="label_suitType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="comboBox_suit.Items1" xml:space="preserve">
+    <value>Fully Powered</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items5" xml:space="preserve">
+    <value>Bomb</value>
+  </data>
+  <data name="&gt;&gt;comboBox_suit.Parent" xml:space="preserve">
+    <value>groupBox_equipment</value>
+  </data>
+  <data name="label_difficulty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label_suitType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_super.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_superMax.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="label_xPos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items7" xml:space="preserve">
+    <value>SA-X suit/Power grip</value>
+  </data>
+  <data name="groupBox_hud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 82</value>
+  </data>
+  <data name="numericUpDown_missile.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="button_go.Location" type="System.Drawing.Point, System.Drawing">
     <value>136, 18</value>
   </data>
-  <data name="label_yPos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 38</value>
+  <data name="&gt;&gt;button_go.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;textBox_yPos.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupBox_hud.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_super.Name" xml:space="preserve">
+    <value>numericUpDown_super</value>
+  </data>
+  <data name="&gt;&gt;label_event.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_missile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="&gt;&gt;label_yPos.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label_event.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="comboBox_suit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="&gt;&gt;label_suitType.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="textBox_yPos.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;checkBox_debug.ZOrder" xml:space="preserve">
+  <data name="numericUpDown_energyMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 13</value>
+  </data>
+  <data name="numericUpDown_energy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="numericUpDown_power.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="numericUpDown_missileMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 40</value>
+  </data>
+  <data name="checkBox_debug.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox_misc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_energy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_suit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="numericUpDown_super.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>327, 493</value>
+  </data>
+  <data name="checkedListBox_missileBomb.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missileMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_powerMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_go.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_energy.Name" xml:space="preserve">
+    <value>numericUpDown_energy</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items1" xml:space="preserve">
+    <value>Wide</value>
+  </data>
+  <data name="groupBox_equipment.Text" xml:space="preserve">
+    <value>Equiptment</value>
+  </data>
+  <data name="&gt;&gt;button_go.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_super.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_hud.Text" xml:space="preserve">
+    <value>HUD</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missileMax.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="comboBox_event.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_fusionBeam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_suitType.Text" xml:space="preserve">
+    <value>Suit: </value>
+  </data>
+  <data name="label_missile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_missile.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="label_suitType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 231</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items4" xml:space="preserve">
+    <value>Varia suit</value>
+  </data>
+  <data name="&gt;&gt;label_language.Parent" xml:space="preserve">
+    <value>groupBox_misc</value>
+  </data>
+  <data name="label_yPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_difficulty.Parent" xml:space="preserve">
+    <value>groupBox_misc</value>
+  </data>
+  <data name="&gt;&gt;label_difficulty.Name" xml:space="preserve">
+    <value>label_difficulty</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missileMax.Name" xml:space="preserve">
+    <value>numericUpDown_missileMax</value>
+  </data>
+  <data name="&gt;&gt;comboBox_event.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_event.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numericUpDown_super.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 94</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_missileBomb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_missile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_misc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comboBox_language.Parent" xml:space="preserve">
+    <value>groupBox_misc</value>
+  </data>
+  <data name="label_energy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBox_yPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_xPos.Name" xml:space="preserve">
+    <value>label_xPos</value>
+  </data>
+  <data name="&gt;&gt;textBox_xPos.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missile.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_power.Name" xml:space="preserve">
+    <value>label_power</value>
+  </data>
+  <data name="&gt;&gt;checkBox_debug.Name" xml:space="preserve">
+    <value>checkBox_debug</value>
+  </data>
+  <data name="&gt;&gt;groupBox_misc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_suitMisc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_powerMax.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="label_yPos.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;checkBox_debug.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox_misc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 82</value>
   </data>
-  <data name="label_xPos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 12</value>
+  <data name="numericUpDown_missileMax.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Test Room</value>
+  </data>
+  <data name="checkedListBox_beamBomb.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_energyMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_energy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_fusionBeam.Parent" xml:space="preserve">
+    <value>groupBox_equipment</value>
+  </data>
+  <data name="groupBox_equipment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 209</value>
+  </data>
+  <data name="&gt;&gt;label_power.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_beamBomb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 84</value>
+  </data>
+  <data name="&gt;&gt;label_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown_missileMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="label_language.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items" xml:space="preserve">
+    <value>Missile</value>
+  </data>
+  <data name="button_go.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;comboBox_difficulty.Name" xml:space="preserve">
+    <value>comboBox_difficulty</value>
+  </data>
+  <data name="&gt;&gt;label_energy.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label_power.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items5" xml:space="preserve">
+    <value>Gravity suit</value>
+  </data>
+  <data name="comboBox_language.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 45</value>
+  </data>
+  <data name="label_event.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="numericUpDown_energy.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="comboBox_event.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBox_yPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 100</value>
+  </data>
+  <data name="textBox_yPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 35</value>
+  </data>
+  <data name="textBox_xPos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numericUpDown_energyMax.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="comboBox_difficulty.Items2" xml:space="preserve">
+    <value>Hard</value>
+  </data>
+  <data name="checkBox_debug.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 59</value>
+  </data>
+  <data name="&gt;&gt;label_energy.Name" xml:space="preserve">
+    <value>label_energy</value>
+  </data>
+  <data name="label_power.Text" xml:space="preserve">
+    <value>Power bomb</value>
+  </data>
+  <data name="label_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_super.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="comboBox_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_missileBomb.Name" xml:space="preserve">
+    <value>checkedListBox_missileBomb</value>
+  </data>
+  <data name="&gt;&gt;label_missile.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="numericUpDown_powerMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 67</value>
+  </data>
+  <data name="&gt;&gt;textBox_yPos.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 122</value>
+  </data>
+  <data name="&gt;&gt;groupBox_misc.Name" xml:space="preserve">
+    <value>groupBox_misc</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_energyMax.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -244,146 +640,486 @@
         AAP//wAP//8ADw==
 </value>
   </data>
-  <data name="&gt;&gt;button_cancel.ZOrder" xml:space="preserve">
+  <data name="checkedListBox_beamBomb.Items2" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items4" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="label_yPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="label_suitType.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_super.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBox_difficulty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="label_power.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="button_go.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="button_cancel.Text" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="textBox_xPos.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox_xPos.Name" xml:space="preserve">
+    <value>textBox_xPos</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_suitMisc.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_yPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 38</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_energy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_energy.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items1" xml:space="preserve">
+    <value>Speed booster</value>
+  </data>
+  <data name="label_energy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label_difficulty.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items" xml:space="preserve">
+    <value>Hi-jump</value>
+  </data>
+  <data name="textBox_xPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="comboBox_suit.Items2" xml:space="preserve">
+    <value>Suitless</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_energy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_power.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numericUpDown_powerMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_missileBomb.Parent" xml:space="preserve">
+    <value>groupBox_equipment</value>
+  </data>
+  <data name="&gt;&gt;label_xPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_beamBomb.Parent" xml:space="preserve">
+    <value>groupBox_equipment</value>
+  </data>
+  <data name="label_xPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_suitMisc.Parent" xml:space="preserve">
+    <value>groupBox_equipment</value>
+  </data>
+  <data name="&gt;&gt;label_language.Name" xml:space="preserve">
+    <value>label_language</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items" xml:space="preserve">
+    <value>Long</value>
+  </data>
+  <data name="&gt;&gt;label_energy.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="label_xPos.Text" xml:space="preserve">
+    <value>X position:</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="label_super.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_hud.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_language.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_difficulty.Text" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_power.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label_yPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numericUpDown_superMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="&gt;&gt;label_language.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_language.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items3" xml:space="preserve">
+    <value>Plasma</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormTestRoom</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items3" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="&gt;&gt;label_suitType.Name" xml:space="preserve">
+    <value>label_suitType</value>
+  </data>
+  <data name="numericUpDown_superMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 94</value>
+  </data>
+  <data name="&gt;&gt;comboBox_suit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label_xPos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;button_go.Parent" xml:space="preserve">
+  <data name="checkedListBox_beamBomb.Items4" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="&gt;&gt;comboBox_event.Name" xml:space="preserve">
+    <value>comboBox_event</value>
+  </data>
+  <data name="&gt;&gt;comboBox_suit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox_hud.Name" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.Name" xml:space="preserve">
+    <value>button_cancel</value>
+  </data>
+  <data name="&gt;&gt;checkBox_debug.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox_xPos.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="checkBox_debug.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;checkedListBox_beamBomb.Name" xml:space="preserve">
+    <value>checkedListBox_beamBomb</value>
+  </data>
+  <data name="&gt;&gt;label_difficulty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_yPos.Name" xml:space="preserve">
+    <value>label_yPos</value>
+  </data>
+  <data name="label_super.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 96</value>
+  </data>
+  <data name="&gt;&gt;groupBox_equipment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items6" xml:space="preserve">
+    <value>Morph ball</value>
+  </data>
+  <data name="&gt;&gt;label_event.Name" xml:space="preserve">
+    <value>label_event</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missile.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_missileBomb.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_event.Text" xml:space="preserve">
+    <value>Event: </value>
+  </data>
+  <data name="&gt;&gt;label_suitType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_equipment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_equipment.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBox_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items1" xml:space="preserve">
+    <value>Super missile</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items2" xml:space="preserve">
+    <value>Ice missile</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items3" xml:space="preserve">
+    <value>Diffsuion missile</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items4" xml:space="preserve">
+    <value>Bomb</value>
+  </data>
+  <data name="checkedListBox_missileBomb.Items5" xml:space="preserve">
+    <value>Power bomb</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Items1" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="label_missile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 20</value>
+  </data>
+  <data name="&gt;&gt;label_super.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;comboBox_event.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 21</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="button_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_beamBomb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_power.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_debug.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_super.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBox_difficulty.Parent" xml:space="preserve">
+    <value>groupBox_misc</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_powerMax.Name" xml:space="preserve">
+    <value>numericUpDown_powerMax</value>
+  </data>
+  <data name="label_yPos.Text" xml:space="preserve">
+    <value>Y position:</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items3" xml:space="preserve">
+    <value>Screw attack</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_superMax.Name" xml:space="preserve">
+    <value>numericUpDown_superMax</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missile.Name" xml:space="preserve">
+    <value>numericUpDown_missile</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_energyMax.Name" xml:space="preserve">
+    <value>numericUpDown_energyMax</value>
+  </data>
+  <data name="comboBox_suit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 226</value>
+  </data>
+  <data name="comboBox_event.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="label_missile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="checkedListBox_beamBomb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 100</value>
+  </data>
+  <data name="numericUpDown_energy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="&gt;&gt;label_super.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="checkedListBox_fusionBeam.Items2" xml:space="preserve">
+    <value>Plasma</value>
+  </data>
+  <data name="button_cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 132</value>
+  </data>
+  <data name="groupBox_misc.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_fusionBeam.Name" xml:space="preserve">
+    <value>checkedListBox_fusionBeam</value>
+  </data>
+  <data name="numericUpDown_power.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="numericUpDown_super.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="checkedListBox_suitMisc.Items2" xml:space="preserve">
+    <value>Space jump</value>
+  </data>
+  <data name="button_cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_missileMax.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="&gt;&gt;button_cancel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label_xPos.Text" xml:space="preserve">
-    <value>X position:</value>
-  </data>
-  <data name="&gt;&gt;checkBox_debug.Name" xml:space="preserve">
-    <value>checkBox_debug</value>
-  </data>
-  <data name="&gt;&gt;button_go.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox_xPos.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;comboBox_difficulty.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="button_cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="groupBox_misc.Text" xml:space="preserve">
+    <value>Misc</value>
   </data>
-  <data name="&gt;&gt;textBox_yPos.Name" xml:space="preserve">
-    <value>textBox_yPos</value>
+  <data name="&gt;&gt;label_event.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_hud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 121</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_power.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox_suitMisc.Name" xml:space="preserve">
+    <value>checkedListBox_suitMisc</value>
+  </data>
+  <data name="comboBox_difficulty.Items" xml:space="preserve">
+    <value>Easy</value>
   </data>
   <data name="&gt;&gt;label_xPos.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="checkBox_debug.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 59</value>
+  <data name="textBox_yPos.Text" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="checkBox_debug.Text" xml:space="preserve">
-    <value>Debug menu</value>
+  <data name="groupBox_equipment.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Test Room</value>
-  </data>
-  <data name="label_xPos.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBox_yPos.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_yPos.Name" xml:space="preserve">
-    <value>label_yPos</value>
-  </data>
-  <data name="&gt;&gt;label_yPos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 45</value>
-  </data>
-  <data name="&gt;&gt;textBox_yPos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_go.Name" xml:space="preserve">
-    <value>button_go</value>
-  </data>
-  <data name="textBox_yPos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>223, 86</value>
+  <data name="label_power.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
   </data>
   <data name="label_xPos.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 15</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox_equipment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 252</value>
   </data>
-  <data name="button_go.Text" xml:space="preserve">
-    <value>Go</value>
+  <data name="&gt;&gt;label_difficulty.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_energy.Text" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="textBox_yPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="label_difficulty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 71</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 12</value>
   </data>
-  <data name="&gt;&gt;textBox_xPos.Name" xml:space="preserve">
-    <value>textBox_xPos</value>
+  <data name="&gt;&gt;checkedListBox_fusionBeam.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="checkBox_debug.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label_event.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 468</value>
   </data>
-  <data name="textBox_yPos.Text" xml:space="preserve">
-    <value>8</value>
+  <data name="label_super.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;button_cancel.Name" xml:space="preserve">
-    <value>button_cancel</value>
+  <data name="&gt;&gt;label_yPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_power.Name" xml:space="preserve">
+    <value>numericUpDown_power</value>
+  </data>
+  <data name="groupBox_hud.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_missile.Name" xml:space="preserve">
+    <value>label_missile</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_superMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown_energyMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="&gt;&gt;comboBox_suit.Name" xml:space="preserve">
+    <value>comboBox_suit</value>
+  </data>
+  <data name="comboBox_difficulty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 93</value>
+  </data>
+  <data name="&gt;&gt;comboBox_difficulty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox_suitMisc.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label_power.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 69</value>
   </data>
   <data name="checkBox_debug.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 16</value>
   </data>
-  <data name="textBox_xPos.Text" xml:space="preserve">
-    <value>8</value>
+  <data name="checkedListBox_suitMisc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 111</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormTestRoom</value>
+  <data name="&gt;&gt;numericUpDown_energy.Parent" xml:space="preserve">
+    <value>groupBox_hud</value>
   </data>
-  <data name="&gt;&gt;label_xPos.Name" xml:space="preserve">
-    <value>label_xPos</value>
+  <data name="numericUpDown_missile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 40</value>
   </data>
-  <data name="&gt;&gt;label_yPos.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;button_cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label_xPos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label_super.Text" xml:space="preserve">
+    <value>Super missile</value>
   </data>
-  <data name="textBox_xPos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 11</value>
-  </data>
-  <data name="&gt;&gt;textBox_xPos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label_yPos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 12</value>
-  </data>
-  <data name="&gt;&gt;label_xPos.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="textBox_xPos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
-  </data>
-  <data name="label_yPos.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label_event.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label_yPos.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupBox_equipment.Name" xml:space="preserve">
+    <value>groupBox_equipment</value>
+  </data>
+  <data name="numericUpDown_missile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="&gt;&gt;comboBox_language.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;button_go.Name" xml:space="preserve">
+    <value>button_go</value>
+  </data>
+  <data name="button_go.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="label_difficulty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBox_difficulty.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox_misc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 121</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

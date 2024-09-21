@@ -7,6 +7,78 @@ namespace mage
 {
     public static class Test
     {
+        [Flags]
+        public enum FusionBeam:byte
+        {
+            None = 0,
+            Charge = 1,
+            Wide = 2,
+            Plasma = 4,
+            Wave = 8,
+            Ice = 0x10
+        }
+
+        [Flags]
+        public enum MissileBomb:byte
+        {
+            None = 0,
+            Missile = 1,
+            Super = 2,
+            Ice = 4,
+            Diffusion = 8,
+            Bomb = 0x10,
+            Power =0x20
+        }
+
+        [Flags]
+        public enum BeamBomb:byte
+        {
+            None = 0,
+            Long = 1,
+            Ice = 2,
+            Wave = 4,
+            Plasma = 8,
+            Charge = 0x10,
+            Bomb = 0x80
+        }
+
+        [Flags]
+        public enum SuitMisc:byte
+        {
+            None = 0,
+            HiJump = 1,
+            Speed = 2,
+            Space = 4,
+            Screw = 8,
+            Vaira = 0x10,
+            Grivaty = 0x20,
+            Morph = 0x40,
+            SaxSuitPowerGrip = 0x80
+        }
+
+        public static class Status
+        {
+            public static ushort energy = 599;
+            public static ushort energyMax = 799;
+            public static ushort missile = 60;
+            public static ushort missileMax = 80;
+            public static byte super = 15;
+            public static byte superMax = 20;
+            public static byte power = 9;
+            public static byte powerMax = 12;
+
+            public static FusionBeam fusionBeam = (FusionBeam)0xF;
+            public static MissileBomb missileBomb = (MissileBomb)0x3F;
+            public static BeamBomb beamBomb = (BeamBomb)0x9F;
+            public static SuitMisc suitMisc = Version.IsMF ? (SuitMisc)0x7F : (SuitMisc)0xFF;
+            public static byte suit = 0;
+
+            public static byte difficulty = 1;
+            public static byte language = 2;
+
+            public static byte events = 0;
+        }
+
         public static void Room(FormMain main, bool debug, int xPos, int yPos)
         {
             ByteStream bs = ROM.Stream;
@@ -84,6 +156,23 @@ namespace mage
                 bs.Write16(sramAddr + 0x46, yScreen);
                 bs.Write16(sramAddr + 0x48, xScreen);
                 bs.Write16(sramAddr + 0x4A, yScreen);
+
+                //set status
+                //bs.Write8(sramAddr + 0x1A, Status.language);
+                //bs.Write8(sramAddr + 0xF0, Status.difficulty);
+                bs.Write16(sramAddr + 0xC4, Status.energy);
+                bs.Write16(sramAddr + 0xC6, Status.energyMax);
+                bs.Write16(sramAddr + 0xC8, Status.missile);
+                bs.Write16(sramAddr + 0xCA, Status.missileMax);
+                bs.Write8(sramAddr + 0xCC, Status.power);
+                bs.Write8(sramAddr + 0xCD, Status.powerMax);
+
+                //beam, missile bomb, suit misc
+                bs.Write8(sramAddr + 0xCE, (byte)Status.fusionBeam);
+                bs.Write8(sramAddr + 0xCF, (byte)Status.missileBomb);
+                bs.Write8(sramAddr + 0xD0, (byte)Status.suitMisc);
+
+                bs.Write8(sramAddr + 0x21, Status.events);
             }
             else
             {
@@ -98,6 +187,29 @@ namespace mage
                 bs.Write16(sramAddr + 0x32, yScreen);
                 bs.Write16(sramAddr + 0x34, xScreen);
                 bs.Write16(sramAddr + 0x36, yScreen);
+
+                //set status
+                //bs.Write8(sramAddr + 0x1A, Status.language);
+                //bs.Write8(sramAddr + 0x3C, Status.difficulty);
+
+                bs.Write16(sramAddr + 0x19C, Status.energyMax);
+                bs.Write16(sramAddr + 0x19E, Status.missileMax);
+                bs.Write8(sramAddr + 0x1A0, Status.superMax);
+                bs.Write8(sramAddr + 0x1A1, Status.powerMax);
+                bs.Write16(sramAddr + 0x1A2, Status.energy);
+                bs.Write16(sramAddr + 0x1A4, Status.missile);
+                bs.Write8(sramAddr + 0x1A6, Status.super);
+                bs.Write8(sramAddr + 0x1A7, Status.power);
+
+                //equip,activation
+                bs.Write8(sramAddr + 0x1A8, (byte)Status.beamBomb);
+                bs.Write8(sramAddr + 0x1A9, (byte)Status.beamBomb);
+                bs.Write8(sramAddr + 0x1AA, (byte)Status.suitMisc);
+                bs.Write8(sramAddr + 0x1AB, (byte)Status.suitMisc);
+
+                //suit type
+                bs.Write8(sramAddr + 0x1AE, Status.suit);
+
                 if (ROM.useMotherShipHatches)
                 {
                     bs.Write8(sramAddr + 0x3D, 1);

@@ -15,14 +15,23 @@ namespace mage
 
         private FormMain main;
         private ByteStream romStream;
-
+        //common
         private List<Tank> areaTanks;
         private List<Tank> increaseTanks;
         private List<ElevatorPair> elevatorPairs;
+        //zero mission
         private List<MapIcon> mapIcons;
         private List<Hatch> hatches;
         private List<BreakBlock> breakBlocks;
         private List<Statue> statueList;
+        private List<Target> targets;
+        //fusion
+        private List<NavRoom> navRooms;
+        private List<SuitDamageReduction> suitDamageReductionList;
+        private List<DimLight> dimLightList;
+        private List<Monologue> monologueList;
+        private List<Security> securities;
+        private List<FusionEventInfo> fusionEventInfos;
 
         public FormTweak(FormMain main)
         {
@@ -30,12 +39,29 @@ namespace mage
 
             this.main = main;
             this.romStream = ROM.Stream;
-
-            TweakData.GetData();
-            LoadTank();
+            InitTabpages();
         }
 
-        private void LoadTank() 
+        private void InitTabpages()
+        {
+            TweakData.GetData();
+            //remove unsupport pages
+            if (Version.IsMF)
+            {
+                tabControl.TabPages.RemoveByKey("tabPage_hatch");
+                tabControl.TabPages.RemoveByKey("tabPage_statue");
+            }
+            else
+            {
+                tabControl.TabPages.RemoveByKey("tabPage_nav");
+                tabControl.TabPages.RemoveByKey("tabPage_fusionMisc");
+                tabControl.TabPages.RemoveByKey("tabPage_fusionEvent");
+            }
+            //load first page
+            LoadTankPage();
+        }
+
+        private void LoadTankPage() 
         {
             LoadAreaTank();
             //MF: USA or Europe have no increase amounts
@@ -68,7 +94,7 @@ namespace mage
             if (Version.IsMF) dataGridView_increaseTank.Columns["superTank"].Visible = false;
         }
 
-        private void LoadElevator()
+        private void LoadElevatorPage()
         {
             elevatorPairs = new List<ElevatorPair>();
             if (Version.IsMF)
@@ -92,9 +118,17 @@ namespace mage
             area1Elevator.Items.AddRange(Version.AreaNames);
             area2Elevator.Items.AddRange(Version.AreaNames);
             dataGridView_elevators.DataSource = elevatorPairs;
+            if (Version.IsMF)
+            {//add number of elevator for monologue events
+                dataGridView_elevators.RowHeadersWidth = 45;
+                foreach (DataGridViewRow row in dataGridView_elevators.Rows)
+                {
+                    row.HeaderCell.Value = Hex.ToString(row.Index);
+                }
+            }
         }
 
-        private void LoadHatchBlockIcon()
+        private void LoadHatchBlockIconPage()
         {
             LoadHatch();
             LoadBlock();
@@ -134,14 +168,10 @@ namespace mage
             dataGridView_mapIcons.AutoGenerateColumns = false;
             eventMapIcon.DataSource = TweakData.Events;
             typeMapIcon.DataSource = TweakData.MapIcon;
-            //eventMapIcon.Items.AddRange(TweakData.Events);
-            //typeMapIcon.Items.AddRange(TweakData.MapIcon);
             dataGridView_mapIcons.DataSource = mapIcons;
-            //foreach(DataGridViewRow row in dataGridView_mapIcons.Rows)
-            //    row.Cells["eventMapIcon"].ToolTipText = (string)row.Cells["eventMapIcon"].Value;
         }
 
-        private void LoadStatue()
+        private void LoadStatuePage()
         {
             statueList = new List<Statue>();
             for (int i = 0;i < 10;i++) 
@@ -171,6 +201,108 @@ namespace mage
             }
         }
 
+        private void LoadNavPage()
+        {
+            LoadNavRoom();
+            LoadTarget();
+        }
+
+        private void LoadNavRoom()
+        {
+            navRooms = new List<NavRoom>();
+            for (int i = 0; i < 12; i++)
+            {
+                navRooms.Add(new NavRoom(romStream, i));
+            }
+            navRoom_area.Items.AddRange(Version.AreaNames);
+            dataGridView_navRoom.DataSource = navRooms;
+            dataGridView_navRoom.RowHeadersWidth = 50;
+            foreach (DataGridViewRow row in dataGridView_navRoom.Rows)
+            {
+                row.HeaderCell.Value = Hex.ToString(row.Index);
+            }
+        }
+
+        private void LoadTarget()
+        {
+            targets = new List<Target>();
+            for (int i = 0; i < 0x21; i++)
+                targets.Add(new Target(romStream, i));
+            navTarget_area.DataSource = TweakData.TargetArea;
+            navTarget_direction.DataSource = TweakData.TargetDirection;
+            dataGridView_navTarget.AutoGenerateColumns = false;
+            dataGridView_navTarget.DataSource = targets;
+        }
+        
+        private void LoadFusionMiscPage()
+        {
+            LoadSuit();
+            LoadDimEvent();
+            LoadMonologue();
+            LoadSecurity();
+        }
+
+        private void LoadSuit()
+        {
+            suitDamageReductionList = new List<SuitDamageReduction>();
+            for (int i = 0;i < 4; i++)
+                suitDamageReductionList.Add(new SuitDamageReduction(romStream, i));
+            suit_fusion.Items.AddRange(SuitDamageReduction.percent);
+            suit_varia.Items.AddRange(SuitDamageReduction.percent);
+            suit_gravity.Items.AddRange(SuitDamageReduction.percent);
+            dataGridView_suit.DataSource = suitDamageReductionList;
+        }
+
+        private void LoadDimEvent()
+        {
+            dimLightList = new List<DimLight>();
+            for(int i = 0; i < 4; i++)
+                dimLightList.Add(new DimLight(romStream, i));
+            dimEvent_event.DataSource = TweakData.Events;
+            dataGridView_dimEvent.DataSource = dimLightList;
+        }
+
+        private void LoadMonologue()
+        {
+            monologueList = new List<Monologue>();
+            for(int i = 0; i < 6 ; i++)
+                monologueList.Add(new Monologue(romStream, i));
+            monologue_event.DataSource = TweakData.Events;
+            monologue_subEventStart.DataSource = monologue_subEventEnd.DataSource = TweakData.SubEvent;
+            dataGridView_monologue.DataSource = monologueList;
+        }
+
+        private void LoadSecurity()
+        {
+            securities = new List<Security>();
+            for(int i = 0;i < 4 ; i++)
+                securities.Add(new Security(romStream, i));
+            security_level.Items.AddRange(Security.levels);
+            security_area.Items.AddRange(Version.AreaNames);
+            security_preEvent.DataSource = security_newEvent.DataSource = TweakData.Events;
+            security_subEvent.DataSource = TweakData.SubEvent;
+            dataGridView_security.DataSource = securities;
+        }
+
+        private void LoadFusionEventPage()
+        {
+            fusionEventInfos = new List<FusionEventInfo>();
+            for(int i = 0; i < TweakData.Events.Count ; i++)
+                fusionEventInfos.Add(new FusionEventInfo(romStream, i));
+            fusionEvent_area.Items.AddRange(Version.AreaNames);
+            //FF means not use this parameter
+            fusionEvent_area.Items.Add("FF");
+            fusionEvent_eventType.DataSource = TweakData.EventType;
+            dataGridView_fusionEvent.AutoGenerateColumns = false;
+            dataGridView_fusionEvent.DataSource = fusionEventInfos;
+            //add number of event
+            dataGridView_fusionEvent.RowHeadersWidth = 55;
+            foreach (DataGridViewRow row in dataGridView_fusionEvent.Rows)
+            {
+                row.HeaderCell.Value = Hex.ToString(row.Index);
+            }
+        }
+
         private void button_applyTank_Click(object sender, EventArgs e)
         {
             if(areaTanks == null ||  areaTanks.Count == 0) return;
@@ -196,25 +328,33 @@ namespace mage
 
         private void tabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch(tabControl.SelectedIndex)
+            switch(tabControl.SelectedTab.Name)
             {
-                case 0:
-                    LoadTank();
-                    break; 
-                case 1:
-                    LoadElevator();
+                case "tabPage_tank":
+                    LoadTankPage();
                     break;
-                case 2:
-                    LoadHatchBlockIcon();
+                case "tabPage_elevator":
+                    LoadElevatorPage();
                     break;
-                case 3:
-                    LoadStatue();
+                case "tabPage_hatch":
+                    LoadHatchBlockIconPage();
+                    break;
+                case "tabPage_statue":
+                    LoadStatuePage();
+                    break;
+                case "tabPage_nav":
+                    LoadNavPage();
+                    break;
+                case "tabPage_fusionMisc":
+                    LoadFusionMiscPage();
+                    break;
+                case "tabPage_fusionEvent":
+                    LoadFusionEventPage();
                     break;
                 default:
-                    LoadTank();
+                    LoadTankPage();
                     break;
             }
-
         }
 
         private void button_applyElevator_Click(object sender, EventArgs e)
@@ -317,6 +457,56 @@ namespace mage
                     };
                 }
             }
+        }
+
+        private void button_navRoomApply_Click(object sender, EventArgs e)
+        {
+            if (navRooms == null || navRooms.Count == 0) return;
+            foreach (NavRoom room in navRooms) 
+                room.Write(romStream);
+        }
+
+        private void button_navTargetApply_Click(object sender, EventArgs e)
+        {
+            if(targets == null || targets.Count == 0) { return; }
+            foreach (Target target in targets)
+                target.Write(romStream);
+        }
+
+        private void button_dimEventApply_Click(object sender, EventArgs e)
+        {
+            if (dimLightList == null || dimLightList.Count == 0) return;
+            foreach(DimLight dimLight in dimLightList)
+                dimLight.Write(romStream);
+        }
+
+        private void button_securityApply_Click(object sender, EventArgs e)
+        {
+            if(securities == null || securities.Count == 0) return ;
+            foreach(Security sec in securities)
+                sec.Write(romStream);
+        }
+
+        private void button_monologueApply_Click(object sender, EventArgs e)
+        {
+            if(monologueList == null || monologueList.Count == 0) return;
+            foreach(Monologue monologue in monologueList)
+                monologue.Write(romStream);
+        }
+
+        private void button_suitApply_Click(object sender, EventArgs e)
+        {
+            if(suitDamageReductionList == null || suitDamageReductionList.Count == 0) return;
+            foreach(SuitDamageReduction suitDamageReduction in suitDamageReductionList)
+                suitDamageReduction.Write(romStream);
+        }
+
+        private void dataGridView_fusionEvent_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Ignore clicks that are not on button cells. 
+            if (e.RowIndex < 0 || e.ColumnIndex !=
+                dataGridView_fusionEvent.Columns["fusionEvent_apply"].Index) return;
+            fusionEventInfos[e.RowIndex].Write(romStream);
         }
     }
 }

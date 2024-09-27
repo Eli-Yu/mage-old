@@ -1206,32 +1206,920 @@
   <data name="&gt;&gt;tabPage_statue.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button_navTargetApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_navTargetApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 349</value>
+  </data>
+  <data name="button_navTargetApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_navTargetApply.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button_navTargetApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_navTargetApply.Name" xml:space="preserve">
+    <value>button_navTargetApply</value>
+  </data>
+  <data name="&gt;&gt;button_navTargetApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_navTargetApply.Parent" xml:space="preserve">
+    <value>tabPage_nav</value>
+  </data>
+  <data name="&gt;&gt;button_navTargetApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_navRoomApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 349</value>
+  </data>
+  <data name="button_navRoomApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_navRoomApply.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button_navRoomApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_navRoomApply.Name" xml:space="preserve">
+    <value>button_navRoomApply</value>
+  </data>
+  <data name="&gt;&gt;button_navRoomApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_navRoomApply.Parent" xml:space="preserve">
+    <value>tabPage_nav</value>
+  </data>
+  <data name="&gt;&gt;button_navRoomApply.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="navTarget_conversation.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="navTarget_conversation.HeaderText" xml:space="preserve">
+    <value>Conversation</value>
+  </data>
+  <data name="navTarget_conversation.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <metadata name="navTarget_area.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="navTarget_area.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="navTarget_area.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <metadata name="navTarget_coordinate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="navTarget_coordinate.HeaderText" xml:space="preserve">
+    <value>Coordinate</value>
+  </data>
+  <data name="navTarget_coordinate.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <metadata name="navTarget_direction.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="navTarget_direction.HeaderText" xml:space="preserve">
+    <value>Text direction</value>
+  </data>
+  <data name="navTarget_direction.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="dataGridView_navTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 26</value>
+  </data>
+  <data name="dataGridView_navTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 316</value>
+  </data>
+  <data name="dataGridView_navTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navTarget.Name" xml:space="preserve">
+    <value>dataGridView_navTarget</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navTarget.Parent" xml:space="preserve">
+    <value>tabPage_nav</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navTarget.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_navTarget.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_navTarget.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_navTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 7</value>
+  </data>
+  <data name="label_navTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 15</value>
+  </data>
+  <data name="label_navTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_navTarget.Text" xml:space="preserve">
+    <value>Navigation targets</value>
+  </data>
+  <data name="&gt;&gt;label_navTarget.Name" xml:space="preserve">
+    <value>label_navTarget</value>
+  </data>
+  <data name="&gt;&gt;label_navTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_navTarget.Parent" xml:space="preserve">
+    <value>tabPage_nav</value>
+  </data>
+  <data name="&gt;&gt;label_navTarget.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="navRoom_area.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="navRoom_area.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <metadata name="navRoom_room.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="navRoom_room.HeaderText" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="navRoom_room.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dataGridView_navRoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 26</value>
+  </data>
+  <data name="dataGridView_navRoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 316</value>
+  </data>
+  <data name="dataGridView_navRoom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navRoom.Name" xml:space="preserve">
+    <value>dataGridView_navRoom</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navRoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navRoom.Parent" xml:space="preserve">
+    <value>tabPage_nav</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_navRoom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_navRoom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_navRoom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_navRoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 7</value>
+  </data>
+  <data name="label_navRoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 15</value>
+  </data>
+  <data name="label_navRoom.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_navRoom.Text" xml:space="preserve">
+    <value>Navigation room locations</value>
+  </data>
+  <data name="&gt;&gt;label_navRoom.Name" xml:space="preserve">
+    <value>label_navRoom</value>
+  </data>
+  <data name="&gt;&gt;label_navRoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_navRoom.Parent" xml:space="preserve">
+    <value>tabPage_nav</value>
+  </data>
+  <data name="&gt;&gt;label_navRoom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPage_nav.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="tabPage_nav.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tabPage_nav.Size" type="System.Drawing.Size, System.Drawing">
     <value>792, 461</value>
   </data>
-  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+  <data name="tabPage_nav.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="tabPage_nav.Text" xml:space="preserve">
+    <value>Navigation</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;tabPage_nav.Name" xml:space="preserve">
+    <value>tabPage_nav</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+  <data name="&gt;&gt;tabPage_nav.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tabPage_nav.Parent" xml:space="preserve">
     <value>tabControl</value>
   </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tabPage_nav.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="tableLayoutPanel_fusionEvent.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <metadata name="fusionEvent_area.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_area.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <metadata name="fusionEvent_room.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_room.HeaderText" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <metadata name="fusionEvent_startCoordinate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_startCoordinate.HeaderText" xml:space="preserve">
+    <value>Start coordinate</value>
+  </data>
+  <metadata name="fusionEvent_endCoordinate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_endCoordinate.HeaderText" xml:space="preserve">
+    <value>End coordinate</value>
+  </data>
+  <metadata name="fusionEvent_conversation.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_conversation.HeaderText" xml:space="preserve">
+    <value>Conversation</value>
+  </data>
+  <metadata name="fusionEvent_navRoom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_navRoom.HeaderText" xml:space="preserve">
+    <value>Navigation Room</value>
+  </data>
+  <metadata name="fusionEvent_eventType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_eventType.HeaderText" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <metadata name="fusionEvent_apply.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="fusionEvent_apply.HeaderText" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="dataGridView_fusionEvent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dataGridView_fusionEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dataGridView_fusionEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 419</value>
+  </data>
+  <data name="dataGridView_fusionEvent.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_fusionEvent.Name" xml:space="preserve">
+    <value>dataGridView_fusionEvent</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_fusionEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_fusionEvent.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_fusionEvent</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_fusionEvent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_fusionEventNote.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label_fusionEventNote.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_fusionEventNote.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_fusionEventNote.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_fusionEventNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 432</value>
+  </data>
+  <data name="label_fusionEventNote.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="label_fusionEventNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 15</value>
+  </data>
+  <data name="label_fusionEventNote.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_fusionEventNote.Text" xml:space="preserve">
+    <value>FF means that the parameter is not used.</value>
+  </data>
+  <data name="&gt;&gt;label_fusionEventNote.Name" xml:space="preserve">
+    <value>label_fusionEventNote</value>
+  </data>
+  <data name="&gt;&gt;label_fusionEventNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_fusionEventNote.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_fusionEvent</value>
+  </data>
+  <data name="&gt;&gt;label_fusionEventNote.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_fusionEventApply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button_fusionEventApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_fusionEventApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 428</value>
+  </data>
+  <data name="button_fusionEventApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 23</value>
+  </data>
+  <data name="button_fusionEventApply.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_fusionEventApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="button_fusionEventApply.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button_fusionEventApply.Name" xml:space="preserve">
+    <value>button_fusionEventApply</value>
+  </data>
+  <data name="&gt;&gt;button_fusionEventApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_fusionEventApply.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_fusionEvent</value>
+  </data>
+  <data name="&gt;&gt;button_fusionEventApply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel_fusionEvent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel_fusionEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tableLayoutPanel_fusionEvent.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel_fusionEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 455</value>
+  </data>
+  <data name="tableLayoutPanel_fusionEvent.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_fusionEvent.Name" xml:space="preserve">
+    <value>tableLayoutPanel_fusionEvent</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_fusionEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_fusionEvent.Parent" xml:space="preserve">
+    <value>tabPage_fusionEvent</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_fusionEvent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel_fusionEvent.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dataGridView_fusionEvent" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="label_fusionEventNote" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_fusionEventApply" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,75" /&gt;&lt;Rows Styles="Percent,100,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tabPage_fusionEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage_fusionEvent.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_fusionEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 461</value>
+  </data>
+  <data name="tabPage_fusionEvent.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabPage_fusionEvent.Text" xml:space="preserve">
+    <value>Event Info</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionEvent.Name" xml:space="preserve">
+    <value>tabPage_fusionEvent</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionEvent.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionEvent.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button_monologueApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_monologueApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 381</value>
+  </data>
+  <data name="button_monologueApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_monologueApply.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button_monologueApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_monologueApply.Name" xml:space="preserve">
+    <value>button_monologueApply</value>
+  </data>
+  <data name="&gt;&gt;button_monologueApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_monologueApply.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;button_monologueApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_securityApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_securityApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 155</value>
+  </data>
+  <data name="button_securityApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_securityApply.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button_securityApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_securityApply.Name" xml:space="preserve">
+    <value>button_securityApply</value>
+  </data>
+  <data name="&gt;&gt;button_securityApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_securityApply.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;button_securityApply.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_security.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_security.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_security.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 4</value>
+  </data>
+  <data name="label_security.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 15</value>
+  </data>
+  <data name="label_security.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label_security.Text" xml:space="preserve">
+    <value>Security unlock events</value>
+  </data>
+  <data name="&gt;&gt;label_security.Name" xml:space="preserve">
+    <value>label_security</value>
+  </data>
+  <data name="&gt;&gt;label_security.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_security.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;label_security.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="security_level.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="security_level.HeaderText" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="security_level.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="security_area.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="security_area.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <metadata name="security_preEvent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="security_preEvent.HeaderText" xml:space="preserve">
+    <value>Pre Event</value>
+  </data>
+  <data name="security_preEvent.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="security_newEvent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="security_newEvent.HeaderText" xml:space="preserve">
+    <value>New event</value>
+  </data>
+  <data name="security_newEvent.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="security_subEvent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="security_subEvent.HeaderText" xml:space="preserve">
+    <value>Sub-event</value>
+  </data>
+  <data name="security_subEvent.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dataGridView_security.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 23</value>
+  </data>
+  <data name="dataGridView_security.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dataGridView_security.Size" type="System.Drawing.Size, System.Drawing">
+    <value>532, 126</value>
+  </data>
+  <data name="dataGridView_security.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_security.Name" xml:space="preserve">
+    <value>dataGridView_security</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_security.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_security.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_security.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="monologue_event.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="monologue_event.HeaderText" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <metadata name="monologue_elevator.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="monologue_elevator.HeaderText" xml:space="preserve">
+    <value>Elevator</value>
+  </data>
+  <data name="monologue_elevator.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <metadata name="monologue_room.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="monologue_room.HeaderText" xml:space="preserve">
+    <value>Room2?</value>
+  </data>
+  <data name="monologue_room.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="monologue_cutscene.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="monologue_cutscene.HeaderText" xml:space="preserve">
+    <value>Cutscene</value>
+  </data>
+  <data name="monologue_cutscene.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <metadata name="monologue_subEventStart.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="monologue_subEventStart.HeaderText" xml:space="preserve">
+    <value>SubEvent start</value>
+  </data>
+  <data name="monologue_subEventStart.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <metadata name="monologue_subEventEnd.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="monologue_subEventEnd.HeaderText" xml:space="preserve">
+    <value>SubEvent end</value>
+  </data>
+  <data name="monologue_subEventEnd.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="dataGridView_monologue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 213</value>
+  </data>
+  <data name="dataGridView_monologue.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dataGridView_monologue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 162</value>
+  </data>
+  <data name="dataGridView_monologue.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_monologue.Name" xml:space="preserve">
+    <value>dataGridView_monologue</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_monologue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_monologue.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_monologue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_monologue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_monologue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_monologue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 194</value>
+  </data>
+  <data name="label_monologue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 15</value>
+  </data>
+  <data name="label_monologue.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_monologue.Text" xml:space="preserve">
+    <value>Monologue events</value>
+  </data>
+  <data name="&gt;&gt;label_monologue.Name" xml:space="preserve">
+    <value>label_monologue</value>
+  </data>
+  <data name="&gt;&gt;label_monologue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_monologue.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;label_monologue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button_dimEventApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 150</value>
+  </data>
+  <data name="button_dimEventApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_dimEventApply.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button_dimEventApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_dimEventApply.Name" xml:space="preserve">
+    <value>button_dimEventApply</value>
+  </data>
+  <data name="&gt;&gt;button_dimEventApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_dimEventApply.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;button_dimEventApply.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="button_suitApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 339</value>
+  </data>
+  <data name="button_suitApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_suitApply.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button_suitApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;button_suitApply.Name" xml:space="preserve">
+    <value>button_suitApply</value>
+  </data>
+  <data name="&gt;&gt;button_suitApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_suitApply.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;button_suitApply.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="dimEvent_event.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dimEvent_event.HeaderText" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <metadata name="dimEvent_flag.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dimEvent_flag.HeaderText" xml:space="preserve">
+    <value>Dim?</value>
+  </data>
+  <data name="dimEvent_flag.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dataGridView_dimEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 24</value>
+  </data>
+  <data name="dataGridView_dimEvent.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dataGridView_dimEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 125</value>
+  </data>
+  <data name="dataGridView_dimEvent.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_dimEvent.Name" xml:space="preserve">
+    <value>dataGridView_dimEvent</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_dimEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_dimEvent.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_dimEvent.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_dimEvent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_dimEvent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_dimEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="label_dimEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 15</value>
+  </data>
+  <data name="label_dimEvent.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_dimEvent.Text" xml:space="preserve">
+    <value>Dim lighting events</value>
+  </data>
+  <data name="&gt;&gt;label_dimEvent.Name" xml:space="preserve">
+    <value>label_dimEvent</value>
+  </data>
+  <data name="&gt;&gt;label_dimEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_dimEvent.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;label_dimEvent.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="suit_fusion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="suit_fusion.HeaderText" xml:space="preserve">
+    <value>Fusion</value>
+  </data>
+  <data name="suit_fusion.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="suit_varia.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="suit_varia.HeaderText" xml:space="preserve">
+    <value>Varia</value>
+  </data>
+  <data name="suit_varia.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="suit_gravity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="suit_gravity.HeaderText" xml:space="preserve">
+    <value>Gravity</value>
+  </data>
+  <data name="suit_gravity.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="dataGridView_suit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 213</value>
+  </data>
+  <data name="dataGridView_suit.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dataGridView_suit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 125</value>
+  </data>
+  <data name="dataGridView_suit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_suit.Name" xml:space="preserve">
+    <value>dataGridView_suit</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_suit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_suit.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_suit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label_miscSuit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_miscSuit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label_miscSuit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 194</value>
+  </data>
+  <data name="label_miscSuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 15</value>
+  </data>
+  <data name="label_miscSuit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_miscSuit.Text" xml:space="preserve">
+    <value>Suit damage reduction percent</value>
+  </data>
+  <data name="&gt;&gt;label_miscSuit.Name" xml:space="preserve">
+    <value>label_miscSuit</value>
+  </data>
+  <data name="&gt;&gt;label_miscSuit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_miscSuit.Parent" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;label_miscSuit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tabPage_fusionMisc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage_fusionMisc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_fusionMisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 461</value>
+  </data>
+  <data name="tabPage_fusionMisc.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabPage_fusionMisc.Text" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionMisc.Name" xml:space="preserve">
+    <value>tabPage_fusionMisc</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionMisc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionMisc.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_fusionMisc.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1530,6 +2418,186 @@
     <value>statueTriggerEvent</value>
   </data>
   <data name="&gt;&gt;statueTriggerEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navTarget_conversation.Name" xml:space="preserve">
+    <value>navTarget_conversation</value>
+  </data>
+  <data name="&gt;&gt;navTarget_conversation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navTarget_area.Name" xml:space="preserve">
+    <value>navTarget_area</value>
+  </data>
+  <data name="&gt;&gt;navTarget_area.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navTarget_coordinate.Name" xml:space="preserve">
+    <value>navTarget_coordinate</value>
+  </data>
+  <data name="&gt;&gt;navTarget_coordinate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navTarget_direction.Name" xml:space="preserve">
+    <value>navTarget_direction</value>
+  </data>
+  <data name="&gt;&gt;navTarget_direction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navRoom_area.Name" xml:space="preserve">
+    <value>navRoom_area</value>
+  </data>
+  <data name="&gt;&gt;navRoom_area.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navRoom_room.Name" xml:space="preserve">
+    <value>navRoom_room</value>
+  </data>
+  <data name="&gt;&gt;navRoom_room.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_area.Name" xml:space="preserve">
+    <value>fusionEvent_area</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_area.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_room.Name" xml:space="preserve">
+    <value>fusionEvent_room</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_room.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_startCoordinate.Name" xml:space="preserve">
+    <value>fusionEvent_startCoordinate</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_startCoordinate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_endCoordinate.Name" xml:space="preserve">
+    <value>fusionEvent_endCoordinate</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_endCoordinate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_conversation.Name" xml:space="preserve">
+    <value>fusionEvent_conversation</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_conversation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_navRoom.Name" xml:space="preserve">
+    <value>fusionEvent_navRoom</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_navRoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_eventType.Name" xml:space="preserve">
+    <value>fusionEvent_eventType</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_eventType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_apply.Name" xml:space="preserve">
+    <value>fusionEvent_apply</value>
+  </data>
+  <data name="&gt;&gt;fusionEvent_apply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dimEvent_event.Name" xml:space="preserve">
+    <value>dimEvent_event</value>
+  </data>
+  <data name="&gt;&gt;dimEvent_event.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dimEvent_flag.Name" xml:space="preserve">
+    <value>dimEvent_flag</value>
+  </data>
+  <data name="&gt;&gt;dimEvent_flag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;suit_fusion.Name" xml:space="preserve">
+    <value>suit_fusion</value>
+  </data>
+  <data name="&gt;&gt;suit_fusion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;suit_varia.Name" xml:space="preserve">
+    <value>suit_varia</value>
+  </data>
+  <data name="&gt;&gt;suit_varia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;suit_gravity.Name" xml:space="preserve">
+    <value>suit_gravity</value>
+  </data>
+  <data name="&gt;&gt;suit_gravity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monologue_event.Name" xml:space="preserve">
+    <value>monologue_event</value>
+  </data>
+  <data name="&gt;&gt;monologue_event.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monologue_elevator.Name" xml:space="preserve">
+    <value>monologue_elevator</value>
+  </data>
+  <data name="&gt;&gt;monologue_elevator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monologue_room.Name" xml:space="preserve">
+    <value>monologue_room</value>
+  </data>
+  <data name="&gt;&gt;monologue_room.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monologue_cutscene.Name" xml:space="preserve">
+    <value>monologue_cutscene</value>
+  </data>
+  <data name="&gt;&gt;monologue_cutscene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monologue_subEventStart.Name" xml:space="preserve">
+    <value>monologue_subEventStart</value>
+  </data>
+  <data name="&gt;&gt;monologue_subEventStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monologue_subEventEnd.Name" xml:space="preserve">
+    <value>monologue_subEventEnd</value>
+  </data>
+  <data name="&gt;&gt;monologue_subEventEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;security_level.Name" xml:space="preserve">
+    <value>security_level</value>
+  </data>
+  <data name="&gt;&gt;security_level.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;security_area.Name" xml:space="preserve">
+    <value>security_area</value>
+  </data>
+  <data name="&gt;&gt;security_area.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;security_preEvent.Name" xml:space="preserve">
+    <value>security_preEvent</value>
+  </data>
+  <data name="&gt;&gt;security_preEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;security_newEvent.Name" xml:space="preserve">
+    <value>security_newEvent</value>
+  </data>
+  <data name="&gt;&gt;security_newEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;security_subEvent.Name" xml:space="preserve">
+    <value>security_subEvent</value>
+  </data>
+  <data name="&gt;&gt;security_subEvent.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

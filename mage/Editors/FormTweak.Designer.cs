@@ -93,7 +93,61 @@
             this.statueCheckType = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.statueEquipEvent = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.statueTriggerEvent = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage_nav = new System.Windows.Forms.TabPage();
+            this.button_navTargetApply = new System.Windows.Forms.Button();
+            this.button_navRoomApply = new System.Windows.Forms.Button();
+            this.dataGridView_navTarget = new System.Windows.Forms.DataGridView();
+            this.navTarget_conversation = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.navTarget_area = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.navTarget_coordinate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.navTarget_direction = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.label_navTarget = new System.Windows.Forms.Label();
+            this.dataGridView_navRoom = new System.Windows.Forms.DataGridView();
+            this.navRoom_area = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.navRoom_room = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label_navRoom = new System.Windows.Forms.Label();
+            this.tabPage_fusionEvent = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel_fusionEvent = new System.Windows.Forms.TableLayoutPanel();
+            this.dataGridView_fusionEvent = new System.Windows.Forms.DataGridView();
+            this.fusionEvent_area = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.fusionEvent_room = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fusionEvent_startCoordinate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fusionEvent_endCoordinate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fusionEvent_conversation = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fusionEvent_navRoom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fusionEvent_eventType = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.fusionEvent_apply = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label_fusionEventNote = new System.Windows.Forms.Label();
+            this.button_fusionEventApply = new System.Windows.Forms.Button();
+            this.tabPage_fusionMisc = new System.Windows.Forms.TabPage();
+            this.button_monologueApply = new System.Windows.Forms.Button();
+            this.button_securityApply = new System.Windows.Forms.Button();
+            this.label_security = new System.Windows.Forms.Label();
+            this.dataGridView_security = new System.Windows.Forms.DataGridView();
+            this.dataGridView_monologue = new System.Windows.Forms.DataGridView();
+            this.label_monologue = new System.Windows.Forms.Label();
+            this.button_dimEventApply = new System.Windows.Forms.Button();
+            this.button_suitApply = new System.Windows.Forms.Button();
+            this.dataGridView_dimEvent = new System.Windows.Forms.DataGridView();
+            this.dimEvent_event = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dimEvent_flag = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.label_dimEvent = new System.Windows.Forms.Label();
+            this.dataGridView_suit = new System.Windows.Forms.DataGridView();
+            this.suit_fusion = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.suit_varia = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.suit_gravity = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.label_miscSuit = new System.Windows.Forms.Label();
+            this.monologue_event = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.monologue_elevator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.monologue_room = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.monologue_cutscene = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.monologue_subEventStart = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.monologue_subEventEnd = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.security_level = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.security_area = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.security_preEvent = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.security_newEvent = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.security_subEvent = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.tabControl.SuspendLayout();
             this.tabPage_tank.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_increaseTank)).BeginInit();
@@ -107,6 +161,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_hatchHits)).BeginInit();
             this.tabPage_statue.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_statue)).BeginInit();
+            this.tabPage_nav.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_navTarget)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_navRoom)).BeginInit();
+            this.tabPage_fusionEvent.SuspendLayout();
+            this.tableLayoutPanel_fusionEvent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_fusionEvent)).BeginInit();
+            this.tabPage_fusionMisc.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_security)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_monologue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_dimEvent)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_suit)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl
@@ -115,7 +180,9 @@
             this.tabControl.Controls.Add(this.tabPage_elevator);
             this.tabControl.Controls.Add(this.tabPage_hatch);
             this.tabControl.Controls.Add(this.tabPage_statue);
-            this.tabControl.Controls.Add(this.tabPage1);
+            this.tabControl.Controls.Add(this.tabPage_nav);
+            this.tabControl.Controls.Add(this.tabPage_fusionEvent);
+            this.tabControl.Controls.Add(this.tabPage_fusionMisc);
             resources.ApplyResources(this.tabControl, "tabControl");
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -627,11 +694,440 @@
             resources.ApplyResources(this.statueTriggerEvent, "statueTriggerEvent");
             this.statueTriggerEvent.Name = "statueTriggerEvent";
             // 
-            // tabPage1
+            // tabPage_nav
             // 
-            resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage_nav.Controls.Add(this.button_navTargetApply);
+            this.tabPage_nav.Controls.Add(this.button_navRoomApply);
+            this.tabPage_nav.Controls.Add(this.dataGridView_navTarget);
+            this.tabPage_nav.Controls.Add(this.label_navTarget);
+            this.tabPage_nav.Controls.Add(this.dataGridView_navRoom);
+            this.tabPage_nav.Controls.Add(this.label_navRoom);
+            resources.ApplyResources(this.tabPage_nav, "tabPage_nav");
+            this.tabPage_nav.Name = "tabPage_nav";
+            this.tabPage_nav.UseVisualStyleBackColor = true;
+            // 
+            // button_navTargetApply
+            // 
+            resources.ApplyResources(this.button_navTargetApply, "button_navTargetApply");
+            this.button_navTargetApply.Name = "button_navTargetApply";
+            this.button_navTargetApply.UseVisualStyleBackColor = true;
+            this.button_navTargetApply.Click += new System.EventHandler(this.button_navTargetApply_Click);
+            // 
+            // button_navRoomApply
+            // 
+            resources.ApplyResources(this.button_navRoomApply, "button_navRoomApply");
+            this.button_navRoomApply.Name = "button_navRoomApply";
+            this.button_navRoomApply.UseVisualStyleBackColor = true;
+            this.button_navRoomApply.Click += new System.EventHandler(this.button_navRoomApply_Click);
+            // 
+            // dataGridView_navTarget
+            // 
+            this.dataGridView_navTarget.AllowUserToAddRows = false;
+            this.dataGridView_navTarget.AllowUserToDeleteRows = false;
+            this.dataGridView_navTarget.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_navTarget.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.navTarget_conversation,
+            this.navTarget_area,
+            this.navTarget_coordinate,
+            this.navTarget_direction});
+            this.dataGridView_navTarget.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            resources.ApplyResources(this.dataGridView_navTarget, "dataGridView_navTarget");
+            this.dataGridView_navTarget.Name = "dataGridView_navTarget";
+            this.dataGridView_navTarget.RowTemplate.Height = 23;
+            // 
+            // navTarget_conversation
+            // 
+            this.navTarget_conversation.DataPropertyName = "Conversation";
+            resources.ApplyResources(this.navTarget_conversation, "navTarget_conversation");
+            this.navTarget_conversation.MaxInputLength = 3;
+            this.navTarget_conversation.Name = "navTarget_conversation";
+            // 
+            // navTarget_area
+            // 
+            this.navTarget_area.DataPropertyName = "Area";
+            resources.ApplyResources(this.navTarget_area, "navTarget_area");
+            this.navTarget_area.Name = "navTarget_area";
+            // 
+            // navTarget_coordinate
+            // 
+            this.navTarget_coordinate.DataPropertyName = "Coordinate";
+            resources.ApplyResources(this.navTarget_coordinate, "navTarget_coordinate");
+            this.navTarget_coordinate.Name = "navTarget_coordinate";
+            // 
+            // navTarget_direction
+            // 
+            this.navTarget_direction.DataPropertyName = "Direction";
+            resources.ApplyResources(this.navTarget_direction, "navTarget_direction");
+            this.navTarget_direction.Name = "navTarget_direction";
+            // 
+            // label_navTarget
+            // 
+            resources.ApplyResources(this.label_navTarget, "label_navTarget");
+            this.label_navTarget.Name = "label_navTarget";
+            // 
+            // dataGridView_navRoom
+            // 
+            this.dataGridView_navRoom.AllowUserToAddRows = false;
+            this.dataGridView_navRoom.AllowUserToDeleteRows = false;
+            this.dataGridView_navRoom.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_navRoom.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.navRoom_area,
+            this.navRoom_room});
+            this.dataGridView_navRoom.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            resources.ApplyResources(this.dataGridView_navRoom, "dataGridView_navRoom");
+            this.dataGridView_navRoom.Name = "dataGridView_navRoom";
+            this.dataGridView_navRoom.RowTemplate.Height = 23;
+            // 
+            // navRoom_area
+            // 
+            this.navRoom_area.DataPropertyName = "Area";
+            resources.ApplyResources(this.navRoom_area, "navRoom_area");
+            this.navRoom_area.Name = "navRoom_area";
+            // 
+            // navRoom_room
+            // 
+            this.navRoom_room.DataPropertyName = "Room";
+            resources.ApplyResources(this.navRoom_room, "navRoom_room");
+            this.navRoom_room.MaxInputLength = 3;
+            this.navRoom_room.Name = "navRoom_room";
+            // 
+            // label_navRoom
+            // 
+            resources.ApplyResources(this.label_navRoom, "label_navRoom");
+            this.label_navRoom.Name = "label_navRoom";
+            // 
+            // tabPage_fusionEvent
+            // 
+            this.tabPage_fusionEvent.Controls.Add(this.tableLayoutPanel_fusionEvent);
+            resources.ApplyResources(this.tabPage_fusionEvent, "tabPage_fusionEvent");
+            this.tabPage_fusionEvent.Name = "tabPage_fusionEvent";
+            this.tabPage_fusionEvent.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel_fusionEvent
+            // 
+            resources.ApplyResources(this.tableLayoutPanel_fusionEvent, "tableLayoutPanel_fusionEvent");
+            this.tableLayoutPanel_fusionEvent.Controls.Add(this.dataGridView_fusionEvent, 0, 0);
+            this.tableLayoutPanel_fusionEvent.Controls.Add(this.label_fusionEventNote, 0, 1);
+            this.tableLayoutPanel_fusionEvent.Controls.Add(this.button_fusionEventApply, 1, 1);
+            this.tableLayoutPanel_fusionEvent.Name = "tableLayoutPanel_fusionEvent";
+            // 
+            // dataGridView_fusionEvent
+            // 
+            this.dataGridView_fusionEvent.AllowUserToAddRows = false;
+            this.dataGridView_fusionEvent.AllowUserToDeleteRows = false;
+            this.dataGridView_fusionEvent.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_fusionEvent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_fusionEvent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.fusionEvent_area,
+            this.fusionEvent_room,
+            this.fusionEvent_startCoordinate,
+            this.fusionEvent_endCoordinate,
+            this.fusionEvent_conversation,
+            this.fusionEvent_navRoom,
+            this.fusionEvent_eventType,
+            this.fusionEvent_apply});
+            this.tableLayoutPanel_fusionEvent.SetColumnSpan(this.dataGridView_fusionEvent, 2);
+            resources.ApplyResources(this.dataGridView_fusionEvent, "dataGridView_fusionEvent");
+            this.dataGridView_fusionEvent.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.dataGridView_fusionEvent.Name = "dataGridView_fusionEvent";
+            this.dataGridView_fusionEvent.RowTemplate.Height = 23;
+            this.dataGridView_fusionEvent.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_fusionEvent_CellClick);
+            // 
+            // fusionEvent_area
+            // 
+            this.fusionEvent_area.DataPropertyName = "Area";
+            resources.ApplyResources(this.fusionEvent_area, "fusionEvent_area");
+            this.fusionEvent_area.Name = "fusionEvent_area";
+            // 
+            // fusionEvent_room
+            // 
+            this.fusionEvent_room.DataPropertyName = "Room";
+            resources.ApplyResources(this.fusionEvent_room, "fusionEvent_room");
+            this.fusionEvent_room.Name = "fusionEvent_room";
+            // 
+            // fusionEvent_startCoordinate
+            // 
+            this.fusionEvent_startCoordinate.DataPropertyName = "StartCoordinate";
+            resources.ApplyResources(this.fusionEvent_startCoordinate, "fusionEvent_startCoordinate");
+            this.fusionEvent_startCoordinate.Name = "fusionEvent_startCoordinate";
+            // 
+            // fusionEvent_endCoordinate
+            // 
+            this.fusionEvent_endCoordinate.DataPropertyName = "EndCoordinate";
+            resources.ApplyResources(this.fusionEvent_endCoordinate, "fusionEvent_endCoordinate");
+            this.fusionEvent_endCoordinate.Name = "fusionEvent_endCoordinate";
+            // 
+            // fusionEvent_conversation
+            // 
+            this.fusionEvent_conversation.DataPropertyName = "Conversation";
+            resources.ApplyResources(this.fusionEvent_conversation, "fusionEvent_conversation");
+            this.fusionEvent_conversation.Name = "fusionEvent_conversation";
+            // 
+            // fusionEvent_navRoom
+            // 
+            this.fusionEvent_navRoom.DataPropertyName = "NavRoom";
+            resources.ApplyResources(this.fusionEvent_navRoom, "fusionEvent_navRoom");
+            this.fusionEvent_navRoom.Name = "fusionEvent_navRoom";
+            // 
+            // fusionEvent_eventType
+            // 
+            this.fusionEvent_eventType.DataPropertyName = "EventType";
+            resources.ApplyResources(this.fusionEvent_eventType, "fusionEvent_eventType");
+            this.fusionEvent_eventType.Name = "fusionEvent_eventType";
+            // 
+            // fusionEvent_apply
+            // 
+            resources.ApplyResources(this.fusionEvent_apply, "fusionEvent_apply");
+            this.fusionEvent_apply.Name = "fusionEvent_apply";
+            this.fusionEvent_apply.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
+            this.fusionEvent_apply.Text = "Apply";
+            this.fusionEvent_apply.UseColumnTextForButtonValue = true;
+            // 
+            // label_fusionEventNote
+            // 
+            resources.ApplyResources(this.label_fusionEventNote, "label_fusionEventNote");
+            this.label_fusionEventNote.ForeColor = System.Drawing.Color.Red;
+            this.label_fusionEventNote.Name = "label_fusionEventNote";
+            // 
+            // button_fusionEventApply
+            // 
+            resources.ApplyResources(this.button_fusionEventApply, "button_fusionEventApply");
+            this.button_fusionEventApply.Name = "button_fusionEventApply";
+            this.button_fusionEventApply.UseVisualStyleBackColor = true;
+            // 
+            // tabPage_fusionMisc
+            // 
+            this.tabPage_fusionMisc.Controls.Add(this.button_monologueApply);
+            this.tabPage_fusionMisc.Controls.Add(this.button_securityApply);
+            this.tabPage_fusionMisc.Controls.Add(this.label_security);
+            this.tabPage_fusionMisc.Controls.Add(this.dataGridView_security);
+            this.tabPage_fusionMisc.Controls.Add(this.dataGridView_monologue);
+            this.tabPage_fusionMisc.Controls.Add(this.label_monologue);
+            this.tabPage_fusionMisc.Controls.Add(this.button_dimEventApply);
+            this.tabPage_fusionMisc.Controls.Add(this.button_suitApply);
+            this.tabPage_fusionMisc.Controls.Add(this.dataGridView_dimEvent);
+            this.tabPage_fusionMisc.Controls.Add(this.label_dimEvent);
+            this.tabPage_fusionMisc.Controls.Add(this.dataGridView_suit);
+            this.tabPage_fusionMisc.Controls.Add(this.label_miscSuit);
+            resources.ApplyResources(this.tabPage_fusionMisc, "tabPage_fusionMisc");
+            this.tabPage_fusionMisc.Name = "tabPage_fusionMisc";
+            this.tabPage_fusionMisc.UseVisualStyleBackColor = true;
+            // 
+            // button_monologueApply
+            // 
+            resources.ApplyResources(this.button_monologueApply, "button_monologueApply");
+            this.button_monologueApply.Name = "button_monologueApply";
+            this.button_monologueApply.UseVisualStyleBackColor = true;
+            this.button_monologueApply.Click += new System.EventHandler(this.button_monologueApply_Click);
+            // 
+            // button_securityApply
+            // 
+            resources.ApplyResources(this.button_securityApply, "button_securityApply");
+            this.button_securityApply.Name = "button_securityApply";
+            this.button_securityApply.UseVisualStyleBackColor = true;
+            this.button_securityApply.Click += new System.EventHandler(this.button_securityApply_Click);
+            // 
+            // label_security
+            // 
+            resources.ApplyResources(this.label_security, "label_security");
+            this.label_security.Name = "label_security";
+            // 
+            // dataGridView_security
+            // 
+            this.dataGridView_security.AllowUserToAddRows = false;
+            this.dataGridView_security.AllowUserToDeleteRows = false;
+            this.dataGridView_security.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_security.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.security_level,
+            this.security_area,
+            this.security_preEvent,
+            this.security_newEvent,
+            this.security_subEvent});
+            this.dataGridView_security.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            resources.ApplyResources(this.dataGridView_security, "dataGridView_security");
+            this.dataGridView_security.Name = "dataGridView_security";
+            this.dataGridView_security.RowTemplate.Height = 23;
+            // 
+            // dataGridView_monologue
+            // 
+            this.dataGridView_monologue.AllowUserToAddRows = false;
+            this.dataGridView_monologue.AllowUserToDeleteRows = false;
+            this.dataGridView_monologue.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_monologue.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.monologue_event,
+            this.monologue_elevator,
+            this.monologue_room,
+            this.monologue_cutscene,
+            this.monologue_subEventStart,
+            this.monologue_subEventEnd});
+            this.dataGridView_monologue.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            resources.ApplyResources(this.dataGridView_monologue, "dataGridView_monologue");
+            this.dataGridView_monologue.Name = "dataGridView_monologue";
+            this.dataGridView_monologue.RowTemplate.Height = 23;
+            // 
+            // label_monologue
+            // 
+            resources.ApplyResources(this.label_monologue, "label_monologue");
+            this.label_monologue.Name = "label_monologue";
+            // 
+            // button_dimEventApply
+            // 
+            resources.ApplyResources(this.button_dimEventApply, "button_dimEventApply");
+            this.button_dimEventApply.Name = "button_dimEventApply";
+            this.button_dimEventApply.UseVisualStyleBackColor = true;
+            this.button_dimEventApply.Click += new System.EventHandler(this.button_dimEventApply_Click);
+            // 
+            // button_suitApply
+            // 
+            resources.ApplyResources(this.button_suitApply, "button_suitApply");
+            this.button_suitApply.Name = "button_suitApply";
+            this.button_suitApply.UseVisualStyleBackColor = true;
+            this.button_suitApply.Click += new System.EventHandler(this.button_suitApply_Click);
+            // 
+            // dataGridView_dimEvent
+            // 
+            this.dataGridView_dimEvent.AllowUserToAddRows = false;
+            this.dataGridView_dimEvent.AllowUserToDeleteRows = false;
+            this.dataGridView_dimEvent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_dimEvent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dimEvent_event,
+            this.dimEvent_flag});
+            this.dataGridView_dimEvent.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            resources.ApplyResources(this.dataGridView_dimEvent, "dataGridView_dimEvent");
+            this.dataGridView_dimEvent.Name = "dataGridView_dimEvent";
+            this.dataGridView_dimEvent.RowTemplate.Height = 23;
+            // 
+            // dimEvent_event
+            // 
+            this.dimEvent_event.DataPropertyName = "DimEvent";
+            this.dimEvent_event.DropDownWidth = 300;
+            resources.ApplyResources(this.dimEvent_event, "dimEvent_event");
+            this.dimEvent_event.Name = "dimEvent_event";
+            // 
+            // dimEvent_flag
+            // 
+            this.dimEvent_flag.DataPropertyName = "IsDim";
+            resources.ApplyResources(this.dimEvent_flag, "dimEvent_flag");
+            this.dimEvent_flag.Name = "dimEvent_flag";
+            // 
+            // label_dimEvent
+            // 
+            resources.ApplyResources(this.label_dimEvent, "label_dimEvent");
+            this.label_dimEvent.Name = "label_dimEvent";
+            // 
+            // dataGridView_suit
+            // 
+            this.dataGridView_suit.AllowUserToAddRows = false;
+            this.dataGridView_suit.AllowUserToDeleteRows = false;
+            this.dataGridView_suit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_suit.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.suit_fusion,
+            this.suit_varia,
+            this.suit_gravity});
+            this.dataGridView_suit.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            resources.ApplyResources(this.dataGridView_suit, "dataGridView_suit");
+            this.dataGridView_suit.Name = "dataGridView_suit";
+            this.dataGridView_suit.RowTemplate.Height = 23;
+            // 
+            // suit_fusion
+            // 
+            this.suit_fusion.DataPropertyName = "Fusion";
+            resources.ApplyResources(this.suit_fusion, "suit_fusion");
+            this.suit_fusion.Name = "suit_fusion";
+            // 
+            // suit_varia
+            // 
+            this.suit_varia.DataPropertyName = "Varia";
+            resources.ApplyResources(this.suit_varia, "suit_varia");
+            this.suit_varia.Name = "suit_varia";
+            // 
+            // suit_gravity
+            // 
+            this.suit_gravity.DataPropertyName = "Gravity";
+            resources.ApplyResources(this.suit_gravity, "suit_gravity");
+            this.suit_gravity.Name = "suit_gravity";
+            // 
+            // label_miscSuit
+            // 
+            resources.ApplyResources(this.label_miscSuit, "label_miscSuit");
+            this.label_miscSuit.Name = "label_miscSuit";
+            // 
+            // monologue_event
+            // 
+            this.monologue_event.DataPropertyName = "Event";
+            this.monologue_event.DropDownWidth = 300;
+            resources.ApplyResources(this.monologue_event, "monologue_event");
+            this.monologue_event.Name = "monologue_event";
+            // 
+            // monologue_elevator
+            // 
+            this.monologue_elevator.DataPropertyName = "Elevator";
+            resources.ApplyResources(this.monologue_elevator, "monologue_elevator");
+            this.monologue_elevator.MaxInputLength = 2;
+            this.monologue_elevator.Name = "monologue_elevator";
+            // 
+            // monologue_room
+            // 
+            this.monologue_room.DataPropertyName = "ElevatorRoom";
+            resources.ApplyResources(this.monologue_room, "monologue_room");
+            this.monologue_room.Name = "monologue_room";
+            this.monologue_room.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // monologue_cutscene
+            // 
+            this.monologue_cutscene.DataPropertyName = "Cutscene";
+            resources.ApplyResources(this.monologue_cutscene, "monologue_cutscene");
+            this.monologue_cutscene.MaxInputLength = 2;
+            this.monologue_cutscene.Name = "monologue_cutscene";
+            // 
+            // monologue_subEventStart
+            // 
+            this.monologue_subEventStart.DataPropertyName = "SubEventStart";
+            this.monologue_subEventStart.DropDownWidth = 220;
+            resources.ApplyResources(this.monologue_subEventStart, "monologue_subEventStart");
+            this.monologue_subEventStart.Name = "monologue_subEventStart";
+            this.monologue_subEventStart.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // monologue_subEventEnd
+            // 
+            this.monologue_subEventEnd.DataPropertyName = "SubEventEnd";
+            this.monologue_subEventEnd.DropDownWidth = 210;
+            resources.ApplyResources(this.monologue_subEventEnd, "monologue_subEventEnd");
+            this.monologue_subEventEnd.Name = "monologue_subEventEnd";
+            this.monologue_subEventEnd.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // security_level
+            // 
+            this.security_level.DataPropertyName = "Level";
+            resources.ApplyResources(this.security_level, "security_level");
+            this.security_level.Name = "security_level";
+            // 
+            // security_area
+            // 
+            this.security_area.DataPropertyName = "Area";
+            resources.ApplyResources(this.security_area, "security_area");
+            this.security_area.Name = "security_area";
+            // 
+            // security_preEvent
+            // 
+            this.security_preEvent.DataPropertyName = "EventPre";
+            this.security_preEvent.DropDownWidth = 300;
+            resources.ApplyResources(this.security_preEvent, "security_preEvent");
+            this.security_preEvent.Name = "security_preEvent";
+            // 
+            // security_newEvent
+            // 
+            this.security_newEvent.DataPropertyName = "EventNew";
+            this.security_newEvent.DropDownWidth = 280;
+            resources.ApplyResources(this.security_newEvent, "security_newEvent");
+            this.security_newEvent.Name = "security_newEvent";
+            // 
+            // security_subEvent
+            // 
+            this.security_subEvent.DataPropertyName = "SubEvent";
+            this.security_subEvent.DropDownWidth = 270;
+            resources.ApplyResources(this.security_subEvent, "security_subEvent");
+            this.security_subEvent.Name = "security_subEvent";
             // 
             // FormTweak
             // 
@@ -656,6 +1152,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_hatchHits)).EndInit();
             this.tabPage_statue.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_statue)).EndInit();
+            this.tabPage_nav.ResumeLayout(false);
+            this.tabPage_nav.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_navTarget)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_navRoom)).EndInit();
+            this.tabPage_fusionEvent.ResumeLayout(false);
+            this.tableLayoutPanel_fusionEvent.ResumeLayout(false);
+            this.tableLayoutPanel_fusionEvent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_fusionEvent)).EndInit();
+            this.tabPage_fusionMisc.ResumeLayout(false);
+            this.tabPage_fusionMisc.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_security)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_monologue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_dimEvent)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_suit)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -726,6 +1236,60 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn statueCheckType;
         private System.Windows.Forms.DataGridViewComboBoxColumn statueEquipEvent;
         private System.Windows.Forms.DataGridViewComboBoxColumn statueTriggerEvent;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage_nav;
+        private System.Windows.Forms.Label label_navRoom;
+        private System.Windows.Forms.DataGridView dataGridView_navRoom;
+        private System.Windows.Forms.DataGridView dataGridView_navTarget;
+        private System.Windows.Forms.Label label_navTarget;
+        private System.Windows.Forms.TabPage tabPage_fusionMisc;
+        private System.Windows.Forms.DataGridView dataGridView_suit;
+        private System.Windows.Forms.Label label_miscSuit;
+        private System.Windows.Forms.DataGridViewComboBoxColumn suit_fusion;
+        private System.Windows.Forms.DataGridViewComboBoxColumn suit_varia;
+        private System.Windows.Forms.DataGridViewComboBoxColumn suit_gravity;
+        private System.Windows.Forms.DataGridView dataGridView_dimEvent;
+        private System.Windows.Forms.Label label_dimEvent;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dimEvent_event;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dimEvent_flag;
+        private System.Windows.Forms.Button button_suitApply;
+        private System.Windows.Forms.Button button_dimEventApply;
+        private System.Windows.Forms.DataGridView dataGridView_monologue;
+        private System.Windows.Forms.Label label_monologue;
+        private System.Windows.Forms.DataGridView dataGridView_security;
+        private System.Windows.Forms.Button button_monologueApply;
+        private System.Windows.Forms.Button button_securityApply;
+        private System.Windows.Forms.Label label_security;
+        private System.Windows.Forms.Button button_navTargetApply;
+        private System.Windows.Forms.Button button_navRoomApply;
+        private System.Windows.Forms.DataGridViewTextBoxColumn navTarget_conversation;
+        private System.Windows.Forms.DataGridViewComboBoxColumn navTarget_area;
+        private System.Windows.Forms.DataGridViewTextBoxColumn navTarget_coordinate;
+        private System.Windows.Forms.DataGridViewComboBoxColumn navTarget_direction;
+        private System.Windows.Forms.DataGridViewComboBoxColumn navRoom_area;
+        private System.Windows.Forms.DataGridViewTextBoxColumn navRoom_room;
+        private System.Windows.Forms.TabPage tabPage_fusionEvent;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel_fusionEvent;
+        private System.Windows.Forms.DataGridView dataGridView_fusionEvent;
+        private System.Windows.Forms.Label label_fusionEventNote;
+        private System.Windows.Forms.Button button_fusionEventApply;
+        private System.Windows.Forms.DataGridViewComboBoxColumn fusionEvent_area;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fusionEvent_room;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fusionEvent_startCoordinate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fusionEvent_endCoordinate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fusionEvent_conversation;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fusionEvent_navRoom;
+        private System.Windows.Forms.DataGridViewComboBoxColumn fusionEvent_eventType;
+        private System.Windows.Forms.DataGridViewButtonColumn fusionEvent_apply;
+        private System.Windows.Forms.DataGridViewComboBoxColumn monologue_event;
+        private System.Windows.Forms.DataGridViewTextBoxColumn monologue_elevator;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn monologue_room;
+        private System.Windows.Forms.DataGridViewTextBoxColumn monologue_cutscene;
+        private System.Windows.Forms.DataGridViewComboBoxColumn monologue_subEventStart;
+        private System.Windows.Forms.DataGridViewComboBoxColumn monologue_subEventEnd;
+        private System.Windows.Forms.DataGridViewComboBoxColumn security_level;
+        private System.Windows.Forms.DataGridViewComboBoxColumn security_area;
+        private System.Windows.Forms.DataGridViewComboBoxColumn security_preEvent;
+        private System.Windows.Forms.DataGridViewComboBoxColumn security_newEvent;
+        private System.Windows.Forms.DataGridViewComboBoxColumn security_subEvent;
     }
 }

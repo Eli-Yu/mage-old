@@ -113,7 +113,9 @@ namespace mage
                         break;
                     case "Event":
                         Events = new List<string>();
-                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) Events.Add(Hex.ToString(i) + " - " + tweakInfo[i]);
+                        // number of event
+                        int number = 0;
+                        for (int i = pair.Value.Item1; i < pair.Value.Item2; i++) Events.Add(Hex.ToString(number++) + " - " + tweakInfo[i]);
                         break;
                     case "CheckType":
                         CheckType = new List<string>();
@@ -141,7 +143,8 @@ namespace mage
                         break;
                     case "SubEvent":
                         SubEvent = new List<string>();
-                        for(int i = pair.Value.Item1; i < pair.Value.Item2; i++) SubEvent.Add(tweakInfo[i]);
+                        number = 0;
+                        for(int i = pair.Value.Item1; i < pair.Value.Item2; i++) SubEvent.Add(Hex.ToString(number++) + " - " + tweakInfo[i]);
                         break;
                     case "EventType":
                         EventType = new List<string>();
@@ -409,6 +412,7 @@ namespace mage
             get => Hex.ToString(x1) + ", " + Hex.ToString(y1);
             set
             {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
                 value = value.Replace('，', ',');
                 string[] xy = Regex.Replace(value, "\\s", "").Split(',');
                 x1 = Hex.ToByte(xy[0]);
@@ -421,6 +425,7 @@ namespace mage
             get => Hex.ToString(x2) + ", " + Hex.ToString(y2);
             set
             {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
                 value = value.Replace('，', ',');
                 string[] xy = Regex.Replace(value, "\\s", "").Split(',');
                 x2 = Hex.ToByte(xy[0]);
@@ -722,6 +727,7 @@ namespace mage
             get => StartX + ", "  + StartY;
             set
             {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
                 value = value.Replace('，', ',');
                 string[] xy = Regex.Replace(value, "\\s", "").Split(',');
                 StartX = xy[0];
@@ -733,6 +739,7 @@ namespace mage
             get => EndX + ", " + EndY;
             set
             {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
                 value = value.Replace('，', ',');
                 string[] xy = Regex.Replace(value, "\\s", "").Split(',');
                 EndX = xy[0];
@@ -744,6 +751,7 @@ namespace mage
             get => TargetX + ", " + TargetY;
             set
             {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
                 value = value.Replace('，', ',');
                 string[] xy = Regex.Replace(value, "\\s", "").Split(',');
                 TargetX = xy[0];
@@ -753,10 +761,10 @@ namespace mage
 
     }
 
-    public struct DimLight
+    public class DimLight
     {
         private byte dimEvent;
-        public bool isDim;
+        private byte isDim;
 
         public readonly int offset;
 
@@ -764,13 +772,13 @@ namespace mage
         {
             offset = TweakData.DimLightingEventsOffset + 2 * index;
             dimEvent = stream.Read8(offset);
-            isDim = stream.Read8(offset + 1) != 0;
+            isDim = stream.Read8(offset + 1);
         }
 
         public void Write(ByteStream stream)
         {
             stream.Write8(offset, dimEvent);
-            stream.Write8(offset + 1, (byte)(isDim?1:0));
+            stream.Write8(offset + 1, isDim);
         }
 
         public string DimEvent
@@ -778,9 +786,14 @@ namespace mage
             get => TweakData.Events[dimEvent];
             set => dimEvent = (byte)TweakData.Events.IndexOf(value);
         }
+        public bool IsDim 
+        {
+            get => isDim != 0;
+            set => isDim = (byte)(value ? 1 : 0);
+        }
     }
 
-    public struct NavRoom
+    public class NavRoom
     {
         private byte area;
         private byte room;   //is mage room's id + 1
@@ -800,15 +813,140 @@ namespace mage
             stream.Write8(offset + 1, room);
         }
 
-        public string Room
-        {//auto -1,+1 for display 
-            get => Hex.ToString(room - 1);
-            set => room = (byte)(Hex.ToByte(value) + 1);
-        }
-        public string DimEvent
+        public string Area
         {
             get => Version.AreaNames[area];
             set => area = (byte)Version.AreaNames.ToList().IndexOf(value);
+        }
+
+        public string Room
+        {//auto -1,+1 for display 
+            get => Hex.ToString(room - 1);
+            set 
+            {
+                byte temp = Hex.ToByte(value);
+                if (temp == byte.MaxValue) throw new OverflowException();
+                else room = (byte)(temp + 1);
+            }
+        }
+    }
+
+    public class FusionEventInfo
+    {
+        private byte area;
+        private byte room;
+        private byte startX;
+        private byte startY;
+        private byte endX;
+        private byte endY;
+        private byte conversationNumber;
+        private byte navRoom;
+        private byte eventType;
+
+        private readonly int offset;
+
+        public FusionEventInfo(ByteStream stream, int index)
+        {
+            offset = TweakData.EventLocationAndNavInfoOffset + 0xC * index;
+            area = stream.Read8(offset);
+            room = stream.Read8(offset + 1);
+            startX = stream.Read8(offset + 2);
+            startY = stream.Read8(offset + 3);
+            endX = stream.Read8(offset + 4);
+            endY = stream.Read8(offset + 5);
+            conversationNumber = stream.Read8(offset + 6);
+            navRoom = stream.Read8(offset + 7);
+            eventType = stream.Read8(offset + 8);
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write8(offset, area);
+            stream.Write8(offset + 1, room);
+            stream.Write8(offset + 2, startX);
+            stream.Write8(offset + 3, startY);
+            stream.Write8(offset + 4, endX);
+            stream.Write8(offset + 5, endY);
+            stream.Write8(offset + 6, conversationNumber);
+            stream.Write8(offset + 7, navRoom);
+            stream.Write8(offset + 8, eventType);
+        }
+
+        public string Area
+        {//FF: unused this argument
+            get => area > Version.AreaNames.Length ? "FF" :  Version.AreaNames[area];
+            set => area = (byte)(Version.AreaNames.Contains(value) ? Version.AreaNames.ToList().IndexOf(value) : 0xFF);
+        }
+
+        public string Room
+        {//auto -1,+1 for display 
+            get => area == byte.MaxValue ? "FF" : Hex.ToString(room - 1);
+            set
+            {
+                byte temp = Hex.ToByte(value);
+                if (temp == byte.MaxValue) room = temp;
+                else room = (byte)(temp + 1);
+            }
+        }
+
+        public string StartX
+        {
+            get => startX == byte.MaxValue ? "FF" : Hex.ToString(startX);
+            set => startX = Hex.ToByte(value);
+        }
+        public string StartY
+        {
+            get => startY == byte.MaxValue ? "FF" : Hex.ToString(startY);
+            set => startY = Hex.ToByte(value);
+        }
+        public string EndX
+        {
+            get => endX == byte.MaxValue ? "FF" : Hex.ToString(endX);
+            set => endX = Hex.ToByte(value);
+        }
+        public string EndY
+        {
+            get => endY == byte.MaxValue ? "FF" : Hex.ToString(endY);
+            set => endY = Hex.ToByte(value);
+        }
+        public string StartCoordinate
+        {
+            get => StartX + ", " + StartY;
+            set
+            {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value, "\\s", "").Split(',');
+                StartX = xy[0];
+                StartY = xy[1];
+            }
+        }
+        public string EndCoordinate
+        {
+            get => EndX + ", " + EndY;
+            set
+            {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
+                value = value.Replace('，', ',');
+                string[] xy = Regex.Replace(value, "\\s", "").Split(',');
+                EndX = xy[0];
+                EndY = xy[1];
+            }
+        }
+        public string Conversation
+        {
+            get => Hex.ToString(conversationNumber);
+            set => conversationNumber = Hex.ToByte(value);
+        }
+        public string NavRoom
+        {
+            get => Hex.ToString(navRoom);
+            set => navRoom = Hex.ToByte(value);
+        }
+        public string EventType
+        {
+            get => TweakData.EventType[eventType];
+            set => eventType = (byte)TweakData.EventType.IndexOf(value);
         }
     }
 
@@ -854,10 +992,10 @@ namespace mage
             get => Hex.ToString(elevator);
             set => elevator = Hex.ToByte(value);
         }
-        public string ElevatorRoom
+        public bool ElevatorRoom
         {
-            get => Hex.ToString(elevatorRoom);
-            set => elevatorRoom = Hex.ToByte(value);
+            get => elevatorRoom != 0;
+            set => elevatorRoom = (byte)(value ? 1 : 0);
         }
         public string Cutscene
         {
@@ -886,6 +1024,8 @@ namespace mage
 
         private readonly int offset;
 
+        public readonly static string[] levels = { "Lv.1", "Lv.2", "Lv.3", "Lv.4" };
+
         public Security(ByteStream stream, int index)
         {
             offset = TweakData.SecurityUnlockEventsOffset + 8 * index;
@@ -906,9 +1046,9 @@ namespace mage
         }
 
         public string Level
-        {
-            get => Hex.ToString(level);
-            set { if (Hex.ToByte(value) > 4) throw new OverflowException(); else level = Hex.ToByte(value); } 
+        {//no lv.0
+            get => levels[level - 1];
+            set => level = (byte)(levels.ToList().IndexOf(value) + 1);
         }
         public string Area
         {
@@ -964,7 +1104,7 @@ namespace mage
         public string Conversation
         {
             get => Hex.ToString(conversation);
-            set => Conversation = value;
+            set => conversation = Hex.ToByte(value);
         }
         public string Area
         {
@@ -979,23 +1119,76 @@ namespace mage
         public string X
         {// auto -1,+1
             get => Hex.ToString(x - 1);
-            set => x = (byte)(Hex.ToByte(value) + 1);
+            set
+            {
+                byte temp = Hex.ToByte(value);
+                if (temp == byte.MaxValue) throw new OverflowException();
+                else x = (byte)(temp + 1);
+            }
         }
         public string Y
         {//auto -1,+1
             get => Hex.ToString(y - 1);
-            set => y = (byte)(Hex.ToByte(value) + 1);
+            set
+            {
+                byte temp = Hex.ToByte(value);
+                if (temp == byte.MaxValue) throw new OverflowException();
+                else y = (byte)(temp + 1);
+            }
         }
         public string Coordinate
         {
             get => X + ", " + Y;
             set
             {
+                if (!value.Contains(',') && !value.Contains("，")) throw new FormatException();
                 value = value.Replace('，', ',');
                 string[] xy = Regex.Replace(value,"\\s","").Split(',');
                 X = xy[0];
                 Y = xy[1];
             }
+        }
+    }
+
+    public class SuitDamageReduction
+    {
+        private ushort fusion;
+        private ushort varia;
+        private ushort gravity;
+
+        private readonly int offset;
+
+        public static string[] percent = { "0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"};
+
+        public SuitDamageReduction(ByteStream stream, int index)
+        {
+            offset = TweakData.SuitDamageReductionPercentOffset + 6 * index;
+            fusion = stream.Read16(offset);
+            varia = stream.Read16(offset + 2);
+            gravity = stream.Read16(offset + 4);
+        }
+
+        public void Write(ByteStream stream)
+        {
+            stream.Write16(offset, fusion);
+            stream.Write16(offset + 2, varia);
+            stream.Write16(offset + 4, gravity);
+        }
+
+        public string Fusion
+        {
+            get => percent[fusion];
+            set => fusion = (ushort)percent.ToList().IndexOf(value);
+        }
+        public string Varia
+        {
+            get => percent[varia];
+            set => varia = (ushort)percent.ToList().IndexOf(value);
+        }
+        public string Gravity
+        {
+            get => percent[gravity];
+            set => gravity = (ushort)percent.ToList().IndexOf(value);
         }
     }
 }

@@ -148,8 +148,166 @@ Sector 4
 Sector 5
 Sector 6
 
-[TargetTextDiretion]
+[TargetDirection]
 Top
 Bottom
 Left
 Right
+
+[SubEvent]
+None
+First computer conversation started
+First conversation ended
+Entered room after first navigation room
+Conversation after Quarantine Bay ended
+Left navigation room after Quarantine Bay
+Elevator monologue started
+Monologue ended
+Elevator ended
+Entered big operations Deck room
+Unused
+Downloaded missiles
+Entered navigation room after missiles (power outage)
+Entered dark vertical shaft
+Entered Arachnus's room
+Morph ball ability recovered
+Left Arachnus's room
+Conversation ended
+SA-X cutscene started
+Explosion
+Door shot
+Rumble
+Rumble
+Entered navigation room
+Conversation ended
+Entered charge beam room
+Charge beam ability recovered
+Left charge beam room
+Entered navigation room before leaving SRX
+Unused?
+Conversation ended
+Started elevator to TRO
+Entered TRO
+Entered navigation room
+Conversation ended
+Entered first big room
+Unlocked security level 1
+Downloaded bombs
+Entered Zazabi's room
+Hi-jump ability recovered
+Left Zazabi's room
+Entered SA-X's room
+Left SA-X S room
+Conversation before leaving TRO ended
+Elevator monologue started
+Monologue ended
+Elevator ended
+Entered AQA navigation room
+Conversation ended
+Entered first big room
+Entered Serris tank room
+Entered Serris's room
+Speed booster power regained
+Left Serris's room
+Conversation before leaving AQA ended
+Entered PYR security room
+Unlocked security level 2
+Left security room
+Entered data room
+Downloaded super missiles
+Left data room
+Entered BOX's room
+Left BOX's room
+Conversation before leaving PYR ended
+Secret conversation started
+Secret conversation ended
+Entered NOC navigation room
+Unknown 43
+Unknown 44
+Unknown 45
+Unknown 46
+Unknown 47
+Unknown 48
+Unknown 49
+Unknown 4A
+Unknown 4B
+Unknown 4C
+Unknown 4D
+Unknown 4E
+Unknown 4F
+Unknown 50
+Unknown 51
+Unknown 52
+Unknown 53
+Unknown 54
+Unknown 55
+Unknown 56
+Unknown 57
+Unknown 58
+Unknown 59
+Unknown 5A
+Unknown 5B
+Unknown 5C
+Unknown 5D
+Unknown 5E
+Unknown 5F
+Unknown 60
+Unknown 61
+Unknown 62
+Unknown 63
+Unknown 64
+Unknown 65
+Unknown 66
+Unknown 67
+Unknown 68
+Unknown 69
+Unknown 6A
+Unknown 6B
+Unknown 6C
+Unknown 6D
+Unknown 6E
+Unknown 6F
+Unknown 70
+Unknown 71
+Unknown 72
+Unknown 73
+Unknown 74
+Unknown 75
+Unknown 76
+Unknown 77
+Unknown 78
+Unknown 79
+Unknown 7A
+Unknown 7B
+Unknown 7C
+Unknown 7D
+Unknown 7E
+Unknown 7F
+Unknown 80
+Unknown 81
+Unknown 82
+Unknown 83
+Unknown 84
+Unknown 85
+Unknown 86
+Unknown 87
+Unknown 88
+Unknown 89
+Unknown 8A
+Unknown 8B
+Unknown 8C
+Unknown 8D
+Unknown 8E
+Unknown 8F
+Unknown 90
+Unknown 91
+Unknown 92
+Unknown 93
+Unknown 94
+Unknown 95
+Unknown 96
+Unknown 97
+Unknown 98
+Unknown 99
+Unknown 9A
+Unknown 9B
